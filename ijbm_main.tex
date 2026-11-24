@@ -1,0 +1,479 @@
+%% ijbm_main.tex -- International Journal of Biological Macromolecules (Elsevier) submission format of
+%% manuscript_short/grip_finding.tex. Text from the source except the rule section (44_rule_test, author decision 2026-11-24)
+%% and the consistency edits listed in ../manuscript_carbpol/JOURNAL_RULES.md; journal rules there.
+%% Build: pdflatex, bibtex, pdflatex x2.
+\documentclass[preprint,12pt]{elsarticle}
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{lineno}
+\usepackage{setspace}% double spacing: IJBM length guidance is in double-spaced pages (unofficial source)
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\sisetup{group-separator={\,},group-minimum-digits=4}
+\newcommand{\pend}[1]{\textbf{[PENDIENTE: #1]}}
+
+\journal{International Journal of Biological Macromolecules}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{What Fixes a Residue at the Catalytic Subsite of Starch-Degrading Glycoside
+Hydrolases Is the Kind of Contact It Makes with the Sugar}
+
+\author{Aldo F. Combariza\corref{cor1}}
+\ead{aldo.combariza@unisucre.edu.co}
+\cortext[cor1]{Corresponding author.}
+\affiliation{organization={Grupo de Investigaci\'{o}n {\itshape in silico},
+  Departamento de Biolog\'{\i}a y Qu\'{\i}mica, Universidad de Sucre},
+  addressline={Carrera 28 No.\ 5-267},
+  city={Sincelejo},
+  state={Sucre},
+  country={Colombia}}
+
+\begin{abstract}
+DRAFT ABSTRACT -- for AFC to rewrite. In 637 crystal and cryo-EM structures of 14
+starch-degrading glycoside hydrolase families, we followed every density-supported sugar
+unit bound at a known position along the chain and every protein residue in contact with
+it. Whether the residue at a contacted position is the same in every protein depends on
+the kind of contact it makes. Residues whose side chains hydrogen-bond the sugar are
+invariant (11 positions in GH13 and GH31, including the three-residue catalytic machinery
+of GH13, recovered without annotation); residues that stack an aromatic ring against it
+remain aromatic (4 positions); residues that pack against it with aliphatic side chains
+change between proteins (4 positions). Five of the six invariant residues at the GH13
+catalytic subsite have measured transition-state roles in mutagenesis and deoxy-substrate
+kinetics, where each subsite $-1$ hydroxyl contributes 16--24~kJ\,mol$^{-1}$ of
+transition-state stabilisation through such hydrogen bonds; aromatic contacts are weaker and
+tolerate substitution within their class. Conservation follows the energetic role of the
+contact. The same three kinds of residue line the catalytic subsite of GH15, whose fold is
+unrelated. The rule holds when each group of closely related
+proteins is given one vote and when complexes with transition-state-mimicking inhibitors
+are removed, and it is specific to the catalytic subsite: hydrogen-bonding residues at sugar
+sites away from the cleft keep their identity about half as often.
+\end{abstract}
+
+%% Graphical abstract: Elsevier specification 1328 x 531 px minimum (5:2, w x h), 300 dpi,
+%% TIFF/EPS/PDF/MS Office; uploaded as a separate file in Editorial Manager.
+\begin{graphicalabstract}
+\fbox{\parbox[c][5.2cm][c]{13cm}{\centering \pend{graphical abstract, to be prepared by the
+author; 1328\,$\times$\,531 px minimum, 300 dpi}}}
+\end{graphicalabstract}
+
+%% Highlights are in ijbm_highlights.tex (uploaded as a separate Word file).
+
+\begin{keyword}
+\pend{keyword 1} \sep \pend{keyword 2} \sep \pend{keyword 3} \sep \pend{keyword 4}
+\sep \pend{keyword 5} \sep \pend{keyword 6}
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+\doublespacing
+
+\section{Introduction}
+
+Starch is the plant's storage carbohydrate: two glucose polymers, amylose (mostly
+linear, $\alpha(1\!\to\!4)$-linked glucose) and amylopectin (the same linkage, with
+$\alpha(1\!\to\!6)$ branch points). The enzymes that break it down are sorted by CAZy~\citep{Drula2022}
+into families by sequence similarity, not by function: the same job, cutting an
+$\alpha(1\!\to\!4)$ bond in the middle of the chain, is carried out by families with
+different folds and catalytic machinery (GH13; GH57 and GH119, which form one clan;
+GH126)~\citep{Janecek2014}. Within a family, two catalytic carboxylic acids do the
+chemistry: in a retaining mechanism, one is the nucleophile that attacks the sugar, the
+other the acid/base that first protonates the leaving group and then activates the water
+that completes the reaction. The residues around this pair define subsites, numbered from
+the bond that is cut: negative towards the non-reducing end of the chain, positive towards
+the reducing end~\citep{Davies1997}.
+
+Because the catalytic chemistry is fixed within a family, what distinguishes one enzyme
+from another of the same family is usually described as the set of residues at the
+other subsites~\citep{Davies1995}. In GH13, sequence comparison has long identified the
+conserved sequence regions that carry the catalytic triad, an invariant arginine and two
+histidines at the catalytic subsite~\citep{MacGregor2001,Janecek2014}, and surveys of
+deposited glycoside hydrolase complexes have been used to show how these enzymes hold the
+sugar near the transition state~\citep{Quirke2020}. Structural comparisons of the residues
+around the bound sugar have mostly been made one structure, or a few, at a time. Which residues around the bound sugar are fixed across the many independently solved
+structures of a family, which ones change, and what decides the difference, has not been
+asked at the scale of hundreds of structures.
+
+We built an experimental database of 637 PDB entries covering 14 starch-active CAZy
+families, superposed every structure of each family on one reference, and recorded, for
+every bound sugar unit, its position along the chain, the protein residues within
+4.0~\AA{} of it, and the kind of contact each residue makes. Figure~\ref{fig:bond} shows
+the bond that all of these enzymes cut: the single bridging oxygen between carbon~1 of one glucose
+ring and carbon~4 of the next, the $\alpha(1\!\to\!4)$ glycosidic linkage every enzyme in
+this study cuts. The hydroxyl groups of the rings on either side of it are what the protein
+can hydrogen-bond; the ring faces are what it can stack against or pack around.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{fig1_glycosidic_bond.png}
+\caption{Methyl $\beta$-maltoside: an $\alpha$-D-glucopyranose ring joined by the
+$\alpha(1\!\to\!4)$ glycosidic bond (highlighted) to a methyl $\beta$-D-glucopyranoside
+ring, the bond every enzyme in this study cuts. Drawn from a GFN2-xTB-optimised geometry.}
+\label{fig:bond}
+\end{figure}
+
+\section{Materials and methods}
+
+\subsection{Database and superposition}
+Every PDB entry of the 14 families was read
+with gemmi~\citep{Wojdyr2022}; every non-water, non-standard residue was registered with
+its fit to the experimental electron density (the real-space correlation coefficient,
+RSCC; $\mathrm{RSCC}\ge0.80$ is called density-supported here). Residue numbers differ
+between structures of the same protein, so every chain was mapped through
+SIFTS~\citep{Velankar2013} to one UniProt numbering, and every structure of a family was
+superposed on one reference by its core C$\alpha$ atoms around the catalytic site
+(Kabsch fit~\citep{Kabsch1976}). The one assumption of this step is that the core
+C$\alpha$ atoms of a family occupy equivalent positions in all its members. This
+superposition itself exposed a curation error: eight cryo-EM entries listed under GH63
+failed to fit the family core at all and were found, on inspection, to be crescentin
+filaments -- a bacterial cytoskeletal protein unrelated to any carbohydrate-active
+enzyme -- wrongly filed under this family; they were removed, leaving 637 entries.
+
+\subsection{Position along the chain}
+For the five families whose frame carries an
+identified catalytic pair (GH13, GH14, GH15, GH31, GH57), every bound sugar unit was
+assigned a subsite: the unit nearest the midpoint of the two catalytic carboxylates,
+within 4.5~\AA, is subsite $-1$; the rest follow the deposited glycosidic bonds outward.
+Every protein residue within 4.0~\AA{} of a unit was named by its position in the
+family's reference frame rather than by its author number, so that the same position can
+be compared across different proteins. A position is conserved at a subsite when it is
+contacted in at least 80\% of the entries with a unit there.
+
+\subsection{Kind of contact}
+For each conserved position and each entry, the residue and
+the sugar unit were read from the deposited coordinates (model 1, first alternate
+conformation). The contact is a side-chain hydrogen bond when a side-chain nitrogen or
+oxygen lies within 3.5~\AA{} of a sugar oxygen or nitrogen; a backbone hydrogen bond when
+only a main-chain N or O does; apolar otherwise. An apolar contact is aromatic or
+aliphatic by the residue that makes it. The one assumption is that a 3.5~\AA{} N/O--N/O
+distance stands for a hydrogen bond; no angle is tested.
+
+\section{Results and discussion}
+
+\subsection{Which contact positions keep their residue across lineages}
+
+\paragraph{Positions and counting} To avoid choosing positions after seeing their residues,
+every reference position contacted (4.0~\AA) in at least 20\% of the entries with a sugar
+unit at a subsite from $-3$ to $+3$ was taken: 17 positions in GH13 and 19 in GH31, the five
+catalytic residues among them. Residue identity at each position was read for every chain from
+the superposition (a residue belongs to a reference position when its C$\alpha$ lies within
+2.0~\AA{} of the reference C$\alpha$), not only for chains whose residue touches the sugar, and
+was counted once per group of proteins sharing at least 50\% sequence identity (29 groups in
+GH13, 6 in GH31). Engineered mutants were removed at the mutated position (1QI5, 5TD4, 9UNS,
+9XG6 at Asp289; 7WJC, 7WJF at Asp542; 3PHA, 3BLP, 3DHP, 3OLD, 3OLE, 3OLG, 3OLI, 1UA7 and 8CQF at
+the positions they alter, from the \texttt{\_struct\_ref\_seq\_dif} records). The class of a
+position is the contact kind made in most groups (H, side-chain hydrogen bond; Ar, apolar
+contact by an aromatic residue; Al, apolar contact by an aliphatic residue). Conservation of a
+position is the modal fraction
+\begin{equation}
+m = \frac{\max_a n_a}{\sum_a n_a},
+\label{eq:modal}
+\end{equation}
+where $n_a$ is the number of group votes for residue type $a$ (a group whose members differ
+splits its vote). For GH13 Lys182: Lys 9.5, Arg 2.5, His 2, Gln 1 of 15 groups,
+$m = 9.5/15 = 0.63$. For aromatic positions the aromatic fraction (Phe, Tyr, Trp, His) is also
+given.
+
+\paragraph{What is read off} Table~\ref{tab:rule} lists the 36 positions; 35 have a majority class
+(17 H, 10 Ar, 8 Al) and one, GH31 Thr544, has none. Of the 13 hydrogen-bonding positions that contact a ring at subsite $-1$
+or $+1$, eleven carry one residue type in every group ($m = 1$): in GH13 the catalytic Asp179,
+Glu204 and Asp289 and the non-catalytic Arg177 and His92, with His288 at 0.97 (one natural Gln,
+6SAO); in GH31 the catalytic Asp443 and Asp542 and the non-catalytic Asp327, His600, Asp203 and
+Arg526. The one hydrogen-bonding position at $-1$/$+1$ that varies is the GH13 position of
+Gly183 ($m = 0.50$): it is His in the eight groups where it contacts the sugar and Gly, Tyr, Glu
+or Met where it does not. The ten aromatic positions keep an aromatic ring more often than
+their identity (aromatic fraction 0.41--1.00, identity 0.31--1.00). The aliphatic positions vary
+(GH13 Phe180 position: Ala, Val, Thr, Leu, Phe, Tyr, Met, $m = 0.24$; GH31 Ile328, $m = 0.50$),
+with two exceptions: GH31 Met444 ($m = 0.83$) and GH13 Thr207, which is Lys in both of
+its only two groups. At the outer subsites ($-3$, $-2$, $+2$, $+3$),
+hydrogen-bonding positions vary as much as the aliphatic ones: GH13 Lys182 0.63, Met52 0.41,
+Gln294 0.80, GH31 Asn207 0.50.
+
+\paragraph{The test} Table~\ref{tab:tests} gives the differences in mean $m$ between classes
+and their significance by permutation of the class labels over positions (10\,000
+permutations; 95\% intervals from 2\,000 bootstrap resamples of the sequence groups). The
+hydrogen-bonding positions are more conserved than the aliphatic ones by 0.33 (all 35
+positions, $p = 0.003$) and by 0.28 without the catalytic residues ($p = 0.015$). The result
+holds when the class is taken from the reference structure alone instead of from the groups
+($p = 0.005$--0.016), when the class is assigned on a random half of the groups and conservation
+measured on the other half (positive in all 1\,000 splits; median 0.30, 95\% range
+0.17--0.41), on 98 entries of 37 groups never seen with a bound sugar ($+0.31$, $p = 0.007$),
+and for hydrogen-bond cut-offs of 3.2, 3.5 and 4.0~\AA{} with or without an angle criterion
+($p = 0.003$--0.040). Aromatic positions keep an aromatic ring more often than aliphatic
+positions keep their residue ($+0.33$, $p < 0.001$). Hydrogen-bonding and aromatic positions do
+not differ significantly ($+0.18$, $p = 0.052$; held-out groups $+0.08$, $p = 0.23$). Within the
+hydrogen-bonding class, positions at $-1$/$+1$ are more conserved than positions that contact
+only the outer subsites (0.96 against 0.59, 13 and 4 positions, $p = 0.0015$); at the outer
+subsites, hydrogen-bonding and aliphatic positions do not differ ($-0.09$, $p = 0.67$).
+
+\paragraph{The statement the data support} The residues whose side chains hydrogen-bond the two
+rings on either side of the cut are fixed in every lineage; aromatic residues at the same
+subsites are kept as aromatic rings, less strictly as the same residue; aliphatic residues at
+these subsites, and residues of every kind at the outer subsites, change between lineages.
+Conservation is therefore set jointly by where a residue touches the sugar and by the kind of
+contact it makes, not by the kind of contact alone.
+
+\paragraph{Limits} GH31 rests on six groups, three of them not $\alpha$-glucosidases (an
+$\alpha$-xylosidase and an $\alpha$-1,4-glucan lyase carry the Trp539$\to$Phe, Phe575$\to$His
+and Met444$\to$Trp changes and, with the lyase, Ile364$\to$Asn); within the three
+$\alpha$-glucosidases only Ile328, Tyr299 and five outer positions vary. Only four
+hydrogen-bonding positions lie at the outer subsites. Hydrogen bonds are judged from heavy
+atoms; aromatic stacking from residue type, not from ring geometry.
+
+\begin{table}[p]
+\centering\renewcommand{\baselinestretch}{1}\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{Every reference position contacted in at least 20\% of the entries with a sugar unit at subsites $-3$ to $+3$ (GH13 reference 1AMY/1BG9, GH31 reference 2QMJ). Class: contact kind made in most sequence groups (H, side-chain hydrogen bond; Ar, aromatic apolar; Al, aliphatic apolar). Groups: proteins sharing $\ge$50\% sequence identity; residues: votes per group (a mixed group splits its vote); $m$: modal fraction (eq~\ref{eq:modal}); Arom.: aromatic fraction. $^\ast$catalytic residue. Engineered mutants removed. Source: \texttt{44\_rule\_test/C\_identity\_T20.tsv}.}
+\label{tab:rule}
+\begin{tabular}{lllrp{4.6cm}rr}
+\toprule
+Class & Family & Position (subsites) & Groups & Residues (group votes) & $m$ & Arom.\\
+\midrule
+H & GH13 & Asp179$^\ast$ ($-$1) & 29 & Asp 29 & 1.00 & 0.00\\
+H & GH13 & Asp289$^\ast$ ($+$1,$-$1,$-$2) & 28 & Asp 28 & 1.00 & 0.00\\
+H & GH13 & Glu204$^\ast$ ($+$1,$-$1) & 29 & Glu 29 & 1.00 & 0.00\\
+H & GH13 & His92 ($-$1) & 29 & His 29 & 1.00 & 1.00\\
+H & GH13 & Arg177 ($-$1) & 29 & Arg 29 & 1.00 & 0.00\\
+H & GH13 & His288 ($-$1) & 29 & His 28, Gln 1 & 0.97 & 0.97\\
+H & GH13 & Gln294 ($-$2) & 15 & Asp 12, Asn 2, Gln 1 & 0.80 & 0.00\\
+H & GH13 & Lys182 ($+$1,$+$2) & 15 & Lys 9.5, Arg 2.5, His 2, Gln 1 & 0.63 & 0.13\\
+H & GH13 & Gly183 ($+$1) & 16 & His 8, Gly 5, Tyr 1, Glu 1, Met 1 & 0.50 & 0.56\\
+H & GH13 & Met52 ($-$2,$-$3) & 22 & Asp 9, Trp 5, Asn 3, Gln 2, Gly 2, Phe 1 & 0.41 & 0.27\\
+H & GH31 & Asp203 ($+$1) & 5 & Asp 5 & 1.00 & 0.00\\
+H & GH31 & Asp327 ($-$1) & 6 & Asp 6 & 1.00 & 0.00\\
+H & GH31 & Asp443$^\ast$ ($-$1) & 6 & Asp 6 & 1.00 & 0.00\\
+H & GH31 & Asp542$^\ast$ ($+$1,$+$2,$-$1) & 6 & Asp 6 & 1.00 & 0.00\\
+H & GH31 & His600 ($-$1) & 6 & His 6 & 1.00 & 1.00\\
+H & GH31 & Arg526 ($+$1,$-$1) & 5 & Arg 5 & 1.00 & 0.00\\
+H & GH31 & Asn207 ($+$3) & 2 & His 1, Asn 1 & 0.50 & 0.50\\
+\midrule
+Ar & GH13 & Tyr51 ($-$1,$-$2) & 29 & Tyr 29 & 1.00 & 1.00\\
+Ar & GH13 & Gln49 ($-$2) & 20 & His 11, Trp 6, Val 2, Glu 1 & 0.55 & 0.85\\
+Ar & GH13 & Trp206 ($+$1,$+$2,$+$3) & 13 & Trp 7, Phe 3, Ile 1, Tyr 1, Leu 1 & 0.54 & 0.85\\
+Ar & GH13 & Phe143 ($-$1) & 21 & Leu 8.5, Phe 7, His 1, Asn 1, Cys 1, Val 1, Ser 1, Tyr 0.5 & 0.41 & 0.41\\
+Ar & GH13 & Gly250 ($+$3) & 8 & Tyr 2.5, Phe 2, Thr 1.5, Ser 1, Glu 1 & 0.31 & 0.56\\
+Ar & GH31 & Trp406 ($+$1,$-$1) & 5 & Trp 5 & 1.00 & 1.00\\
+Ar & GH31 & Trp441 ($-$1) & 6 & Trp 6 & 1.00 & 1.00\\
+Ar & GH31 & Phe575 ($+$1,$+$2,$-$1) & 6 & Phe 5, His 1 & 0.83 & 1.00\\
+Ar & GH31 & Trp539 ($-$1) & 6 & Trp 5, Phe 1 & 0.83 & 1.00\\
+Ar & GH31 & Tyr299 ($+$1,$-$1) & 5 & Tyr 2, Trp 2, Phe 1 & 0.40 & 1.00\\
+\midrule
+Al & GH13 & Thr207 ($+$3) & 2 & Lys 2 & 1.00 & 0.00\\
+Al & GH13 & Phe180 ($+$1,$-$1) & 29 & Ala 7, Val 7, Thr 6, Leu 4, Phe 3, Tyr 1, Met 1 & 0.24 & 0.14\\
+Al & GH31 & Met444 ($+$1,$-$1) & 6 & Met 5, Trp 1 & 0.83 & 0.17\\
+Al & GH31 & Ile364 ($-$1) & 6 & Ile 4, Asn 2 & 0.67 & 0.00\\
+Al & GH31 & Thr205 ($+$2,$+$3) & 3 & Ala 2, Pro 1 & 0.67 & 0.00\\
+Al & GH31 & Ile328 ($-$1) & 6 & Ile 3, Val 1, Leu 1, Met 1 & 0.50 & 0.00\\
+Al & GH31 & Ala576 ($+$2,$+$3) & 5 & Thr 1, Gly 1, Phe 1, Ala 1, Leu 1 & 0.20 & 0.20\\
+Al & GH31 & Thr204 ($+$3) & 5 & Asn 1, Asp 1, Gln 1, Ile 1, Leu 1 & 0.20 & 0.00\\
+\midrule
+none & GH31 & Thr544 ($+$3) & 5 & Ser 1, Lys 1, Thr 1, Ala 1, Trp 1 & 0.20 & 0.20\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering\renewcommand{\baselinestretch}{1}\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{Difference in mean modal fraction $m$ between classes (H$-$Al, H$-$Ar) and between the aromatic fraction of Ar positions and $m$ of Al positions (Ar(arom)$-$Al); one-sided $p$ from 10\,000 permutations of the class labels over positions; 95\% interval from 2\,000 bootstrap resamples of sequence groups (conservative, see text). Positions contacted in $\ge$20\% of entries; one vote per 50\% sequence group. Source: \texttt{44\_rule\_test/D\_tests.tsv}.}
+\label{tab:tests}
+\begin{tabular}{llrrlr}
+\toprule
+Set & Statistic & $n$ H/Ar/Al & Difference & 95\% interval & $p$\\
+\midrule
+All positions & H$-$Al & 17/10/8 & +0.33 & [0.12, 0.41] & 0.003\\
+All positions & H$-$Ar & 17/10/8 & +0.18 & [0.09, 0.25] & 0.052\\
+All positions & Ar(arom)$-$Al & 17/10/8 & +0.33 & [0.09, 0.38] & $<$0.001\\
+\addlinespace
+Without catalytic & H$-$Al & 12/10/8 & +0.28 & [0.07, 0.36] & 0.015\\
+Without catalytic & H$-$Ar & 12/10/8 & +0.13 & [0.03, 0.21] & 0.139\\
+Without catalytic & Ar(arom)$-$Al & 12/10/8 & +0.33 & [0.08, 0.39] & $<$0.001\\
+\addlinespace
+Held-out groups & H$-$Al & 17/10/8 & +0.31 & [0.03, 0.32] & 0.007\\
+Held-out groups & H$-$Ar & 17/10/8 & +0.08 & [0.01, 0.16] & 0.233\\
+Held-out groups & Ar(arom)$-$Al & 17/10/8 & +0.30 & [0.02, 0.28] & $<$0.001\\
+\addlinespace
+Outer subsites & H$-$Al & 4/5/6 & -0.09 & [-0.28, 0.06] & 0.672\\
+Outer subsites & H$-$Ar & 4/5/6 & -0.09 & [-0.21, 0.10] & 0.665\\
+Outer subsites & Ar(arom)$-$Al & 4/5/6 & +0.17 & [-0.08, 0.23] & 0.004\\
+\addlinespace
+Split halves (1\,000) & H$-$Al & -- & +0.30 (median) & [0.17, 0.41] & $>$0 in 100\%\\
+H at $-1$/$+1$ vs outer & H$-$H & 13/4 & +0.37 & -- & 0.0015\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Figure~\ref{fig:classes} shows the three kinds of contact on one high-resolution entry of each
+family.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{fig2_contact_classes.png}
+\caption{The conserved positions of subsites $-1$ and $+1$ coloured by the kind of contact
+they make with the sugar. (a) GH13, PDB 6SAO (1.20~\AA); (b) GH31, PDB 3WEO (1.45~\AA).
+Labels are reference positions (GH13: 1AMY; GH31: 2QMJ); where the residue in the entry
+differs from the reference, it is given first and the reference position in parentheses. The Gln at the His288 position in 6SAO is the one natural exception at that position.
+Blue, side chain hydrogen-bonds the sugar (H); orange, aromatic ring stacks against it (Ar);
+grey, aliphatic packing (Al); dashed lines, N/O--N/O distances $\le3.5$~\AA. Sugar carbons
+green.}
+\label{fig:classes}
+\end{figure}
+
+\subsection{The rule is not carried by inhibitors or by repeated proteins}
+Many units at
+$-1$ belong to acarbose-type inhibitors, which mimic the transition state rather than the
+substrate. In GH13, the 24 entries whose labelled units are glucose only contact the six
+positions contacted at $-1$ in at least 80\% of the entries (Asp179, Asp289, His288, Arg177,
+His92, Tyr51) in 22--24 of 24, and the 50 inhibitor entries in 47--50 of 50; in GH31 the
+glucose-only entries (5, from two proteins) contact all nine such positions (Asp327, His600,
+Asp443, Asp542, Trp441, Trp539, Phe575, Ile328, Ile364) in 5 of 5. Nor is the count
+made by a few proteins deposited many times: the 42 GH13 proteins fall into 29 groups at
+50\% sequence identity and 5 at 30\%, across bacteria, archaea, fungi, plants and animals,
+and each of the six $-1$ positions is contacted in at least 28 of the 29 groups and in all
+5; the six GH31 proteins form 4 groups at 30\%, and the nine positions survive one vote per
+group, Phe575 exactly at the 0.80 threshold.
+
+\subsection{The rule is specific to the catalytic subsite}
+Sugars also bind GH13 proteins
+away from the catalytic cleft: 296 density-supported units lie more than 12~\AA{} from the
+catalytic carboxylates and touch no position of the subsite tables. These sites are mostly
+particular to one protein; only 32 reference positions are contacted in at least four entries
+from at least two proteins. Of the 15 whose side chains hydrogen-bond the sugar, all proteins
+carry the same residue type at 7 (one vote per protein, 2--5 proteins per position). The
+hydrogen-bonding positions of the GH13 catalytic subsite, sampled down to the same numbers of
+proteins, carry a single residue type in 94\% of draws. A side chain that hydrogen-bonds a
+sugar is fixed when it does so at the catalytic subsite, and only about half the time when it
+does so elsewhere on the same proteins (aromatic positions away from the cleft: 1 of 7 fixed;
+aliphatic: 3 of 7). Invariance is therefore not a property of binding a sugar as such; the
+contrast is what a role in the transition state would produce.
+
+\subsection{Families of other folds}
+GH13 and GH31 belong to different CAZy clans, GH-H and
+GH-D, because their catalytic machinery differs, but a remote common ancestry of their
+$(\beta/\alpha)_8$ barrels has been proposed~\citep{Janecek2007,Rigden2002}; they cannot show
+whether the rule arose more than once. GH14 ($\beta$-amylase, an inverting enzyme in no
+clan) and GH15 (glucoamylase, an inverting $(\alpha/\alpha)_6$ fold) can, within the limits
+of their data. In GH14 the side-chain hydrogen-bonders at $-1$ and $-2$ (Asp53, His93,
+Arg420, the base Glu380, Lys295, the acid Glu186) and the aromatic Trp55 are invariant over
+the 14--16 entries that contact them (Glu186 is contacted in 14 and hydrogen-bonds the sugar
+in 10); the contacts at $-2$, the second ring of the two-glucose product, are made by
+hydrogen-bonding residues. In GH15 the
+hydrogen-bonders (Asp55, Arg54, the acid Glu179, Glu180, Arg305) and six aromatic residues
+(Tyr48, Trp52, Trp317, Trp417, Trp120, Tyr311) are invariant over four entries. The
+catalytic subsite of an unrelated fold is thus built from the same three kinds of residue.
+The aliphatic residues of both families (GH14 Leu419, Leu20, Met17, Ala184; GH15 Leu177,
+Leu415, Ala39) are also invariant, but each family has only two independent lineages
+(GH14: barley and soybean, 66\% identical, and \emph{Bacillus cereus}, about 30\% to both;
+GH15: three proteins, two fungal glucoamylases 34\% identical and a third whose UniProt
+accession, Q12537, could not be resolved), too few for variation to show; neither the variability
+of their aliphatic residues nor that of their outer-subsite ($-2$) hydrogen-bonders can be
+tested there.
+
+\subsection{Further observations at the same site}
+Three observations from the same
+structures and one calculation are given in the Supporting Information: the ring at
+subsite $-1$ is distorted from the chair more often than at other subsites (Section~S1);
+conserved water sites sit at the catalytic carboxylates of four families (Section~S2);
+the computed pK$_\mathrm{a}$ of the catalytic residues differs between chains with and
+without a bound ligand (Section~S3); and an MM/GBSA decomposition of four inhibitor
+complexes of human lysosomal $\alpha$-glucosidase (Section~S4).
+
+\subsection{The three kinds of contact differ in measured energy}
+Kinetics with
+deoxygenated substrates measure how much each sugar hydroxyl contributes to stabilising
+the transition state, from $k_\mathrm{cat}/K_\mathrm{M}$ of the parent and the deoxy
+analogue. For three GH13 yeast $\alpha$-glucosidases acting on methyl
+$\alpha$-isomaltoside, each hydroxyl of the ring at $-1$ contributes 16.1--24.0~kJ\,mol$^{-1}$
+and those of the ring at $+1$ at most 5.8~kJ\,mol$^{-1}$~\citep{Frandsen2002}; for a barley
+GH31 $\alpha$-glucosidase, the $-1$ hydroxyls contribute 9.3--18.9~kJ\,mol$^{-1}$ and the
+$+1$ 3-OH 7.0~kJ\,mol$^{-1}$~\citep{Frandsen2000}. Removing the residues that hydrogen-bond
+these hydroxyls removes that energy and the activity with it: the barley $\alpha$-amylase~1
+histidines His93 and His290 (His92 and His288 of the GH13 reference) lose 99\% of $k_\mathrm{cat}/K_\mathrm{M}$~\citep{Sogaard1993}, and the two
+mutants of glucoamylase Arg54 -- an invariant hydrogen-bonder in our GH15 count -- lose
+16--21~kJ\,mol$^{-1}$ of transition-state stabilisation, almost all of it in $k_\mathrm{cat}$,
+with $K_\mathrm{M}$ between 25\% and 300\% of wild type~\citep{Frandsen1995}. Aromatic
+contacts behave differently: replacing glucoamylase Trp120 by Phe lowers $k_\mathrm{cat}$
+50-fold but leaves the hydroxyl energy profile of subsite $-1$ unchanged~\citep{Sierks2000},
+and a sugar--aromatic contact is worth about 6~kJ\,mol$^{-1}$ in water, with many ring
+orientations nearly equivalent~\citep{Asensio2013}. Across carbohydrate-binding proteins in
+general, aliphatic residues are disfavoured in sugar pockets and aromatic ones
+enriched~\citep{Hudson2015}. Read together with Table~\ref{tab:rule}, the
+residues fixed in every lineage, the side-chain hydrogen-bonders of the rings at subsites
+$-1$ and $+1$, are those whose contacts carry the large, measured transition-state energy;
+aromatic contacts, smaller and permissive in orientation, keep an aromatic ring more often
+than their identity; aliphatic contacts, with no specific role, change, as do contacts of
+every kind at the outer subsites. The
+kinetic data for the $\alpha$-enzymes come from $k_\mathrm{cat}/K_\mathrm{M}$ only and do
+not separate transition-state from ground-state binding, as was done for a
+$\beta$-glucosidase~\citep{Namchuk1995}; the GH13 hydroxyl values are for
+$\alpha$-glucosidases on an $\alpha(1\!\to\!6)$ substrate, not for $\alpha$-amylases.
+
+\subsection{A test the rule sets}
+One of the non-catalytic GH31 positions of
+Table~\ref{tab:rule} has a measured substitution: Asp327 of the reference is Asp404 of
+human lysosomal $\alpha$-glucosidase, and the Pompe-disease variant Asp404Gly keeps the
+protein level but leaves 3.6--6.6\% of normal activity in patient muscle~\citep{Nilsson2014}.
+For His600, Trp441, Trp539, Phe575, Ile328 and Ile364 (their equivalents across GH31 proteins
+fixed by structural alignment~\citep{Tan2010}) and for the aromatic Tyr51 of GH13 we found no mutant with
+kinetic data (literature search, November 2026). The rule makes predictions for them:
+replacing His600, which hydrogen-bonds the subsite $-1$ sugar, should cost transition-state
+energy of the size measured for Asp404Gly and for the GH13 histidines; replacing Trp441 or Trp539 by Phe, or Tyr51 by Phe, should leave the hydroxyl
+energy profile of subsite $-1$ largely unchanged, as for glucoamylase Trp120; and Ile328 or
+Ile364 should accept Leu, Val or Met with little effect. These are the experiments that
+would confirm the rule or break it.
+
+\subsection{What this does not show}
+The fractions are properties of the deposited
+structures, not binding affinities or populations in solution. Hydrogen bonds are assigned
+by distance alone, and aromatic stacking by residue type, not by ring geometry. The test
+rests on 36 positions in GH13 and GH31 (Table~\ref{tab:rule}); GH14 and GH15 confirm the composition of the
+site but not the variability of its aliphatic residues; GH57 (one protein) was not used.
+
+\section{Conclusions}
+
+Across hundreds of independently solved structures of starch-degrading glycoside
+hydrolases, whether the residue at a position that touches the bound sugar is the same in
+every lineage is decided jointly by where it touches the sugar and by the kind of contact it
+makes. Side chains that hydrogen-bond the rings at subsites $-1$ and $+1$ are fixed,
+including the catalytic machinery and residues one ring away from the bond; aromatic rings
+stacked against them are kept as aromatic rings; aliphatic side chains packed around them,
+and residues of every kind at the outer subsites, change from lineage to lineage. The fixed residues are those whose hydrogen bonds to
+the subsite $-1$ hydroxyls carry the measured transition-state energy, so conservation at
+the catalytic subsite follows the energetic role of each contact. The catalytic subsite of
+a fold unrelated to GH13 is built from the same three kinds of residue.
+
+\section*{CRediT authorship contribution statement}
+\textbf{Aldo F. Combariza} (sole author): \pend{CRediT roles to be selected by the author from
+the 14 CRediT roles}.
+
+\section*{Declaration of competing interest}
+\pend{statement of competing interests, to be made by the author}
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+\pend{declaration to be written by the author (Elsevier template: tool used, purpose, extent of
+oversight)}
+
+\section*{Funding}
+\pend{funding sources, or a statement that the work received no specific grant}
+
+\section*{Data availability}
+\pend{repository and DOI not yet decided}
+
+\section*{Acknowledgements}
+Computational resources and technical support were provided by the Laboratorio de
+Supercomputaci\'on y C\'alculo Cient\'ifico (SC3) of the Universidad Industrial de
+Santander (UIS), Colombia, through the GUANE high-performance computing cluster.
+
+\section*{Appendix A. Supplementary material}
+Supplementary material (Sections S1--S4, Tables S1--S3) accompanies this article
+(ijbm\_SI.pdf).
+
+\bibliographystyle{elsarticle-num}
+\bibliography{ijbm}
+
+\end{document}

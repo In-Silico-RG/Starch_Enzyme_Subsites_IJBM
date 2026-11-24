@@ -1,0 +1,181 @@
+%% ijbm_SI.tex -- Supplementary material (Appendix A) for ijbm_main.tex,
+%% International Journal of Biological Macromolecules format. Text copied unchanged from manuscript_short/grip_finding_SI.tex.
+\documentclass[preprint,12pt]{elsarticle}
+\usepackage{amsmath,amssymb,booktabs,graphicx}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theequation}{S\arabic{equation}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\journal{International Journal of Biological Macromolecules}
+\begin{document}
+\begin{frontmatter}
+\title{Supplementary material for: What Fixes a Residue at the Catalytic Subsite of Starch-Degrading Glycoside
+Hydrolases Is the Kind of Contact It Makes with the Sugar}
+\author{Aldo F. Combariza}
+\ead{aldo.combariza@unisucre.edu.co}
+\affiliation{organization={Grupo de Investigaci\'{o}n {\itshape in silico},
+  Departamento de Biolog\'{\i}a y Qu\'{\i}mica, Universidad de Sucre},
+  addressline={Carrera 28 No.\ 5-267},
+  city={Sincelejo},
+  state={Sucre},
+  country={Colombia}}
+\end{frontmatter}
+
+
+\section{Ring distortion at subsite $-1$}
+The ring at subsite $-1$ is bent away from the chair more often than anywhere else. With
+the Cremer--Pople polar angle $\theta$ folded to its distance from the nearest
+chair~\citep{Cremer1975}, and a ring called distorted above 20$^\circ$, 8 of 23
+density-supported rings at $-1$ are distorted in GH13 (8 entries from 6 of 14 proteins:
+1QHO, 1QHP, 1QI5, 3BCD, 4J3V, 5TD4, 6JFJ, 6JFX), against 5 of 97 at the other subsites;
+in GH14, 4 of 15 at $-1$ (both proteins) against 0 of 21; in GH57, none of 14. Distortion of
+the $-1$ ring toward the transition-state geometry is expected for
+glycosidases~\citep{Davies2012}; here it is found where the invariant hydrogen-bonding
+residues are. Two of the eight GH13 entries, 1QI5 and 5TD4, are engineered Asp$\to$Asn
+mutants of the residue at the Asp289 position (main text). At the other subsites, GH31 has
+5 distorted rings of 38 and GH57 2 of 38 (GH31 has no density-supported ring at $-1$).
+Source: \texttt{42\_ring\_distortion/summary.tsv}.
+
+\section{Conserved water sites at the catalytic residues}
+Conserved water sites sit at the catalytic carboxylates in four
+families (water sites occupied in at least half of the superposed entries, within
+3.6~\AA{} of a catalytic oxygen): in GH13, W3 at 3.09~\AA{} from the nucleophile Asp179
+(251 of 411 entries) and W4 at 2.43~\AA{} from the acid/base Glu204 (235 of 411); in GH14,
+W34 at 3.00~\AA{} from the base Glu380 (35 of 50) and W123 at 3.10~\AA{} from the acid
+Glu186 (26 of 50); in GH31, W17 at 2.84~\AA{} from the nucleophile Asp443 (50 of 73) and W1
+and W12 at 2.85 and 2.33~\AA{} from the acid Asp542 (58 and 52 of 73); in GH57, W9 at
+2.86~\AA{} from the nucleophile Glu123 (20 of 25) and W170 at 3.09~\AA{} from the acid Asp214
+(14 of 25). In GH13 the fraction depends on resolution (Table~\ref{tab:sires}): W3 is occupied in
+75.5\% and W4 in 83.0\% of entries better than 1.6~\AA, and in 18.6\% and 12.9\% of entries
+at 2.6~\AA{} or worse; the fall is not monotonic for W3 (62.7\% at 1.6--1.9~\AA, 80.2\% at
+1.9--2.2~\AA). The pooled fractions above are therefore below the occupancy seen in the best
+data. The hydrogen-bond network that the census finds
+fixed at the catalytic subsite thus extends from the protein side chains to waters bound to
+the catalytic residues. Whether these waters take part in the reaction is not decided by
+these data.
+
+\begin{table}[h]
+\centering\small
+\caption{Occupancy of the GH13 water sites W3 and W4 by resolution band of the entry.
+Source: \texttt{resultados/analysis/conserved\_sites\_resolution\_confound.md}.}
+\label{tab:sires}
+\begin{tabular}{lrrr}
+\toprule
+Resolution & Entries & W3 occupied & W4 occupied\\
+\midrule
+$<1.6$~\AA & 53 & 75.5\% & 83.0\%\\
+1.6--1.9~\AA & 75 & 62.7\% & 81.3\%\\
+1.9--2.2~\AA & 131 & 80.2\% & 62.6\%\\
+2.2--2.6~\AA & 83 & 55.4\% & 47.0\%\\
+$\ge2.6$~\AA & 70 & 18.6\% & 12.9\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Computed pK$_\mathrm{a}$ of the catalytic residues}
+The computed protonation state of the catalytic residues was compared between chains with
+and without a bound molecule near them (PROPKA; the model pK$_\mathrm{a}$ of a free Asp/Glu in water is
+3.80/4.50, and the value reported is that estimate adjusted for the surrounding
+structure). In GH13, the acid/base residue's median computed pK$_\mathrm{a}$ is 6.93 in
+chains with no sugar or other molecule within 4.0~\AA{} of it and 5.30 in chains with one
+(314 and 196 chains); the nucleophile shifts the other way, 6.63 without and 7.46 with (308
+and 203 chains). All values are in Table~\ref{tab:propka}. The acid of GH31 shifts as in GH13 (7.76
+without, 5.78 with); the GH31 nucleophile does not shift (5.11 and 5.16); in GH57 both
+residues are lower with a ligand (acid 6.20 and 5.39, nucleophile 8.35 and 7.41). The
+chains with and without a ligand are different crystal forms and in part different proteins,
+so the comparison is not paired. These are computed estimates (PROPKA), not measurements,
+and they do not give a mechanism; the rise of the GH13 nucleophile with a ligand is the
+opposite of the simplest expectation and is not explained here.
+
+\begin{table}[h]
+\centering\small
+\caption{Median computed pK$_\mathrm{a}$ (PROPKA) of the catalytic residues in chains with
+and without a sugar or other molecule within 4.0~\AA{} of the residue; number of chains in
+parentheses. Source: \texttt{resultados/calc/01\_propka/propka\_all.tsv}.}
+\label{tab:propka}
+\begin{tabular}{llll}
+\toprule
+Family & Residue & Without ligand & With ligand\\
+\midrule
+GH13 & nucleophile Asp & 6.63 (308) & 7.46 (203)\\
+GH13 & acid/base Glu & 6.93 (314) & 5.30 (196)\\
+GH31 & nucleophile Asp & 5.11 (50) & 5.16 (81)\\
+GH31 & acid Asp & 7.76 (33) & 5.78 (88)\\
+GH57 & nucleophile Glu & 8.35 (19) & 7.41 (35)\\
+GH57 & acid Asp & 6.20 (19) & 5.39 (27)\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{MM/GBSA of four inhibitor complexes of human lysosomal $\alpha$-glucosidase}
+The kinetic values of the main text are measured for whole hydroxyls, not for single
+residues. A per-residue split can be computed for the
+one GH31 enzyme with several deposited inhibitor complexes and measured potencies: human
+lysosomal $\alpha$-glucosidase (GAA, UniProt P10253), with 1-deoxynojirimycin (5NN5),
+miglitol (5NN6), a 2-pentyl deoxynojirimycin analogue (9GTC) and a 2-heptyl pyrrolidine
+(9GTW). Each complex (chain A, ring nitrogen of the inhibitor protonated) was built with
+ff14SB and GAFF2/AM1-BCC, minimised in implicit solvent (sander, AmberTools~26; 1000 steps, 300 of steepest descent;
+igb~5, 16~\AA{} cut-off) with protein heavy atoms beyond 6~\AA{} of the inhibitor restrained
+at 5~kcal\,mol$^{-1}$\,\AA$^{-2}$, and evaluated once with MMPBSA.py (generalised Born
+model igb~5, 0.15~M salt):
+\begin{equation}
+\Delta G_\mathrm{bind} = G_\mathrm{complex}-G_\mathrm{receptor}-G_\mathrm{ligand}
+= \Delta E_\mathrm{vdW}+\Delta E_\mathrm{elec}+\Delta G_\mathrm{GB}+\Delta G_\mathrm{SA},
+\label{eq:gbsa}
+\end{equation}
+where $\Delta E_\mathrm{vdW}$ and $\Delta E_\mathrm{elec}$ are the van der Waals and
+Coulomb energies between inhibitor and protein, $\Delta G_\mathrm{GB}$ is the change in
+polar solvation energy, and $\Delta G_\mathrm{SA}$ the non-polar term from the buried surface;
+no entropy term is included. For 5NN5: $-16.49-427.80+384.40-3.91=-63.80$~kcal\,mol$^{-1}$.
+The per-residue decomposition gives half of each inhibitor--residue pair energy to the residue;
+the residue contributions at the nine conserved positions of Table~1 of the main text, mapped to
+the 2QMJ reference through the contact census of 5NN5, are summed by kind of contact in
+Table~\ref{tab:gbsa}. The ``protein'' column is the sum over the 26--30 residues within
+6~\AA{} of the inhibitor that were decomposed, not over the whole protein, so inhibitor and
+protein columns do not add up to $\Delta G_\mathrm{bind}$. In all four complexes the four
+hydrogen-bonding positions carry $-11.9$ to $-15.9$~kcal\,mol$^{-1}$ ($-3.0$ to
+$-4.0$ per position), 46--58\% of the decomposed protein residues; the
+three aromatic positions $-2.5$ to $-3.2$ ($-0.8$ to $-1.1$ per position); the two
+aliphatic positions $-1.1$ to $-1.6$ ($-0.55$ to $-0.79$ per position). The
+largest single contribution is Asp404 (Asp327 of the reference), $-5.9$ to
+$-7.3$~kcal\,mol$^{-1}$. The one exception within a group is His674 (His600), which gives
+$-2.7$ to $-3.3$~kcal\,mol$^{-1}$ to the three six-membered iminosugars and $-0.05$ to the
+five-membered pyrrolidine of 9GTW. The total $\Delta G_\mathrm{bind}$ does not follow the
+measured potency: $-63.8$ to $-67.7$~kcal\,mol$^{-1}$ against pChEMBL 5.68--7.72
+(Pearson $r = +0.07$ between pChEMBL and $\Delta G_\mathrm{bind}$, Spearman $\rho=0.0$,
+$n=4$; the pChEMBL values mix $K_\mathrm{i}$ and IC$_{50}$ from different assays, and three of
+the four are single measurements). The limits are stated flatly: one minimised structure
+per complex, no sampling and no entropy term, so the energies are not binding free
+energies; the inhibitors carry a protonated ring nitrogen, so the large terms of the three
+Asp positions are mainly charge--charge interactions with the ammonium, and the order
+H $>$ Ar $>$ Al would follow from the charges for almost any cationic ligand in this pocket.
+The calculation therefore does not test the contact-type rule.
+
+\begin{table}[h]
+\centering\small
+\caption{MM/GBSA of four GAA inhibitor complexes (kcal\,mol$^{-1}$): total
+$\Delta G_\mathrm{bind}$ (eq~\ref{eq:gbsa}), the inhibitor and protein halves of the
+per-residue decomposition, and the sum over the conserved GH31 positions of each kind of
+contact (H: Asp327, His600, Asp443, Asp542; Ar: Trp441, Trp539, Phe575; Al: Ile328, Ile364;
+2QMJ numbering; GAA residues Asp404, His674, Asp518, Asp616, Trp516, Trp613, Phe649,
+Leu405, Ile441). pChEMBL: median against GAA. Sources:
+\texttt{resultados/calc/09\_mmgbsa/series/}, \texttt{resultados/analysis/43\_mmgbsa\_subsite/}.}
+\label{tab:gbsa}
+\begin{tabular}{llrrrrrrr}
+\toprule
+PDB & Inhibitor & pChEMBL & $\Delta G_\mathrm{bind}$ & Inhibitor & Protein & H & Ar & Al\\
+\midrule
+5NN5 & 1-deoxynojirimycin & 6.82 & $-63.80$ & $-34.41$ & $-27.18$ & $-15.89$ & $-2.71$ & $-1.10$\\
+5NN6 & miglitol & 6.46 & $-67.66$ & $-38.12$ & $-26.47$ & $-12.89$ & $-2.53$ & $-1.57$\\
+9GTC & 2-pentyl-DNJ analogue & 7.72 & $-65.73$ & $-38.29$ & $-25.82$ & $-14.66$ & $-2.86$ & $-1.30$\\
+9GTW & 2-heptyl pyrrolidine & 5.68 & $-65.32$ & $-38.05$ & $-25.73$ & $-11.91$ & $-3.16$ & $-1.49$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\bibliographystyle{elsarticle-num}
+\bibliography{ijbm}
+\end{document}
