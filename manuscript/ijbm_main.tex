@@ -248,9 +248,7 @@ hold the oxygen; it is then INV (fixed) when at least half of the groups hold it
 invariant side chain, VAR (variable) when the remaining side-chain partners are variable, and
 MC when only main-chain atoms hold it. A cell that is not held is EXP (free, exposed) when the
 median open surface is at least 5~\AA$^2$ and at least 25\% of the surface of the same atom in
-the ligand alone, and BUR (free, buried) otherwise. Script:
-\texttt{scripts/analysis/a45\_hydroxyl\_map.py}; output:
-\texttt{resultados/analysis/45\_hydroxyl\_map/}. In Section~\ref{sec:map} these family states are also
+the ligand alone, and BUR (free, buried) otherwise. In Section~\ref{sec:map} these family states are also
 drawn on one entry of each family: 1QHO (GH13, \emph{Geobacillus stearothermophilus} maltogenic amylase,
 1.70~\AA, wild type; glucose at $-2$, $-1$ and $+2$, the 4-amino-4,6-dideoxyglucose of acarbose, without
 O6, at $+1$) and 3WEO (GH31; valienamine ring at $-1$, the acarbose-type ring at $+1$, glucose at $+2$).
@@ -290,9 +288,7 @@ approach a protein N/O to 2.5~\AA, were run as sensitivity tests. A unit fits wh
 the counting goes from unit to entry to 50\% sequence group as in Section~\ref{sec:methods_map}. A cell
 is F when the substituent fits in at least half of the groups, s when it fits in at least one unit
 but in fewer than half of the groups, and N when it fits in no unit. The one assumption is that the
-deposited coordinates are where a substituted chain would sit. Script:
-\nolinkurl{scripts/analysis/a46_substituent_fit.py}; output:
-\nolinkurl{resultados/analysis/46_substituent_fit/}.
+deposited coordinates are where a substituted chain would sit.
 
 \subsection{Molecular dynamics of enzyme--glucan complexes}\label{sec:methods_md}
 Twelve wild-type complexes with a glucose-only glucan of 2--7 units (every unit RSCC $\ge0.80$, X-ray
@@ -315,8 +311,7 @@ pocket C$\alpha$ atoms were superposed on the start structure and each glucan ox
 Section~\ref{sec:methods_map}, with frames in place of sequence groups: held when a protein N/O lies within
 3.5~\AA{} in at least half of the frames, INV when an invariant side chain holds it in at least half of
 the frames, otherwise VAR or MC; free oxygens EXP or BUR by their median open surface. Subsites are those
-of the deposited units. Script: \nolinkurl{scripts/analysis/a47_md_hydroxyl_contacts.py}; output:
-\nolinkurl{resultados/analysis/47_md_hydroxyl/}.
+of the deposited units.
 
 
 \section{Results and discussion}
@@ -416,7 +411,7 @@ a residue at the position); sugar from 1QHO (a, b) or 3WEO (c).}
 
 \begin{table}[p]
 \centering\renewcommand{\baselinestretch}{1}\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Every reference position contacted in at least 20\% of the entries with a sugar unit at subsites $-3$ to $+3$ (GH13 reference 1AMY/1BG9, GH31 reference 2QMJ). Class: contact kind made in most sequence groups (H, side-chain hydrogen bond; Ar, aromatic apolar; Al, aliphatic apolar). Groups: proteins sharing $\ge$50\% sequence identity; residues: votes per group (a mixed group splits its vote); $m$: modal fraction (eq~\ref{eq:modal}); Arom.: aromatic fraction. $^\ast$catalytic residue. Engineered mutants removed. Source: \texttt{44\_rule\_test/C\_identity\_T20.tsv}.}
+\caption{Every reference position contacted in at least 20\% of the entries with a sugar unit at subsites $-3$ to $+3$ (GH13 reference 1AMY/1BG9, GH31 reference 2QMJ). Class: contact kind made in most sequence groups (H, side-chain hydrogen bond; Ar, aromatic apolar; Al, aliphatic apolar). Groups: proteins sharing $\ge$50\% sequence identity; residues: votes per group (a mixed group splits its vote); $m$: modal fraction (eq~\ref{eq:modal}); Arom.: aromatic fraction. $^\ast$catalytic residue. Engineered mutants removed.}
 \label{tab:rule}
 \begin{tabular}{lllrp{4.6cm}rr}
 \toprule
@@ -467,7 +462,7 @@ none & GH31 & Thr544 ($+$3) & 5 & Ser 1, Lys 1, Thr 1, Ala 1, Trp 1 & 0.20 & 0.2
 
 \begin{table}[h]
 \centering\renewcommand{\baselinestretch}{1}\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Difference in mean modal fraction $m$ between classes (H$-$Al, H$-$Ar) and between the aromatic fraction of Ar positions and $m$ of Al positions (Ar(arom)$-$Al); one-sided $p$ from 10\,000 permutations of the class labels over positions; 95\% interval from 2\,000 bootstrap resamples of sequence groups (conservative, see text). Positions contacted in $\ge$20\% of entries; one vote per 50\% sequence group. Source: \texttt{44\_rule\_test/D\_tests.tsv}.}
+\caption{Difference in mean modal fraction $m$ between classes (H$-$Al, H$-$Ar) and between the aromatic fraction of Ar positions and $m$ of Al positions (Ar(arom)$-$Al); one-sided $p$ from 10\,000 permutations of the class labels over positions; 95\% interval from 2\,000 bootstrap resamples of sequence groups (conservative, see text). Positions contacted in $\ge$20\% of entries; one vote per 50\% sequence group.}
 \label{tab:tests}
 \begin{tabular}{llrrlr}
 \toprule
@@ -545,7 +540,7 @@ that the oxygen has open surface in the deposited complex, not that a substituen
 there. Invariance in GH14 and GH15 rests on two lineages. No glucose unit bearing a
 hydroxypropyl, acetyl, octenyl-succinyl or carboxymethyl group, nor any 2-O- or
 3-O-substituted glucose, is bound in these families in the PDB; the 18 substituted rings of the
-census carry their substituent on O1 or O4 (\texttt{45\_hydroxyl\_map/substituted\_glucose\_in\_census.tsv}).
+census carry their substituent on O1 or O4.
 
 \paragraph{The map against experiment} Table~\ref{tab:mapexp} sets every cell for which a
 positional result with a substituted substrate was found against the prediction of its state.
@@ -588,8 +583,7 @@ GH31) are needed for turnover; those of O2, made by fixed residues in both famil
 \caption{The subsite $\times$ oxygen map. Cell colour, state of the oxygen
 (Section~\ref{sec:methods_map}); number, fraction of 50\% sequence groups in which a protein N/O lies
 within 3.5~\AA; lower mark, published result for a substrate substituted at that oxygen and
-subsite (Table~\ref{tab:mapexp}; d, deoxy substrate, not counted). Bold line, the scissile bond. Source:
-\texttt{45\_hydroxyl\_map/cell\_summary.tsv}.}
+subsite (Table~\ref{tab:mapexp}; d, deoxy substrate, not counted). Bold line, the scissile bond.}
 \label{fig:map}
 \end{figure}
 
@@ -607,11 +601,11 @@ $^\ast$, author number); dashes, N/O--O $\le3.5$~\AA. Insets: whole protein, box
 \begin{sidewaystable}
 \centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.92}\scriptsize\setlength{\tabcolsep}{2pt}
 \caption{The map against experiment, cell by cell. State and holding residues (reference
-numbering: GH13 1AMY, GH31 2QMJ, GH14 1BYA, GH15 1AGM) from \texttt{45\_hydroxyl\_map/cell\_summary.tsv};
+numbering: GH13 1AMY, GH31 2QMJ, GH14 1BYA, GH15 1AGM);
 open surface in \AA$^2$ for EXP cells. Prediction: INV, not tolerated; EXP, tolerated; VAR,
 depends on the enzyme. P, phosphate; HE, hydroxyethyl; Me, methyl; Gal, $\beta$-galactosyl; GlcNAc,
 $\beta$-$N$-acetylglucosaminyl; PA, 6-deoxy-6-(2-pyridylamino). Ev.: FT, full text read;
-ABS, abstract (\texttt{substituted\_starch\_hydrolysis\_literature\_v2.md}). Agreement: 19 of 21
+ABS, abstract. Agreement: 19 of 21
 cells with a prediction. Deoxy rows (OH removed) test whether the hydroxyl is needed and are not counted.}
 \label{tab:mapexp}
 \begin{tabular}{lllp{3.3cm}p{7.5cm}lp{4.2cm}}
@@ -706,7 +700,7 @@ only on modelled rotamers, GH14 and GH15 rest on two lineages each, and symmetry
 in which a substituent fits in at least half of the 50\% sequence groups (category F; 3.0~\AA{} flat
 cut), by state of the cell. Me, methyl; HE, 2-hydroxyethyl; HP, 2-hydroxypropyl; Ac, acetyl; CM,
 carboxymethyl; P, phosphate; Suc, succinyl; OSA, octenylsuccinyl. Two O6$^\ast$ cells without a state
-(no O6 deposited) are not shown. Source: \texttt{46\_substituent\_fit/REPORT.md}, Section 4.1.}
+(no O6 deposited) are not shown.}
 \label{tab:fit}
 \begin{tabular}{lrrrrrrrrr}
 \toprule
@@ -912,7 +906,10 @@ article.
 \pend{funding sources, or a statement that the work received no specific grant}
 
 \section*{Data availability}
-\pend{repository and DOI not yet decided}
+The database, the scripts and the result tables that produce every number, table and figure are
+public at \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM} [PENDIENTE: Zenodo DOI];
+Section S12 of the Supplementary material lists the script and the result table behind each table
+and figure.
 
 \section*{Acknowledgements}
 Computational resources and technical support were provided by the Laboratorio de

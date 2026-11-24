@@ -65,7 +65,7 @@ glycosidases~\citep{Davies2012}; here it is found where the fixed hydrogen-bondi
 residues are. Two of the eight GH13 entries, 1QI5 and 5TD4, are engineered Asp$\to$Asn
 mutants of the residue at the Asp289 position (main text). At the other subsites, GH31 has
 5 distorted rings of 38 and GH57 2 of 38 (GH31 has no density-supported ring at $-1$).
-Source: \texttt{42\_ring\_distortion/summary.tsv}.
+Source: \texttt{data/analysis/42\_ring\_distortion/summary.tsv}.
 
 \section{Conserved water sites at the catalytic residues}
 Conserved water sites sit at the catalytic carboxylates in four
@@ -123,7 +123,7 @@ opposite of the simplest expectation and is not explained here.
 \centering\small
 \caption{Median computed pK$_\mathrm{a}$ (PROPKA) of the catalytic residues in chains with
 and without a sugar or other molecule within 4.0~\AA{} of the residue; number of chains in
-parentheses. Source: \texttt{resultados/calc/01\_propka/propka\_all.tsv}.}
+parentheses. Source: \texttt{data/calc/01\_propka/propka\_all.tsv}.}
 \label{tab:propka}
 \begin{tabular}{llll}
 \toprule
@@ -192,7 +192,7 @@ per-residue decomposition, and the sum over the nine GH31 positions of Table~1 o
 contact (H: Asp327, His600, Asp443, Asp542; Ar: Trp441, Trp539, Phe575; Al: Ile328, Ile364;
 2QMJ numbering; GAA residues Asp404, His674, Asp518, Asp616, Trp516, Trp613, Phe649,
 Leu405, Ile441). pChEMBL: median against GAA. Sources:
-\texttt{resultados/calc/09\_mmgbsa/series/}, \texttt{resultados/analysis/43\_mmgbsa\_subsite/}.}
+\texttt{data/calc/09\_mmgbsa/series/}, \texttt{data/analysis/43\_mmgbsa\_subsite/}.}
 \label{tab:gbsa}
 \begin{tabular}{llrrrrrrr}
 \toprule
@@ -214,7 +214,7 @@ the main text; 3.0~\AA{} flat cut; all glucose-like units). Table~4 of the main 
 categories by state. The fit categories are F, fits in at least half of the groups; s, fits in at least
 one unit but in fewer than half of the groups; N, fits in no unit. Results at 2.8 and 3.2~\AA, with the
 polar-aware rule, for glucose units only, per entry and per unit are in
-\texttt{resultados/analysis/46\_substituent\_fit/} (\texttt{cell\_fit\_summary.tsv}, \texttt{site\_results.tsv},
+\texttt{data/analysis/46\_substituent\_fit/} (\texttt{cell\_fit\_summary.tsv}, \texttt{site\_results.tsv},
 \texttt{REPORT.md}).
 
 {\scriptsize\setlength{\tabcolsep}{3pt}
@@ -225,7 +225,7 @@ Section~2.4); O6, deposited O6; O6$^\ast$, deposited O6 or any of the gg, gt, tg
 the state shown is that of the deposited O6; --, no O6 deposited). Groups and units: numbers of 50\%
 sequence groups and of units in the cell. Me, methyl; HE, 2-hydroxyethyl; HP, 2-hydroxypropyl; Ac,
 acetyl; CM, carboxymethyl; P, phosphate; Suc, succinyl; OSA, octenylsuccinyl. Source:
-\texttt{46\_substituent\_fit/cell\_fit\_summary.tsv}.}\label{tab:fitcells}\\
+\texttt{data/analysis/46\_substituent\_fit/cell\_fit\_summary.tsv}.}\label{tab:fitcells}\\
 \toprule
 Fam. & Sub. & O & State & Groups & Units & Me & HE & HP & Ac & CM & P & Suc & OSA\\
 \midrule
@@ -323,8 +323,8 @@ subsites and enter the comparison with the crystal map (main text, Section~3.3).
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
 \caption{The twelve simulated complexes. ns: length of trajectory analysed, read (every 100~ps) at the time of
-the analysis, out of 100~ns. Sources: \texttt{resultados/calc/08\_md/selection/selection.tsv},
-\texttt{resultados/analysis/47\_md\_hydroxyl/systems.tsv}.}
+the analysis, out of 100~ns. Sources: \texttt{data/calc/08\_md/selection/selection.tsv},
+\texttt{data/analysis/47\_md\_hydroxyl/systems.tsv}.}
 \label{tab:mdsys}
 \begin{tabular}{lllp{4.3cm}rp{3.0cm}r}
 \toprule
@@ -445,5 +445,28 @@ Ile364 should accept Leu, Val or Met with little effect. These are the experimen
 would confirm the rule or break it.
 
 \bibliographystyle{elsarticle-num}
+
+\section{Code and data}\label{sec:codedata}
+Everything below is in the public repository \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM}
+(folders \texttt{code/} and \texttt{data/}; the README gives the order in which to run them).
+
+\begin{table}[h]\centering\small
+\caption{Script and result folder behind each part of the main text.}
+\begin{tabular}{p{5.2cm}p{5.0cm}p{4.6cm}}
+\toprule
+Item & Script (\texttt{code/}) & Results (\texttt{data/}) \\
+\midrule
+Database, family frames, subsites & \texttt{build\_database.py}, \texttt{calc/c03\_frames.py}, \texttt{analysis/a33\_subsites.py} & \texttt{db/}, \texttt{calc/03\_frames/}, \texttt{analysis/33\_subsites/} \\
+Kind of contact & \texttt{analysis/a40\_contact\_types.py} & \texttt{analysis/40\_contact\_types/} \\
+Tables 1--2, conservation by class & \texttt{analysis/a44a\_build.py}, \texttt{a44b\_tests.py}, \texttt{a44c\_tables.py} & \texttt{analysis/44\_rule\_test/} \\
+Hydroxyl map, Table 3, Figs 4--5 & \texttt{analysis/a45\_hydroxyl\_map.py} & \texttt{analysis/45\_hydroxyl\_map/} \\
+Steric fit, Table 4, Section S5 & \texttt{analysis/a46\_substituent\_fit.py} & \texttt{analysis/46\_substituent\_fit/} \\
+Molecular dynamics, Section S6 & \texttt{analysis/a47\_md\_hydroxyl\_contacts.py} & \texttt{analysis/47\_md\_hydroxyl/} \\
+Literature comparison & -- & \texttt{analysis/substituted\_starch\_hydrolysis\_literature\_v2.md} \\
+Figures & \texttt{figures/} & \texttt{figures/} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \bibliography{ijbm}
 \end{document}
