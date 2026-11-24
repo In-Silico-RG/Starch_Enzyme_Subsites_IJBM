@@ -26,6 +26,40 @@ R.~L. Conway, L.~F. Hood, Pancreatic alpha amylase hydrolysis products of
 \newblock \href {https://doi.org/10.1002/star.19760281005}
   {\path{doi:10.1002/star.19760281005}}.
 
+\bibitem{Drula2022}
+E.~Drula, M.-L. Garron, S.~Dogan, V.~Lombard, B.~Henrissat, N.~Terrapon, The
+  carbohydrate-active enzyme database: functions and literature, Nucleic Acids
+  Research 50~(D1) (2022) D571--D577.
+\newblock \href {https://doi.org/10.1093/nar/gkab1045}
+  {\path{doi:10.1093/nar/gkab1045}}.
+
+\bibitem{Henrissat1996}
+B.~Henrissat, A.~Bairoch, Updating the sequence-based classification of
+  glycosyl hydrolases, Biochemical Journal 316~(2) (1996) 695--696.
+\newblock \href {https://doi.org/10.1042/bj3160695}
+  {\path{doi:10.1042/bj3160695}}.
+
+\bibitem{Janecek2014}
+{\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, $\alpha$-amylase: an enzyme
+  specificity found in various families of glycoside hydrolases, Cellular and
+  Molecular Life Sciences 71~(7) (2013) 1149--1170.
+\newblock \href {https://doi.org/10.1007/s00018-013-1388-z}
+  {\path{doi:10.1007/s00018-013-1388-z}}.
+
+\bibitem{Davies1995}
+G.~Davies, B.~Henrissat, {Structures and mechanisms of glycosyl hydrolases},
+  Structure 3~(9) (1995) 853--859.
+\newblock \href {https://doi.org/10.1016/s0969-2126(01)00220-9}
+  {\path{doi:10.1016/s0969-2126(01)00220-9}}.
+
+\bibitem{Stam2006}
+M.~R. Stam, E.~G.~J. Danchin, C.~Rancurel, P.~M. Coutinho, B.~Henrissat,
+  Dividing the large glycoside hydrolase family 13 into subfamilies: towards
+  improved functional annotations of $\alpha$-amylase-related proteins, Protein
+  Engineering, Design and Selection 19~(12) (2006) 555--562.
+\newblock \href {https://doi.org/10.1093/protein/gzl044}
+  {\path{doi:10.1093/protein/gzl044}}.
+
 \bibitem{Davies1997}
 G.~J. Davies, K.~S. Wilson, B.~Henrissat, Nomenclature for sugar-binding
   subsites in glycosyl hydrolases, Biochemical Journal 321~(2) (1997) 557--559.
@@ -54,40 +88,6 @@ L.~Kandra, $\alpha$-amylases of medical and industrial importance, Journal of
   Molecular Structure: THEOCHEM 666--667 (2003) 487--498.
 \newblock \href {https://doi.org/10.1016/j.theochem.2003.08.073}
   {\path{doi:10.1016/j.theochem.2003.08.073}}.
-
-\bibitem{Drula2022}
-E.~Drula, M.-L. Garron, S.~Dogan, V.~Lombard, B.~Henrissat, N.~Terrapon, The
-  carbohydrate-active enzyme database: functions and literature, Nucleic Acids
-  Research 50~(D1) (2022) D571--D577.
-\newblock \href {https://doi.org/10.1093/nar/gkab1045}
-  {\path{doi:10.1093/nar/gkab1045}}.
-
-\bibitem{Henrissat1996}
-B.~Henrissat, A.~Bairoch, Updating the sequence-based classification of
-  glycosyl hydrolases, Biochemical Journal 316~(2) (1996) 695--696.
-\newblock \href {https://doi.org/10.1042/bj3160695}
-  {\path{doi:10.1042/bj3160695}}.
-
-\bibitem{Janecek2014}
-{\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, $\alpha$-amylase: an enzyme
-  specificity found in various families of glycoside hydrolases, Cellular and
-  Molecular Life Sciences 71~(7) (2013) 1149--1170.
-\newblock \href {https://doi.org/10.1007/s00018-013-1388-z}
-  {\path{doi:10.1007/s00018-013-1388-z}}.
-
-\bibitem{Stam2006}
-M.~R. Stam, E.~G.~J. Danchin, C.~Rancurel, P.~M. Coutinho, B.~Henrissat,
-  Dividing the large glycoside hydrolase family 13 into subfamilies: towards
-  improved functional annotations of $\alpha$-amylase-related proteins, Protein
-  Engineering, Design and Selection 19~(12) (2006) 555--562.
-\newblock \href {https://doi.org/10.1093/protein/gzl044}
-  {\path{doi:10.1093/protein/gzl044}}.
-
-\bibitem{Davies1995}
-G.~Davies, B.~Henrissat, {Structures and mechanisms of glycosyl hydrolases},
-  Structure 3~(9) (1995) 853--859.
-\newblock \href {https://doi.org/10.1016/s0969-2126(01)00220-9}
-  {\path{doi:10.1016/s0969-2126(01)00220-9}}.
 
 \bibitem{MacGregor2001}
 E.~A. MacGregor, {\v S}.~Jane{\v c}ek, B.~Svensson, Relationship of sequence
@@ -178,6 +178,13 @@ M.~Qian, R.~Haser, G.~Buisson, E.~Du{\'e}e, F.~Payan, The active center of a
 \newblock \href {https://doi.org/10.1021/bi00186a031}
   {\path{doi:10.1021/bi00186a031}}.
 
+\bibitem{Aghajari2002}
+N.~Aghajari, M.~Roth, R.~Haser, Crystallographic evidence of a
+  transglycosylation reaction: ternary complexes of a psychrophilic
+  $\alpha$-amylase, Biochemistry 41~(13) (2002) 4273--4280.
+\newblock \href {https://doi.org/10.1021/bi0160516}
+  {\path{doi:10.1021/bi0160516}}.
+
 \bibitem{Mikami1994}
 B.~Mikami, M.~Degano, E.~J. Hehre, J.~C. Sacchettini, Crystal structures of
   soybean $\beta$-amylase reacted with $\beta$-maltose and maltal: active site
@@ -194,35 +201,6 @@ A.~E. Aleshin, L.~M. Firsov, R.~B. Honzatko, Refined structure for the complex
 \newblock \href {https://doi.org/10.1016/S0021-9258(17)40728-9}
   {\path{doi:10.1016/S0021-9258(17)40728-9}}.
 
-\bibitem{Takeda1983}
-Y.~Takeda, S.~Hizukuri, Y.~Ozono, M.~Suetake, Actions of porcine pancreatic and
-  {Bacillus subtilis} $\alpha$-amylases and {Aspergillus niger} glucoamylase on
-  phosphorylated (1$\to$4)-$\alpha$-{D}-glucan, Biochimica et Biophysica Acta,
-  Protein Structure and Molecular Enzymology 749~(3) (1983) 302--311.
-\newblock \href {https://doi.org/10.1016/0167-4838(83)90240-6}
-  {\path{doi:10.1016/0167-4838(83)90240-6}}.
-
-\bibitem{TakedaHizukuri1986}
-Y.~Takeda, S.~Hizukuri, Actions of {Aspergillus oryzae} alpha-amylase, potato
-  phosphorylase, and rabbit muscle phosphorylase a and b on phosphorylated
-  (1$\to$4)-$\alpha$-{D}-glucan, Carbohydrate Research 153~(2) (1986) 295--307.
-\newblock \href {https://doi.org/10.1016/S0008-6215(00)90271-4}
-  {\path{doi:10.1016/S0008-6215(00)90271-4}}.
-
-\bibitem{Takeda1987}
-Y.~Takeda, Actions of various amylases in the vicinity of phosphate groups of
-  potato starch and location of the phosphate groups in the starch, Journal of
-  the Japanese Society of Starch Science 34~(3) (1987) 225--233.
-\newblock \href {https://doi.org/10.5458/jag1972.34.225}
-  {\path{doi:10.5458/jag1972.34.225}}.
-
-\bibitem{Aghajari2002}
-N.~Aghajari, M.~Roth, R.~Haser, Crystallographic evidence of a
-  transglycosylation reaction: ternary complexes of a psychrophilic
-  $\alpha$-amylase, Biochemistry 41~(13) (2002) 4273--4280.
-\newblock \href {https://doi.org/10.1021/bi0160516}
-  {\path{doi:10.1021/bi0160516}}.
-
 \bibitem{Dauter1999}
 Z.~Dauter, M.~Dauter, A.~M. Brzozowski, S.~Christensen, T.~V. Borchert,
   L.~Beier, K.~S. Wilson, G.~J. Davies, X-ray structure of {Novamyl}, the
@@ -231,6 +209,13 @@ Z.~Dauter, M.~Dauter, A.~M. Brzozowski, S.~Christensen, T.~V. Borchert,
   Biochemistry 38~(26) (1999) 8385--8392.
 \newblock \href {https://doi.org/10.1021/bi990256l}
   {\path{doi:10.1021/bi990256l}}.
+
+\bibitem{Takeda1987}
+Y.~Takeda, Actions of various amylases in the vicinity of phosphate groups of
+  potato starch and location of the phosphate groups in the starch, Journal of
+  the Japanese Society of Starch Science 34~(3) (1987) 225--233.
+\newblock \href {https://doi.org/10.5458/jag1972.34.225}
+  {\path{doi:10.5458/jag1972.34.225}}.
 
 \bibitem{vanderBurgt1998}
 Y.~E.~M. van~der Burgt, J.~Bergsma, I.~P. Bleeker, P.~J. H.~C. Mijland, A.~van
@@ -246,6 +231,21 @@ M.~Okada, K.~Ogawa, T.~Usui, Substrate specificity of human and bovine
   of Applied Glycoscience 47~(1) (2000) 35--44.
 \newblock \href {https://doi.org/10.5458/jag.47.35}
   {\path{doi:10.5458/jag.47.35}}.
+
+\bibitem{Takeda1983}
+Y.~Takeda, S.~Hizukuri, Y.~Ozono, M.~Suetake, Actions of porcine pancreatic and
+  {Bacillus subtilis} $\alpha$-amylases and {Aspergillus niger} glucoamylase on
+  phosphorylated (1$\to$4)-$\alpha$-{D}-glucan, Biochimica et Biophysica Acta,
+  Protein Structure and Molecular Enzymology 749~(3) (1983) 302--311.
+\newblock \href {https://doi.org/10.1016/0167-4838(83)90240-6}
+  {\path{doi:10.1016/0167-4838(83)90240-6}}.
+
+\bibitem{TakedaHizukuri1986}
+Y.~Takeda, S.~Hizukuri, Actions of {Aspergillus oryzae} alpha-amylase, potato
+  phosphorylase, and rabbit muscle phosphorylase a and b on phosphorylated
+  (1$\to$4)-$\alpha$-{D}-glucan, Carbohydrate Research 153~(2) (1986) 295--307.
+\newblock \href {https://doi.org/10.1016/S0008-6215(00)90271-4}
+  {\path{doi:10.1016/S0008-6215(00)90271-4}}.
 
 \bibitem{Lemieux1996}
 R.~U. Lemieux, U.~Spohr, M.~Bach, D.~R. Cameron, M.~M. Palcic, T.~P. Frandsen,

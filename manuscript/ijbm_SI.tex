@@ -8,7 +8,7 @@
 %% (fixed, variable, main chain, exposed, buried), "our map" -> "our map", file paths moved from captions to
 %% Table S14, main-text cross-references renumbered (Methods 2.4-2.6; main Tables 5, 7, 8).
 \documentclass[preprint,12pt]{elsarticle}
-\usepackage{amsmath,amssymb,booktabs,graphicx,longtable,rotating,array}
+\usepackage{amsmath,amssymb,booktabs,graphicx,longtable,rotating,array,pdflscape,tabularx,ragged2e}
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{figures/}}
 \renewcommand{\thesection}{S\arabic{section}}
@@ -16,6 +16,7 @@
 \renewcommand{\theequation}{S\arabic{equation}}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \journal{International Journal of Biological Macromolecules}
+\emergencystretch=2em
 \begin{document}
 \begin{frontmatter}
 \title{Supplementary material for: A fixed core and a variable rim: hydroxyl contacts at the subsites of $\alpha$-amylases and related starch hydrolases, compared with the hydrolysis of substituted starch}
@@ -47,26 +48,21 @@
   country={Colombia}}
 \end{frontmatter}
 
+In the next figure, panel a shows maltohexaose over subsites $-3$ to $+3$ with the scissile bond and the substituents of functionalised starch. In 6JQB (b, PDB) the cleft is a groove that holds the chain, with domains tinted (B, approximate boundaries); in 3WEO (d) subsite $-1$ sits in a pocket. Panels c and e give the ring centroids of the sugar units in the family frames, as in Figure~1c,d.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{figS1_protein_surfaces.pdf}
-\caption{The structures of Figure~1 of the main text with opaque molecular surfaces. (a) Maltohexaose over
-subsites $-3$ to $+3$ with the scissile bond, and the substituents of functionalised starch. (b) GH13
-maltotetraose-forming amylase (PDB 6JQB): the cleft is a groove that holds the chain; domains tinted
-(B, approximate boundaries). (d) GH31 $\alpha$-glucosidase (PDB 3WEO): subsite $-1$ sits in a pocket. (c, e)
-Ring centroids of the sugar units at subsites $-3$ to $+3$ in the family frames, as in Figure~1c,d.}
+\caption{The structures of Figure~1 of the main text with opaque molecular surfaces: (a) maltohexaose, (b) GH13 6JQB, (d) GH31 3WEO, (c, e) ring centroids at subsites $-3$ to $+3$.}
 \label{fig:s1}
 \end{figure}
+
+In the next figure each position is superposed from the best-resolved entry of every group that has a residue there, a selection of one entry per group and not the full sample. Side chains are coloured by residue type (blue polar, brown aromatic, pink aliphatic); labels use the one-letter code, with D29 for Asp in 29 groups, A7 for Ala in 7 groups and $-12$ for 12 groups without a residue at the position. The sugar is from 1QHO (a, b) or 3WEO (c).
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{fig_fixed_variable.pdf}
-\caption{Fixed and variable contact positions across 50\% sequence groups, superposed from the best-resolved entry
-of every group that has a residue there (a selection of one entry per group, not the full sample): (a) GH13 Asp179
-and Phe180, (b) GH13 Glu204 and Trp206, (c) GH31 Asp327 and Ile328 (reference numbering). Side chains coloured by
-residue type (blue polar, brown aromatic, pink aliphatic). Labels give the residue types and their number of groups
-in one-letter code: D29, Asp in 29 groups; A7, Ala in 7 groups; $-12$, 12 groups without a residue at the position.
-Sugar from 1QHO (a, b) or 3WEO (c).}
+\caption{Fixed and variable contact positions across 50\% sequence groups, one best-resolved entry per group: (a) GH13 Asp179 and Phe180, (b) GH13 Glu204 and Trp206, (c) GH31 Asp327 and Ile328 (reference numbering). Labels: residue type and its number of groups (D29, Asp in 29 groups).}
 \label{fig:s2}
 \end{figure}
 
@@ -76,18 +72,11 @@ Table~\ref{tab:positions} lists every reference position of GH13 and GH31 that m
 Section~2.2 of the main text, with its class, its residues counted once per 50\% sequence group and its modal fraction
 $m$ (eq~1 of the main text). The tests of Table~5 of the main text and of Table~\ref{tab:variants} are computed on these positions.
 
+In the next table, positions are named by the reference residue. Subsites are those at which the position meets the 20\% criterion; a position is at $-1$/$+1$ when they include $-1$ or $+1$. Class is the kind of contact made in most sequence groups. Groups are proteins sharing $\ge$50\% sequence identity that have a residue at the position; residues are votes per group (a mixed group splits its vote); Arom. is the aromatic fraction; engineered mutants are removed. Class is read from the groups whose residue contacts the sugar, $m$ over every group with a residue at the position (contacting or not); hence GH13 Phe143 and Gly250 are classed Ar, from the aromatic residues that make the contact, although Leu (Phe143) or no single residue (Gly250) is the most common residue over all groups.
+
 \begin{table}[p]
 \centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.85}\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Every reference position contacted in at least 20\% of the entries with a sugar unit at subsites $-3$ to
-$+3$ (GH13 reference 1AMY, GH31 reference 2QMJ; positions named by the reference residue). Subsites: those at which
-the position meets the 20\% criterion; a position is at $-1$/$+1$ when they include $-1$ or $+1$. Class: contact kind
-made in most sequence groups (H, side-chain hydrogen bond; Ar, aromatic apolar; Al, aliphatic apolar). Groups:
-proteins sharing $\ge$50\% sequence identity that have a residue at the position; residues: votes per group (a mixed
-group splits its vote); $m$: modal fraction (eq~1 of the main text); Arom.: aromatic fraction. $^\ast$catalytic residue;
-$^\dagger$fewer than five groups. Engineered mutants removed. Class is read from the groups whose residue contacts the
-sugar, $m$ over every group with a residue at the position (contacting or not); hence GH13 Phe143 and Gly250 are
-classed Ar, from the aromatic residues that make the contact, although Leu (Phe143) or no single residue (Gly250) is
-the most common residue over all groups.}
+\caption{Every reference position contacted in at least 20\% of the entries with a sugar unit at subsites $-3$ to $+3$ (GH13 1AMY, GH31 2QMJ). Class: H, hydrogen bond; Ar, aromatic; Al, aliphatic. $m$: modal fraction (eq~1); $^\ast$catalytic; $^\dagger$fewer than five groups.}
 \label{tab:positions}
 \begin{tabular}{lllrp{4.6cm}rr}
 \toprule
@@ -159,15 +148,11 @@ not resolve the position of the methyl group. The limits: protein and chain are 
 energies, inhibitor units dominate $-1$ and $+1$, O6 at $+1$ in GH31 and GH15 is tested only on modelled rotamers,
 GH14 and GH15 rest on two groups each, and symmetry mates were not generated.
 
-{\scriptsize\setlength{\tabcolsep}{3pt}
+{\scriptsize\setlength{\tabcolsep}{1.4pt}
+In the next table, the flat cut applies to all glucose-like units, and State is the cell state of the map (main text, Section~2.4 and Table~2; exposed and buried are the two free states). O6 is the deposited O6; O6$^\ast$ is the deposited O6 or any of the gg, gt, tg rotamers, and its state shown is that of the deposited O6. Groups and units are the numbers of 50\% sequence groups and of units in the cell.
+
 \begin{longtable}{llllrrllllllll}
-\caption{Fit category and fraction of 50\% sequence groups in which the substituent fits, per cell
-(3.0~\AA{} flat cut, all glucose-like units). State: the cell state of the map (main text,
-Section~2.4 and Table~2); O6, deposited O6; O6$^\ast$, deposited O6 or any of the gg, gt, tg rotamers (for O6$^\ast$
-the state shown is that of the deposited O6; --, no O6 deposited). Groups and units: numbers of 50\%
-sequence groups and of units in the cell. Me, methyl; HE, 2-hydroxyethyl; HP, 2-hydroxypropyl; Ac,
-acetyl; CM, carboxymethyl; P, phosphate; Suc, succinyl; OSA, octenylsuccinyl. Exposed and buried are the two free
-states.}\label{tab:fitcells}\\
+\caption{Fit category and fraction of 50\% sequence groups in which the substituent fits, per cell (3.0~\AA{} cut). O6$^\ast$: deposited O6 or any rotamer; --, no O6. Me, methyl; HE, hydroxyethyl; HP, hydroxypropyl; Ac, acetyl; CM, carboxymethyl; P, phosphate; Suc, succinyl; OSA, octenylsuccinyl.}\label{tab:fitcells}\\
 \toprule
 Fam. & Sub. & O & State & Groups & Units & Me & HE & HP & Ac & CM & P & Suc & OSA\\
 \midrule
@@ -385,20 +370,23 @@ at $+1$ but not O2$'$ or O3$'$ at $-1$, nor O6 at $+1$~\citep{Bock1987}. At subs
 of O6 (and of O3 in GH31) are needed for turnover; those of O2, made by fixed residues in both families, are
 not.
 
-\begin{sidewaystable}
-\centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.92}\scriptsize\setlength{\tabcolsep}{2pt}
-\caption{The map against experiment, cell by cell. State and holding residues (reference
-numbering: GH13 1AMY, GH31 2QMJ, GH14 1BYA, GH15 1AGM);
-open surface in \AA$^2$ for exposed cells. Prediction: fixed, not tolerated; exposed (free), tolerated;
-variable, depends on the enzyme; main chain and buried, none. P, phosphate; HE, hydroxyethyl; Me, methyl; Gal, $\beta$-galactosyl; GlcNAc,
-$\beta$-$N$-acetylglucosaminyl; PA, 6-deoxy-6-(2-pyridylamino). Ev.: FT, full text read;
-ABS, abstract. Agreement: 19 of 21
-cells with a prediction. Deoxy rows (OH removed) test whether the hydroxyl is needed and are not counted.}
-\label{tab:mapexp}
-\begin{tabular}{lllp{3.3cm}p{7.5cm}lp{4.2cm}}
+\begin{landscape}
+{\scriptsize\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.92}\setlength{\tabcolsep}{2pt}
+In the next table the reference numbering is GH13 1AMY, GH31 2QMJ, GH14 1BYA and GH15 1AGM. Prediction: fixed, not tolerated; exposed (free), tolerated; variable, depends on the enzyme; main chain and buried, none. Substituents: P, phosphate; HE, hydroxyethyl; Me, methyl; Gal, $\beta$-galactosyl; GlcNAc, $\beta$-$N$-acetylglucosaminyl; PA, 6-deoxy-6-(2-pyridylamino). The 19 of 21 agreeing cells are those with a prediction; deoxy rows (OH removed) test whether the hydroxyl is needed and are not counted.
+
+\begin{longtable}{lllp{3.3cm}p{6.8cm}lp{3.8cm}}
+\caption{The map against experiment, cell by cell: state, holding residues (reference numbering) and open surface (\AA$^2$) of exposed cells, with the result per substituent. Ev.: FT, full text; ABS, abstract. Agreement: 19 of 21 cells.}
+\label{tab:mapexp}\\
 \toprule
 Fam. & Sub. & O & Map state (holding residues) & Experiment (substituent, enzyme, result) & Agree & Reference (Ev.)\\
 \midrule
+\endfirsthead
+\toprule
+Fam. & Sub. & O & Map state (holding residues) & Experiment (substituent, enzyme, result) & Agree & Reference (Ev.)\\
+\midrule
+\endhead
+\bottomrule
+\endfoot
 GH13 & $-3$ & O3 & exposed (26) & 3-P tolerated: \emph{A.~oryzae} and a bacterial liquefying $\alpha$-amylase; 3-O-GlcNAc at $-3$/$-4$: porcine and human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{TakedaHizukuri1986,Kamasaka1997} (ABS)\\
 GH13 & $-3$ & O6 & exposed (22) & 6-P tolerated: porcine pancreatic, \emph{A.~oryzae}; 6-O-Gal at $-3$/$-4$: porcine, human pancreatic; 6-PA and 6-iodo-6-deoxy: human salivary and pancreatic; 4,6-O-benzylidene favourable: porcine, human salivary & yes & \citep{Takeda1987,Okada2000,Omichi1988} (FT), \citep{Takeda1983,Omichi1992,Kandra1997,Kandra2000} (ABS)\\
 GH13 & $-2$ & O3 & variable (Gln294 pos., Arg) & 3-P tolerated by \emph{B.~subtilis} and porcine; not by \emph{A.~oryzae}; 3-O-GlcNAc only in a very slow reaction: porcine, human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
@@ -437,9 +425,8 @@ GH15 & $-1$ & O2 & fixed (Arg305) & 2$'$-deoxy hydrolysed ($k_\mathrm{cat}/K_\ma
 GH15 & $-1$ & O3 & fixed (Arg54) & 3$'$-deoxy hydrolysed faster than the parent & dispensable & \citep{Bock1987,Bock1988} (FT)\\
 GH15 & $-1$ & O6 & fixed (Asp55) & 6$'$-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
 GH15 & $+1$ & O3 & fixed (Glu180, Arg305) & 3-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
-\bottomrule
-\end{tabular}
-\end{sidewaystable}
+\end{longtable}}
+\end{landscape}
 \clearpage
 
 \section{Statistical tests, engineered mutants and the two modal fractions}\label{sec:stats}
@@ -514,13 +501,11 @@ effect; in the ordinal model of $m$ in three levels the same three terms have $p
 behind both: at $-1$/$+1$, 11 of 14 H, 3 of 8 Ar and 0 of 4 Al positions have $m = 1$; at the outer subsites, 0 of 3
 H, 0 of 2 Ar and 1 of 4 Al (GH13 Thr207, two groups). With 35 positions the estimates are wide.
 
+In the next table the fixed seed is 20261124 and H$-$H compares H positions at $-1$/$+1$ with outer-only ones. The interval is the 2.5th--97.5th percentile of the H$-$Al difference over 2\,000 bootstrap resamples of sequence groups with positions fixed (see text); fam. and loc. mean labels permuted within family and within location.
+
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{2.5pt}
-\caption{Differences in mean $m$ by setting, all permutation tests rerun with 100\,000 permutations and one fixed seed
-(20261124). $n$: positions in the two classes compared (H$-$H: H positions at $-1$/$+1$ and outer-only). Interval:
-2.5th--97.5th percentiles of the H$-$Al difference over 2\,000 bootstrap resamples of sequence groups with positions
-fixed; not a confidence interval (see text); --, not computed. $p_1$, one-sided; $p_2$,
-two-sided; fam., labels permuted within family; loc., within location.}
+\caption{Differences in mean $m$ by setting, permutation tests rerun with 100\,000 permutations. $n$: positions in the two classes; interval: bootstrap range, not a confidence interval; $p_1$, one-sided; $p_2$, two-sided; --, not computed.}
 \label{tab:variants}
 \begin{tabular}{p{3.5cm}lrrrlllll}
 \toprule
@@ -552,12 +537,11 @@ H at $-1$/$+1$ vs outer-only, without catalytic & H$-$H & 9 & 3 & +0.33 & -- & 0
 \end{tabular}
 \end{table}
 
+In the next table the logistic model uses $m = 1$ (15 positions) and the ordinal model three levels of $m$ ($m < 0.6$, 12 positions; $0.6 \le m < 1$, 8; $m = 1$, 15); both were fitted with statsmodels 0.14.
+
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Models of the modal fraction $m$ on location, family and contact class (35 GH13 and GH31 positions with a
-class; Table~\ref{tab:positions}). Logistic: GLM binomial of $m = 1$ (15 positions). Ordinal: proportional-odds logit
-of $m$ in three levels ($m < 0.6$, 12 positions; $0.6 \le m < 1$, 8; $m = 1$, 15). statsmodels 0.14. OR, odds ratio
-with 95\% Wald interval.}
+\caption{Models of the modal fraction $m$ on location, family and contact class (35 GH13 and GH31 positions with a class; Table~\ref{tab:positions}). Logistic: binomial GLM of $m = 1$. Ordinal: proportional-odds logit. OR, odds ratio with 95\% Wald interval.}
 \label{tab:model}
 \begin{tabular}{llrrrlr}
 \toprule
@@ -647,12 +631,11 @@ units of three groups and which is variable over the two $\alpha$-amylase groups
 residue in one of them); the literature result at that cell (6-phosphate tolerated by two of three
 $\alpha$-amylases) is compatible with variable. Source: \texttt{data/analysis/44\_rule\_test/}\allowbreak\texttt{revision2/D\_alpha\_amylase\_map.tsv}.
 
+In the next table, held is the fraction of the $\alpha$-amylase groups in which a protein N/O lies within 3.5~\AA{} of the oxygen, and open the median open surface (\AA$^2$) of the oxygen over the $\alpha$-amylase entries.
+
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{GH13 cell states over all 29 sequence groups (our map) and over the 13 groups that contain an
-endo-$\alpha$-amylase. Groups, entries: numbers with a unit at the cell; held: fraction of the $\alpha$-amylase
-groups in which a protein N/O lies within 3.5~\AA{} of the oxygen; open: median open surface (\AA$^2$) of the oxygen
-over the $\alpha$-amylase entries.}
+\caption{GH13 cell states over all 29 sequence groups (our map) and over the 13 groups that contain an endo-$\alpha$-amylase. Groups, entries: numbers with a unit at the cell.}
 \label{tab:alpha}
 \begin{tabular}{llllrlrrr}
 \toprule
@@ -696,7 +679,7 @@ positions vary, and the \emph{Lactococcus} GH31\_15 enzyme, the \emph{Blautia} $
 $\alpha$-1,4-glucan lyase, which carry the Trp539$\to$Phe, Phe575$\to$His, Met444$\to$Trp and Ile364$\to$Asn changes.
 
 {\scriptsize\setlength{\tabcolsep}{2pt}
-\begin{longtable}{ll>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{2.0cm}r}
+\begin{longtable}{ll>{\raggedright\arraybackslash}p{1.4cm}>{\raggedright\arraybackslash}p{1.2cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.9cm}>{\raggedright\arraybackslash}p{2.0cm}r}
 \caption{The 50\% sequence groups. Group, family and number of the 50\% group (GH13\_b50\_$n$); 30\%, number of its 30\% group. The PDB codes of each group are in the data repository (Table~S14).}\label{tab:groups}\\
 \toprule
 Group & 30\% & Subfamily & EC & Protein & Organism & UniProt & Entries\\
@@ -728,11 +711,11 @@ GH13-17 & 2 & GH13\_6 & 3.2.1.1 & $\alpha$-amylase 1; $\alpha$-amylase 2 & \emph
 GH13-18 & 1 & GH13\_13 & 3.2.1.41 & pullulanase A & \emph{Klebsiella pneumoniae} & P07206 & 3\\
 GH13-19 & 2 & unassigned & 3.2.1.60 & maltotetraose-forming amylase & \emph{Roseateles saccharophilus; Stutzerimonas stutzeri} & P13507 P22963 & 3\\
 GH13-20 & 2 & GH13\_2 & 3.2.1.133 & maltogenic $\alpha$-amylase & \emph{Geobacillus stearothermophilus} & P19531 & 2\\
-GH13-21 & 2 & GH13\_20 & 3.2.1.54; 3.2.1.135 & cyclomaltodextrinase / neopullulanase & \emph{Geobacillus stearothermophilus} & P38940 & 1\\
+GH13-21 & 2 & GH13\_20 & 3.2.1.54; 3.2.1.135 & cyclo\-malto\-dextrinase / neo\-pullulanase & \emph{Geobacillus stearothermophilus} & P38940 & 1\\
 GH13-22 & 2 & GH13\_40 & 3.2.1.10 & oligo-$\alpha$-1,6-glucosidase / isomaltase & \emph{Saccharomyces cerevisiae} & P53051 & 1\\
 GH13-23 & 2 & -- & 3.2.1.20 & maltase & \emph{Blastobotrys adeninivorans} & PDB 7P01 PDB 7P07 & 2\\
 GH13-24 & 5 & -- & 3.2.1.1; 3.2.1.135 & $\alpha$-amylase / neopullulanase & \emph{Bacteroides ovatus} & PDB 8DL2 & 1\\
-GH13-25 & 2 & GH13\_20 & 3.2.1.54; 3.2.1.135 & cyclomaltodextrinase / neopullulanase & \emph{Thermoactinomyces vulgaris} & Q08751 & 1\\
+GH13-25 & 2 & GH13\_20 & 3.2.1.54; 3.2.1.135 & cyclo\-malto\-dextrinase / neo\-pullulanase & \emph{Thermoactinomyces vulgaris} & Q08751 & 1\\
 GH13-26 & 2 & GH13\_21 & 3.2.1.1 & $\alpha$-amylase I & \emph{Thermoactinomyces vulgaris} & Q60053 & 1\\
 GH13-27 & 2 & GH13\_7 & 3.2.1.1 & $\alpha$-amylase & \emph{Pyrococcus woesei} & Q7LYT7 & 1\\
 GH13-28 & 2 & GH13\_36 & 3.2.1.1; 3.2.1.135 & $\alpha$-amylase / neopullulanase & \emph{Bacteroides thetaiotaomicron} & Q8A1G3 & 1\\
@@ -755,6 +738,8 @@ region (CSR) of the TAKA residue. CSR I--IV are taken as TAKA-amylase 117--122, 
 292--297~\citep{MacGregor2001,Janecek2014}; the 7TAA sequence read from the database at these ranges is DVVANH,
 GLRIDTVKH, EVLD and FVENHD, the motifs of the four regions. The catalytic residues come out as TAKA Asp206, Glu230 and
 Asp297 and porcine Asp197, Glu233 and Asp300. Regions V--VII were not assigned. ``--'', no residue within 2.0~\AA.
+
+In the next table, ``--'' means no clan or no residue given by CAZy; ``(inf.)'' is inferred and ``(exp.)'' experimental, as CAZy marks them. Nu/base is the catalytic nucleophile (retaining) or general base (inverting); donor is the proton donor (general acid). Activities are CAZy activities of the family that break an $\alpha(1\!\to\!4)$ bond of an $\alpha$-glucan chain or an $\alpha(1\!\to\!6)$ branch on it, or a generic $\alpha$-glucosidase (EC 3.2.1.20, 3.2.1.10, marked $^\dagger$). Entries are counted over the database (GT35, starch and maltodextrin phosphorylases only). Analysis gives the entries and 50\% sequence groups of R and the entries of M, with reference residues in the numbering of 1AMY (GH13), 2QMJ (GH31), 1BYA (GH14) and 1AGM (GH15).
 
 \begin{table}[h]
 \centering\scriptsize
@@ -862,16 +847,9 @@ used in the analysis are in Table~\ref{tab:groups}.
 
 \begin{sidewaystable}
 \centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{1.0}\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{The 14 CAZy families of the database. Clan, fold, mechanism and catalytic residue types as stated on the
-CAZy family pages (``--'', no clan or no residue given by CAZy; ``(inf.)'', inferred, and ``(exp.)'', experimental, as
-CAZy marks them). Nu/base: catalytic nucleophile (retaining) or general base (inverting); donor: proton donor
-(general acid). Activities: CAZy activities of the family that break an $\alpha(1\!\to\!4)$ bond of an $\alpha$-glucan
-chain or an $\alpha(1\!\to\!6)$ branch on it, or a generic $\alpha$-glucosidase (EC 3.2.1.20, 3.2.1.10, marked
-$^\dagger$). Entries: PDB entries in the database (637 in all; GT35, starch and maltodextrin phosphorylases only).
-Analysis: R, residue conservation (entries, 50\% sequence groups); M, oxygen map (entries); reference residues in the
-numbering of 1AMY (GH13), 2QMJ (GH31), 1BYA (GH14) and 1AGM (GH15).}
+\caption{The 14 CAZy families of the database: clan, fold, mechanism, catalytic residues and activities as on the CAZy family pages. Entries: PDB entries (637 in all). Analysis: R, residue conservation; M, oxygen map.}
 \label{tab:cazy}
-\begin{tabular}{l l >{\raggedright\arraybackslash}p{1.4cm} >{\raggedright\arraybackslash}p{1.6cm} >{\raggedright\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}p{1.3cm} >{\raggedright\arraybackslash}p{5.4cm} r >{\raggedright\arraybackslash}p{3.3cm}}
+\begin{tabular}{l l >{\raggedright\arraybackslash}p{1.4cm} >{\raggedright\arraybackslash}p{2.0cm} >{\raggedright\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}p{1.3cm} >{\raggedright\arraybackslash}p{5.0cm} r >{\raggedright\arraybackslash}p{3.0cm}}
 \toprule
 Family & Clan & Fold & Mechanism & Nu/base & Donor & Starch-related activities (EC) & Entries & Analysis\\
 \midrule
@@ -909,13 +887,12 @@ transplanted into the 1AMY frame; transplants of an enzyme's own donor structure
 tolerance of each enzyme is read from the limit products of the digests, and with three enzymes the comparison is a
 consistency check, not a test.
 
+In the next table, tolerance is yes or no for each of \emph{B.\ subtilis} $\alpha$-amylase, PPA and TAKA-amylase, and ``Tracks?'' asks whether the pattern of tolerance follows the pattern of holders.
+
 \begin{table}[h]\centering\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Phosphate tolerance at subsites $-2$ and $+2$ against the residues that hold the hydroxyl oxygen in question,
-for three $\alpha$-amylases. Tolerance: yes or no for each of \emph{B.\ subtilis} $\alpha$-amylase, PPA and TAKA-amylase
-(? : no data). ``Tracks?'': whether the pattern of tolerance follows the pattern of holders. rel, relative
-solvent accessibility of the oxygen.}
+\caption{Phosphate tolerance at subsites $-2$ and $+2$ against the residues that hold the hydroxyl oxygen, for three $\alpha$-amylases (? : no data). rel, relative solvent accessibility of the oxygen.}
 \label{tab:rim}
-\begin{tabular}{>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{7.4cm}>{\raggedright\arraybackslash}p{1.8cm}}
+\begin{tabular}{>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{6.2cm}>{\raggedright\arraybackslash}p{1.5cm}}
 \toprule
 Contrast & Tolerance (\emph{B.\ sub} / PPA / TAKA) & Residues & Tracks?\\
 \midrule
@@ -944,10 +921,10 @@ Everything below is in the public repository\\ \url{https://github.com/In-Silico
 (folders \texttt{code/} and \texttt{data/}; the README gives the order in which to run them; code under the MIT
 licence, data under CC BY 4.0, see \texttt{LICENSE}).
 
-\begin{table}[h]\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{table}[h]\centering\scriptsize\setlength{\tabcolsep}{3pt}\renewcommand{\_}{\textunderscore\allowbreak{}}
 \caption{Script, result folder and result files behind each part of the main text and of this Supplementary
 material (paths relative to \texttt{code/} and \texttt{data/}).}
-\begin{tabular}{>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}p{5.2cm}}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}p{4.9cm}}
 \toprule
 Item & Script (\texttt{code/}) & Results (\texttt{data/}) \\
 \midrule
