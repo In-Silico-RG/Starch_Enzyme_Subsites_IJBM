@@ -22,8 +22,8 @@
 
 \begin{frontmatter}
 
-\title{What Fixes a Residue at the Catalytic Subsite of Starch-Degrading Glycoside
-Hydrolases Is the Kind of Contact It Makes with the Sugar}
+\title{Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a
+structural basis for processing functionalised starch}
 
 \author{Aldo F. Combariza\corref{cor1}}
 \ead{aldo.combariza@unisucre.edu.co}
@@ -36,24 +36,24 @@ Hydrolases Is the Kind of Contact It Makes with the Sugar}
   country={Colombia}}
 
 \begin{abstract}
-DRAFT ABSTRACT -- for AFC to rewrite. In 637 crystal and cryo-EM structures of 14
-starch-degrading glycoside hydrolase families, we followed every density-supported sugar
-unit bound at a known position along the chain and every protein residue in contact with
-it. Whether the residue at a contacted position is the same in every protein depends on
-the kind of contact it makes. Residues whose side chains hydrogen-bond the sugar are
-invariant (11 positions in GH13 and GH31, including the three-residue catalytic machinery
-of GH13, recovered without annotation); residues that stack an aromatic ring against it
-remain aromatic (4 positions); residues that pack against it with aliphatic side chains
-change between proteins (4 positions). Five of the six invariant residues at the GH13
-catalytic subsite have measured transition-state roles in mutagenesis and deoxy-substrate
-kinetics, where each subsite $-1$ hydroxyl contributes 16--24~kJ\,mol$^{-1}$ of
-transition-state stabilisation through such hydrogen bonds; aromatic contacts are weaker and
-tolerate substitution within their class. Conservation follows the energetic role of the
-contact. The same three kinds of residue line the catalytic subsite of GH15, whose fold is
-unrelated. The rule holds when each group of closely related
-proteins is given one vote and when complexes with transition-state-mimicking inhibitors
-are removed, and it is specific to the catalytic subsite: hydrogen-bonding residues at sugar
-sites away from the cleft keep their identity about half as often.
+Functionalised starches, carrying hydroxypropyl, acetyl, octenyl-succinyl or carboxymethyl
+groups on O2, O3 or O6 of their glucose units, are processed and analysed
+with amylolytic enzymes, but where in the enzyme a substituted glucose unit can sit is not
+known in general. We assembled 637 Protein Data Bank entries of 14 starch-active CAZy
+families, assigned every density-supported sugar unit to its subsite, and classified every
+residue within 4.0~\AA{} of it by kind of contact: side-chain hydrogen bond, aromatic or
+aliphatic. In GH13 and GH31, all 36 positions contacted in at least 20\% of
+the entries at subsites $-3$ to $+3$ were taken without post-hoc selection, residue
+identity was counted once per group of proteins sharing 50\% sequence identity, and
+conservation was measured as the fraction $m$ of groups with the commonest residue.
+Of the 13 hydrogen-bonding positions at subsites $-1$ and $+1$, 11 carry one residue type
+in every lineage ($m = 1$). Aromatic positions keep an aromatic ring more often than their
+identity. Aliphatic positions, and positions of every kind at the outer subsites, vary
+between lineages. Hydrogen-bonding positions are more conserved than aliphatic ones by 0.33
+(permutation test, $p = 0.003$), robust to how the class is assigned, to held-out proteins
+and to the hydrogen-bond definition. This structural result implies that a substituent on a
+glucose oxygen held by the fixed residues at subsites $-1$ and $+1$ blocks cleavage, while
+outer subsites and aliphatic contacts can tolerate substituents and can be engineered. \pend{hydroxyl map}
 \end{abstract}
 
 %% Graphical abstract: Elsevier specification 1328 x 531 px minimum (5:2, w x h), 300 dpi,
@@ -66,8 +66,8 @@ author; 1328\,$\times$\,531 px minimum, 300 dpi}}}
 %% Highlights are in ijbm_highlights.tex (uploaded as a separate Word file).
 
 \begin{keyword}
-\pend{keyword 1} \sep \pend{keyword 2} \sep \pend{keyword 3} \sep \pend{keyword 4}
-\sep \pend{keyword 5} \sep \pend{keyword 6}
+Starch-degrading enzymes \sep Glycoside hydrolase \sep Subsite \sep Functionalised starch
+\sep Protein--carbohydrate interaction \sep Residue conservation \sep Protein Data Bank
 \end{keyword}
 
 \end{frontmatter}
@@ -77,7 +77,19 @@ author; 1328\,$\times$\,531 px minimum, 300 dpi}}}
 
 \section{Introduction}
 
-Starch is the plant's storage carbohydrate: two glucose polymers, amylose (mostly
+Starch is modified chemically for engineering uses: hydroxyl groups at O2, O3 and O6 of its
+glucose units are etherified or esterified with hydroxypropyl, carboxymethyl, acetyl or
+octenyl-succinyl groups, which change its solubility, paste behaviour and emulsifying
+capacity~\citep{Masina2017,Chen2015,Altuna2018}. Amylolytic enzymes act on these products,
+and enzymatic digestion followed by analysis of the released fragments is a standard route
+to where the substituents lie along the chain~\citep{Richardson2003,Mischnick2010,Zhao2012}.
+A substituent changes what an enzyme releases: pancreatic $\alpha$-amylase gives different
+hydrolysis products from modified and unmodified tapioca starch~\citep{Conway1976}. The
+extent of hydrolysis and the product profile therefore depend on which substituted glucose
+units an enzyme accepts at each of its subsites, and through which oxygen. This has been
+measured for particular enzymes and substituents, not in general.
+
+Native starch is the plant's storage carbohydrate: two glucose polymers, amylose (mostly
 linear, $\alpha(1\!\to\!4)$-linked glucose) and amylopectin (the same linkage, with
 $\alpha(1\!\to\!6)$ branch points). The enzymes that break it down are sorted by CAZy~\citep{Drula2022}
 into families by sequence similarity, not by function: the same job, cutting an
@@ -101,8 +113,10 @@ around the bound sugar have mostly been made one structure, or a few, at a time.
 structures of a family, which ones change, and what decides the difference, has not been
 asked at the scale of hundreds of structures.
 
-We built an experimental database of 637 PDB entries covering 14 starch-active CAZy
-families, superposed every structure of each family on one reference, and recorded, for
+The question asked here is the one a design map for processing functionalised starch
+needs: at each subsite of the starch-degrading enzymes, which contacts with the sugar are
+fixed across lineages, and which vary. To answer it, we built an experimental database of
+637 PDB entries covering 14 starch-active CAZy families, superposed every structure of each family on one reference, and recorded, for
 every bound sugar unit, its position along the chain, the protein residues within
 4.0~\AA{} of it, and the kind of contact each residue makes. Figure~\ref{fig:bond} shows
 the bond that all of these enzymes cut: the single bridging oxygen between carbon~1 of one glucose
@@ -136,28 +150,45 @@ failed to fit the family core at all and were found, on inspection, to be cresce
 filaments -- a bacterial cytoskeletal protein unrelated to any carbohydrate-active
 enzyme -- wrongly filed under this family; they were removed, leaving 637 entries.
 
-\subsection{Position along the chain}
+\subsection{Position along the chain}\label{sec:position}
 For the five families whose frame carries an
 identified catalytic pair (GH13, GH14, GH15, GH31, GH57), every bound sugar unit was
 assigned a subsite: the unit nearest the midpoint of the two catalytic carboxylates,
 within 4.5~\AA, is subsite $-1$; the rest follow the deposited glycosidic bonds outward.
 Every protein residue within 4.0~\AA{} of a unit was named by its position in the
 family's reference frame rather than by its author number, so that the same position can
-be compared across different proteins. A position is conserved at a subsite when it is
-contacted in at least 80\% of the entries with a unit there.
+be compared across different proteins. Two properties of a position are kept apart in what
+follows: how often it touches the sugar (it is \emph{contacted}) and whether different
+proteins carry the same residue type there (it is \emph{conserved}, and \emph{fixed} when
+every lineage carries the same residue). For GH13 and GH31
+(Section~\ref{sec:rule}), the positions analysed are all reference positions contacted
+(4.0~\AA) in at least 20\% of the entries with a sugar unit at any subsite from $-3$ to
+$+3$, taken before their residues were examined. Residue identity at each position is read
+for every chain from the superposition (C$\alpha$ within 2.0~\AA{} of the reference
+C$\alpha$) and counted once per group of proteins sharing at least 50\% sequence identity;
+conservation is the modal fraction $m$ of these group votes (eq~\ref{eq:modal}). Engineered
+mutants, identified from the \texttt{\_struct\_ref\_seq\_dif} records of each entry, are
+removed at the mutated position. Sections~\ref{sec:inhib}--\ref{sec:folds} use an earlier,
+stricter selection, positions contacted in at least 80\% of the entries with a unit at a
+given subsite, with residues counted per entry; each place where this criterion is used
+says so.
 
 \subsection{Kind of contact}
-For each conserved position and each entry, the residue and
+For each contacted position and each entry, the residue and
 the sugar unit were read from the deposited coordinates (model 1, first alternate
 conformation). The contact is a side-chain hydrogen bond when a side-chain nitrogen or
 oxygen lies within 3.5~\AA{} of a sugar oxygen or nitrogen; a backbone hydrogen bond when
 only a main-chain N or O does; apolar otherwise. An apolar contact is aromatic or
-aliphatic by the residue that makes it. The one assumption is that a 3.5~\AA{} N/O--N/O
-distance stands for a hydrogen bond; no angle is tested.
+aliphatic by the residue that makes it. The class of a position is the kind of contact it
+makes in most sequence groups. The one assumption is that a 3.5~\AA{} N/O--N/O distance
+stands for a hydrogen bond; no angle is tested in the main count, and no hydrogens are
+placed. The sensitivity of the result to this definition (cut-offs of 3.2 and 4.0~\AA, and
+3.5~\AA{} with both heavy-atom angles at least 90$^\circ$) is reported in
+Section~\ref{sec:rule}.
 
 \section{Results and discussion}
 
-\subsection{Which contact positions keep their residue across lineages}
+\subsection{Which contact positions keep their residue across lineages}\label{sec:rule}
 
 \paragraph{Positions and counting} To avoid choosing positions after seeing their residues,
 every reference position contacted (4.0~\AA) in at least 20\% of the entries with a sugar
@@ -314,7 +345,7 @@ family.
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{fig2_contact_classes.png}
-\caption{The conserved positions of subsites $-1$ and $+1$ coloured by the kind of contact
+\caption{The positions contacted at subsites $-1$ and $+1$ (Table~\ref{tab:rule}) coloured by the kind of contact
 they make with the sugar. (a) GH13, PDB 6SAO (1.20~\AA); (b) GH31, PDB 3WEO (1.45~\AA).
 Labels are reference positions (GH13: 1AMY; GH31: 2QMJ); where the residue in the entry
 differs from the reference, it is given first and the reference position in parentheses. The Gln at the His288 position in 6SAO is the one natural exception at that position.
@@ -324,7 +355,8 @@ green.}
 \label{fig:classes}
 \end{figure}
 
-\subsection{The rule is not carried by inhibitors or by repeated proteins}
+\subsection{The rule is not carried by inhibitors or by repeated proteins}\label{sec:inhib}
+This section and the next two use the 80\% selection of Section~\ref{sec:position}, counted per entry.
 Many units at
 $-1$ belong to acarbose-type inhibitors, which mimic the transition state rather than the
 substrate. In GH13, the 24 entries whose labelled units are glucose only contact the six
@@ -341,7 +373,7 @@ group, Phe575 exactly at the 0.80 threshold.
 \subsection{The rule is specific to the catalytic subsite}
 Sugars also bind GH13 proteins
 away from the catalytic cleft: 296 density-supported units lie more than 12~\AA{} from the
-catalytic carboxylates and touch no position of the subsite tables. These sites are mostly
+catalytic carboxylates and touch no position contacted at the subsites. These sites are mostly
 particular to one protein; only 32 reference positions are contacted in at least four entries
 from at least two proteins. Of the 15 whose side chains hydrogen-bond the sugar, all proteins
 carry the same residue type at 7 (one vote per protein, 2--5 proteins per position). The
@@ -352,13 +384,13 @@ does so elsewhere on the same proteins (aromatic positions away from the cleft: 
 aliphatic: 3 of 7). Invariance is therefore not a property of binding a sugar as such; the
 contrast is what a role in the transition state would produce.
 
-\subsection{Families of other folds}
+\subsection{Families of other folds}\label{sec:folds}
 GH13 and GH31 belong to different CAZy clans, GH-H and
 GH-D, because their catalytic machinery differs, but a remote common ancestry of their
 $(\beta/\alpha)_8$ barrels has been proposed~\citep{Janecek2007,Rigden2002}; they cannot show
 whether the rule arose more than once. GH14 ($\beta$-amylase, an inverting enzyme in no
 clan) and GH15 (glucoamylase, an inverting $(\alpha/\alpha)_6$ fold) can, within the limits
-of their data. In GH14 the side-chain hydrogen-bonders at $-1$ and $-2$ (Asp53, His93,
+of their data. Counted per entry (80\% selection), in GH14 the side-chain hydrogen-bonders at $-1$ and $-2$ (Asp53, His93,
 Arg420, the base Glu380, Lys295, the acid Glu186) and the aromatic Trp55 are invariant over
 the 14--16 entries that contact them (Glu186 is contacted in 14 and hydrogen-bonds the sugar
 in 10); the contacts at $-2$, the second ring of the two-glucose product, are made by
@@ -376,7 +408,7 @@ tested there.
 
 \subsection{Further observations at the same site}
 Three observations from the same
-structures and one calculation are given in the Supporting Information: the ring at
+structures and one calculation are given in the Supplementary material: the ring at
 subsite $-1$ is distorted from the chair more often than at other subsites (Section~S1);
 conserved water sites sit at the catalytic carboxylates of four families (Section~S2);
 the computed pK$_\mathrm{a}$ of the catalytic residues differs between chains with and
@@ -430,7 +462,7 @@ would confirm the rule or break it.
 \subsection{What this does not show}
 The fractions are properties of the deposited
 structures, not binding affinities or populations in solution. Hydrogen bonds are assigned
-by distance alone, and aromatic stacking by residue type, not by ring geometry. The test
+from heavy-atom distances (and, in one test, heavy-atom angles), with no hydrogens placed, and aromatic stacking by residue type, not by ring geometry. The test
 rests on 36 positions in GH13 and GH31 (Table~\ref{tab:rule}); GH14 and GH15 confirm the composition of the
 site but not the variability of its aliphatic residues; GH57 (one protein) was not used.
 

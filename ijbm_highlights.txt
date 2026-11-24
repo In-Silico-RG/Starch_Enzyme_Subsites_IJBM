@@ -1,6 +1,8 @@
+Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a structural basis for processing functionalised starch
+
 Highlights
-- [PENDIENTE: highlight 1, max. 85 characters including spaces]
-- [PENDIENTE: highlight 2, max. 85 characters including spaces]
-- [PENDIENTE: highlight 3, max. 85 characters including spaces]
-- [PENDIENTE: highlight 4 (optional)]
-- [PENDIENTE: highlight 5 (optional)]
+- Census of 637 PDB entries of 14 starch-active families maps sugar contacts by subsite
+- 11 of 13 side-chain hydrogen-bonders at subsites -1/+1 are fixed in every lineage
+- Aromatic residues keep an aromatic ring; aliphatic residues change between lineages
+- Residues of every kind at the outer subsites vary between lineages
+- Hydrogen-bonding positions exceed aliphatic ones in conservation by 0.33 (p = 0.003)

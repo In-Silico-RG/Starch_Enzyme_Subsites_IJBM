@@ -1,4 +1,5 @@
 """Build manuscript_ijbm/ijbm_main.tex and carbpol_SI.tex from manuscript_short sources.
+# WARNING (2026-11-24): obsolete. Regenerates ijbm_main.tex from manuscript_short/ and would erase all later edits. Do not run.
 Body text is copied line-for-line; only markup changes (\\cite->\\citep, \\paragraph->\\subsection,
 achemso front matter -> elsarticle front matter)."""
 import re, sys
