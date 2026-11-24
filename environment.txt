@@ -1,0 +1,39 @@
+# Software used for the results of this package (versions read from the environments that ran them, 2026-11-24)
+
+## Python environment 1 (all analysis, database, figure scripts; PROPKA on the workstation)
+python      3.13.0   (miniconda3 base)
+gemmi       0.7.5
+numpy       2.3.3
+pandas      2.3.1
+scipy       1.16.2
+networkx    3.5
+biopython   1.88     (Bio.Align, BLOSUM62)
+rdkit       2025.03.5
+matplotlib  3.10.6
+pillow      11.3.0   (PIL; figure size check in fig2_v2_layouts.py)
+propka      3.5.1    (code/calc/c01_propka.py; also run on the cluster in a Python 3.9 venv with gemmi 0.7.5)
+# Standard library only otherwise (sqlite3, csv, json, urllib, multiprocessing, ...).
+# Install, e.g.:  pip install gemmi==0.7.5 numpy==2.3.3 pandas==2.3.1 scipy==1.16.2 networkx==3.5 biopython==1.88 \
+#                  rdkit==2025.3.5 matplotlib==3.10.6 pillow==11.3.0 propka==3.5.1
+
+## Python environment 2 (secondary chemistry env of the workstation)
+python      3.12.14
+rdkit       2026.03.6
+numpy       2.5.3
+pandas      3.0.6
+matplotlib  3.11.2
+# Listed for completeness. No script of this package requires it: it has no gemmi, Bio or networkx, so the
+# analysis and figure scripts run with environment 1.
+
+## Molecular graphics (renderers called by code/figures via subprocess)
+PyMOL open-source  2.5.0     (pymol -cq; Ubuntu package pymol 2.5.0+dfsg)
+UCSF ChimeraX      1.11.1    (chimerax --offscreen --nogui; 2026-01-23 build, Ubuntu 24.04 package)
+
+## MM/GBSA (code/calc/c09_series.py, run on the GUANE cluster of SC3-UIS)
+AmberTools 26  (conda-forge): tleap, antechamber (AM1-BCC, GAFF2), parmchk2, sander, MMPBSA.py; ff14SB
+AmberTools 24  reduce (protonation input; reduce_out.pdb supplied in data/calc/09_mmgbsa/series/<PDB>_<COMP>/)
+propka 3.5.1   (protonation states of the complexes)
+# Set AMBER_ENV to the AmberTools prefix before running c09_series.py.
+
+## Other tools
+curl (code/download_mmcif.sh); pdflatex + bibtex (TeX Live; elsarticle class) for manuscript/.

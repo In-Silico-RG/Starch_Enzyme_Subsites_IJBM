@@ -1,0 +1,86 @@
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:600: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  desc = pol.groupby(['pdb', 'instance_id', 'ring', 'label']).apply(partner_summary).rename('polar_partners')
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:624: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  fl = pol.groupby(['pdb', 'instance_id', 'ring', 'label']).apply(inv_flags)
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:627: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  A[c] = A[c].fillna(False).astype(bool)
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:627: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  A[c] = A[c].fillna(False).astype(bool)
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:627: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  A[c] = A[c].fillna(False).astype(bool)
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:627: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  A[c] = A[c].fillna(False).astype(bool)
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:750: FutureWarning: Logical ops (and, or, xor) between Pandas objects and dtype-less sequences (e.g. list, tuple) are deprecated and will raise in a future version. Wrap the object in a Series, Index, or np.array before operating instead.
+  Psub = PT[[k in keys for k in zip(PT.pdb, PT.instance_id, PT.ring)] & PT.label.isin(CARB)]
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:750: FutureWarning: Logical ops (and, or, xor) between Pandas objects and dtype-less sequences (e.g. list, tuple) are deprecated and will raise in a future version. Wrap the object in a Series, Index, or np.array before operating instead.
+  Psub = PT[[k in keys for k in zip(PT.pdb, PT.instance_id, PT.ring)] & PT.label.isin(CARB)]
+<PROJECT_ROOT>/scripts/analysis/a45_hydroxyl_map.py:750: FutureWarning: Logical ops (and, or, xor) between Pandas objects and dtype-less sequences (e.g. list, tuple) are deprecated and will raise in a future version. Wrap the object in a Series, Index, or np.array before operating instead.
+  Psub = PT[[k in keys for k in zip(PT.pdb, PT.instance_id, PT.ring)] & PT.label.isin(CARB)]
+units 454 entries 118 | without RSCC >= 0.80: 168
+GLC reference chirality signs {2: -1, 3: 1, 4: -1, 5: 1} from [(((2, -1), (3, 1), (4, -1), (5, 1)), 216), (((2, -1), (3, 1), (4, -1)), 1)]
+50% clusters per family (bound entries) {'GH13': 29, 'GH14': 2, 'GH15': 2, 'GH31': 6} NMIN {'GH13': 3, 'GH31': 3, 'GH14': 2, 'GH15': 2}
+   family   comp          kind                                     kind_note  n_units
+0    GH13    7SA           Glc                                                      3
+1    GH13    7SA  Glc-modified                               missing O6 O4=N        2
+2    GH13    7SA         carba  all-carbon ring (cyclitol, e.g. valienamine)        1
+3    GH13  A1EAX         carba  all-carbon ring (cyclitol, e.g. valienamine)        1
+4    GH13    AAO           Glc                                                      2
+5    GH13    AAO  Glc-modified                               missing O6 O4=N        2
+6    GH13    AAO         carba  all-carbon ring (cyclitol, e.g. valienamine)        1
+7    GH13    ABC           Glc                                                      1
+8    GH13    ABC  Glc-modified                                    missing O6        1
+9    GH13    ABC         carba  all-carbon ring (cyclitol, e.g. valienamine)        1
+10   GH13    AC1  Glc-modified                               missing O6 O4=N       25
+11   GH13    AC1         carba  all-carbon ring (cyclitol, e.g. valienamine)       20
+12   GH13    ACI         carba  all-carbon ring (cyclitol, e.g. valienamine)        7
+13   GH13    AGL  Glc-modified                               missing O6 O4=N       10
+14   GH13    ARE           Glc                                                     12
+15   GH13    ARE  Glc-modified                               missing O6 O4=N        4
+16   GH13    ARE         carba  all-carbon ring (cyclitol, e.g. valienamine)        4
+17   GH13    BGC           Glc                                                     17
+18   GH13    DAF  Glc-modified                               missing O6 O4=N        6
+19   GH13    DAF         carba  all-carbon ring (cyclitol, e.g. valienamine)        5
+20   GH13    G6D  Glc-modified                               missing O6 O4=N        8
+21   GH13    GLC           Glc                                                    144
+22   GH13    GLD  Glc-modified                               missing O6 O4=N        5
+23   GH13    HMC         carba  all-carbon ring (cyclitol, e.g. valienamine)        7
+24   GH13    HSD         carba  all-carbon ring (cyclitol, e.g. valienamine)        2
+25   GH13    NOJ         imino                           ring N (iminosugar)        3
+26   GH13    RY7  Glc-modified                               missing O6 O4=N        4
+27   GH13    SGD  Glc-modified                                          O6=S        1
+28   GH14    BGC           Glc                                                      7
+29   GH14    GLC           Glc                                                     33
+30   GH14    NOJ         imino                           ring N (iminosugar)        2
+31   GH14    TUP  Glc-modified                                          O3=F        1
+32   GH15    AC1  Glc-modified                               missing O6 O4=N        4
+33   GH15    AC1         carba  all-carbon ring (cyclitol, e.g. valienamine)        4
+34   GH15    GLC           Glc                                                     10
+35   GH15    RY7  Glc-modified                               missing O6 O4=N        1
+36   GH15    RY7         carba  all-carbon ring (cyclitol, e.g. valienamine)        1
+37   GH31    5GF  Glc-modified                                       extra F        3
+38   GH31    AC1  Glc-modified                               missing O6 O4=N       16
+39   GH31    AC1         carba  all-carbon ring (cyclitol, e.g. valienamine)       16
+40   GH31    BGC           Glc                                                      7
+41   GH31    GLC           Glc                                                     30
+42   GH31    NOJ         imino                           ring N (iminosugar)        5
+analysed units 439 entries 114 | excluded 15
+done
+   family   pdb comp lig_chain  lig_seq ring_c1 frame_chain_used nearest_subsite  d_to_subsite_C1_mean_A carbon substituted_atom  n_substituent_atoms                                substituent_atoms                                             substituent_protein_residues_4A
+0    GH13  1U33  LM2         A      500     CD1                A              -3                    1.26    CD4              OD4                    1                                              CD7                                                                      THR163
+1    GH13  1U33  LM2         A      500     CB1                A              -2                    0.51    CB1              OA4                   12  CA1 CA2 CA3 CA4 CA5 CA6 NA1 NA5 OA2 OA3 OA6 OA7  ALA198 ARG195 ASP197 ASP300 GLU233 HIS101 HIS299 LEU162 LEU165 TRP58 TYR62
+2    GH13  5E0F  5J7         A      501     C29                A              +1                    5.02    C29              O28                   22  C01 C02 C05 C08 C11 C12 C13 C15 C16 C17 C20 C21        ASP197 HIS101 HIS201 ILE235 LEU162 LEU165 LYS200 THR163 TYR151 TYR62
+3    GH13  5E0F  5J7         A      501     C41                A              -3                    4.65    C53              O54                   12  C55 C57 C58 C59 C60 C61 C64 C67 C68 O56 O62 O65                 ARG195 ASP197 ASP300 GLU233 HIS299 HIS305 TRP58 TRP59 TYR62
+4    GH13  3IJ7  B8D         B        3      C1                A              -3                    1.42     C4               O4                    1                                              CJ7                                                                      THR163
+5    GH13  3IJ7  B8D         C        2      C1                A              -2                   29.72     C4               O4                    1                                              CJ7                                                                      ASP375
+6    GH13  1JFH  MA3         B        1      C1                A              -2                    1.24     C1               O1                    1                                               C7                                                                            
+7    GH13  1JFH  MA2         B        2      C1                A              -3                    2.09     C4               S4                    1                                               C7                                                                      VAL163
+8    GH13  1P6W  GTM         B        1      C1                A              +3                   32.69     C1               O1                    1                                               C7                                                                            
+9    GH14  1J11  EPG         A      601      C1                A              -2                    0.35     C1               O1                    4                                      C7 C8 C9 O8                                                 ALA170 GLU172 GLU367 LYS287
+10   GH14  1J11  EPG         B      601      C1                B              -2                    0.24     C1               O1                    4                                      C7 C8 C9 O8                                          ALA170 GLU172 GLU367 LEU396 LYS287
+11   GH14  1J11  EPG         C      601      C1                C              -2                    0.29     C1               O1                    4                                      C7 C8 C9 O8                                                 ALA170 GLU172 GLU367 LYS287
+12   GH14  1J11  EPG         D      601      C1                D              -2                    0.42     C1               O1                    4                                      C7 C8 C9 O8                                          ALA170 GLU172 GLU367 LEU396 LYS287
+13   GH14  1J12  EBG         A      601      C1                A              -2                    0.21     C1               O1                    5                                  C10 C7 C8 C9 O9                                          ALA170 GLU172 GLU367 LEU396 LYS287
+14   GH14  1J12  EBG         B      601      C1                B              -2                    0.42     C1               O1                    5                                  C10 C7 C8 C9 O9                                          ALA170 GLU172 GLU367 LEU396 THR330
+15   GH14  1J12  EBG         C      601      C1                C              -2                    0.46     C1               O1                    5                                  C10 C7 C8 C9 O9                                          ALA170 GLU172 GLU367 LEU396 THR330
+16   GH14  1J12  EBG         D      601      C1                D              -2                    0.39     C1               O1                    5                                  C10 C7 C8 C9 O9                                                 ALA170 GLU172 GLU367 LEU396
+17   GH14  2XGB  EPG         A     1500      C1                A              -2                    0.40     C1               O1                    4                                      C7 C8 C9 O8                                                        ALA182 GLU184 LYS293

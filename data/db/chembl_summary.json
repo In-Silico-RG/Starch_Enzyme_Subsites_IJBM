@@ -1,0 +1,203 @@
+{
+ "source": "ChEMBL REST API, queried 2026-11-23",
+ "uniprot_accessions": 159,
+ "targets_by_type": [
+  [
+   "PROTEIN FAMILY",
+   2
+  ],
+  [
+   "SINGLE PROTEIN",
+   17
+  ]
+ ],
+ "activities": 1343,
+ "molecules": 940,
+ "activities_by_assay_type": [
+  [
+   "B",
+   1323
+  ],
+  [
+   "F",
+   20
+  ]
+ ],
+ "activities_by_type": [
+  [
+   "IC50",
+   1162
+  ],
+  [
+   "Ki",
+   160
+  ],
+  [
+   "EC50",
+   16
+  ],
+  [
+   "Kd",
+   5
+  ]
+ ],
+ "with_pchembl": 828,
+ "top_targets": [
+  [
+   "CHEMBL2074",
+   "Maltase-glucoamylase",
+   "Homo sapiens",
+   482
+  ],
+  [
+   "CHEMBL2608",
+   "Lysosomal alpha-glucosidase",
+   "Homo sapiens",
+   298
+  ],
+  [
+   "CHEMBL5848",
+   "Oligo-1,6-glucosidase IMA1",
+   "Saccharomyces cerevisiae S288c",
+   160
+  ],
+  [
+   "CHEMBL5730",
+   "Pancreatic alpha-amylase",
+   "Sus scrofa",
+   98
+  ],
+  [
+   "CHEMBL2748",
+   "Sucrase-isomaltase, intestinal",
+   "Homo sapiens",
+   81
+  ],
+  [
+   "CHEMBL2519",
+   "Neutral alpha-glucosidase AB",
+   "Homo sapiens",
+   71
+  ],
+  [
+   "CHEMBL2478",
+   "Alpha-amylase 1A",
+   "Homo sapiens",
+   60
+  ],
+  [
+   "CHEMBL2045",
+   "Pancreatic alpha-amylase",
+   "Homo sapiens",
+   47
+  ],
+  [
+   "CHEMBL5272",
+   "Glycogen debranching enzyme",
+   "Homo sapiens",
+   24
+  ],
+  [
+   "CHEMBL4371",
+   "Beta-amylase",
+   "Hordeum vulgare",
+   8
+  ],
+  [
+   "CHEMBL4215",
+   "Alpha-amylase",
+   "Bacillus licheniformis",
+   8
+  ],
+  [
+   "CHEMBL3745",
+   "Glucoamylase",
+   "Aspergillus niger",
+   2
+  ],
+  [
+   "CHEMBL5242",
+   "Glucosidase 2 subunit beta",
+   "Homo sapiens",
+   1
+  ],
+  [
+   "CHEMBL3739249",
+   "Alpha-amylase",
+   "Bacillus subtilis (strain 168)",
+   1
+  ],
+  [
+   "CHEMBL3616349",
+   "Alpha-amylase type A isozyme",
+   "Hordeum vulgare",
+   1
+  ],
+  [
+   "CHEMBL3580521",
+   "Alpha-amylase",
+   "Tenebrio molitor",
+   1
+  ]
+ ],
+ "pdb_ligands_in_chembl": [
+  [
+   "A1IO7",
+   "(2~{R},3~{R},4~{R},5~{S})-2-(hydroxymethyl)-2-pentyl-piperidine-3,4,5-triol",
+   "CHEMBL5029066"
+  ],
+  [
+   "A1IPC",
+   "(2~{S},3~{S},4~{S},5~{S})-2-heptyl-5-(hydroxymethyl)pyrrolidine-3,4-diol",
+   "CHEMBL1641743"
+  ],
+  [
+   "A1L2I",
+   "Acarviosin",
+   "CHEMBL2051980"
+  ],
+  [
+   "ACI",
+   "6-AMINO-4-HYDROXYMETHYL-CYCLOHEX-4-ENE-1,2,3-TRIOL",
+   "CHEMBL1230806"
+  ],
+  [
+   "GOX",
+   "(2S,3S,4R,5R)-6-(HYDROXYAMINO)-2-(HYDROXYMETHYL)-2,3,4,5-TETRAHYDROPYRIDINE-3,4,5-TRIOL",
+   "CHEMBL1213470"
+  ],
+  [
+   "LAG",
+   "MALTOSYL-ALPHA (1,4)-(Z,3S,4S,5R,6R)-3,4,5-TRIHYDROXY-6-HYDROXYMETHYL-PIPERIDIN-2-ONE OXIME",
+   "CHEMBL1233953"
+  ],
+  [
+   "LM2",
+   "4'-O-METHYL-MALTOSYL-ALPHA (1,4)-(Z, 3S,4S,5R,6R)-3,4,5-TRIHYDROXY-6-HYDROXYMETHYL-PIPERIDIN-2-ONE",
+   "CHEMBL1234040"
+  ],
+  [
+   "MIG",
+   "(2R,3R,4R,5S)-1-(2-hydroxyethyl)-2-(hydroxymethyl)piperidine-3,4,5-triol",
+   "CHEMBL1561"
+  ],
+  [
+   "MYC",
+   "3,5,7-TRIHYDROXY-2-(3,4,5-TRIHYDROXYPHENYL)-4H-CHROMEN-4-ONE",
+   "CHEMBL164"
+  ],
+  [
+   "NOJ",
+   "1-DEOXYNOJIRIMYCIN",
+   "CHEMBL307429"
+  ],
+  [
+   "VOG",
+   "(1S,2S,3R,4S,5S)-5-[(1,3-dihydroxypropan-2-yl)amino]-1-(hydroxymethyl)cyclohexane-1,2,3,4-tetrol",
+   "CHEMBL476960"
+  ]
+ ],
+ "failed_requests": [
+  "/chembl/api/data/target.json?target_components__accession=A0A287A042&limit=100"
+ ]
+}

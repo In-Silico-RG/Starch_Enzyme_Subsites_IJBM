@@ -1,0 +1,20 @@
+position	subsites	catalytic	alpha-xylosidase	alpha-xylosidase kind	GH31 (B. obeum, 3PHA)	GH31 (B. obeum, 3PHA) kind	alpha-glucosidase (sugar beet)	alpha-glucosidase (sugar beet) kind	alpha-glucosidase (human MGAM-C)	alpha-glucosidase (human MGAM-C) kind	alpha-glucosidase (human GAA)	alpha-glucosidase (human GAA) kind	alpha-1,4-glucan lyase	alpha-1,4-glucan lyase kind	varies_within_alpha_glucosidases
+A576	+2,+3	False	n/a		G		A5		F	Ar:1	L	Al:1	T	Al:1	True
+D203	+1	False	n/a		D	H:1	D5	H:5	D	H:1	D	H:1	D	H:1	False
+D327	-1	False	D3	H:3	D	H:1	D5	H:5	D	H:1	D4	H:4	D4	H:4	False
+D443	-1	True	D3	H:3	D	H:1	D5	Al:5	D	Al:1	D4	H:3 Al:1	D4	H:4	False
+D542	+1,+2,-1	True	A*2 D	H:1	D	H:1	D5	H:5	D	H:1	D4	H:4	D4	H:4	False
+F575	+1,+2,-1	False	H3	Ar:3	F	Ar:1	F5	Ar:5	F	Ar:1	F4	Ar:4	F4	Ar:4	False
+H600	-1	False	H3	H:3	H	H:1	H5	H:5	H	H:1	H4	H:4	H4	H:4	False
+I328	-1	False	M3	Al:3	I	Al:1	I5	Al:5	I	Al:1	L4	Al:4	V4	Al:3	True
+I364	-1	False	N3	Al:1 H:2	I	Al:1	I5	Al:3	I	Al:1	I4	Al:4	N4	H:3 Al:1	False
+M444	+1,-1	False	W3		M	Al:1	M5	Al:5	M	Al:1	M4	Al:4	M4	Al:4	False
+N207	+3	False	n/a		H		N5	H:5	-		-		-		True
+R526	+1,-1	False	-3		R	H:1	R5	H:5	R	H:1	R4	H:4	R4	H:4	False
+T204	+3	False	n/a		D		I5	Al:5	Q		L		N		True
+T205	+2,+3	False	n/a		-		A5	Al:5	P	Al:1	A		-		True
+T544	+3	False	n/a		K	H:1	A5		T	Al:1	W	Ar:1	S		True
+W406	+1,-1	False	W3	Ar:3	W	Ar:1	W5	Ar:5	W	Ar:1	W4	Ar:1	-4		False
+W441	-1	False	W3	Ar:3	W	Ar:1	W5	Ar:5	W	Ar:1	W4	Ar:4	W4	Ar:4	False
+W539	-1	False	F3	Ar:3	W	Ar:1	W5	Ar:5	W	Ar:1	W4	Ar:4	W4	Ar:4	False
+Y299	+1,-1	False	Y3	Ar:3	Y*		W5	Ar:5	Y		W4	Ar:4	F4	Ar:4	True

@@ -1,0 +1,11 @@
+family	position	subsites	catalytic	ref_residue	class_cluster50	class_entry	entry_kind_counts	class_ref_entry	class_ref_type	n_cl50	modal50	m50	ntypes50	entropy50	arom50	arom3_50	gap_votes50	types50	also_inner
+GH13	K182	+2	False	LYS	H	H	Al:1 H:36	H	H	13.000	K	0.654	4	1.427	0.077	0.000	2.000	K 8.5, R 2.5, Q 1, H 1	True
+GH13	M52	-2,-3	False	MET	H	H	Al:2 Ar:3 H:37		Al	22.000	D	0.409	6	2.237	0.273	0.273	0.000	D 9, W 5, N 3, Q 2, G 2, F 1	False
+GH13	Q294	-2	False	GLN	H	H	H:28		H	15.000	D	0.800	3	0.906	0.000	0.000	7.000	D 12, N 2, Q 1	False
+GH13	Q49	-2	False	GLN	Ar	Ar	Ar:28 H:1		H	20.000	H	0.550	4	1.544	0.850	0.300	2.000	H 11, W 6, V 2, E 1	False
+GH13	W206	+2,+3	False	TRP	Ar	Al	Al:21 Ar:16	Ar	Ar	11.000	W	0.545	5	1.868	0.818	0.818	4.000	W 6, F 2, I 1, Y 1, L 1	True
+GH13	Y51	-2	False	TYR	Ar	Ar	Ar:51	Ar	Ar	22.000	Y	1.000	1	-0.000	1.000	1.000	0.000	Y 22	True
+GH31	D542	+2	True	ASP	Al	Al	Al:5	H	H	5.000	D	1.000	1	-0.000	0.000	0.000	0.000	D 5	True
+GH31	N207	+3	False	ASN	H	H	H:5	H	H	2.000	H	0.500	2	1.000	0.500	0.000	3.000	H 1, N 1	False
+GH31	T204	+3	False	THR	Al	Al	Al:5		H	5.000	N	0.200	5	2.322	0.000	0.000	0.000	N 1, D 1, Q 1, I 1, L 1	False
+GH31	T205	+3	False	THR	Al	Al	Al:6	H	H	3.000	A	0.667	2	0.918	0.000	0.000	2.000	A 2, P 1	False

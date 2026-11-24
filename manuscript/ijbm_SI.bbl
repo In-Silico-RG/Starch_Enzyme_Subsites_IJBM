@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Cremer1975}
+D.~Cremer, J.~A. Pople, {General definition of ring puckering coordinates},
+  Journal of the American Chemical Society 97~(6) (1975) 1354--1358.
+\newblock \href {https://doi.org/10.1021/ja00839a011}
+  {\path{doi:10.1021/ja00839a011}}.
+
+\bibitem{Davies2012}
+G.~J. Davies, A.~Planas, C.~Rovira, Conformational analyses of the reaction
+  coordinate of glycosidases, Accounts of Chemical Research 45~(2) (2011)
+  308--316.
+\newblock \href {https://doi.org/10.1021/ar2001765}
+  {\path{doi:10.1021/ar2001765}}.
+
+\end{thebibliography}

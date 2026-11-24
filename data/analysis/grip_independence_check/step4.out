@@ -1,0 +1,793 @@
+
+##### GH13: entries 74, protein keys 45
+       key  n_entries                                                   pdbs  len                                              source                                                                                                               org superkingdom         phylum                                                                                 uname
+    P04746         11 1XCW 1XCX 1XD0 3BAJ 3IJ8 3IJ9 3OLD 3OLE 3OLG 3OLI 5TD4  511                                      UniProt P04746                                                                                                      Homo sapiens                                                                                          Pancreatic alpha-amylase
+    P0DUB6          7                     1MFU 1MFV 1NM9 1Z32 3BLK 3BLP 3DHP  511                                      UniProt P0DUB6                                                                                                      Homo sapiens                                                                                                  Alpha-amylase 1A
+    P07206          3                                         2FHB 2FHC 2FHF 1090                                      UniProt P07206                                                                                             Klebsiella pneumoniae                                                                                                       Pullulanase
+    P29957          3                                         1G94 1G9H 8CQF  669                                      UniProt P29957                                                                                    Pseudoalteromonas haloplanktis                                                                                                     Alpha-amylase
+A0A0C5GWS2          2                                              6JFJ 6JFX  675                                  UniProt A0A0C5GWS2                                                                                        Paenibacillus barengoltzii                                                                                                       Pulullanase
+    I1VWH9          2                                              5A2B 5A2C  505                                      UniProt I1VWH9                                                                                          Anoxybacillus ayderensis                                                                                                     alpha-amylase
+    P00690          2                                              1WO2 3L2L  511                                      UniProt P00690                                                                                                        Sus scrofa                                                                                          Pancreatic alpha-amylase
+    K9L0H1          2                                              3WDI 3WDJ  707                                      UniProt K9L0H1                                                                                         Anoxybacillus sp. LM18-11                                                                                                Type I pullulanase
+    P0C1B3          2                                              2GVY 7TAA  499                                      UniProt P0C1B3                                                                   Aspergillus oryzae (strain ATCC 42149 / RIB 40)                                                                                          Alpha-amylase A type-1/2
+    B8CZ54          2                                              3BC9 3BCD  623                                      UniProt B8CZ54                                                        Halothermothrix orenii (strain H 168 / OCM 544 / DSM 9562)                                                                                                     Alpha amylase
+    D2YYE1          2                                              6A0K 6A0L  450                                      UniProt D2YYE1                                                                                          Arthrobacter globiformis                                                                                 Cyclic maltosyl-maltose hydrolase
+    P19571          2                                              1WPC 2GJP  518                                      UniProt P19571                                                                                         Bacillus sp. (strain 707)                                                                                 Glucan 1,4-alpha-maltohexaosidase
+    P19531          2                                              1QHO 1QHP  719                                      UniProt P19531                                                                                    Geobacillus stearothermophilus                                                                                          Maltogenic alpha-amylase
+    H3K096          1                                                   3WY2  538                                      UniProt H3K096                                                                                                 Halomonas sp. H11                                                                                                 Alpha-glucosidase
+    D2YYD7          1                                                   8YIE  567                                      UniProt D2YYD7                                                                                          Arthrobacter globiformis                                                                                                 Alpha-glucosidase
+A0ABD7ANA7          1                                                   9UNS  605                                  UniProt A0ABD7ANA7                                                                                              Klebsiella grimontii                                                                                          Maltodextrin glucosidase
+A0ABF7PFV7          1                                                   4E2O  511                                  UniProt A0ABF7PFV7                                                                           Geobacillus thermoleovorans CCB_US3_UF5                                                                                                     alpha-amylase
+A0A7M6W876          1                                                   26WD  493                                  UniProt A0A7M6W876                                                                                                    Apis mellifera                                                                                                     Alpha-amylase
+A0A7H4P971          1                                                   9XG6  605                                  UniProt A0A7H4P971                                                                                              Klebsiella grimontii                                                                                          Maltodextrin glucosidase
+A0A5S8WFA7          1                                                   6SAO  439                                  UniProt A0A5S8WFA7                                                                                                Thamnidium elegans                                                                                                     alpha-amylase
+A0A5S8WFA8          1                                                   6SAU  460                                  UniProt A0A5S8WFA8                                                                                                Cordyceps farinosa                                                                                                     Alpha-amylase
+A0A1S9DH83          1                                                   6YQB  499                                  UniProt A0A1S9DH83                                                                                                Aspergillus oryzae                                                                                                     Alpha-amylase
+A0A0H2UNG0          1                                                   2YA2 1280                                  UniProt A0A0H2UNG0                                                 Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4)                                                                                                     Pullulanase A
+    P00691          1                                                   1UA7  659                                      UniProt P00691                                                                                    Bacillus subtilis (strain 168)                                                                                                     Alpha-amylase
+    P04063          1                                                   1BG9  427                                      UniProt P04063                                                                                                   Hordeum vulgare                                                                                      Alpha-amylase type B isozyme
+    I3P686          1                                                   6TOZ  483                                      UniProt I3P686                                                                                            Bacillus licheniformis                                                                                                           Amylase
+    P00693          1                                                   1RPK  438                                      UniProt P00693                                                                                                   Hordeum vulgare                                                                                      Alpha-amylase type A isozyme
+    P08144          1                                                   8ORP  494                                      UniProt P08144                                                                                           Drosophila melanogaster                                                                                                   Alpha-amylase A
+    O06994          1                                                   5WCZ  561                                      UniProt O06994                                                                                    Bacillus subtilis (strain 168)                                                                                           Oligo-1,6-glucosidase 1
+    P13507          1                                                   1QI5  548                                      UniProt P13507                                                                                            Stutzerimonas stutzeri                                                                             Glucan 1,4-alpha-maltotetraohydrolase
+    P22963          1                                                   6JQB  551                                      UniProt P22963                                                                                         Roseateles saccharophilus                                                                             Glucan 1,4-alpha-maltotetraohydrolase
+    P38940          1                                                   1J0I  588                                      UniProt P38940                                                                                    Geobacillus stearothermophilus                                                                                                    Neopullulanase
+    P53051          1                                                   3A4A  589                                      UniProt P53051                                                             Saccharomyces cerevisiae (strain ATCC 204508 / S288c)                                                                                        Oligo-1,6-glucosidase IMA1
+  PDB:1W9X          1                                                   1W9X  481          chain A of 1W9X mmCIF (no UniProt mapping)                                                                                           Sutcliffiella halmapala     Bacteria      Bacillota                                                                             α-amylase
+  PDB:24ZQ          1                                                   24ZQ  500          chain A of 24ZQ mmCIF (no UniProt mapping)                                                                                             Alkalimonas sp. NCh-2     Bacteria Pseudomonadota                                                                      α-amylase (AmyY)
+  PDB:6GXV          1                                                   6GXV  484 chain A of 6GXV mmCIF (UniProt A0A3P8MUS3 inactive)                                                                                        Alicyclobacillus sp. 18711     Bacteria      Bacillota                                                                      α-amylase (AliC)
+  PDB:7P01          1                                                   7P01  585          chain A of 7P01 mmCIF (no UniProt mapping)                                                                               Blastobotrys adeninivorans CBS 8244    Eukaryota     Ascomycota                                                                       maltase (BaAG2)
+  PDB:7P07          1                                                   7P07  585          chain A of 7P07 mmCIF (no UniProt mapping)                                                                               Blastobotrys adeninivorans CBS 8244    Eukaryota     Ascomycota                                                                       maltase (BaAG2)
+  PDB:8DL2          1                                                   8DL2  738     chain A of 8DL2 mmCIF (UniProt A7M087 inactive)                                                                                      Bacteroides ovatus ATCC 8483     Bacteria   Bacteroidota α-amylase / neopullulanase (BoSusG; BoGH13A; BoGH13ASus; Bovatus_03803; BACOVA_03514)
+    Q08751          1                                                   3A6O  585                                      UniProt Q08751                                                                                        Thermoactinomyces vulgaris                                                                                                  Neopullulanase 2
+    Q60053          1                                                   1UH3  666                                      UniProt Q60053                                                                                        Thermoactinomyces vulgaris                                                                                                  Neopullulanase 1
+    Q7LYT7          1                                                   1MXD  460                                      UniProt Q7LYT7                                                                                                 Pyrococcus woesei                                                                                                     Alpha amylase
+    Q8A1G3          1                                                   3K8M  692                                      UniProt Q8A1G3 Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 / VPI-5482 / E50)                                                                                                Alpha-amylase SusG
+    Q8YAE6          1                                                   5DO8  553                                      UniProt Q8YAE6                                                 Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e)                                                                                             oligo-1,6-glucosidase
+    Q9FYY0          1                                                   4J3V  905                                      UniProt Q9FYY0                                                                                                   Hordeum vulgare                                                                                                  Limit dextrinase
+entries per protein distribution {1: 32, 2: 9, 3: 2, 7: 1, 11: 1}
+pairs >= 50% (ident over aligned cols / over shorter seq / aligned cols):
+  A0A0C5GWS2   A0A0H2UNG0   0.351 0.330 635
+  A0A0C5GWS2   A0A1S9DH83   0.303 0.248 409
+  A0A0C5GWS2   A0A5S8WFA7   0.301 0.271 395
+  A0A0C5GWS2   A0A7H4P971   0.315 0.245 470
+  A0A0C5GWS2   A0ABD7ANA7   0.321 0.246 464
+  A0A0C5GWS2   A0ABF7PFV7   0.316 0.256 414
+  A0A0C5GWS2   B8CZ54       0.326 0.194 371
+  A0A0C5GWS2   D2YYD7       0.327 0.229 398
+  A0A0C5GWS2   H3K096       0.300 0.230 413
+  A0A0C5GWS2   I3P686       0.317 0.219 334
+  A0A0C5GWS2   K9L0H1       0.493 0.461 631
+  A0A0C5GWS2   O06994       0.319 0.232 408
+  A0A0C5GWS2   P00691       0.312 0.188 398
+  A0A0C5GWS2   P00693       0.335 0.263 343
+  A0A0C5GWS2   P04063       0.327 0.253 330
+  A0A0C5GWS2   P07206       0.380 0.354 629
+  A0A0C5GWS2   P0C1B3       0.303 0.248 409
+  A0A0C5GWS2   P13507       0.324 0.212 358
+  A0A0C5GWS2   P19571       0.336 0.226 348
+  A0A0C5GWS2   P22963       0.322 0.211 360
+  A0A0C5GWS2   P38940       0.338 0.262 455
+  A0A0C5GWS2   P53051       0.305 0.216 416
+  A0A0C5GWS2   PDB:6GXV     0.322 0.223 335
+  A0A0C5GWS2   Q08751       0.316 0.277 512
+  A0A0C5GWS2   Q7LYT7       0.330 0.270 376
+  A0A0C5GWS2   Q9FYY0       0.373 0.351 635
+  A0A0H2UNG0   A0A5S8WFA8   0.332 0.267 371
+  A0A0H2UNG0   A0A7H4P971   0.300 0.258 520
+  A0A0H2UNG0   A0ABD7ANA7   0.300 0.258 520
+  A0A0H2UNG0   A0ABF7PFV7   0.312 0.247 404
+  A0A0H2UNG0   D2YYD7       0.310 0.242 442
+  A0A0H2UNG0   H3K096       0.313 0.249 428
+  A0A0H2UNG0   K9L0H1       0.368 0.330 634
+  A0A0H2UNG0   P00693       0.337 0.274 356
+  A0A0H2UNG0   P04063       0.312 0.258 353
+  A0A0H2UNG0   P07206       0.345 0.279 882
+  A0A0H2UNG0   P0DUB6       0.318 0.233 374
+  A0A0H2UNG0   P19531       0.301 0.241 575
+  A0A0H2UNG0   P29957       0.316 0.254 538
+  A0A0H2UNG0   P53051       0.309 0.231 440
+  A0A0H2UNG0   PDB:8DL2     0.341 0.280 607
+  A0A0H2UNG0   Q08751       0.302 0.244 474
+  A0A0H2UNG0   Q60053       0.319 0.252 527
+  A0A0H2UNG0   Q7LYT7       0.324 0.233 330
+  A0A0H2UNG0   Q8A1G3       0.320 0.251 544
+  A0A0H2UNG0   Q9FYY0       0.338 0.264 708
+  A0A1S9DH83   A0A5S8WFA7   0.473 0.467 433
+  A0A1S9DH83   A0A5S8WFA8   0.477 0.448 432
+  A0A1S9DH83   A0A7H4P971   0.314 0.265 420
+  A0A1S9DH83   A0A7M6W876   0.304 0.258 418
+  A0A1S9DH83   A0ABD7ANA7   0.319 0.265 414
+  A0A1S9DH83   A0ABF7PFV7   0.369 0.335 453
+  A0A1S9DH83   B8CZ54       0.346 0.253 364
+  A0A1S9DH83   D2YYE1       0.323 0.273 381
+  A0A1S9DH83   H3K096       0.328 0.259 393
+  A0A1S9DH83   I1VWH9       0.365 0.335 457
+  A0A1S9DH83   I3P686       0.309 0.253 395
+  A0A1S9DH83   K9L0H1       0.308 0.240 389
+  A0A1S9DH83   O06994       0.360 0.253 350
+  A0A1S9DH83   P00690       0.307 0.255 414
+  A0A1S9DH83   P00693       0.311 0.251 354
+  A0A1S9DH83   P04063       0.301 0.265 375
+  A0A1S9DH83   P04746       0.313 0.261 415
+  A0A1S9DH83   P08144       0.309 0.255 408
+  A0A1S9DH83   P0C1B3       1.000 1.000 499
+  A0A1S9DH83   P0DUB6       0.328 0.261 396
+  A0A1S9DH83   P13507       0.306 0.228 373
+  A0A1S9DH83   P19531       0.361 0.335 463
+  A0A1S9DH83   P19571       0.315 0.269 426
+  A0A1S9DH83   P38940       0.319 0.273 426
+  A0A1S9DH83   P53051       0.320 0.242 378
+  A0A1S9DH83   PDB:1W9X     0.327 0.266 392
+  A0A1S9DH83   PDB:24ZQ     0.310 0.255 410
+  A0A1S9DH83   PDB:6GXV     0.343 0.273 385
+  A0A1S9DH83   PDB:7P01     0.313 0.255 406
+  A0A1S9DH83   PDB:7P07     0.313 0.255 406
+  A0A1S9DH83   PDB:8DL2     0.338 0.267 394
+  A0A1S9DH83   Q60053       0.326 0.279 427
+  A0A1S9DH83   Q7LYT7       0.330 0.267 373
+  A0A1S9DH83   Q8A1G3       0.336 0.279 414
+  A0A1S9DH83   Q8YAE6       0.321 0.257 399
+  A0A5S8WFA7   A0A5S8WFA8   0.457 0.440 422
+  A0A5S8WFA7   A0A7H4P971   0.307 0.267 381
+  A0A5S8WFA7   A0ABD7ANA7   0.307 0.267 381
+  A0A5S8WFA7   A0ABF7PFV7   0.367 0.346 414
+  A0A5S8WFA7   B8CZ54       0.313 0.257 361
+  A0A5S8WFA7   H3K096       0.351 0.298 373
+  A0A5S8WFA7   I1VWH9       0.374 0.349 409
+  A0A5S8WFA7   I3P686       0.324 0.276 373
+  A0A5S8WFA7   P00693       0.301 0.244 356
+  A0A5S8WFA7   P04746       0.338 0.294 382
+  A0A5S8WFA7   P08144       0.325 0.264 357
+  A0A5S8WFA7   P0C1B3       0.473 0.467 433
+  A0A5S8WFA7   P0DUB6       0.326 0.285 384
+  A0A5S8WFA7   P13507       0.330 0.276 367
+  A0A5S8WFA7   P19531       0.371 0.351 415
+  A0A5S8WFA7   P22963       0.302 0.255 371
+  A0A5S8WFA7   P53051       0.331 0.296 393
+  A0A5S8WFA7   PDB:1W9X     0.302 0.262 381
+  A0A5S8WFA7   PDB:24ZQ     0.328 0.273 366
+  A0A5S8WFA7   PDB:6GXV     0.334 0.285 374
+  A0A5S8WFA7   PDB:7P01     0.313 0.280 393
+  A0A5S8WFA7   PDB:7P07     0.313 0.280 393
+  A0A5S8WFA7   PDB:8DL2     0.319 0.251 345
+  A0A5S8WFA7   Q7LYT7       0.314 0.244 341
+  A0A5S8WFA7   Q8A1G3       0.369 0.326 388
+  A0A5S8WFA7   Q8YAE6       0.305 0.267 383
+  A0A5S8WFA7   Q9FYY0       0.319 0.264 364
+  A0A5S8WFA8   A0A7H4P971   0.312 0.250 368
+  A0A5S8WFA8   A0ABD7ANA7   0.312 0.250 368
+  A0A5S8WFA8   A0ABF7PFV7   0.374 0.363 446
+  A0A5S8WFA8   B8CZ54       0.304 0.274 415
+  A0A5S8WFA8   D2YYD7       0.320 0.274 394
+  A0A5S8WFA8   D2YYE1       0.335 0.258 346
+  A0A5S8WFA8   H3K096       0.316 0.261 380
+  A0A5S8WFA8   I1VWH9       0.387 0.363 432
+  A0A5S8WFA8   I3P686       0.303 0.254 386
+  A0A5S8WFA8   O06994       0.318 0.283 409
+  A0A5S8WFA8   P00690       0.306 0.261 392
+  A0A5S8WFA8   P00693       0.313 0.263 367
+  A0A5S8WFA8   P04063       0.343 0.267 332
+  A0A5S8WFA8   P04746       0.307 0.263 394
+  A0A5S8WFA8   P07206       0.344 0.298 398
+  A0A5S8WFA8   P0C1B3       0.477 0.448 432
+  A0A5S8WFA8   P0DUB6       0.319 0.270 389
+  A0A5S8WFA8   P13507       0.344 0.267 358
+  A0A5S8WFA8   P19531       0.329 0.313 438
+  A0A5S8WFA8   P22963       0.340 0.289 391
+  A0A5S8WFA8   P29957       0.313 0.254 374
+  A0A5S8WFA8   P53051       0.333 0.263 363
+  A0A5S8WFA8   PDB:1W9X     0.310 0.252 374
+  A0A5S8WFA8   PDB:24ZQ     0.349 0.270 355
+  A0A5S8WFA8   PDB:6GXV     0.302 0.252 384
+  A0A5S8WFA8   PDB:7P01     0.359 0.267 343
+  A0A5S8WFA8   PDB:7P07     0.359 0.267 343
+  A0A5S8WFA8   PDB:8DL2     0.306 0.257 385
+  A0A5S8WFA8   Q7LYT7       0.301 0.239 366
+  A0A5S8WFA8   Q8A1G3       0.344 0.304 407
+  A0A5S8WFA8   Q8YAE6       0.324 0.252 358
+  A0A7H4P971   A0ABD7ANA7   0.998 0.998 605
+  A0A7H4P971   A0ABF7PFV7   0.341 0.278 417
+  A0A7H4P971   D2YYD7       0.336 0.249 420
+  A0A7H4P971   D2YYE1       0.377 0.360 430
+  A0A7H4P971   H3K096       0.348 0.262 405
+  A0A7H4P971   I1VWH9       0.347 0.291 424
+  A0A7H4P971   K9L0H1       0.323 0.248 465
+  A0A7H4P971   O06994       0.315 0.235 419
+  A0A7H4P971   P00690       0.362 0.241 340
+  A0A7H4P971   P00693       0.301 0.258 375
+  A0A7H4P971   P07206       0.305 0.263 522
+  A0A7H4P971   P0C1B3       0.314 0.265 420
+  A0A7H4P971   P0DUB6       0.308 0.227 377
+  A0A7H4P971   P13507       0.347 0.201 317
+  A0A7H4P971   P19531       0.354 0.251 429
+  A0A7H4P971   P22963       0.315 0.181 317
+  A0A7H4P971   P38940       0.382 0.325 500
+  A0A7H4P971   P53051       0.302 0.222 434
+  A0A7H4P971   PDB:1W9X     0.303 0.237 376
+  A0A7H4P971   PDB:24ZQ     0.307 0.222 361
+  A0A7H4P971   PDB:6GXV     0.309 0.227 356
+  A0A7H4P971   Q08751       0.388 0.342 516
+  A0A7H4P971   Q60053       0.356 0.342 581
+  A0A7H4P971   Q7LYT7       0.339 0.270 366
+  A0A7H4P971   Q8A1G3       0.346 0.260 454
+  A0A7H4P971   Q8YAE6       0.308 0.231 415
+  A0A7M6W876   O06994       0.303 0.229 373
+  A0A7M6W876   P00690       0.538 0.527 483
+  A0A7M6W876   P00691       0.325 0.270 409
+  A0A7M6W876   P00693       0.323 0.258 350
+  A0A7M6W876   P04063       0.329 0.258 334
+  A0A7M6W876   P04746       0.513 0.503 483
+  A0A7M6W876   P08144       0.615 0.609 488
+  A0A7M6W876   P0C1B3       0.304 0.258 418
+  A0A7M6W876   P0DUB6       0.512 0.501 482
+  A0A7M6W876   P13507       0.322 0.249 382
+  A0A7M6W876   P19571       0.306 0.254 408
+  A0A7M6W876   P22963       0.340 0.260 377
+  A0A7M6W876   P29957       0.476 0.442 458
+  A0A7M6W876   P53051       0.314 0.207 325
+  A0A7M6W876   PDB:1W9X     0.324 0.256 380
+  A0A7M6W876   PDB:6GXV     0.313 0.246 380
+  A0A7M6W876   Q60053       0.302 0.233 381
+  A0ABD7ANA7   A0ABF7PFV7   0.341 0.278 417
+  A0ABD7ANA7   D2YYD7       0.338 0.250 420
+  A0ABD7ANA7   D2YYE1       0.377 0.360 430
+  A0ABD7ANA7   H3K096       0.348 0.262 405
+  A0ABD7ANA7   I1VWH9       0.347 0.291 424
+  A0ABD7ANA7   K9L0H1       0.323 0.248 465
+  A0ABD7ANA7   O06994       0.315 0.235 419
+  A0ABD7ANA7   P00693       0.301 0.258 375
+  A0ABD7ANA7   P0C1B3       0.319 0.265 414
+  A0ABD7ANA7   P0DUB6       0.305 0.225 377
+  A0ABD7ANA7   P13507       0.347 0.201 317
+  A0ABD7ANA7   P19531       0.354 0.251 429
+  A0ABD7ANA7   P22963       0.315 0.181 317
+  A0ABD7ANA7   P38940       0.382 0.325 500
+  A0ABD7ANA7   P53051       0.302 0.222 434
+  A0ABD7ANA7   PDB:1W9X     0.303 0.237 376
+  A0ABD7ANA7   PDB:24ZQ     0.307 0.222 361
+  A0ABD7ANA7   PDB:6GXV     0.309 0.227 356
+  A0ABD7ANA7   Q08751       0.396 0.330 487
+  A0ABD7ANA7   Q60053       0.356 0.342 581
+  A0ABD7ANA7   Q7LYT7       0.339 0.270 366
+  A0ABD7ANA7   Q8A1G3       0.346 0.260 454
+  A0ABD7ANA7   Q8YAE6       0.308 0.231 415
+  A0ABF7PFV7   B8CZ54       0.353 0.272 394
+  A0ABF7PFV7   D2YYD7       0.349 0.241 352
+  A0ABF7PFV7   D2YYE1       0.342 0.304 401
+  A0ABF7PFV7   H3K096       0.325 0.262 412
+  A0ABF7PFV7   I1VWH9       0.700 0.699 504
+  A0ABF7PFV7   O06994       0.343 0.268 400
+  A0ABF7PFV7   P00690       0.300 0.225 383
+  A0ABF7PFV7   P04063       0.300 0.246 350
+  A0ABF7PFV7   P0C1B3       0.369 0.335 453
+  A0ABF7PFV7   P0DUB6       0.302 0.225 381
+  A0ABF7PFV7   P13507       0.306 0.223 373
+  A0ABF7PFV7   P19531       0.345 0.315 467
+  A0ABF7PFV7   P22963       0.314 0.223 363
+  A0ABF7PFV7   P38940       0.395 0.335 433
+  A0ABF7PFV7   P53051       0.315 0.262 426
+  A0ABF7PFV7   PDB:7P01     0.334 0.280 428
+  A0ABF7PFV7   PDB:7P07     0.334 0.280 428
+  A0ABF7PFV7   Q08751       0.383 0.323 431
+  A0ABF7PFV7   Q60053       0.353 0.297 430
+  A0ABF7PFV7   Q7LYT7       0.319 0.250 361
+  A0ABF7PFV7   Q8A1G3       0.363 0.311 438
+  A0ABF7PFV7   Q8YAE6       0.317 0.254 410
+  A0ABF7PFV7   Q9FYY0       0.302 0.229 387
+  B8CZ54       D2YYD7       0.316 0.206 370
+  B8CZ54       D2YYE1       0.304 0.244 362
+  B8CZ54       H3K096       0.307 0.199 348
+  B8CZ54       I1VWH9       0.351 0.283 407
+  B8CZ54       I3P686       0.439 0.418 460
+  B8CZ54       O06994       0.303 0.212 393
+  B8CZ54       P00690       0.307 0.239 398
+  B8CZ54       P00691       0.312 0.202 404
+  B8CZ54       P00693       0.347 0.308 389
+  B8CZ54       P04063       0.362 0.326 384
+  B8CZ54       P04746       0.316 0.249 402
+  B8CZ54       P0C1B3       0.346 0.253 364
+  B8CZ54       P0DUB6       0.331 0.247 381
+  B8CZ54       P13507       0.345 0.261 415
+  B8CZ54       P19531       0.359 0.274 476
+  B8CZ54       P19571       0.431 0.394 473
+  B8CZ54       P22963       0.322 0.254 435
+  B8CZ54       P29957       0.304 0.177 362
+  B8CZ54       PDB:1W9X     0.443 0.420 456
+  B8CZ54       PDB:24ZQ     0.503 0.480 477
+  B8CZ54       PDB:6GXV     0.460 0.434 457
+  B8CZ54       PDB:7P01     0.309 0.207 392
+  B8CZ54       PDB:7P07     0.309 0.207 392
+  B8CZ54       PDB:8DL2     0.336 0.236 437
+  B8CZ54       Q08751       0.315 0.219 406
+  B8CZ54       Q60053       0.305 0.250 511
+  B8CZ54       Q7LYT7       0.390 0.341 403
+  B8CZ54       Q8A1G3       0.323 0.231 446
+  B8CZ54       Q9FYY0       0.312 0.226 452
+  D2YYD7       D2YYE1       0.376 0.322 386
+  D2YYD7       H3K096       0.473 0.418 476
+  D2YYD7       I1VWH9       0.316 0.265 424
+  D2YYD7       I3P686       0.303 0.234 373
+  D2YYD7       K9L0H1       0.322 0.224 395
+  D2YYD7       O06994       0.368 0.319 486
+  D2YYD7       P00690       0.301 0.241 409
+  D2YYD7       P04746       0.327 0.243 379
+  D2YYD7       P0DUB6       0.325 0.243 381
+  D2YYD7       P19531       0.317 0.252 451
+  D2YYD7       P19571       0.323 0.234 375
+  D2YYD7       P22963       0.303 0.234 426
+  D2YYD7       P38940       0.358 0.243 386
+  D2YYD7       P53051       0.353 0.314 504
+  D2YYD7       PDB:6GXV     0.304 0.252 401
+  D2YYD7       PDB:7P01     0.371 0.326 498
+  D2YYD7       PDB:7P07     0.371 0.326 498
+  D2YYD7       Q08751       0.345 0.235 386
+  D2YYD7       Q60053       0.303 0.220 413
+  D2YYD7       Q7LYT7       0.312 0.235 346
+  D2YYD7       Q8A1G3       0.353 0.284 456
+  D2YYD7       Q8YAE6       0.366 0.307 464
+  D2YYE1       H3K096       0.342 0.313 412
+  D2YYE1       I1VWH9       0.335 0.291 391
+  D2YYE1       O06994       0.351 0.302 388
+  D2YYE1       P00690       0.320 0.240 338
+  D2YYE1       P04746       0.323 0.216 300
+  D2YYE1       P07206       0.300 0.256 383
+  D2YYE1       P0C1B3       0.323 0.273 381
+  D2YYE1       P19531       0.304 0.276 408
+  D2YYE1       P38940       0.454 0.447 443
+  D2YYE1       P53051       0.305 0.251 370
+  D2YYE1       PDB:7P01     0.306 0.280 412
+  D2YYE1       PDB:7P07     0.306 0.280 412
+  D2YYE1       Q08751       0.432 0.429 447
+  D2YYE1       Q60053       0.376 0.362 433
+  D2YYE1       Q7LYT7       0.301 0.227 339
+  D2YYE1       Q8A1G3       0.349 0.311 401
+  D2YYE1       Q8YAE6       0.320 0.280 394
+  D2YYE1       Q9FYY0       0.320 0.251 353
+  H3K096       I1VWH9       0.344 0.279 410
+  H3K096       I3P686       0.310 0.215 335
+  H3K096       K9L0H1       0.321 0.219 368
+  H3K096       O06994       0.386 0.372 518
+  H3K096       P04063       0.321 0.251 333
+  H3K096       P07206       0.314 0.232 398
+  H3K096       P0C1B3       0.328 0.259 393
+  H3K096       P13507       0.312 0.229 394
+  H3K096       P19531       0.314 0.236 404
+  H3K096       P38940       0.354 0.277 421
+  H3K096       P53051       0.388 0.372 516
+  H3K096       PDB:24ZQ     0.322 0.204 317
+  H3K096       PDB:7P01     0.405 0.385 511
+  H3K096       PDB:7P07     0.405 0.385 511
+  H3K096       PDB:8DL2     0.322 0.212 354
+  H3K096       Q08751       0.349 0.266 410
+  H3K096       Q60053       0.326 0.251 414
+  H3K096       Q8A1G3       0.343 0.309 484
+  H3K096       Q8YAE6       0.361 0.342 509
+  I1VWH9       O06994       0.324 0.263 410
+  I1VWH9       P04063       0.304 0.251 352
+  I1VWH9       P0C1B3       0.365 0.335 457
+  I1VWH9       P13507       0.303 0.236 393
+  I1VWH9       P19531       0.372 0.341 462
+  I1VWH9       P29957       0.310 0.234 381
+  I1VWH9       P38940       0.380 0.327 434
+  I1VWH9       P53051       0.350 0.287 414
+  I1VWH9       PDB:7P01     0.334 0.273 413
+  I1VWH9       PDB:7P07     0.334 0.273 413
+  I1VWH9       PDB:8DL2     0.300 0.234 393
+  I1VWH9       Q08751       0.384 0.319 419
+  I1VWH9       Q60053       0.314 0.263 423
+  I1VWH9       Q7LYT7       0.315 0.250 365
+  I1VWH9       Q8A1G3       0.368 0.307 421
+  I1VWH9       Q8YAE6       0.355 0.287 408
+  I3P686       P00691       0.328 0.236 348
+  I3P686       P00693       0.354 0.295 364
+  I3P686       P04063       0.377 0.302 342
+  I3P686       P04746       0.349 0.253 350
+  I3P686       P0C1B3       0.309 0.253 395
+  I3P686       P0DUB6       0.304 0.228 362
+  I3P686       P13507       0.332 0.255 370
+  I3P686       P19531       0.305 0.269 426
+  I3P686       P19571       0.692 0.685 478
+  I3P686       P22963       0.336 0.248 357
+  I3P686       P38940       0.303 0.228 363
+  I3P686       PDB:1W9X     0.715 0.711 478
+  I3P686       PDB:24ZQ     0.436 0.389 431
+  I3P686       PDB:6GXV     0.637 0.634 480
+  I3P686       PDB:7P01     0.318 0.251 381
+  I3P686       PDB:7P07     0.318 0.251 381
+  I3P686       Q60053       0.347 0.271 377
+  I3P686       Q7LYT7       0.408 0.335 377
+  I3P686       Q8A1G3       0.337 0.290 416
+  I3P686       Q8YAE6       0.329 0.244 359
+  K9L0H1       P00693       0.313 0.235 329
+  K9L0H1       P04746       0.305 0.225 377
+  K9L0H1       P07206       0.350 0.337 680
+  K9L0H1       P0C1B3       0.308 0.240 389
+  K9L0H1       P0DUB6       0.304 0.227 382
+  K9L0H1       P29957       0.325 0.164 338
+  K9L0H1       PDB:24ZQ     0.319 0.244 383
+  K9L0H1       PDB:6GXV     0.307 0.229 362
+  K9L0H1       PDB:8DL2     0.339 0.269 561
+  K9L0H1       Q60053       0.322 0.240 497
+  K9L0H1       Q7LYT7       0.318 0.243 352
+  K9L0H1       Q9FYY0       0.368 0.338 649
+  O06994       P04063       0.316 0.262 354
+  O06994       P04746       0.307 0.209 348
+  O06994       P08144       0.304 0.235 382
+  O06994       P0C1B3       0.360 0.253 350
+  O06994       P0DUB6       0.318 0.215 346
+  O06994       P19531       0.320 0.239 419
+  O06994       P38940       0.361 0.258 402
+  O06994       P53051       0.456 0.444 546
+  O06994       PDB:7P01     0.450 0.437 544
+  O06994       PDB:7P07     0.450 0.437 544
+  O06994       PDB:8DL2     0.327 0.235 404
+  O06994       Q08751       0.371 0.269 407
+  O06994       Q60053       0.344 0.253 413
+  O06994       Q8A1G3       0.384 0.308 450
+  O06994       Q8YAE6       0.555 0.548 546
+  O06994       Q9FYY0       0.313 0.216 386
+  P00690       P00691       0.307 0.245 407
+  P00690       P04063       0.313 0.230 313
+  P00690       P04746       0.863 0.863 511
+  P00690       P08144       0.566 0.561 489
+  P00690       P0C1B3       0.307 0.255 414
+  P00690       P0DUB6       0.857 0.857 511
+  P00690       P19531       0.329 0.268 416
+  P00690       P19571       0.303 0.237 399
+  P00690       P22963       0.311 0.231 379
+  P00690       P29957       0.511 0.466 466
+  P00690       P53051       0.320 0.249 397
+  P00690       PDB:1W9X     0.311 0.243 376
+  P00690       Q60053       0.317 0.211 341
+  P00690       Q8A1G3       0.330 0.266 412
+  P00690       Q8YAE6       0.309 0.207 343
+  P00690       Q9FYY0       0.312 0.205 336
+  P00691       P04746       0.322 0.264 419
+  P00691       P08144       0.308 0.267 429
+  P00691       P19571       0.308 0.234 393
+  P00691       P22963       0.313 0.269 473
+  P00691       P38940       0.308 0.194 370
+  P00691       PDB:1W9X     0.326 0.245 362
+  P00691       PDB:24ZQ     0.318 0.244 384
+  P00691       PDB:6GXV     0.331 0.252 369
+  P00691       PDB:8DL2     0.303 0.155 337
+  P00691       Q08751       0.305 0.203 390
+  P00691       Q60053       0.303 0.193 419
+  P00691       Q7LYT7       0.335 0.287 394
+  P00691       Q9FYY0       0.311 0.214 453
+  P00693       P04063       0.742 0.740 426
+  P00693       P07206       0.309 0.244 346
+  P00693       P08144       0.337 0.263 341
+  P00693       P0C1B3       0.311 0.251 354
+  P00693       P13507       0.358 0.304 371
+  P00693       P19571       0.324 0.290 392
+  P00693       P22963       0.363 0.306 369
+  P00693       P29957       0.312 0.263 368
+  P00693       P38940       0.319 0.269 370
+  P00693       PDB:1W9X     0.321 0.269 368
+  P00693       PDB:24ZQ     0.317 0.279 385
+  P00693       PDB:6GXV     0.351 0.304 379
+  P00693       PDB:7P01     0.308 0.242 344
+  P00693       PDB:7P07     0.308 0.242 344
+  P00693       Q08751       0.301 0.263 382
+  P00693       Q60053       0.310 0.237 336
+  P00693       Q7LYT7       0.358 0.306 374
+  P00693       Q8A1G3       0.316 0.283 392
+  P00693       Q9FYY0       0.307 0.233 332
+  P04063       P04746       0.326 0.262 344
+  P04063       P08144       0.348 0.260 319
+  P04063       P0C1B3       0.301 0.265 375
+  P04063       P0DUB6       0.327 0.237 309
+  P04063       P13507       0.365 0.328 384
+  P04063       P19531       0.313 0.288 393
+  P04063       P19571       0.335 0.290 370
+  P04063       P22963       0.354 0.321 387
+  P04063       P29957       0.318 0.244 327
+  P04063       PDB:1W9X     0.345 0.279 345
+  P04063       PDB:24ZQ     0.370 0.286 330
+  P04063       PDB:6GXV     0.357 0.307 367
+  P04063       PDB:7P01     0.318 0.255 343
+  P04063       PDB:7P07     0.318 0.255 343
+  P04063       PDB:8DL2     0.305 0.248 348
+  P04063       Q60053       0.304 0.255 359
+  P04063       Q7LYT7       0.377 0.323 366
+  P04063       Q8A1G3       0.345 0.300 371
+  P04746       P07206       0.313 0.241 393
+  P04746       P08144       0.558 0.553 489
+  P04746       P0C1B3       0.313 0.261 415
+  P04746       P0DUB6       0.969 0.969 511
+  P04746       P19531       0.326 0.272 426
+  P04746       P19571       0.323 0.237 375
+  P04746       P29957       0.489 0.446 466
+  P04746       P53051       0.331 0.254 393
+  P04746       Q7LYT7       0.306 0.241 363
+  P04746       Q8A1G3       0.303 0.225 379
+  P04746       Q9FYY0       0.324 0.209 330
+  P07206       P08144       0.309 0.261 418
+  P07206       P0DUB6       0.317 0.258 416
+  P07206       P22963       0.322 0.252 432
+  P07206       PDB:6GXV     0.302 0.236 378
+  P07206       PDB:8DL2     0.333 0.268 594
+  P07206       Q7LYT7       0.301 0.263 402
+  P07206       Q9FYY0       0.386 0.373 875
+  P08144       P0C1B3       0.309 0.255 408
+  P08144       P0DUB6       0.559 0.553 488
+  P08144       P19531       0.315 0.269 422
+  P08144       P29957       0.499 0.462 457
+  P08144       Q60053       0.318 0.235 365
+  P08144       Q7LYT7       0.312 0.250 369
+  P08144       Q9FYY0       0.305 0.255 413
+  P0C1B3       P0DUB6       0.328 0.261 396
+  P0C1B3       P13507       0.306 0.228 373
+  P0C1B3       P19531       0.361 0.335 463
+  P0C1B3       P19571       0.315 0.269 426
+  P0C1B3       P38940       0.319 0.273 426
+  P0C1B3       P53051       0.320 0.242 378
+  P0C1B3       PDB:1W9X     0.327 0.266 392
+  P0C1B3       PDB:24ZQ     0.310 0.255 410
+  P0C1B3       PDB:6GXV     0.343 0.273 385
+  P0C1B3       PDB:7P01     0.313 0.255 406
+  P0C1B3       PDB:7P07     0.313 0.255 406
+  P0C1B3       PDB:8DL2     0.338 0.267 394
+  P0C1B3       Q60053       0.326 0.279 427
+  P0C1B3       Q7LYT7       0.330 0.267 373
+  P0C1B3       Q8A1G3       0.336 0.279 414
+  P0C1B3       Q8YAE6       0.321 0.257 399
+  P0DUB6       P19531       0.341 0.276 414
+  P0DUB6       P19571       0.305 0.233 390
+  P0DUB6       P29957       0.499 0.452 463
+  P0DUB6       P53051       0.314 0.256 417
+  P0DUB6       PDB:1W9X     0.306 0.231 363
+  P0DUB6       Q8A1G3       0.302 0.235 398
+  P0DUB6       Q9FYY0       0.326 0.207 325
+  P13507       P19531       0.338 0.307 497
+  P13507       P19571       0.343 0.259 391
+  P13507       P22963       0.909 0.909 548
+  P13507       P29957       0.308 0.257 458
+  P13507       PDB:1W9X     0.369 0.279 363
+  P13507       PDB:24ZQ     0.351 0.274 390
+  P13507       PDB:6GXV     0.366 0.275 363
+  P13507       PDB:7P01     0.332 0.221 364
+  P13507       PDB:7P07     0.332 0.221 364
+  P13507       PDB:8DL2     0.301 0.212 386
+  P13507       Q60053       0.304 0.204 368
+  P13507       Q7LYT7       0.359 0.304 390
+  P13507       Q8A1G3       0.318 0.221 380
+  P13507       Q8YAE6       0.312 0.188 330
+  P13507       Q9FYY0       0.330 0.226 376
+  P19531       P19571       0.302 0.270 463
+  P19531       P22963       0.325 0.298 505
+  P19531       P29957       0.321 0.257 536
+  P19531       P38940       0.310 0.243 461
+  P19531       P53051       0.334 0.243 428
+  P19531       PDB:1W9X     0.314 0.279 427
+  P19531       PDB:7P01     0.320 0.219 400
+  P19531       PDB:7P07     0.320 0.219 400
+  P19531       Q08751       0.344 0.258 439
+  P19531       Q60053       0.373 0.248 442
+  P19531       Q7LYT7       0.348 0.307 405
+  P19531       Q8A1G3       0.346 0.238 477
+  P19531       Q8YAE6       0.340 0.250 406
+  P19531       Q9FYY0       0.318 0.252 570
+  P19571       P22963       0.355 0.268 392
+  P19571       PDB:1W9X     0.859 0.859 481
+  P19571       PDB:24ZQ     0.429 0.390 455
+  P19571       PDB:6GXV     0.669 0.667 483
+  P19571       PDB:7P01     0.306 0.237 402
+  P19571       PDB:7P07     0.306 0.237 402
+  P19571       PDB:8DL2     0.318 0.224 365
+  P19571       Q60053       0.350 0.288 426
+  P19571       Q7LYT7       0.382 0.350 421
+  P19571       Q8A1G3       0.302 0.266 457
+  P22963       P29957       0.304 0.247 448
+  P22963       PDB:1W9X     0.359 0.264 354
+  P22963       PDB:24ZQ     0.360 0.280 389
+  P22963       PDB:6GXV     0.371 0.267 348
+  P22963       PDB:7P01     0.306 0.214 385
+  P22963       PDB:7P07     0.306 0.214 385
+  P22963       PDB:8DL2     0.304 0.227 411
+  P22963       Q60053       0.312 0.234 414
+  P22963       Q7LYT7       0.368 0.317 397
+  P22963       Q8A1G3       0.323 0.218 372
+  P22963       Q8YAE6       0.308 0.198 354
+  P29957       PDB:1W9X     0.312 0.247 382
+  P29957       PDB:24ZQ     0.334 0.254 380
+  P29957       PDB:6GXV     0.332 0.250 365
+  P29957       Q60053       0.305 0.158 344
+  P29957       Q7LYT7       0.314 0.246 360
+  P29957       Q8YAE6       0.300 0.184 340
+  P29957       Q9FYY0       0.314 0.227 484
+  P38940       PDB:8DL2     0.333 0.274 484
+  P38940       Q08751       0.490 0.482 576
+  P38940       Q60053       0.368 0.350 560
+  P38940       Q7LYT7       0.324 0.257 364
+  P38940       Q8A1G3       0.326 0.257 463
+  P38940       Q8YAE6       0.353 0.260 408
+  P53051       PDB:1W9X     0.316 0.252 383
+  P53051       PDB:7P01     0.468 0.455 568
+  P53051       PDB:7P07     0.468 0.455 568
+  P53051       PDB:8DL2     0.319 0.219 405
+  P53051       Q08751       0.313 0.229 428
+  P53051       Q60053       0.310 0.236 449
+  P53051       Q7LYT7       0.315 0.224 327
+  P53051       Q8A1G3       0.359 0.285 468
+  P53051       Q8YAE6       0.436 0.429 543
+  PDB:1W9X     PDB:24ZQ     0.454 0.401 425
+  PDB:1W9X     PDB:6GXV     0.664 0.661 479
+  PDB:1W9X     PDB:7P01     0.304 0.237 375
+  PDB:1W9X     PDB:7P07     0.304 0.237 375
+  PDB:1W9X     PDB:8DL2     0.332 0.214 310
+  PDB:1W9X     Q60053       0.330 0.256 373
+  PDB:1W9X     Q7LYT7       0.412 0.348 388
+  PDB:1W9X     Q9FYY0       0.303 0.235 373
+  PDB:24ZQ     PDB:6GXV     0.433 0.386 432
+  PDB:24ZQ     PDB:8DL2     0.310 0.240 387
+  PDB:24ZQ     Q08751       0.306 0.224 366
+  PDB:24ZQ     Q7LYT7       0.413 0.341 380
+  PDB:24ZQ     Q8A1G3       0.310 0.260 419
+  PDB:24ZQ     Q8YAE6       0.304 0.224 368
+  PDB:6GXV     Q60053       0.350 0.267 369
+  PDB:6GXV     Q7LYT7       0.399 0.328 378
+  PDB:6GXV     Q8A1G3       0.302 0.256 411
+  PDB:6GXV     Q9FYY0       0.315 0.269 413
+  PDB:7P01     PDB:7P07     1.000 1.000 585
+  PDB:7P01     Q08751       0.329 0.234 417
+  PDB:7P01     Q60053       0.323 0.214 387
+  PDB:7P01     Q7LYT7       0.324 0.217 309
+  PDB:7P01     Q8A1G3       0.346 0.284 480
+  PDB:7P01     Q8YAE6       0.442 0.436 545
+  PDB:7P01     Q9FYY0       0.310 0.138 261
+  PDB:7P07     Q08751       0.329 0.234 417
+  PDB:7P07     Q60053       0.323 0.214 387
+  PDB:7P07     Q7LYT7       0.324 0.217 309
+  PDB:7P07     Q8A1G3       0.346 0.284 480
+  PDB:7P07     Q8YAE6       0.442 0.436 545
+  PDB:7P07     Q9FYY0       0.310 0.138 261
+  PDB:8DL2     Q08751       0.301 0.248 481
+  PDB:8DL2     Q7LYT7       0.310 0.259 384
+  PDB:8DL2     Q8A1G3       0.312 0.201 445
+  PDB:8DL2     Q8YAE6       0.319 0.231 401
+  PDB:8DL2     Q9FYY0       0.348 0.247 523
+  Q08751       Q60053       0.370 0.354 560
+  Q08751       Q7LYT7       0.344 0.243 326
+  Q08751       Q8A1G3       0.327 0.250 447
+  Q08751       Q8YAE6       0.349 0.260 413
+  Q60053       Q7LYT7       0.379 0.320 388
+  Q60053       Q8A1G3       0.348 0.240 460
+  Q60053       Q8YAE6       0.327 0.250 422
+  Q60053       Q9FYY0       0.310 0.231 496
+  Q7LYT7       Q8A1G3       0.316 0.257 374
+  Q7LYT7       Q8YAE6       0.329 0.215 301
+  Q8A1G3       Q8YAE6       0.329 0.293 492
+  Q8YAE6       Q9FYY0       0.308 0.228 409
+identity distribution over all pairs: median 0.308, min 0.235, max 1.000
+threshold 0.95: clusters (aligned cols) 41; (shorter seq) 41
+   entry-level chain-seq clusters 41
+threshold 0.9: clusters (aligned cols) 40; (shorter seq) 40
+   entry-level chain-seq clusters 40
+threshold 0.5: clusters (aligned cols) 29; (shorter seq) 31
+   entry-level chain-seq clusters 29
+   cluster 1: 1 proteins, 2 entries: A0A0C5GWS2(Paenibacillus barengoltzii)
+   cluster 2: 1 proteins, 1 entries: A0A0H2UNG0(Streptococcus pneumoniae serotype 4)
+   cluster 3: 2 proteins, 3 entries: A0A1S9DH83(Aspergillus oryzae), P0C1B3(Aspergillus oryzae)
+   cluster 4: 1 proteins, 1 entries: A0A5S8WFA7(Thamnidium elegans)
+   cluster 5: 1 proteins, 1 entries: A0A5S8WFA8(Cordyceps farinosa)
+   cluster 6: 2 proteins, 2 entries: A0A7H4P971(Klebsiella grimontii), A0ABD7ANA7(Klebsiella grimontii)
+   cluster 7: 6 proteins, 25 entries: A0A7M6W876(Apis mellifera), P00690(Sus scrofa), P04746(Homo sapiens), P08144(Drosophila melanogaster), P0DUB6(Homo sapiens), P29957(Pseudoalteromonas haloplanktis)
+   cluster 8: 2 proteins, 3 entries: A0ABF7PFV7(Geobacillus thermoleovorans CCB_US3_UF5), I1VWH9(Anoxybacillus ayderensis)
+   cluster 9: 2 proteins, 3 entries: B8CZ54(Halothermothrix orenii), PDB:24ZQ(Alkalimonas sp. NCh-2)
+   cluster 10: 1 proteins, 1 entries: D2YYD7(Arthrobacter globiformis)
+   cluster 11: 1 proteins, 2 entries: D2YYE1(Arthrobacter globiformis)
+   cluster 12: 1 proteins, 1 entries: H3K096(Halomonas sp. H11)
+   cluster 13: 4 proteins, 5 entries: I3P686(Bacillus licheniformis), P19571(Bacillus sp.), PDB:1W9X(Sutcliffiella halmapala), PDB:6GXV(Alicyclobacillus sp. 18711)
+   cluster 14: 1 proteins, 2 entries: K9L0H1(Anoxybacillus sp. LM18-11)
+   cluster 15: 2 proteins, 2 entries: O06994(Bacillus subtilis), Q8YAE6(Listeria monocytogenes serovar 1/2a)
+   cluster 16: 1 proteins, 1 entries: P00691(Bacillus subtilis)
+   cluster 17: 2 proteins, 2 entries: P00693(Hordeum vulgare), P04063(Hordeum vulgare)
+   cluster 18: 1 proteins, 3 entries: P07206(Klebsiella pneumoniae)
+   cluster 19: 2 proteins, 2 entries: P13507(Stutzerimonas stutzeri), P22963(Roseateles saccharophilus)
+   cluster 20: 1 proteins, 2 entries: P19531(Geobacillus stearothermophilus)
+   cluster 21: 1 proteins, 1 entries: P38940(Geobacillus stearothermophilus)
+   cluster 22: 1 proteins, 1 entries: P53051(Saccharomyces cerevisiae)
+   cluster 23: 2 proteins, 2 entries: PDB:7P01(Blastobotrys adeninivorans CBS 8244), PDB:7P07(Blastobotrys adeninivorans CBS 8244)
+   cluster 24: 1 proteins, 1 entries: PDB:8DL2(Bacteroides ovatus ATCC 8483)
+   cluster 25: 1 proteins, 1 entries: Q08751(Thermoactinomyces vulgaris)
+   cluster 26: 1 proteins, 1 entries: Q60053(Thermoactinomyces vulgaris)
+   cluster 27: 1 proteins, 1 entries: Q7LYT7(Pyrococcus woesei)
+   cluster 28: 1 proteins, 1 entries: Q8A1G3(Bacteroides thetaiotaomicron)
+   cluster 29: 1 proteins, 1 entries: Q9FYY0(Hordeum vulgare)
+   position votes (n clusters = 29): mean-fraction-per-cluster / clusters with any entry / clusters with all entries / clusters with majority
+     D289: entries 74/74; cluster-weighted fraction 1.000; any 29/29; all 29/29; majority 29/29
+     H92: entries 74/74; cluster-weighted fraction 1.000; any 29/29; all 29/29; majority 29/29
+     D179: entries 73/74; cluster-weighted fraction 0.983; any 29/29; all 28/29; majority 28/29
+     R177: entries 71/74; cluster-weighted fraction 0.964; any 28/29; all 27/29; majority 28/29
+     Y51: entries 71/74; cluster-weighted fraction 0.980; any 29/29; all 27/29; majority 28/29
+     H288: entries 71/74; cluster-weighted fraction 0.964; any 28/29; all 27/29; majority 28/29
+     D179 missed by: 1QHP(cl20)
+     R177 missed by: 3L2L(cl7), 9UNS(cl6), 9XG6(cl6)
+     Y51 missed by: 1XD0(cl7), 3BAJ(cl7), 6JQB(cl19)
+     H288 missed by: 3L2L(cl7), 9UNS(cl6), 9XG6(cl6)
+threshold 0.3: clusters (aligned cols) 1; (shorter seq) 5
+   entry-level chain-seq clusters 1
+   cluster 1: 45 proteins, 74 entries: A0A0C5GWS2(Paenibacillus barengoltzii), A0A0H2UNG0(Streptococcus pneumoniae serotype 4), A0A1S9DH83(Aspergillus oryzae), A0A5S8WFA7(Thamnidium elegans), A0A5S8WFA8(Cordyceps farinosa), A0A7H4P971(Klebsiella grimontii), A0A7M6W876(Apis mellifera), A0ABD7ANA7(Klebsiella grimontii), A0ABF7PFV7(Geobacillus thermoleovorans CCB_US3_UF5), B8CZ54(Halothermothrix orenii), D2YYD7(Arthrobacter globiformis), D2YYE1(Arthrobacter globiformis), H3K096(Halomonas sp. H11), I1VWH9(Anoxybacillus ayderensis), I3P686(Bacillus licheniformis), K9L0H1(Anoxybacillus sp. LM18-11), O06994(Bacillus subtilis), P00690(Sus scrofa), P00691(Bacillus subtilis), P00693(Hordeum vulgare), P04063(Hordeum vulgare), P04746(Homo sapiens), P07206(Klebsiella pneumoniae), P08144(Drosophila melanogaster), P0C1B3(Aspergillus oryzae), P0DUB6(Homo sapiens), P13507(Stutzerimonas stutzeri), P19531(Geobacillus stearothermophilus), P19571(Bacillus sp.), P22963(Roseateles saccharophilus), P29957(Pseudoalteromonas haloplanktis), P38940(Geobacillus stearothermophilus), P53051(Saccharomyces cerevisiae), PDB:1W9X(Sutcliffiella halmapala), PDB:24ZQ(Alkalimonas sp. NCh-2), PDB:6GXV(Alicyclobacillus sp. 18711), PDB:7P01(Blastobotrys adeninivorans CBS 8244), PDB:7P07(Blastobotrys adeninivorans CBS 8244), PDB:8DL2(Bacteroides ovatus ATCC 8483), Q08751(Thermoactinomyces vulgaris), Q60053(Thermoactinomyces vulgaris), Q7LYT7(Pyrococcus woesei), Q8A1G3(Bacteroides thetaiotaomicron), Q8YAE6(Listeria monocytogenes serovar 1/2a), Q9FYY0(Hordeum vulgare)
+   position votes (n clusters = 1): mean-fraction-per-cluster / clusters with any entry / clusters with all entries / clusters with majority
+     D289: entries 74/74; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     H92: entries 74/74; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     D179: entries 73/74; cluster-weighted fraction 0.986; any 1/1; all 0/1; majority 1/1
+     R177: entries 71/74; cluster-weighted fraction 0.959; any 1/1; all 0/1; majority 1/1
+     Y51: entries 71/74; cluster-weighted fraction 0.959; any 1/1; all 0/1; majority 1/1
+     H288: entries 71/74; cluster-weighted fraction 0.959; any 1/1; all 0/1; majority 1/1
+     D179 missed by: 1QHP(cl1)
+     R177 missed by: 3L2L(cl1), 9UNS(cl1), 9XG6(cl1)
+     Y51 missed by: 1XD0(cl1), 3BAJ(cl1), 6JQB(cl1)
+     H288 missed by: 3L2L(cl1), 9UNS(cl1), 9XG6(cl1)
+superkingdom {'': 39, 'Bacteria': 4, 'Eukaryota': 2}
+kingdom {'': 43, 'Fungi': 2}
+phylum {'': 39, 'Bacillota': 2, 'Ascomycota': 2, 'Pseudomonadota': 1, 'Bacteroidota': 1}
+
+##### GH31: entries 18, protein keys 6
+   key  n_entries                     pdbs  len         source                                                org superkingdom phylum                            uname
+L0N7E5          5 3W37 3WEL 3WEM 3WEN 3WEO  913 UniProt L0N7E5                                      Beta vulgaris                                    Alpha-glucosidase
+P10253          4      5KZW 5KZX 5NN5 5NN8  952 UniProt P10253                                       Homo sapiens                          Lysosomal alpha-glucosidase
+Q9STC1          4      2X2I 2X2J 4AMW 4AMX 1088 UniProt Q9STC1                       Gracilariopsis lemaneiformis                     Alpha-1,4-glucan lyase isozyme 1
+A2RM80          3           7WJB 7WJC 7WJF  739 UniProt A2RM80 Lactococcus lactis subsp. cremoris (strain MG1363)                                     Alpha-xylosidase
+A5ZY13          1                     3PHA  663 UniProt A5ZY13                           Blautia obeum ATCC 29174                        Glycosyl hydrolase, family 31
+O43451          1                     3TOP 2753 UniProt O43451                                       Homo sapiens                                 Maltase-glucoamylase
+entries per protein distribution {1: 2, 3: 1, 4: 2, 5: 1}
+pairs >= 50% (ident over aligned cols / over shorter seq / aligned cols):
+  A2RM80       L0N7E5       0.312 0.258 613
+  A2RM80       P10253       0.301 0.254 624
+  A5ZY13       L0N7E5       0.319 0.291 605
+  A5ZY13       O43451       0.302 0.275 603
+  A5ZY13       P10253       0.302 0.285 625
+  L0N7E5       O43451       0.400 0.366 834
+  L0N7E5       P10253       0.422 0.378 817
+  O43451       P10253       0.453 0.434 912
+  O43451       Q9STC1       0.310 0.232 814
+identity distribution over all pairs: median 0.302, min 0.281, max 0.453
+threshold 0.95: clusters (aligned cols) 6; (shorter seq) 6
+   entry-level chain-seq clusters 6
+threshold 0.9: clusters (aligned cols) 6; (shorter seq) 6
+   entry-level chain-seq clusters 6
+threshold 0.5: clusters (aligned cols) 6; (shorter seq) 6
+   entry-level chain-seq clusters 6
+   cluster 1: 1 proteins, 3 entries: A2RM80(Lactococcus lactis subsp. cremoris)
+   cluster 2: 1 proteins, 1 entries: A5ZY13(Blautia obeum ATCC 29174)
+   cluster 3: 1 proteins, 5 entries: L0N7E5(Beta vulgaris)
+   cluster 4: 1 proteins, 1 entries: O43451(Homo sapiens)
+   cluster 5: 1 proteins, 4 entries: P10253(Homo sapiens)
+   cluster 6: 1 proteins, 4 entries: Q9STC1(Gracilariopsis lemaneiformis)
+   position votes (n clusters = 6): mean-fraction-per-cluster / clusters with any entry / clusters with all entries / clusters with majority
+     D327: entries 18/18; cluster-weighted fraction 1.000; any 6/6; all 6/6; majority 6/6
+     H600: entries 18/18; cluster-weighted fraction 1.000; any 6/6; all 6/6; majority 6/6
+     D443: entries 18/18; cluster-weighted fraction 1.000; any 6/6; all 6/6; majority 6/6
+     D542: entries 18/18; cluster-weighted fraction 1.000; any 6/6; all 6/6; majority 6/6
+     W539: entries 18/18; cluster-weighted fraction 1.000; any 6/6; all 6/6; majority 6/6
+     W441: entries 18/18; cluster-weighted fraction 1.000; any 6/6; all 6/6; majority 6/6
+     I328: entries 17/18; cluster-weighted fraction 0.958; any 6/6; all 5/6; majority 6/6
+     F575: entries 16/18; cluster-weighted fraction 0.800; any 5/6; all 4/6; majority 5/6
+     I364: entries 16/18; cluster-weighted fraction 0.933; any 6/6; all 5/6; majority 6/6
+     I328 missed by: 4AMW(cl6)
+     F575 missed by: 3TOP(cl4), 3WEN(cl3)
+     I364 missed by: 3WEM(cl3), 3WEN(cl3)
+threshold 0.3: clusters (aligned cols) 1; (shorter seq) 4
+   entry-level chain-seq clusters 1
+   cluster 1: 6 proteins, 18 entries: A2RM80(Lactococcus lactis subsp. cremoris), A5ZY13(Blautia obeum ATCC 29174), L0N7E5(Beta vulgaris), O43451(Homo sapiens), P10253(Homo sapiens), Q9STC1(Gracilariopsis lemaneiformis)
+   position votes (n clusters = 1): mean-fraction-per-cluster / clusters with any entry / clusters with all entries / clusters with majority
+     D327: entries 18/18; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     H600: entries 18/18; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     D443: entries 18/18; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     D542: entries 18/18; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     W539: entries 18/18; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     W441: entries 18/18; cluster-weighted fraction 1.000; any 1/1; all 1/1; majority 1/1
+     I328: entries 17/18; cluster-weighted fraction 0.944; any 1/1; all 0/1; majority 1/1
+     F575: entries 16/18; cluster-weighted fraction 0.889; any 1/1; all 0/1; majority 1/1
+     I364: entries 16/18; cluster-weighted fraction 0.889; any 1/1; all 0/1; majority 1/1
+     I328 missed by: 4AMW(cl1)
+     F575 missed by: 3TOP(cl1), 3WEN(cl1)
+     I364 missed by: 3WEM(cl1), 3WEN(cl1)
+superkingdom {'': 6}
+kingdom {'': 6}
+phylum {'': 6}

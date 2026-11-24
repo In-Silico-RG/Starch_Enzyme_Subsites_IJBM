@@ -1,0 +1,209 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Masina2017}
+N.~Masina, Y.~E. Choonara, P.~Kumar, L.~C. du~Toit, M.~Govender, S.~Indermun,
+  V.~Pillay, A review of the chemical modification techniques of starch,
+  Carbohydrate Polymers 157 (2017) 1226--1236.
+\newblock \href {https://doi.org/10.1016/j.carbpol.2016.09.094}
+  {\path{doi:10.1016/j.carbpol.2016.09.094}}.
+
+\bibitem{Chen2015}
+Q.~Chen, H.~Yu, L.~Wang, Z.~ul~Abdin, Y.~Chen, J.~Wang, W.~Zhou, X.~Yang, R.~U.
+  Khan, H.~Zhang, X.~Chen, Recent progress in chemical modification of starch
+  and its applications, RSC Advances 5~(83) (2015) 67459--67474.
+\newblock \href {https://doi.org/10.1039/C5RA10849G}
+  {\path{doi:10.1039/C5RA10849G}}.
+
+\bibitem{Altuna2018}
+L.~Altuna, M.~L. Herrera, M.~L. Foresti, Synthesis and characterization of
+  octenyl succinic anhydride modified starches for food applications. {A}
+  review of recent literature, Food Hydrocolloids 80 (2018) 97--110.
+\newblock \href {https://doi.org/10.1016/j.foodhyd.2018.01.032}
+  {\path{doi:10.1016/j.foodhyd.2018.01.032}}.
+
+\bibitem{Richardson2003}
+S.~Richardson, L.~Gorton, Characterisation of the substituent distribution in
+  starch and cellulose derivatives, Analytica Chimica Acta 497~(1-2) (2003)
+  27--65.
+\newblock \href {https://doi.org/10.1016/j.aca.2003.08.005}
+  {\path{doi:10.1016/j.aca.2003.08.005}}.
+
+\bibitem{Mischnick2010}
+P.~Mischnick, D.~Momcilovic, Chemical structure analysis of starch and
+  cellulose derivatives, in: Advances in Carbohydrate Chemistry and
+  Biochemistry, Vol.~64, Academic Press, 2010, pp. 117--210.
+\newblock \href {https://doi.org/10.1016/S0065-2318(10)64004-8}
+  {\path{doi:10.1016/S0065-2318(10)64004-8}}.
+
+\bibitem{Zhao2012}
+J.~Zhao, H.~A. Schols, Z.~Chen, Z.~Jin, P.~Buwalda, H.~Gruppen, Substituent
+  distribution within cross-linked and hydroxypropylated sweet potato starch
+  and potato starch, Food Chemistry 133~(4) (2012) 1333--1340.
+\newblock \href {https://doi.org/10.1016/j.foodchem.2012.02.021}
+  {\path{doi:10.1016/j.foodchem.2012.02.021}}.
+
+\bibitem{Conway1976}
+R.~L. Conway, L.~F. Hood, Pancreatic alpha amylase hydrolysis products of
+  modified and unmodified tapioca starches, Starch - St{\"a}rke 28~(10) (1976)
+  341--343.
+\newblock \href {https://doi.org/10.1002/star.19760281005}
+  {\path{doi:10.1002/star.19760281005}}.
+
+\bibitem{Drula2022}
+E.~Drula, M.-L. Garron, S.~Dogan, V.~Lombard, B.~Henrissat, N.~Terrapon, The
+  carbohydrate-active enzyme database: functions and literature, Nucleic Acids
+  Research 50~(D1) (2022) D571--D577.
+\newblock \href {https://doi.org/10.1093/nar/gkab1045}
+  {\path{doi:10.1093/nar/gkab1045}}.
+
+\bibitem{Janecek2014}
+{\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, $\alpha$-amylase: an enzyme
+  specificity found in various families of glycoside hydrolases, Cellular and
+  Molecular Life Sciences 71~(7) (2013) 1149--1170.
+\newblock \href {https://doi.org/10.1007/s00018-013-1388-z}
+  {\path{doi:10.1007/s00018-013-1388-z}}.
+
+\bibitem{Davies1997}
+G.~J. Davies, K.~S. Wilson, B.~Henrissat, Nomenclature for sugar-binding
+  subsites in glycosyl hydrolases, Biochemical Journal 321~(2) (1997) 557--559.
+\newblock \href {https://doi.org/10.1042/bj3210557}
+  {\path{doi:10.1042/bj3210557}}.
+
+\bibitem{Davies1995}
+G.~Davies, B.~Henrissat, {Structures and mechanisms of glycosyl hydrolases},
+  Structure 3~(9) (1995) 853--859.
+\newblock \href {https://doi.org/10.1016/s0969-2126(01)00220-9}
+  {\path{doi:10.1016/s0969-2126(01)00220-9}}.
+
+\bibitem{MacGregor2001}
+E.~A. MacGregor, {\v S}.~Jane{\v c}ek, B.~Svensson, Relationship of sequence
+  and structure to specificity in the $\alpha$-amylase family of enzymes,
+  Biochimica et Biophysica Acta, Protein Structure and Molecular Enzymology
+  1546~(1) (2001) 1--20.
+\newblock \href {https://doi.org/10.1016/S0167-4838(00)00302-2}
+  {\path{doi:10.1016/S0167-4838(00)00302-2}}.
+
+\bibitem{Quirke2020}
+J.~C.~K. Quirke, D.~Crich, Glycoside hydrolases restrict the side chain
+  conformation of their substrates to gain additional transition state
+  stabilization, Journal of the American Chemical Society 142~(40) (2020)
+  16965--16973.
+\newblock \href {https://doi.org/10.1021/jacs.0c05592}
+  {\path{doi:10.1021/jacs.0c05592}}.
+
+\bibitem{Wojdyr2022}
+M.~Wojdyr, {GEMMI: A library for structural biology}, Journal of Open Source
+  Software 7~(73) (2022) 4200.
+\newblock \href {https://doi.org/10.21105/joss.04200}
+  {\path{doi:10.21105/joss.04200}}.
+
+\bibitem{Velankar2013}
+S.~Velankar, J.~M. Dana, J.~Jacobsen, G.~van Ginkel, P.~J. Gane, J.~Luo, T.~J.
+  Oldfield, C.~O'Donovan, M.-J. Martin, G.~J. Kleywegt, Sifts: Structure
+  integration with function, taxonomy and sequences resource, Nucleic Acids
+  Research 41~(D1) (2012) D483--D489.
+\newblock \href {https://doi.org/10.1093/nar/gks1258}
+  {\path{doi:10.1093/nar/gks1258}}.
+
+\bibitem{Kabsch1976}
+W.~Kabsch, {A solution for the best rotation to relate two sets of vectors},
+  Acta Crystallographica Section A 32~(5) (1976) 922--923.
+\newblock \href {https://doi.org/10.1107/s0567739476001873}
+  {\path{doi:10.1107/s0567739476001873}}.
+
+\bibitem{Janecek2007}
+{\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, A remote but significant
+  sequence homology between glycoside hydrolase clan {GH-H} and family {GH31},
+  FEBS Letters 581 (2007) 1261--1268.
+\newblock \href {https://doi.org/10.1016/j.febslet.2007.02.036}
+  {\path{doi:10.1016/j.febslet.2007.02.036}}.
+
+\bibitem{Rigden2002}
+D.~J. Rigden, Iterative database searches demonstrate that glycoside hydrolase
+  families 27, 31, 36 and 66 share a common evolutionary origin with family 13,
+  FEBS Letters 523 (2002) 17--22.
+\newblock \href {https://doi.org/10.1016/S0014-5793(02)02879-X}
+  {\path{doi:10.1016/S0014-5793(02)02879-X}}.
+
+\bibitem{Frandsen2002}
+T.~P. Frandsen, M.~M. Palcic, B.~Svensson, Substrate recognition by three
+  family 13 yeast alpha-glucosidases, European Journal of Biochemistry 269
+  (2002) 728--734.
+\newblock \href {https://doi.org/10.1046/j.0014-2956.2001.02714.x}
+  {\path{doi:10.1046/j.0014-2956.2001.02714.x}}.
+
+\bibitem{Frandsen2000}
+T.~P. Frandsen, F.~Lok, E.~Mirgorodskaya, P.~Roepstorff, B.~Svensson,
+  Purification, enzymatic characterization, and nucleotide sequence of a
+  high-isoelectric-point alpha-glucosidase from barley malt, Plant Physiology
+  123 (2000) 275--286.
+\newblock \href {https://doi.org/10.1104/pp.123.1.275}
+  {\path{doi:10.1104/pp.123.1.275}}.
+
+\bibitem{Sogaard1993}
+M.~S{\o}gaard, A.~Kadziola, R.~Haser, B.~Svensson, Site-directed mutagenesis of
+  histidine 93, aspartic acid 180, glutamic acid 205, histidine 290, and
+  aspartic acid 291 at the active site and tryptophan 279 at the raw starch
+  binding site in barley alpha-amylase 1, Journal of Biological Chemistry 268
+  (1993) 22480--22484.
+\newblock \href {https://doi.org/10.1016/S0021-9258(18)41554-2}
+  {\path{doi:10.1016/S0021-9258(18)41554-2}}.
+
+\bibitem{Frandsen1995}
+T.~P. Frandsen, T.~Christensen, B.~Stoffer, J.~Lehmbeck, C.~Dupont, R.~B.
+  Honzatko, B.~Svensson, Mutational analysis of the roles in catalysis and
+  substrate recognition of arginines 54 and 305, aspartic acid 309, and
+  tryptophan 317 located at subsites 1 and 2 in glucoamylase from aspergillus
+  niger, Biochemistry 34 (1995) 10162--10169.
+\newblock \href {https://doi.org/10.1021/bi00032a009}
+  {\path{doi:10.1021/bi00032a009}}.
+
+\bibitem{Sierks2000}
+M.~R. Sierks, B.~Svensson, Energetic and mechanistic studies of glucoamylase
+  using molecular recognition of maltose {OH} groups coupled with site-directed
+  mutagenesis, Biochemistry 39 (2000) 8585--8592.
+\newblock \href {https://doi.org/10.1021/bi9925219}
+  {\path{doi:10.1021/bi9925219}}.
+
+\bibitem{Asensio2013}
+J.~L. Asensio, A.~Ard{\'a}, F.~J. Ca{\~n}ada, J.~Jim{\'e}nez-Barbero,
+  Carbohydrate--aromatic interactions, Accounts of Chemical Research 46 (2013)
+  946--954.
+\newblock \href {https://doi.org/10.1021/ar300024d}
+  {\path{doi:10.1021/ar300024d}}.
+
+\bibitem{Hudson2015}
+K.~L. Hudson, G.~J. Bartlett, R.~C. Diehl, J.~Agirre, T.~Gallagher, L.~L.
+  Kiessling, D.~N. Woolfson, Carbohydrate--aromatic interactions in proteins,
+  Journal of the American Chemical Society 137 (2015) 15152--15160.
+\newblock \href {https://doi.org/10.1021/jacs.5b08424}
+  {\path{doi:10.1021/jacs.5b08424}}.
+
+\bibitem{Namchuk1995}
+M.~N. Namchuk, S.~G. Withers, Mechanism of agrobacterium beta-glucosidase:
+  kinetic analysis of the role of noncovalent enzyme/substrate interactions,
+  Biochemistry 34 (1995) 16194--16202.
+\newblock \href {https://doi.org/10.1021/bi00049a035}
+  {\path{doi:10.1021/bi00049a035}}.
+
+\bibitem{Nilsson2014}
+M.~I. Nilsson, M.~A. Kroos, A.~J. Reuser, E.~Hatcher, M.~Akhtar, E.~McCready,
+  M.~A. Tarnopolsky, Novel {GAA} sequence variant c.1211 {A}>{G} reduces enzyme
+  activity but not protein expression in infantile and adult onset {Pompe}
+  disease, Gene 537~(1) (2014) 41--45.
+\newblock \href {https://doi.org/10.1016/j.gene.2013.12.033}
+  {\path{doi:10.1016/j.gene.2013.12.033}}.
+
+\bibitem{Tan2010}
+K.~Tan, C.~Tesar, R.~Wilton, L.~Keigher, G.~Babnigg, A.~Joachimiak, Novel
+  alpha-glucosidase from human gut microbiome: substrate specificities and
+  their switch, The FASEB Journal 24 (2010) 3939--3949.
+\newblock \href {https://doi.org/10.1096/fj.10-156257}
+  {\path{doi:10.1096/fj.10-156257}}.
+
+\end{thebibliography}

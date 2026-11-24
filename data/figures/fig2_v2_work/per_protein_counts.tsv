@@ -1,0 +1,20 @@
+family	subsite	position	class	n_entries_all	n_entries_native	n_proteins	votes	protein_kind_majority
+GH13	+1	E204	H	44	41	25	GLU 25	sidechain_polar 25
+GH13	+1	F180	Al	43	40	24	ALA 14, PHE 4, THR 4, TYR 1, VAL 1	apolar 24
+GH13	+2	K182	H	37	36	20	LYS 16, ARG 3, GLN 1	sidechain_polar 19, apolar 1
+GH13	+2	W206	Al	37	36	20	TRP 11, ILE 5, PHE 2, TYR 1, LEU 1	apolar 14, backbone_polar 6
+GH13	-1	D179	H	73	69	42	ASP 42	sidechain_polar 40, apolar 2
+GH13	-1	D289	H	74	70	42	ASP 42	sidechain_polar 42
+GH13	-1	H288	H	71	69	42	HIS 41, GLN 1	sidechain_polar 42
+GH13	-1	H92	H	74	70	42	HIS 42	sidechain_polar 35, apolar 7
+GH13	-1	R177	H	71	69	42	ARG 42	sidechain_polar 41, apolar 1
+GH13	-1	Y51	Ar	71	67	41	TYR 41	apolar 36, backbone_polar 4, sidechain_polar 1
+GH31	-1	D327	H	18	16	6	ASP 6	sidechain_polar 6
+GH31	-1	D443	H	18	16	6	ASP 6	sidechain_polar 4, apolar 2
+GH31	-1	D542	H	18	16	6	ASP 6	sidechain_polar 6
+GH31	-1	F575	Ar	16	14	5	PHE 4, HIS 1	apolar 5
+GH31	-1	H600	H	18	16	6	HIS 6	sidechain_polar 6
+GH31	-1	I328	Al	17	15	6	ILE 3, VAL 1, LEU 1, MET 1	apolar 6
+GH31	-1	I364	Al	16	14	6	ILE 4, ASN 2	apolar 5, sidechain_polar 1
+GH31	-1	W441	Ar	18	16	6	TRP 6	apolar 6
+GH31	-1	W539	Ar	18	16	6	TRP 5, PHE 1	apolar 6

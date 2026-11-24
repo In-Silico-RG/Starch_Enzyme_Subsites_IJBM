@@ -1,0 +1,13 @@
+T	cutoff	angle	n_positions	n_changed_vs_3p5	changed
+0.2	3.2	False	36	1	GH31:D443 H->Al
+0.2	3.5	False	36	0	
+0.2	4.0	False	36	1	GH31:T544 tie:H/Ar/Al->H
+0.2	3.5	True	36	2	GH13:H92 H->Ar; GH31:D443 H->Al
+0.5	3.2	False	31	1	GH31:D443 H->Al
+0.5	3.5	False	31	0	
+0.5	4.0	False	31	1	GH31:W406 Ar->tie:H/Ar
+0.5	3.5	True	31	2	GH13:H92 H->Ar; GH31:D443 H->Al
+0.8	3.2	False	22	1	GH31:D443 H->Al
+0.8	3.5	False	22	0	
+0.8	4.0	False	22	0	
+0.8	3.5	True	22	2	GH13:H92 H->Ar; GH31:D443 H->Al

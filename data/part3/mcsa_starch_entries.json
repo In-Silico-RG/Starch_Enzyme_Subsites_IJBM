@@ -1,0 +1,3219 @@
+[
+ {
+  "mcsa_id": 205,
+  "enzyme_name": "Glycogen phosphorylase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "P00489",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/205/",
+  "description": "Phophorylases are important allosteric enzymes in the carbohydrate metabolism. Enzymes from different sources differ in their regulatory mechanisms and in their natural substrates. However all known phosphorylases share catalytic and structural properties. For example glycogen phosphorylase catalyses the intracellular degradation of glycogen into glucose-1-phosphate, the first step of glycolysis. It was the first enzyme to be discovered that was controlled by phosphorylation. Other phosphorylases include maltodextrin phosphorylase and starch phosphorylase.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "P00489"
+    }
+   ]
+  },
+  "all_ecs": [
+   "2.4.1.1"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 205,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "main-C",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1gpb",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "His",
+      "resid": 377,
+      "auth_resid": 377,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.40.50.2000"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P00489",
+      "code": "His",
+      "is_reference": true,
+      "resid": 378
+     }
+    ]
+   },
+   {
+    "mcsa_id": 205,
+    "roles_summary": "covalently attached",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "covalently attached",
+      "emo": "EMO_00115"
+     },
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "covalently attached",
+      "emo": "EMO_00115"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1gpb",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Lys",
+      "resid": 680,
+      "auth_resid": 680,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.40.50.2000"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P00489",
+      "code": "Lys",
+      "is_reference": true,
+      "resid": 681
+     }
+    ]
+   },
+   {
+    "mcsa_id": 205,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1gpb",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "His",
+      "resid": 377,
+      "auth_resid": 377,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.40.50.2000"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P00489",
+      "code": "His",
+      "is_reference": true,
+      "resid": 378
+     }
+    ]
+   },
+   {
+    "mcsa_id": 205,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1gpb",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Lys",
+      "resid": 568,
+      "auth_resid": 568,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.40.50.2000"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P00489",
+      "code": "Lys",
+      "is_reference": true,
+      "resid": 569
+     }
+    ]
+   },
+   {
+    "mcsa_id": 205,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1gpb",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Arg",
+      "resid": 569,
+      "auth_resid": 569,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.40.50.2000"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P00489",
+      "code": "Arg",
+      "is_reference": true,
+      "resid": 570
+     }
+    ]
+   },
+   {
+    "mcsa_id": 205,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1gpb",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Lys",
+      "resid": 574,
+      "auth_resid": 574,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.40.50.2000"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P00489",
+      "code": "Lys",
+      "is_reference": true,
+      "resid": 575
+     }
+    ]
+   },
+   {
+    "mcsa_id": 205,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "main-N",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1gpb",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Thr",
+      "resid": 676,
+      "auth_resid": 676,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.40.50.2000"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P00489",
+      "code": "Thr",
+      "is_reference": true,
+      "resid": 677
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "2.4.1.1",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "58601",
+     "name": "alpha-D-glucose 1-phosphate(2-)",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/58601.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "18167",
+     "name": "alpha-maltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "17925",
+     "name": "alpha-D-glucose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "43474",
+     "name": "hydrogenphosphate",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/43474.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 1,
+     "is_detailed": true,
+     "mechanism_text": "The coenzyme pyridoxal phosphate (PLP) is covalently bound to Lys568 as a Schiff Base. Glycogen substrate binding (shown here as maltose) is followed by a conformational change which brings the substrate close to the coenzyme pyridoxal phosphate (PLP) resulting in the distortion and enhanced electrophilicity of the latter thus labelling the glucosyl phosphate linkage. Bond cleavage then ensues with the coenzyme PLP and its neighbouring basic groups, Gly674, Thr675 and Lys573, essentially sequestering the released inorganic phosphate. The glucosyl carbanion generated may be stabilised as an intermediate by a negatively charged enzymic group, attacked directly in a concerted reaction by the oligosaccharide or trapped by an enzymic group as a glucosyl enzyme intermediate. The latter is the most likely option, the glyucosyl bound via a carboxylate group, Glu671. The glucosyl unit now reacts with the nonreducing end of the oligosaccharide substrate and the reaction proceeds with retention of configuration at the glucose moiety. As a result from this Sn1 reaction, the products glucose-1-phosphate and a n-1 glycogen chain are formed.",
+     "rating": 3,
+     "components_summary": "bimolecular nucleophilic addition, intermediate terminated, native state of cofactor regenerated, overall product formed, native state of enzyme regenerated, proton relay, unimolecular elimination by the conjugate base, cofactor used, overall reactant used, intermediate formation, proton transfer",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "The ring oxygen of the substrate initiates an elimination of the alcohol product, which deprotonates a non-covalently bound phosphate, which in turn deprotonates the phosphate of the covalently attached PLP cofactor.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/MACiE__entry_205_mechanism_1_step_1_ZN6Bkxh",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/MACiE__entry_205_mechanism_1_step_1_ZN6Bkxh.mrv"
+      },
+      {
+       "step_id": 2,
+       "description": "The phosphate of the covalently attached PLP cofactor deprotonates the non-covalently bound phosphate, which in turn attacks the intermediate in a nucleophilic addition that produces the second product.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_205_1_2",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_205_1_2.mrv"
+      },
+      {
+       "step_id": 3,
+       "description": "Products.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_205_1_3",
+       "is_product": true,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_205_1_3.mrv"
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "15535798",
+       "doi": "10.1042/bj20041593",
+       "title": "Catalytic mechanism of \u03b1-retaining glucosyl transfer byCorynebacterium callunaestarch phosphorylase: the role of histidine-334 examined through kinetic characterization of site-directed mutants",
+       "evidence_types": [
+        "inferred from mutant phenotype",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": "1304390",
+       "doi": "10.1002/pro.5560010905",
+       "title": "Control of phosphorylasebconformation by a modified cofactor: Crystallographic studies on R-state glycogen phosphorylase reconstituted with pyridoxal 5\u2032-diphosphate",
+       "evidence_types": [
+        "crystallography evidence",
+        "covalently attached",
+        "required",
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "12217700",
+       "doi": "10.1016/s0022-2836(02)00771-4",
+       "title": "Enzymatic Catalysis in Crystals of Escherichia coli Maltodextrin Phosphorylase",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "1900534",
+       "doi": "10.1016/0022-2836(91)90887-c",
+       "title": "Structural mechanism for glycogen phosphorylase control by phosphorylation and AMP",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "6425278",
+       "doi": null,
+       "title": "Catalytic reaction of glycogen phosphorylase reconstituted with a coenzyme-substrate conjugate.",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "11886794",
+       "doi": "10.2210/pdb1h5u/pdb",
+       "title": "The 1.76 A resolution crystal structure of glycogen phosphorylase B complexed with glucose, and CP320626, a potential antidiabetic drug.",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "15272305",
+       "doi": "10.1038/sj.emboj.7600324",
+       "title": "Crystal structure of glycogen synthase: homologous enzymes catalyze glycogen synthesis and degradation",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "12460107",
+       "doi": "10.1023/a:1020978825802",
+       "title": "Pyridoxal 5'-phosphate as a catalytic and conformational cofactor of muscle glycogen phosphorylase B.",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "29905983",
+       "doi": "10.1002/cmdc.201800218",
+       "title": "Understanding the Rate-Limiting Step of Glycogenolysis by Using QM/MM Calculations on Human Glycogen Phosphorylase.",
+       "evidence_types": [
+        "computational experiment"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 285,
+  "enzyme_name": "oligo-1,6-glucosidase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "P21332",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/285/",
+  "description": "Oligo-1,6-glucosidase (dextrin 6-alpha-D-glucanohydrolase) hydrolyses the non-reducing terminal alpha-1,6-glucosidic bonds of isomaltosaccharides, panose, and alpha-limit dextrins, but fails to act on alpha,1,4-glucosidic bonds of maltosaccharides [PMID:8370659]. The anomeric configuration of the substrate is retained, thus the mechanism proceeds via a double displacement process [PMID:9193006, PMID:10331869]. In addition, this enzyme belongs to the family 13 of glycosyl hydrolases, also known as the alpha-amylase family.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "P21332"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.10"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 285,
+    "roles_summary": "hydrogen bond acceptor, hydrogen bond donor, proton acceptor, proton donor, repulsive charge-charge interaction",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "hydrogen bond donor",
+      "emo": "EMO_00114"
+     },
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "hydrogen bond acceptor",
+      "emo": "EMO_00113"
+     },
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "repulsive charge-charge interaction",
+      "emo": "EMO_00120"
+     },
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton acceptor",
+      "emo": "EMO_00066"
+     },
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton donor",
+      "emo": "EMO_00068"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1uok",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 255,
+      "auth_resid": 255,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P21332",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 255
+     }
+    ]
+   },
+   {
+    "mcsa_id": 285,
+    "roles_summary": "electrostatic stabiliser, hydrogen bond donor",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "hydrogen bond donor",
+      "emo": "EMO_00114"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "hydrogen bond donor",
+      "emo": "EMO_00114"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1uok",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "His",
+      "resid": 328,
+      "auth_resid": 328,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P21332",
+      "code": "His",
+      "is_reference": true,
+      "resid": 328
+     }
+    ]
+   },
+   {
+    "mcsa_id": 285,
+    "roles_summary": "covalently attached, nucleofuge, nucleophile, polar interaction",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "polar interaction",
+      "emo": "EMO_00117"
+     },
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "covalently attached",
+      "emo": "EMO_00115"
+     },
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "nucleofuge",
+      "emo": "EMO_00058"
+     },
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "nucleophile",
+      "emo": "EMO_00054"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1uok",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 199,
+      "auth_resid": 199,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P21332",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 199
+     }
+    ]
+   },
+   {
+    "mcsa_id": 285,
+    "roles_summary": "electrostatic destabiliser, electrostatic stabiliser, repulsive charge-charge interaction, steric role",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "repulsive charge-charge interaction",
+      "emo": "EMO_00120"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic destabiliser",
+      "emo": "EMO_00034"
+     },
+     {
+      "group_function": "steric role",
+      "function_type": "spectator",
+      "function": "steric role",
+      "emo": "EMO_00029"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "repulsive charge-charge interaction",
+      "emo": "EMO_00120"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic destabiliser",
+      "emo": "EMO_00034"
+     },
+     {
+      "group_function": "steric role",
+      "function_type": "spectator",
+      "function": "steric role",
+      "emo": "EMO_00029"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1uok",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 98,
+      "auth_resid": 98,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P21332",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 98
+     }
+    ]
+   },
+   {
+    "mcsa_id": 285,
+    "roles_summary": "transition state stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "transition state stabiliser",
+      "emo": "EMO_00035"
+     },
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "transition state stabiliser",
+      "emo": "EMO_00035"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1uok",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 329,
+      "auth_resid": 329,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P21332",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 329
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.10",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "28189",
+     "name": "isomaltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/28189.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "17925",
+     "name": "alpha-D-glucose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "4167",
+     "name": "D-glucopyranose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/4167.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 1,
+     "is_detailed": true,
+     "mechanism_text": "The mechanism here is shown utilising isomaltose. The alpha-retaining mechanism is a double displacement process, which proceeds in two steps. In the first step, Oligo-1,6-glucosidase cleaves an alpha(1-6) glycosidic bond in its substrate, dextrin or isomaltose, and forms a covalent beta(1-6)-linked glycosyl-enzyme intermediate [PMID:10331869]. In the second step, the resulting glycosyl enzyme is hydrolysed by a water molecule [PMID:11676021]. Two active site amino acids play distinct roles in catalysis. One is the acid/base Glu 255, which protonates the glycosidic oxygen of the scissile bond in the first step, and then deprotonates the attacking water molecule in the second step. The other is the nucleophile, Asp 229, which attacks the sugar, forming the covalent linkage within the intermediate [PMID:10331869, PMID:11676021].",
+     "rating": 3,
+     "components_summary": "enzyme-substrate complex formation, intermediate terminated, overall product formed, bimolecular nucleophilic substitution, native state of enzyme regenerated, enzyme-substrate complex cleavage, overall reactant used, intermediate formation, proton transfer",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "Asp displaces the terminal sugar in a nucleophilic substitution reaction, forming a covalent bond between the enzyme and substrate. The mechanism proceeds through a high-energy oxocarbenium-like transition state, in which the reaction centre of the sugar is planar and positively charged [PMID:10331869].",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_285_mechanism_1_step_1",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_285_mechanism_1_step_1.mrv"
+      },
+      {
+       "step_id": 2,
+       "description": "Glu255 deprotonates the water, which initiates a nucleophilic attack on the covalently bound sugar, displacing the Asp199. The mechanism proceeds through a high-energy oxocarbenium-like transition state, in which the reaction centre of the sugar is planar and positively charged [PMID:10331869].",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_285_mechanism_1_step_2",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_285_mechanism_1_step_2.mrv"
+      },
+      {
+       "step_id": 3,
+       "description": "Products.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_285_mechanism_1_step_3_UkHINNp",
+       "is_product": true,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_285_mechanism_1_step_3_UkHINNp.mrv"
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "8370659",
+       "doi": null,
+       "title": "Polypeptide folding of Bacillus cereus ATCC7064 oligo-1,6-glucosidase revealed by 3.0 A resolution X-ray analysis.",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "9193006",
+       "doi": "10.1006/jmbi.1997.1018",
+       "title": "The refined crystal structure of Bacillus cereus oligo-1,6-glucosidase at 2.0 \u00e5 resolution: structural characterization of proline-substitution sites for protein thermostabilization",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "10331869",
+       "doi": "10.1038/8235",
+       "title": "X-ray structures along the reaction pathway of cyclodextrin glycosyltransferase elucidate catalysis in the alpha-amylase family.",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "11676021",
+       "doi": "10.1271/bbb.65.2058",
+       "title": "Identification of Catalytic and Substrate-binding Site Residues in Bacillus cereus ATCC7064 Oligo-1,6-glucosidase",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "15940457",
+       "doi": "10.1007/s00253-005-1977-3",
+       "title": "alpha-Glucosidase from a strain of deep-sea Geobacillus: a potential enzyme for the biosynthesis of complex carbohydrates.",
+       "evidence_types": [
+        "inferred from mutant phenotype",
+        "inferred from sequence similarity",
+        "spectrometry evidence",
+        "direct assay evidence"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 393,
+  "enzyme_name": "glucan 1,4-alpha-glucosidase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "P69327",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/393/",
+  "description": "Glucoamylase (alpha-1,4-D-glucan glucohydrolase) catalyses the removal of beta-D-glucose from the non-reducing ends of starch and other related poly- and oligosaccharides. The enzyme is used widely in industry for the conversion of starch to glucose syrups. The glucose in turn is used in the production of fructose sweeteners, ethanol and light beer.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "P69327"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.3"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 393,
+    "roles_summary": "activator",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "activator",
+      "function_type": "spectator",
+      "function": "activator",
+      "emo": "EMO_00038"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1agm",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 179,
+      "auth_resid": 180,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "1.50.10.10"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P69327",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 204
+     }
+    ]
+   },
+   {
+    "mcsa_id": 393,
+    "roles_summary": "transition state stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "transition state stabiliser",
+      "emo": "EMO_00035"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1agm",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Trp",
+      "resid": 119,
+      "auth_resid": 120,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "1.50.10.10"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P69327",
+      "code": "Trp",
+      "is_reference": true,
+      "resid": 144
+     }
+    ]
+   },
+   {
+    "mcsa_id": 393,
+    "roles_summary": "activator",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "activator",
+      "function_type": "spectator",
+      "function": "activator",
+      "emo": "EMO_00038"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1agm",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 399,
+      "auth_resid": 400,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "1.50.10.10"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P69327",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 424
+     }
+    ]
+   },
+   {
+    "mcsa_id": 393,
+    "roles_summary": "proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1agm",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 178,
+      "auth_resid": 179,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "1.50.10.10"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P69327",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 203
+     }
+    ]
+   },
+   {
+    "mcsa_id": 393,
+    "roles_summary": "proton shuttle (general acid/base), transition state stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "transition state stabiliser",
+      "emo": "EMO_00035"
+     },
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1agm",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 175,
+      "auth_resid": 176,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "1.50.10.10"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P69327",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 200
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.3",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "15903",
+     "name": "beta-D-glucose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15903.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "37680",
+     "name": "alpha-L-mannose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/37680.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "47934",
+     "name": "beta-D-glucosyl-(1->4)-alpha-D-mannose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/47934.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 2,
+     "is_detailed": false,
+     "mechanism_text": "The general base residue deprotonates water, which attacks the anomeric carbon of the substrate in a nucleophilic substitution. The leaving group deprotonates the general acid residue. To return the enzyme to its active state, it is likely that one or more water molecules shuttle a proton between the acidic and basic residues.",
+     "rating": 3,
+     "components_summary": "",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "",
+       "figure": "",
+       "is_product": false,
+       "marvin_xml": ""
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": null,
+       "doi": "10.1093/protein/3.3.193",
+       "title": "Catalytic mechanism of fungal glucoamylase as defined by mutagenesis of Asp176, Glu179 and Glu180 in the enzyme from Aspergillus awamori",
+       "evidence_types": [
+        "inferred from mutant phenotype"
+       ]
+      },
+      {
+       "pubmed_id": "8195212",
+       "doi": "10.2210/pdb1agm/pdb",
+       "title": "Refined structure for the complex of acarbose with glucoamylase from Aspergillus awamori var. X100 to 2.4-A resolution.",
+       "evidence_types": [
+        "crystallography evidence",
+        "pH",
+        "chemical modification",
+        "inferred from mutant phenotype",
+        "direct assay evidence"
+       ]
+      },
+      {
+       "pubmed_id": "8535779",
+       "doi": "10.1016/s0969-2126(01)00220-9",
+       "title": "Structures and mechanisms of glycosyl hydrolases",
+       "evidence_types": [
+        "crystallography evidence",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": "2510150",
+       "doi": null,
+       "title": "Site-directed mutagenesis at the active site Trp120 of Aspergillus awamori glucoamylase.",
+       "evidence_types": [
+        "inferred from mutant phenotype"
+       ]
+      },
+      {
+       "pubmed_id": "23680647",
+       "doi": "10.1016/j.carres.2013.04.012",
+       "title": "Kinetic analysis of inhibition of glucoamylase and active site mutants via chemoselective oxime immobilization of acarbose on SPR chip surfaces",
+       "evidence_types": [
+        "inferred from mutant phenotype"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 397,
+  "enzyme_name": "alpha-amylase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "P04063",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/397/",
+  "description": "<p>Alpha-amylase catalyses the hydrolysis of internal alpha-glucosidic linkages in starch and other related oligo- and polysaccharides. These enzymes are widespread among the higher plants, animals and micro-organisms.   </p>\r\n\r\n<p>Cereal alpha-amylases play an important role in the production of beer and other alcoholic beverages.   </p>\r\n\r\n<p>In humans, alpha-amylase is present in salivary and pancreatic secretions. Human pancreatic alpha-amylase (HPA) is a 496 amino acid single polypeptide chain which binds to essential calcium and chloride ions, and is responsible for the hydrolysis of the partially digested starch (smaller oligosaccharides) reaching the gut, into glucose. Inhibition of HPA provides an effective target for the treatment of diabetes.</p>",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "P04063"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.1"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 397,
+    "roles_summary": "covalent catalysis",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "covalent catalysis",
+      "emo": "EMO_00050"
+     },
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "covalent catalysis",
+      "emo": "EMO_00050"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1amy",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 179,
+      "auth_resid": 179,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P04063",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 203
+     }
+    ]
+   },
+   {
+    "mcsa_id": 397,
+    "roles_summary": "electrostatic stabiliser, hydrogen radical acceptor, proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     },
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     },
+     {
+      "group_function": "hydrogen radical shuttle",
+      "function_type": "reactant",
+      "function": "hydrogen radical acceptor",
+      "emo": "EMO_00074"
+     },
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1amy",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 289,
+      "auth_resid": 289,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P04063",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 313
+     }
+    ]
+   },
+   {
+    "mcsa_id": 397,
+    "roles_summary": "hydrogen radical acceptor, proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     },
+     {
+      "group_function": "hydrogen radical shuttle",
+      "function_type": "reactant",
+      "function": "hydrogen radical acceptor",
+      "emo": "EMO_00074"
+     },
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1amy",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 204,
+      "auth_resid": 204,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P04063",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 228
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.1",
+   "compounds": [
+    {
+     "count": 2,
+     "type": "product",
+     "chebi_id": "17925",
+     "name": "alpha-D-glucose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "18167",
+     "name": "alpha-maltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 2,
+     "is_detailed": true,
+     "mechanism_text": "This reaction occurs via a double displacement mechanism involving the formation and hydrolysis of a covalent beta-glycosyl enzyme intermediate.\r\n<ol>\r\n<li>Formation of the intermediate involves attack at the sugar anomeric centre by a nucleophilic Asp 179 side chain. This is assisted by general acid catalysis of Glu 204 and Asp 289. </li>\r\n<li>The covalent glycosyl intermediate undergoes general base catalysed hydrolysis via attack of nucleophilic water at the anomeric centre, again catalysed by Glu 204 and Asp 289. (Glu 204 and Asp 289 side chains deprotonate the water, activating it towards nucleophilic attack). These residues also form hydrogenbonds to the water molecule.</li>\r\n<li>This leads to an oxocarbenium ion-like transition state, which goes on to form the deglycosylated product.</li>\r\n</ol>",
+     "rating": 3,
+     "components_summary": "bimolecular nucleophilic addition, enzyme-substrate complex formation, overall product formed, hydrolysis, enzyme-substrate complex cleavage, intermediate formation, proton transfer",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "Nucleophilic attack at the sugar anomeric centre by Asp179 side chain. This is assisted by general acid catalysis by Glu204 and Asp289. H atoms omitted for clarity.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_397_mechanism_2_step_1_YYjVFMn",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_397_mechanism_2_step_1_YYjVFMn.mrv"
+      },
+      {
+       "step_id": 2,
+       "description": "The covalent glycosyl intermediate undergoes general base catalysed hydrolysis via attack of nucleophilic water at the anomeric centre, again catalysed by Glu204 and Asp289. These residues also form hydrogen bonds to the molecule. This leads to a oxocarbenium ion-like transition state, which forms the deglycosylated product.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_397_mechanism_2_step_2_qDFt2On",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_397_mechanism_2_step_2_qDFt2On.mrv"
+      },
+      {
+       "step_id": 3,
+       "description": "Product.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_397_mechanism_2_step_3",
+       "is_product": true,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_397_mechanism_2_step_3.mrv"
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "11914097",
+       "doi": "10.2210/pdb1kbk/pdb",
+       "title": "Mechanistic analyses of catalysis in human pancreatic alpha-amylase: detailed kinetic and structural studies of mutants of three conserved carboxylic acids.",
+       "evidence_types": [
+        "multiple sequence alignment (conservation)",
+        "pH",
+        "inferred from mutant phenotype",
+        "match to InterPro member signature (homology)",
+        "direct assay evidence"
+       ]
+      },
+      {
+       "pubmed_id": "8535779",
+       "doi": "10.1016/s0969-2126(01)00220-9",
+       "title": "Structures and mechanisms of glycosyl hydrolases",
+       "evidence_types": [
+        "crystallography evidence",
+        "multiple sequence alignment (conservation)",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": "8196040",
+       "doi": "10.2210/pdb1amy/pdb",
+       "title": "Crystal and molecular structure of barley alpha-amylase.",
+       "evidence_types": [
+        "crystallography evidence",
+        "inferred from mutant phenotype"
+       ]
+      },
+      {
+       "pubmed_id": "10769135",
+       "doi": "10.1021/bi9921182",
+       "title": "Subsite Mapping of the Human Pancreatic \u03b1-Amylase Active Site through Structural, Kinetic, and Mutagenesis Techniques\u2020,\u2021",
+       "evidence_types": [
+        "crystallography evidence",
+        "direct assay evidence",
+        "multiple sequence alignment (conservation)",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": "9571044",
+       "doi": "10.1006/jmbi.1998.1683",
+       "title": "Molecular structure of a barley \u03b1-amylase-inhibitor complex: implications for starch binding and catalysis",
+       "evidence_types": [
+        "crystallography evidence"
+       ]
+      },
+      {
+       "pubmed_id": "17123489",
+       "doi": "10.1016/j.carres.2006.10.028",
+       "title": "Formation of covalent \u03b2-linked carbohydrate\u2013enzyme intermediates during the reactions catalyzed by \u03b1-amylases",
+       "evidence_types": [
+        "covalently attached"
+       ]
+      },
+      {
+       "pubmed_id": "26575550",
+       "doi": "10.1021/acs.jctc.5b00222",
+       "title": "Establishing the catalytic mechanism of human pancreatic \u03b1-amylase with QM/MM methods.",
+       "evidence_types": [
+        "computational experiment"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 421,
+  "enzyme_name": "isoamylase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "P10342",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/421/",
+  "description": "Isoamylase (glycogen 6-glucanohydrolase, EC 3.2.1.68) is one of the starch-debranching enzymes that catalyses the hydrolysis of alpha-1,6-glucosidic linkages specific in alpha-glucans such as amylopectin or glycogen. Belongs to Glycoside Hydrolase Family 13.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "P10342"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.68"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 421,
+    "roles_summary": "metal ligand",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "metal ligand",
+      "function_type": "interaction",
+      "function": "metal ligand",
+      "emo": "EMO_00116"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asn",
+      "resid": 232,
+      "auth_resid": 232,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Asn",
+      "is_reference": true,
+      "resid": 258
+     }
+    ]
+   },
+   {
+    "mcsa_id": 421,
+    "roles_summary": "metal ligand",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "metal ligand",
+      "function_type": "interaction",
+      "function": "metal ligand",
+      "emo": "EMO_00116"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 229,
+      "auth_resid": 229,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 255
+     }
+    ]
+   },
+   {
+    "mcsa_id": 421,
+    "roles_summary": "metal ligand",
+    "function_location_abv": "main-C",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "metal ligand",
+      "function_type": "interaction",
+      "function": "metal ligand",
+      "emo": "EMO_00116"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Thr",
+      "resid": 230,
+      "auth_resid": 230,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Thr",
+      "is_reference": true,
+      "resid": 256
+     }
+    ]
+   },
+   {
+    "mcsa_id": 421,
+    "roles_summary": "metal ligand",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "metal ligand",
+      "function_type": "interaction",
+      "function": "metal ligand",
+      "emo": "EMO_00116"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 259,
+      "auth_resid": 259,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 285
+     }
+    ]
+   },
+   {
+    "mcsa_id": 421,
+    "roles_summary": "covalent catalysis",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "covalent catalysis",
+      "emo": "EMO_00050"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 375,
+      "auth_resid": 375,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 401
+     }
+    ]
+   },
+   {
+    "mcsa_id": 421,
+    "roles_summary": "proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 435,
+      "auth_resid": 435,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 461
+     }
+    ]
+   },
+   {
+    "mcsa_id": 421,
+    "roles_summary": "transition state stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "transition state stabiliser",
+      "emo": "EMO_00035"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 510,
+      "auth_resid": 510,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 536
+     }
+    ]
+   },
+   {
+    "mcsa_id": 421,
+    "roles_summary": "metal ligand",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "metal ligand",
+      "function_type": "interaction",
+      "function": "metal ligand",
+      "emo": "EMO_00116"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bf2",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 128,
+      "auth_resid": 128,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "2.60.40.10"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10342",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 154
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.68",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "17925",
+     "name": "alpha-D-glucose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "28189",
+     "name": "isomaltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/28189.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "4167",
+     "name": "D-glucopyranose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/4167.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 2,
+     "is_detailed": false,
+     "mechanism_text": "Asp375 initiates a nucleophilic attack on the substrate, eliminating one of the products. A water molecule is then activated by Glu435 and attacks the enzyme-substrate complex, eliminating the second product and regenerating the enzyme active site.",
+     "rating": 3,
+     "components_summary": "",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "",
+       "figure": "",
+       "is_product": false,
+       "marvin_xml": ""
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "9719642",
+       "doi": "10.1006/jmbi.1998.1992",
+       "title": "Three-dimensional structure of  Pseudomonas  isoamylase at 2.2 \u00c5 resolution 1 1Edited by R. Huber",
+       "evidence_types": [
+        "crystallography evidence",
+        "inferred from mutant phenotype",
+        "multiple sequence alignment (conservation)"
+       ]
+      },
+      {
+       "pubmed_id": "12196524",
+       "doi": "10.1074/jbc.m205746200",
+       "title": "The X-ray Crystallographic Structure ofEscherichia coli Branching Enzyme",
+       "evidence_types": [
+        "crystallography evidence",
+        "covalently attached",
+        "multiple sequence alignment (conservation)"
+       ]
+      },
+      {
+       "pubmed_id": "21493662",
+       "doi": "10.1093/glycob/cwr049",
+       "title": "Crystal structure of the branching enzyme I (BEI) from Oryza sativa L with implications for catalysis and substrate binding",
+       "evidence_types": [
+        "match to InterPro member signature (homology)"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 433,
+  "enzyme_name": "neopullulanase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "Q08751",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/433/",
+  "description": "Neopullulanase is a member of the glycoside hydrolase family 13 (GH13) and is one of the family enzymes with a unique substrate specificity that hydrolyses pullulan to produce panose, maltose and glucose in a final molar ratio of 3:1:1. This enzyme hydrolyses alpha-1,4 and alpha-1,6-glucosidic linkages, and catalyses transglycosylation reactions to form both alpha-1,4 and alpha-1,6-glucosidic bonds.\r\n<br/><br/>\r\nNeopullulanase (EC 3.2.1.135) is a special glycoside hydrolase that is able to catalyse several biochemical reactions, such as the hydrolysis of both alpha-1,4- and alpha-1,6-glucosidic linkages and their formation by transglycosylation. Neopullulanase is, in fact, nearly indistinguishable from the two closely related enzyme specificities, maltogenic amylase (EC 3.2.1.133) and cyclomaltodextrinase (EC 3.2.1.54). The three groups of enzymes contain \u223c130 residues at the N terminus that are absent in the smaller alpha-amylases.\r\n<br/><br/>\r\nThey are known to bind Ca, but it is remote from the active site and not involved in the mechanism.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "Q08751"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.135"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 433,
+    "roles_summary": "covalent catalysis",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "covalent catalysis",
+      "emo": "EMO_00050"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bvz",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 325,
+      "auth_resid": 325,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "Q08751",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 325
+     }
+    ]
+   },
+   {
+    "mcsa_id": 433,
+    "roles_summary": "proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bvz",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 354,
+      "auth_resid": 354,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "Q08751",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 354
+     }
+    ]
+   },
+   {
+    "mcsa_id": 433,
+    "roles_summary": "transition state stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "transition state stabiliser",
+      "emo": "EMO_00035"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bvz",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 421,
+      "auth_resid": 421,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "Q08751",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 421
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.135",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "27941",
+     "name": "pullulan",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/27941.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "7912",
+     "name": "panose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/7912.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "27941",
+     "name": "pullulan",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/27941.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 1,
+     "is_detailed": false,
+     "mechanism_text": "Has a very similar mechanism to other alpha-amylases: Asp325 acts as a nucleophile, whereas Glu354 acts as an acid-base. Asp421 stabilises the transition state.\r\n\r\nGlu354 initiates the reaction by protonating O4 atom, giving an oxocarbonium ion-like transition state. Asp325 makes a nucleophilic attack on the C1 atom to form glycosyl-enzyme intermediate. Glu354 acts as a general base to activate a water. The activated water attacks on the intermediate to complete the hydrolysis.",
+     "rating": 3,
+     "components_summary": "",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "",
+       "figure": "",
+       "is_product": false,
+       "marvin_xml": ""
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "12051850",
+       "doi": "10.1016/s0022-2836(02)00111-0",
+       "title": "Crystal Structures and Structural Comparison of Thermoactinomyces vulgaris R-47 \u03b1-Amylase 1 (TVAI) at 1.6\u00c5 Resolution and \u03b1-Amylase 2 (TVAII) at 2.3\u00c5 Resolution",
+       "evidence_types": [
+        "crystallography evidence",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1016/s0022-2836(02)01402-x",
+       "title": "Three-dimensional Structure and Substrate Binding of Bacillus stearothermophilus Neopullulanase",
+       "evidence_types": [
+        "crystallography evidence",
+        "multiple sequence alignment (conservation)",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": "21544166",
+       "doi": null,
+       "title": "Identification of the sequence motif of glycoside hydrolase 13 family members.",
+       "evidence_types": [
+        "multiple sequence alignment (conservation)",
+        "match to InterPro member signature (homology)",
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "11923309",
+       "doi": "10.1074/jbc.m201623200",
+       "title": "Cyclomaltodextrinase, Neopullulanase, and Maltogenic Amylase Are Nearly Indistinguishable from Each Other",
+       "evidence_types": [
+        "multiple sequence alignment (conservation)",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1016/s0167-4838(00)00041-8",
+       "title": "Structure, specificity and function of cyclomaltodextrinase, a multispecific enzyme of the \u03b1-amylase family",
+       "evidence_types": [
+        "match to InterPro member signature (homology)",
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1016/s0167-4838(00)00302-2",
+       "title": "Relationship of sequence and structure to specificity in the \u03b1-amylase family of enzymes",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "15138257",
+       "doi": "10.1074/jbc.m404311200",
+       "title": "Complex Structures of Thermoactinomyces vulgaris R-47 \u00a0-Amylase 2 with Acarbose and Cyclodextrins Demonstrate the Multiple Substrate Recognition Mechanism",
+       "evidence_types": [
+        "crystallography evidence"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 436,
+  "enzyme_name": "beta-amylase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "P10538",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/436/",
+  "description": "Beta-amylase (alpha-1,4-glucan maltohydrolase; EC 3.2.1.2) catalyses the release of beta-anomeric maltose from the non-reducing ends of starch. It is known to function by multiple attack, several maltose molecules being produced before the maltooligosaccharide chain is released from the active site. Although known to bind a calcium ion, the metal is not involved in catalysis.\r\n<br/><br/>\r\nOn the basis of its sequence alignment, beta-amylase has been classified as belonging to the glycoside hydrolase family 14 (GH14). It is an inverting glycoside hydrolase that is distributed throughout higher plants, oomycetes and bacteria. However, on the basis of sequence comparisons, plant and bacterial beta-amylases can be readily distinguished from each other.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "P10538"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.2"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 436,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bya",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 101,
+      "auth_resid": 101,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10538",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 102
+     }
+    ]
+   },
+   {
+    "mcsa_id": 436,
+    "roles_summary": "proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bya",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 186,
+      "auth_resid": 186,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10538",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 187
+     }
+    ]
+   },
+   {
+    "mcsa_id": 436,
+    "roles_summary": "proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bya",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 380,
+      "auth_resid": 380,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10538",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 381
+     }
+    ]
+   },
+   {
+    "mcsa_id": 436,
+    "roles_summary": "electrostatic stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "electrostatic stabiliser",
+      "emo": "EMO_00033"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bya",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Thr",
+      "resid": 342,
+      "auth_resid": 342,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10538",
+      "code": "Thr",
+      "is_reference": true,
+      "resid": 343
+     }
+    ]
+   },
+   {
+    "mcsa_id": 436,
+    "roles_summary": "steric role",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "steric role",
+      "function_type": "spectator",
+      "function": "steric role",
+      "emo": "EMO_00029"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1bya",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Leu",
+      "resid": 383,
+      "auth_resid": 383,
+      "is_reference": true,
+      "domain_name": "A00",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P10538",
+      "code": "Leu",
+      "is_reference": true,
+      "resid": 384
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.2",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "27931",
+     "name": "alpha-maltotriose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/27931.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "17925",
+     "name": "alpha-D-glucose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "17306",
+     "name": "maltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17306.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 1,
+     "is_detailed": false,
+     "mechanism_text": "Glu383 acts as a general base, whilst Glu186 acts as a general acid. At the first step, the general acid, Glu1186, protonates the leaving oxygen atom of the glycosidic linkage, resulting in the formation of carbonium ion intermediate. At the next stage, the general base, Glu380, abstracts the proton from a nearby water molecule to produce an activated hydroxide ion, which makes a nucleophilic attack on the carbonium ion intermediate to produce beta-maltose.",
+     "rating": 3,
+     "components_summary": "",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "",
+       "figure": "",
+       "is_product": false,
+       "marvin_xml": ""
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "8535779",
+       "doi": "10.1016/s0969-2126(01)00220-9",
+       "title": "Structures and mechanisms of glycosyl hydrolases",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "15178253",
+       "doi": "10.1016/j.jmb.2004.04.029",
+       "title": "The Roles of Glu186 and Glu380 in the Catalytic Reaction of Soybean \u03b2-Amylase",
+       "evidence_types": [
+        "crystallography evidence",
+        "inferred from mutant phenotype"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1111/j.1432-1033.1994.tb18777.x",
+       "title": "Residues essential for catalytic activity of soybean beta-amylase",
+       "evidence_types": [
+        "inferred from mutant phenotype",
+        "multiple sequence alignment (conservation)"
+       ]
+      },
+      {
+       "pubmed_id": "2474529",
+       "doi": null,
+       "title": "Identification of glutamic acid 186 affinity-labeled by 2,3-epoxypropyl alpha-D-glucopyranoside in soybean beta-amylase.",
+       "evidence_types": [
+        "crystallography evidence",
+        "chemical modification",
+        "nuclear magnetic resonance spectroscopy evidence",
+        "inferred from mutant phenotype"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1111/j.1432-1033.1996.0655h.x",
+       "title": "Functional Analysis of Glu380 and Leu383 of Soybean beta-Amylase. A Proposed Action Mechanism",
+       "evidence_types": [
+        "inferred from mutant phenotype",
+        "multiple sequence alignment (conservation)"
+       ]
+      },
+      {
+       "pubmed_id": "21085740",
+       "doi": "10.1039/c0mb00204f",
+       "title": "Chemical genetics and cereal starch metabolism: structural basis of the non-covalent and covalent inhibition of barley \u03b2-amylase",
+       "evidence_types": [
+        "crystallography evidence"
+       ]
+      },
+      {
+       "pubmed_id": "17223700",
+       "doi": "10.1021/bi061605w",
+       "title": "Kinetic and Structural Analysis of Enzyme Sliding on a Substrate:\u00a0 Multiple Attack in \u03b2-Amylase\u2021",
+       "evidence_types": [
+        "computational experiment"
+       ]
+      },
+      {
+       "pubmed_id": "25179433",
+       "doi": "10.1016/j.plaphy.2014.08.005",
+       "title": "Identification of active site residues of Fenugreek \u03b2-amylase: Chemical modification and in silico approach",
+       "evidence_types": [
+        "inferred from sequence similarity",
+        "pH",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": "23831155",
+       "doi": "10.1016/j.bbapap.2013.06.017",
+       "title": "Unexpected mode of action of sweet potato \u03b2-amylase on maltooligomer substrates",
+       "evidence_types": [
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": "15794648",
+       "doi": "10.1021/bi0476580",
+       "title": "Structural Analysis of Threonine 342 Mutants of Soybean \u03b2-Amylase:\u00a0 Role of a Conformational Change of the Inner Loop in the Catalytic Mechanism\u2020,\u2021",
+       "evidence_types": [
+        "inferred from mutant phenotype"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1021/bi00078a006",
+       "title": "The 2.0-.ANG. resolution structure of soybean .beta.-amylase complexed with .alpha.-cyclodextrin",
+       "evidence_types": [
+        "crystallography evidence"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1016/j.molcatb.2012.05.019",
+       "title": "Kinetic monitoring of site-directed mutational \u03b2-amylase catalysis on a 27-MHz QCM",
+       "evidence_types": [
+        "direct assay evidence"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 905,
+  "enzyme_name": "glucan 1,4-alpha-maltohydrolase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "P19531",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/905/",
+  "description": "Alpha-amylases, which belong to glycoside hydrolase family 13, are 1,4-alpha-D-glucan glucanohydrolases, which degrade both the branched and unbranched forms of starch by cleaving the internal alpha-1,4 bonds connecting the glucose monomers. The products of these reactions are maltose and maltotriose, which are further degraded to glucose by maltases. One atom of calcium is required to bind to each protein molecule to allow it to function, but excess calcium can inhibit activity by binding to amino acids that are required for the catalytic activity of the enzyme.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "P19531"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.133"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 905,
+    "roles_summary": "covalent catalysis",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "covalent catalysis",
+      "emo": "EMO_00050"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1qho",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 228,
+      "auth_resid": 228,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P19531",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 261
+     }
+    ]
+   },
+   {
+    "mcsa_id": 905,
+    "roles_summary": "proton shuttle (general acid/base)",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton shuttle (general acid/base)",
+      "emo": "EMO_00062"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1qho",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Glu",
+      "resid": 256,
+      "auth_resid": 256,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P19531",
+      "code": "Glu",
+      "is_reference": true,
+      "resid": 289
+     }
+    ]
+   },
+   {
+    "mcsa_id": 905,
+    "roles_summary": "transition state stabiliser",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "electrostatic interaction",
+      "function_type": "spectator",
+      "function": "transition state stabiliser",
+      "emo": "EMO_00035"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "1qho",
+      "assembly_chain_name": "A",
+      "assembly": 1,
+      "code": "Asp",
+      "resid": 329,
+      "auth_resid": 329,
+      "is_reference": true,
+      "domain_name": "A01",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "P19531",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 362
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.133",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "18167",
+     "name": "alpha-maltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "61988",
+     "name": "alpha-maltotetraose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/61988.mol"
+    },
+    {
+     "count": 1,
+     "type": "product",
+     "chebi_id": "18167",
+     "name": "alpha-maltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 1,
+     "is_detailed": false,
+     "mechanism_text": "This enzyme catalyses glycoside hydrolysis with net retention of anomeric configuration by a double-displacement mechanism. In this mechanism, Asp228 initiates a nucleophilic attack on the anomeric carbon, displacing one of the products with concomitant deprotonation of Glu256. Glu256 then abstracts a proton from the catalytic water molecule, which in turn attacks the anomeric carbon, displacing Asp228.",
+     "rating": 3,
+     "components_summary": "",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "",
+       "figure": "",
+       "is_product": false,
+       "marvin_xml": ""
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "10387084",
+       "doi": "10.1021/bi990256l",
+       "title": "X-ray structure of Novamyl, the five-domain \"maltogenic\" alpha-amylase from Bacillus stearothermophilus: maltose and acarbose complexes at 1.7A resolution.",
+       "evidence_types": [
+        "crystallography evidence"
+       ]
+      },
+      {
+       "pubmed_id": "10556241",
+       "doi": "10.1093/protein/12.10.819",
+       "title": "Roles of catalytic residues in \u00a0-amylases as evidenced by the structures of the product-complexed mutants of a maltotetraose-forming amylase",
+       "evidence_types": [
+        "inferred from mutant phenotype",
+        "match to InterPro member signature (homology)"
+       ]
+      },
+      {
+       "pubmed_id": null,
+       "doi": "10.1021/bi0102050",
+       "title": "Enzyme-Catalyzed Condensation Reaction in a Mammalian \u03b1-Amylase. High-Resolution Structural Analysis of an Enzyme\u2212Inhibitor Complex\u2020",
+       "evidence_types": [
+        "crystallography evidence",
+        "multiple sequence alignment (conservation)"
+       ]
+      },
+      {
+       "pubmed_id": "11150613",
+       "doi": null,
+       "title": "Engineering of cyclodextrin glycosyltransferase reaction and product specificity.",
+       "evidence_types": [
+        "traceable author statement (general)"
+       ]
+      },
+      {
+       "pubmed_id": "9126844",
+       "doi": "10.1006/jmbi.1996.0887",
+       "title": "Crystal structure of a maltotetraose-formingexo-amylase from Pseudomonas stutzeri",
+       "evidence_types": [
+        "crystallography evidence"
+       ]
+      },
+      {
+       "pubmed_id": "9281429",
+       "doi": "10.1006/jmbi.1997.1222",
+       "title": "Crystal structures of a mutant maltotetraose-forming exo-amylase cocrystallized with maltopentaose 1 1Edited by R. Huber",
+       "evidence_types": [
+        "crystallography evidence",
+        "inferred from mutant phenotype"
+       ]
+      },
+      {
+       "pubmed_id": "11272837",
+       "doi": "10.1271/bbb.65.222",
+       "title": "Crystallization and Structural Analysis of Intact Maltotetraose-forming Exo-amylase from Pseudomonas stutzeri",
+       "evidence_types": [
+        "crystallography evidence"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": true
+  }
+ },
+ {
+  "mcsa_id": 976,
+  "enzyme_name": "\u03b1\u2011glucosidase maltase-glucoamylase",
+  "is_reference_uniprot_id": true,
+  "reference_uniprot_id": "O43451",
+  "url": "www.ebi.ac.uk/thornton-srv/m-csa/entry/976/",
+  "description": "\u03b1\u2011Glucosidase Maltase- Glucoamylase catalyses the digestion of starch. \u03b1\u2011Glucosidase inhibitors have been efficient in delaying glucose production, which is crucial for regulating postprandial blood glucose levels and can be used for therapeutic purposes to reduce the damage and complications in diabetics and obesity.",
+  "protein": {
+   "sequences": [
+    {
+     "uniprot_id": "O43451"
+    }
+   ]
+  },
+  "all_ecs": [
+   "3.2.1.20"
+  ],
+  "residues": [
+   {
+    "mcsa_id": 976,
+    "roles_summary": "proton acceptor, proton donor",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton donor",
+      "emo": "EMO_00068"
+     },
+     {
+      "group_function": "proton shuttle (general acid/base)",
+      "function_type": "reactant",
+      "function": "proton acceptor",
+      "emo": "EMO_00066"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Asp",
+      "resid": 542,
+      "auth_resid": 542,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 628
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "steric role",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "steric role",
+      "function_type": "spectator",
+      "function": "steric role",
+      "emo": "EMO_00029"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "His",
+      "resid": 600,
+      "auth_resid": 600,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "His",
+      "is_reference": true,
+      "resid": 686
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "nucleophile",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "covalent catalysis",
+      "function_type": "reactant",
+      "function": "nucleophile",
+      "emo": "EMO_00054"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Asp",
+      "resid": 443,
+      "auth_resid": 443,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 529
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "modifies pKa",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "activator",
+      "function_type": "spectator",
+      "function": "modifies pKa",
+      "emo": "EMO_00158"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Asp",
+      "resid": 366,
+      "auth_resid": 366,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 452
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "steric role",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "steric role",
+      "function_type": "spectator",
+      "function": "steric role",
+      "emo": "EMO_00029"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Met",
+      "resid": 444,
+      "auth_resid": 444,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Met",
+      "is_reference": true,
+      "resid": 530
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "modifies pKa, pi-pi interaction",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "pi-pi interaction",
+      "emo": "EMO_00122"
+     },
+     {
+      "group_function": "activator",
+      "function_type": "spectator",
+      "function": "modifies pKa",
+      "emo": "EMO_00158"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Tyr",
+      "resid": 214,
+      "auth_resid": 214,
+      "is_reference": true,
+      "domain_name": "A02",
+      "domain_cath_id": "2.60.40.1760"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Tyr",
+      "is_reference": true,
+      "resid": 300
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "pi-pi interaction",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "pi-pi interaction",
+      "emo": "EMO_00122"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Trp",
+      "resid": 406,
+      "auth_resid": 406,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Trp",
+      "is_reference": true,
+      "resid": 492
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "steric role",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "steric role",
+      "function_type": "spectator",
+      "function": "steric role",
+      "emo": "EMO_00029"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Arg",
+      "resid": 526,
+      "auth_resid": 526,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Arg",
+      "is_reference": true,
+      "resid": 612
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "pi-pi interaction",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "",
+      "function_type": "interaction",
+      "function": "pi-pi interaction",
+      "emo": "EMO_00122"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Trp",
+      "resid": 539,
+      "auth_resid": 539,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Trp",
+      "is_reference": true,
+      "resid": 625
+     }
+    ]
+   },
+   {
+    "mcsa_id": 976,
+    "roles_summary": "steric role",
+    "function_location_abv": "",
+    "main_annotation": "",
+    "ptm": "",
+    "roles": [
+     {
+      "group_function": "steric role",
+      "function_type": "spectator",
+      "function": "steric role",
+      "emo": "EMO_00029"
+     }
+    ],
+    "residue_chains": [
+     {
+      "chain_name": "A",
+      "pdb_id": "2qmj",
+      "assembly_chain_name": "A",
+      "assembly": "",
+      "code": "Asp",
+      "resid": 327,
+      "auth_resid": 327,
+      "is_reference": true,
+      "domain_name": "A03",
+      "domain_cath_id": "3.20.20.80"
+     }
+    ],
+    "residue_sequences": [
+     {
+      "uniprot_id": "",
+      "code": "Asp",
+      "is_reference": true,
+      "resid": 413
+     }
+    ]
+   }
+  ],
+  "reaction": {
+   "ec": "3.2.1.20",
+   "compounds": [
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "17306",
+     "name": "maltose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17306.mol"
+    },
+    {
+     "count": 1,
+     "type": "reactant",
+     "chebi_id": "15377",
+     "name": "water",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+    },
+    {
+     "count": 2,
+     "type": "product",
+     "chebi_id": "17634",
+     "name": "D-glucose",
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17634.mol"
+    }
+   ],
+   "mechanisms": [
+    {
+     "mechanism_id": 1,
+     "is_detailed": true,
+     "mechanism_text": "The mechanism involves cleavage of the maltose molecule with net retention of anomeric configuration. Asp443 performs a nucleophilic attack on the anomeric carbon of the maltose molecule and then attack of a water molecule forms the second glucose product. Asp542 acts as a general acid/base catalyst.",
+     "rating": 3,
+     "components_summary": "proton transfer, acidic bimolecular nucleophilic substitution",
+     "steps": [
+      {
+       "step_id": 1,
+       "description": "Asp443 performs a nucleophilic attack on the anomeric carbon of the maltose molecule, while Asp542 acts as a general acid/base and protonates the glyosidic oxygen atom.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/abeje_entry_5_1_1",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/abeje_entry_5_1_1.mrv"
+      },
+      {
+       "step_id": 2,
+       "description": "Asp542 deprotonates the water molecule which in turn attacks the anomeric carbon and forms a covalent bond.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/abeje_entry_5_1_3",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/abeje_entry_5_1_3.mrv"
+      },
+      {
+       "step_id": 3,
+       "description": "Products. Two glucose molecules are formed.",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/abeje_entry_5_1_4",
+       "is_product": false,
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/abeje_entry_5_1_4.mrv"
+      }
+     ],
+     "references": [
+      {
+       "pubmed_id": "29548257",
+       "doi": "10.1021/acs.jpcb.8b01321",
+       "title": "Mechanistic Pathway on Human \u03b1-Glucosidase Maltase-Glucoamylase Unveiled by QM/MM Calculations.",
+       "evidence_types": [
+        "computational experiment"
+       ]
+      }
+     ]
+    }
+   ],
+   "is_polymeric": false
+  }
+ }
+]

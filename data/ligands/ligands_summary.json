@@ -1,0 +1,510 @@
+{
+ "source": "RCSB Data API GraphQL, queried 2026-11-23",
+ "entries_in_scope": 645,
+ "entries_returned": 645,
+ "not_returned": [],
+ "ligand_entities": 1910,
+ "by_class": {
+  "n_glycan": 122,
+  "sugar_other": 134,
+  "mono_sugar": 215,
+  "glucan": 279,
+  "common": 1060,
+  "other": 100
+ },
+ "entries_with_class": {
+  "n_glycan": 58,
+  "sugar_other": 101,
+  "mono_sugar": 177,
+  "glucan": 197,
+  "common": 517,
+  "other": 89
+ },
+ "components_by_entries": [
+  [
+   "GLC",
+   289,
+   "alpha-D-glucopyranose"
+  ],
+  [
+   "NAG",
+   117,
+   "2-acetamido-2-deoxy-beta-D-glucopyranose"
+  ],
+  [
+   "BGC",
+   94,
+   "beta-D-glucopyranose"
+  ],
+  [
+   "AC1",
+   51,
+   "4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-alpha-D-glucopyranose"
+  ],
+  [
+   "BMA",
+   35,
+   "beta-D-mannopyranose"
+  ],
+  [
+   "MAN",
+   25,
+   "alpha-D-mannopyranose"
+  ],
+  [
+   "FUC",
+   25,
+   ""
+  ],
+  [
+   "AGL",
+   10,
+   "4-amino-4,6-dideoxy-alpha-D-glucopyranose"
+  ],
+  [
+   "HMC",
+   9,
+   "5-HYDROXYMETHYL-CHONDURITOL"
+  ],
+  [
+   "NOJ",
+   8,
+   "1-DEOXYNOJIRIMYCIN"
+  ],
+  [
+   "G6D",
+   8,
+   ""
+  ],
+  [
+   "ACI",
+   8,
+   "6-AMINO-4-HYDROXYMETHYL-CYCLOHEX-4-ENE-1,2,3-TRIOL"
+  ],
+  [
+   "DAF",
+   7,
+   ""
+  ],
+  [
+   "GAL",
+   5,
+   ""
+  ],
+  [
+   "ARE",
+   5,
+   "ACARBOSE DERIVED PENTASACCHARIDE"
+  ],
+  [
+   "GLD",
+   4,
+   ""
+  ],
+  [
+   "B9D",
+   4,
+   "5-fluoro-alpha-L-idopyranose"
+  ],
+  [
+   "MIG",
+   4,
+   "(2R,3R,4R,5S)-1-(2-hydroxyethyl)-2-(hydroxymethyl)piperidine-3,4,5-triol"
+  ],
+  [
+   "PCA",
+   4,
+   "PYROGLUTAMIC ACID"
+  ],
+  [
+   "PBW",
+   4,
+   "(1~{S},4~{S},5~{R})-6-(hydroxymethyl)cyclohexane-1,2,3,4,5-pentol"
+  ],
+  [
+   "A1EAX",
+   4,
+   "(2~{S},3~{R},4~{S},5~{R},6~{R})-5-[[(1~{S},4~{R},5~{S},6~{S})-3-(hydroxymethyl)-4,5,6-tris(oxidanyl)cyclohex-2-en-1-yl]amino]-6-methyl-oxane-2,3,4-triol"
+  ],
+  [
+   "HSD",
+   3,
+   "(1S,2S,3R,6R)-6-amino-4-(hydroxymethyl)cyclohex-4-ene-1,2,3-triol"
+  ],
+  [
+   "GLA",
+   3,
+   "alpha-D-galactopyranose"
+  ],
+  [
+   "C2E",
+   3,
+   "9,9'-[(2R,3R,3aS,5S,7aR,9R,10R,10aS,12S,14aR)-3,5,10,12-tetrahydroxy-5,12-dioxidooctahydro-2H,7H-difuro[3,2-d:3',2'-j][1,3,7,9,2,8]tetraoxadiphosphacyclododecine-2,9-diyl]bis(2-amino-1,9-dihydro-6H-purin-6-one)"
+  ],
+  [
+   "OC9",
+   3,
+   "OCTAN-1-OL"
+  ],
+  [
+   "RR7",
+   2,
+   ""
+  ],
+  [
+   "RY7",
+   2,
+   ""
+  ],
+  [
+   "EPG",
+   2,
+   "(2R)-oxiran-2-ylmethyl alpha-D-glucopyranoside"
+  ],
+  [
+   "SGC",
+   2,
+   ""
+  ],
+  [
+   "TAM",
+   2,
+   "TRIS(HYDROXYETHYL)AMINOMETHANE"
+  ],
+  [
+   "GOX",
+   2,
+   "(2S,3S,4R,5R)-6-(HYDROXYAMINO)-2-(HYDROXYMETHYL)-2,3,4,5-TETRAHYDROPYRIDINE-3,4,5-TRIOL"
+  ],
+  [
+   "AAO",
+   2,
+   "ACARBOSE DERIVED HEXASACCHARIDE"
+  ],
+  [
+   "ASO",
+   2,
+   "1,5-anhydro-D-glucitol"
+  ],
+  [
+   "NO2",
+   2,
+   "NITRITE ION"
+  ],
+  [
+   "A16",
+   2,
+   "4-O-(4,6-dideoxy-4-{[(1S,2S,3S,4R,5S)-2,3,4-trihydroxy-5-(hydroxymethyl)cyclohexyl]amino}-alpha-D-glucopyranosyl)-beta-D-glucopyranose "
+  ],
+  [
+   "B0D",
+   2,
+   "(2R,3S,4R,5R,6R)-2,6-difluoro-2-(hydroxymethyl)tetrahydro-2H-pyran-3,4,5-triol"
+  ],
+  [
+   "KTL",
+   2,
+   "(1S,2R,3R,4S)-1-{(1S)-2-[(2R,3S,4S)-3,4-dihydroxy-2-(hydroxymethyl)tetrahydrothiophenium-1-yl]-1-hydroxyethyl}-2,3,4,5-tetrahydroxypentyl sulfate"
+  ],
+  [
+   "SGD",
+   2,
+   ""
+  ],
+  [
+   "5QP",
+   2,
+   "(1R,2R,3S,5R,6S)-2,3,5-trihydroxy-6-(hydroxymethyl)cyclohexyl alpha-D-glucopyranoside"
+  ],
+  [
+   "FCA",
+   2,
+   ""
+  ],
+  [
+   "VOG",
+   2,
+   "(1S,2S,3R,4S,5S)-5-[(1,3-dihydroxypropan-2-yl)amino]-1-(hydroxymethyl)cyclohexane-1,2,3,4-tetrol"
+  ],
+  [
+   "MB3",
+   2,
+   "1-methylpyrrolidin-2-one"
+  ],
+  [
+   "AF1",
+   1,
+   "4,6-dideoxy-4-{[(1S,4S,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-beta-D-glucopyranose"
+  ],
+  [
+   "XYP",
+   1,
+   ""
+  ],
+  [
+   "XYS",
+   1,
+   ""
+  ],
+  [
+   "EBG",
+   1,
+   "2-[(2S)-oxiran-2-yl]ethyl alpha-D-glucopyranoside"
+  ],
+  [
+   "MA2",
+   1,
+   ""
+  ],
+  [
+   "MA3",
+   1,
+   ""
+  ],
+  [
+   "MA1",
+   1,
+   ""
+  ],
+  [
+   "HG",
+   1,
+   "MERCURY (II) ION"
+  ],
+  [
+   "G1P",
+   1,
+   "1-O-phosphono-alpha-D-glucopyranose"
+  ],
+  [
+   "ETE",
+   1,
+   "2-{2-[2-2-(METHOXY-ETHOXY)-ETHOXY]-ETHOXY}-ETHANOL"
+  ],
+  [
+   "NAD",
+   1,
+   "NICOTINAMIDE-ADENINE-DINUCLEOTIDE"
+  ],
+  [
+   "GTM",
+   1,
+   ""
+  ],
+  [
+   "LAG",
+   1,
+   "MALTOSYL-ALPHA (1,4)-(Z,3S,4S,5R,6R)-3,4,5-TRIHYDROXY-6-HYDROXYMETHYL-PIPERIDIN-2-ONE OXIME"
+  ],
+  [
+   "LM2",
+   1,
+   "4'-O-METHYL-MALTOSYL-ALPHA (1,4)-(Z, 3S,4S,5R,6R)-3,4,5-TRIHYDROXY-6-HYDROXYMETHYL-PIPERIDIN-2-ONE"
+  ],
+  [
+   "NPO",
+   1,
+   "P-NITROPHENOL"
+  ],
+  [
+   "VO4",
+   1,
+   "VANADATE ION"
+  ],
+  [
+   "6SA",
+   1,
+   "ACARBOSE DERIVED HEXASACCHARIDE"
+  ],
+  [
+   "BOG",
+   1,
+   "octyl beta-D-glucopyranoside"
+  ]
+ ],
+ "non_glucose_units_in_sugar_other": [
+  [
+   "AC1",
+   61
+  ],
+  [
+   "AGL",
+   12
+  ],
+  [
+   "G6D",
+   12
+  ],
+  [
+   "DAF",
+   11
+  ],
+  [
+   "GLD",
+   6
+  ],
+  [
+   "GAL",
+   5
+  ],
+  [
+   "FCA",
+   4
+  ],
+  [
+   "NAG",
+   4
+  ],
+  [
+   "RY7",
+   3
+  ],
+  [
+   "SGC",
+   3
+  ],
+  [
+   "NOJ",
+   3
+  ],
+  [
+   "A1EAX",
+   3
+  ],
+  [
+   "RR7",
+   2
+  ],
+  [
+   "B9D",
+   2
+  ],
+  [
+   "B8D",
+   2
+  ],
+  [
+   "GLA",
+   2
+  ],
+  [
+   "SGD",
+   2
+  ],
+  [
+   "XYP",
+   1
+  ],
+  [
+   "XYS",
+   1
+  ],
+  [
+   "MA3",
+   1
+  ],
+  [
+   "MA2",
+   1
+  ],
+  [
+   "MA1",
+   1
+  ],
+  [
+   "GTM",
+   1
+  ],
+  [
+   "GLF",
+   1
+  ],
+  [
+   "MAN",
+   1
+  ],
+  [
+   "TUP",
+   1
+  ],
+  [
+   "ASO",
+   1
+  ],
+  [
+   "A1EKO",
+   1
+  ]
+ ],
+ "by_family": {
+  "AA13": {
+   "common": 15,
+   "mono_sugar": 7,
+   "glucan": 2
+  },
+  "GH126": {
+   "common": 3
+  },
+  "GH13": {
+   "common": 720,
+   "sugar_other": 90,
+   "glucan": 190,
+   "mono_sugar": 115,
+   "other": 66,
+   "n_glycan": 7
+  },
+  "GH14": {
+   "glucan": 39,
+   "common": 62,
+   "sugar_other": 8,
+   "mono_sugar": 13,
+   "other": 1
+  },
+  "GH15": {
+   "n_glycan": 21,
+   "sugar_other": 7,
+   "mono_sugar": 15,
+   "common": 16
+  },
+  "GH31": {
+   "mono_sugar": 46,
+   "n_glycan": 94,
+   "common": 149,
+   "sugar_other": 17,
+   "other": 27,
+   "glucan": 6
+  },
+  "GH4": {
+   "glucan": 1,
+   "other": 1
+  },
+  "GH49": {
+   "mono_sugar": 4,
+   "glucan": 3
+  },
+  "GH57": {
+   "common": 23,
+   "glucan": 25,
+   "sugar_other": 2,
+   "mono_sugar": 1
+  },
+  "GH63": {
+   "common": 14,
+   "mono_sugar": 6,
+   "sugar_other": 4
+  },
+  "GH97": {
+   "common": 15,
+   "mono_sugar": 1,
+   "other": 2,
+   "sugar_other": 2
+  },
+  "GT35": {
+   "glucan": 13,
+   "common": 43,
+   "mono_sugar": 7,
+   "sugar_other": 4,
+   "other": 3
+  }
+ }
+}

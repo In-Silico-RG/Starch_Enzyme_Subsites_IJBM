@@ -1,0 +1,16 @@
+family	pdb	instance_id	ring	comp	chain	seq	subsite	rscc	unit_frame_chain	reason
+GH13	1WPC	1386	0	GAL	C	1	+3	0.815	A	galactose (named non-gluco; excluded by name)
+GH13	6YQB	5030	0	93Z	AAA	506	-1	0.962	AAA	sulfated cyclitol, no unambiguous O5 equivalent
+GH13	6YQB	5038	0	93Z	BBB	508	-1	0.978	BBB	sulfated cyclitol, no unambiguous O5 equivalent
+GH13	9UNS	7311	0	GAL	B	1	+1	0.915	A	galactose (named non-gluco; excluded by name)
+GH14	6F9J	4434	0	MAN	B	2	-2	0.934	A	mannose (named non-gluco)
+GH31	4AMW	3483	0	5DI	D	1041	-1	0.871	D	ketose (2,5-diulose) fluoride, C1 exocyclic
+GH31	4AMX	3496	0	AFR	D	1041	-1	0.886	D	ketose (2,5-diulose) fluoride
+GH13	3IJ8	2639	0	B9D	A	504	-1	0.814		epimer: opposite configuration at C2,C3,C4
+GH13	3IJ9	2647	0	B9D	B	1	-1	0.849		epimer: opposite configuration at C2,C3,C4
+GH13	8ORP	6176	1	RY7	C	3	-1	0.907		epimer: opposite configuration at C5 (L-ido)
+GH13	8ORP	6181	1	RY7	E	3	-1	0.929		epimer: opposite configuration at C5 (L-ido)
+GH13	9UNS	7313	1	A1EAX	B	3	-2	0.868		epimer: opposite configuration at C4
+GH31	4AMW	3470	0	B9D	A	1039	-1	0.941		epimer: opposite configuration at C2,C3,C4
+GH31	4AMW	3476	0	B9D	B	1039	-1	0.89		epimer: opposite configuration at C2,C3,C4
+GH31	4AMW	3479	0	B9D	C	1039	-1	0.894		epimer: opposite configuration at C2,C3,C4

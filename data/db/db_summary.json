@@ -1,0 +1,35 @@
+{
+ "source": "RCSB mmCIF and wwPDB validation reports, RCSB Data API; built 2026-11-23",
+ "entries": 637,
+ "entries_missing": [],
+ "entries_contacts_without_symmetry": [
+  "2TAA"
+ ],
+ "instances": 7378,
+ "bonds": 9676,
+ "contacts": 63654,
+ "components": 170,
+ "waters": 330233,
+ "instances_by_class": {
+  "sugar": 2651,
+  "common": 1968,
+  "ion": 1353,
+  "n_glycan": 825,
+  "modified_residue": 414,
+  "other": 167
+ },
+ "entries_by_class": {
+  "ion": 392,
+  "sugar": 342,
+  "common": 283,
+  "modified_residue": 120,
+  "n_glycan": 116,
+  "other": 86
+ },
+ "bonds_by_type": {
+  "MetalC": 6127,
+  "Covale": 3549
+ },
+ "instances_with_rscc": 6651,
+ "correction_2026_11_23": "645 -> 637 entries: removed 8 cryo-EM crescentin-filament structures (8AFE,8AFH,8AFL,8AFM,8AHL,8AIA,8AIX,8AJB) wrongly listed as GH63 (P42592 YgjK); verified against each entry's RCSB title. bonds 9710 -> 9676+dedup: 34 exact-duplicate covalent-bond rows removed (build_database.py fixed at the source). See docs/04_curation_debt.md items 1 and 6."
+}

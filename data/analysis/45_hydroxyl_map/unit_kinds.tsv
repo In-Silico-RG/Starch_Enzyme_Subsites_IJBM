@@ -1,0 +1,44 @@
+family	comp	kind	kind_note	n_units
+GH13	7SA	Glc		3
+GH13	7SA	Glc-modified	missing O6 O4=N	2
+GH13	7SA	carba	all-carbon ring (cyclitol, e.g. valienamine)	1
+GH13	A1EAX	carba	all-carbon ring (cyclitol, e.g. valienamine)	1
+GH13	AAO	Glc		2
+GH13	AAO	Glc-modified	missing O6 O4=N	2
+GH13	AAO	carba	all-carbon ring (cyclitol, e.g. valienamine)	1
+GH13	ABC	Glc		1
+GH13	ABC	Glc-modified	missing O6	1
+GH13	ABC	carba	all-carbon ring (cyclitol, e.g. valienamine)	1
+GH13	AC1	Glc-modified	missing O6 O4=N	25
+GH13	AC1	carba	all-carbon ring (cyclitol, e.g. valienamine)	20
+GH13	ACI	carba	all-carbon ring (cyclitol, e.g. valienamine)	7
+GH13	AGL	Glc-modified	missing O6 O4=N	10
+GH13	ARE	Glc		12
+GH13	ARE	Glc-modified	missing O6 O4=N	4
+GH13	ARE	carba	all-carbon ring (cyclitol, e.g. valienamine)	4
+GH13	BGC	Glc		17
+GH13	DAF	Glc-modified	missing O6 O4=N	6
+GH13	DAF	carba	all-carbon ring (cyclitol, e.g. valienamine)	5
+GH13	G6D	Glc-modified	missing O6 O4=N	8
+GH13	GLC	Glc		144
+GH13	GLD	Glc-modified	missing O6 O4=N	5
+GH13	HMC	carba	all-carbon ring (cyclitol, e.g. valienamine)	7
+GH13	HSD	carba	all-carbon ring (cyclitol, e.g. valienamine)	2
+GH13	NOJ	imino	ring N (iminosugar)	3
+GH13	RY7	Glc-modified	missing O6 O4=N	4
+GH13	SGD	Glc-modified	O6=S	1
+GH14	BGC	Glc		7
+GH14	GLC	Glc		33
+GH14	NOJ	imino	ring N (iminosugar)	2
+GH14	TUP	Glc-modified	O3=F	1
+GH15	AC1	Glc-modified	missing O6 O4=N	4
+GH15	AC1	carba	all-carbon ring (cyclitol, e.g. valienamine)	4
+GH15	GLC	Glc		10
+GH15	RY7	Glc-modified	missing O6 O4=N	1
+GH15	RY7	carba	all-carbon ring (cyclitol, e.g. valienamine)	1
+GH31	5GF	Glc-modified	extra F	3
+GH31	AC1	Glc-modified	missing O6 O4=N	16
+GH31	AC1	carba	all-carbon ring (cyclitol, e.g. valienamine)	16
+GH31	BGC	Glc		7
+GH31	GLC	Glc		30
+GH31	NOJ	imino	ring N (iminosugar)	5

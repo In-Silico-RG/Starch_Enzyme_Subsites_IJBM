@@ -1,0 +1,33 @@
+{
+ "entries_with_residue_mapping": 611,
+ "residues_mapped": 594940,
+ "uniprot_accessions": 158,
+ "domains_by_db": [
+  [
+   "CATH",
+   1911,
+   29
+  ],
+  [
+   "EC",
+   904,
+   26
+  ],
+  [
+   "InterPro",
+   9437,
+   188
+  ],
+  [
+   "Pfam",
+   1620,
+   80
+  ]
+ ],
+ "protein_contacts": [
+  39512,
+  36551
+ ],
+ "resname_mismatch": 0,
+ "failed": []
+}

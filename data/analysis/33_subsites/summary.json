@@ -1,0 +1,16 @@
+{
+ "gemmi": "0.7.5",
+ "networkx": "3.5",
+ "D_MAX_A": 4.5,
+ "RSCC_MIN": 0.8,
+ "MAP_MAX_A": 2.0,
+ "n_units": 2926,
+ "n_connected_sets": 977,
+ "n_sets_assigned": 236,
+ "n_units_labelled": 804,
+ "n_units_labelled_rscc": 570,
+ "n_link_issues": 126,
+ "n_contacts": 15411,
+ "n_contacts_symmetry_dropped": 741,
+ "n_contacts_mapped_to_reference": 9176
+}

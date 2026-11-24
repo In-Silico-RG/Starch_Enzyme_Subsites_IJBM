@@ -1,0 +1,9 @@
+family	subsite	rings	distorted	entries	entries_with_distorted	proteins	proteins_with_distorted	distorted_entries
+GH13	-1	23	8	22	8	14	6	1QHO 1QHP 1QI5 3BCD 4J3V 5TD4 6JFJ 6JFX
+GH13	other	97	5	45	5	28	5	3L2L 6TOZ 6Z8L 8DL2 9XG6
+GH14	-1	15	4	12	4	2	2	1Q6C 1Q6D 1VEM 1WDQ
+GH14	other	21	0	13	0	2	0	
+GH15	other	10	0	4	0	3	0	
+GH31	other	38	5	9	2	5	2	3PHA 3TOP
+GH57	-1	14	0	5	0	1	0	
+GH57	other	38	2	5	1	1	1	9JLS

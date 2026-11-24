@@ -1,0 +1,89 @@
+family	EC	name	bond	reason
+GH115	3.2.1.-	arabinogalactan exo-a-1,6-(4-OMethyl)-glucuronidase	[aDGlcpA_4OMe -(1,6)- bDGalp	all-alpha(1->6) chain (dextran)
+GH13	3.2.1.70	dextran exo-a-1,6-glucosidase	[aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH15	3.2.1.70	dextran exo-a-1,6-glucosidase	[aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH27	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH27	3.2.1.94	dextran exo-a-1,6-glucobiosidase	aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH31	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH49	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH49	3.2.1.95	dextran exo-a-1,6-glucotriosidase	aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH66	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH97	3.2.1.70	dextran exo-a-1,6-glucosidase	[aDGlcp -(1,6)- aDGlcp	all-alpha(1->6) chain (dextran)
+GH100	3.2.1.48	sucrose a-1,2-glucosidase	[aDGlcp -(1,2)- bDFruf]	cut in a disaccharide/small substrate only
+GH13	3.2.1.28	trehalose a-1,1-glucosidase	[aDGlcp -(1,1)- aDGlcp]	cut in a disaccharide/small substrate only
+GH13	3.2.1.48	sucrose a-1,2-glucosidase	[aDGlcp -(1,2)- bDFruf]	cut in a disaccharide/small substrate only
+GH13	3.2.1.93	phosphotrehalose a-1,1-(6 phospho)-glucosidase	[aDGlcp_6P -(1,1)- aDGlcp]	cut in a disaccharide/small substrate only
+GH13	3.2.1.-	palatin a-1,6-glucosidase	[aDGlcp -(1,6)- DFruf]	cut in a disaccharide/small substrate only
+GH13	3.2.1.-	maltose a-1,4-glucosidase	[aDGlcp -(1,4)- DGlcp]	cut in a disaccharide/small substrate only
+GH13	3.2.1.-	acarbose a-1,4-glucosidase	aDGlcp -(1,4)- DGlcp]	cut in a disaccharide/small substrate only
+GH15	3.2.1.28	trehalose a-1,1-glucosidase	[aDGlcp -(1,1)- aDGlcp]	cut in a disaccharide/small substrate only
+GH15	3.2.1.205	isomaltose a-1,6-glucosidase	[aDGlcp -(1,6)- DGlcp]	cut in a disaccharide/small substrate only
+GH31	3.2.1.48	sucrose a-1,2-glucosidase	[aDGlcp -(1,2)- bDFruf]	cut in a disaccharide/small substrate only
+GH37	3.2.1.28	trehalose a-1,1-glucosidase	[aDGlcp -(1,1)- aDGlcp]	cut in a disaccharide/small substrate only
+GH4	3.2.1.122	a-(6-phospho)-1,4-glucosidase	[aDGlcp_6P -(1,4)- DGlcp]	cut in a disaccharide/small substrate only
+GH65	3.2.1.28	trehalose a-1,1-glucosidase	[aDGlcp -(1,1)- aDGlcp]	cut in a disaccharide/small substrate only
+GH65	3.2.1.216	kojibiose a-1,2-glucosidase	[aDGlcp -(1,2)- DGlcp]	cut in a disaccharide/small substrate only
+GH13	5.4.99.11	isomaltulose synthase	[aDGlcp -(1,6)- DFruf]	isomerase
+GH13	5.4.99.15	malto-oligosyltrehalose synthase	aDGlcp -(1,1)- aDGlcp]	isomerase
+GH13	5.4.99.16	trehalose synthase / maltose glucosylmutase	[aDGlcp -(1,1)- aDGlcp]	isomerase
+GH87	3.2.1.61	mycodextran endo-a-1,4-glucosidase	aDGlcp -(1,4)- aDGlcp	not an alpha(1->4) glucan
+GH115	3.2.1.131	xylan exo-a-1,2-(4 OMethyl)-glucuronosidase	[aDGlcpA_4OMe -(1,2)- bDXylp	other
+GH176	3.2.1.-	glucan exo-a-1,2-glucosidase	[aDGlcp -(1,2)- aDGlcp	other
+GH31	3.2.1.84	glucan exo-a-1,3-glucosidase	[aDGlcp -(1,3)- aDGlcp	other
+GH31	3.2.1.204	cyclobis-(1,6)-a-nigerose a-1,3-glucosidase	aDGlcp -(1,3)- aDGlcp	other
+GH31	3.2.1.207	mannosyl-oligosaccharide exo-a-1,3-glucosidase	[aDGlcp -(1,3)- aDGlcp	other
+GH4	3.2.1.139	a-glucuronidase	[aDGlcpA -(1,X)- alcohol	other
+GH63	3.2.1.84	glucan exo-a-1,3-glucosidase	[aDGlcp -(1,3)- aDGlcp	other
+GH63	3.2.1.106	mannosyl-oligosaccharide exo-a-1,2-glucosidase	[aDGlcp -(1,2)- aDGlcp	other
+GH63	3.2.1.208	glycerate exo-a-glucosidase	[aDGlcp -(1,X)- D-glycerate	other
+GH65	3.2.1.107	hydroxylysine exo-a-1,2-glucosidase	[aDGlcp -(1,2)- bDGalp	other
+GH65	3.2.1.115	branched-dextran exo-1,2-a-glucosidase	[aDGlcp -(1,2)- aDGlcp	other
+GH67	3.2.1.131	xylan exo-a-1,2-(4 OMethyl)-glucuronosidase	[aDGlcpA_4OMe -(1,2)- bDXylp	other
+GH71	3.2.1.59	MLG endo-a-1,3-glucosidase	aDGlcp -(1,3)- aDGlcp	other
+GH71	3.2.1.84	glucan exo-a-1,3-glucosidase	[aDGlcp -(1,3)- aDGlcp	other
+GH71	3.2.1.-	glucan endo-a-1,3-glucosidase	aDGlcp -(1,3)- aDGlcp	other
+GH87	3.2.1.59	MLG endo-a-1,3-glucosidase	aDGlcp -(1,3)- aDGlcp	other
+GH89	3.2.1.50	a-N-acetylglucosaminidase	[aDGlcpNAc -(1,X)- alcohol	other
+GH13	2.4.1.7	sucrose phosphorylase	[aDGlcp -(1,2)- bDFruf]	transferase (rearranges, does not break the chain)
+GH13	2.4.1.329	sucrose 6'-phosphate phosphorylase	[aDGlcp -(1,2)- bDFruf_6P]	transferase (rearranges, does not break the chain)
+GH13	2.4.1.352	a-glucosyl-glycerate phosphorylase	[aDGlcp -(1,X)- glycerate]	transferase (rearranges, does not break the chain)
+GH13	2.4.1.359	a-glucosyl-glycerol phosphorylase	[aDGlcp -(1,X)- glycerol]	transferase (rearranges, does not break the chain)
+GH13	2.4.99.16	starch phosphorylase	aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.-	a-glucoside phosphorylase	[aDGlcp -(1,X)- alcohol	transferase (rearranges, does not break the chain)
+GH13	2.4.1.4	amylosucrase	[aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.18	1,4-a-glucan branching enzyme	aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.19	cyclomaltodextrin glucanotransferase	aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.25	4-a-glucanotransferase	aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.161	oligosaccharide 4-a-D-glucosyltransferase	[aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.-	a-glucosyltransferase	[aDGlcp -(1,X)- hydroquinone	transferase (rearranges, does not break the chain)
+GH13	2.4.1.-	a-1,6-maltooligosyltransferase	aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.-	a-maltosyltransferase	aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	2.4.1.-	sucrose a-transglucosidase	[aDGlcp -(1,X)- alcohol	transferase (rearranges, does not break the chain)
+GH15	2.4.1.2	dextrin dextranase	[aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH31	2.4.1.24	1,4-a-glucan 6-a-glucosyltransferase	[aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH31	2.4.1.161	oligosaccharide 4-a-D-glucosyltransferase	[aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH31	2.4.1.387	isomaltosyltransferase	aDGlcp -(1,3)- aDGlcp	transferase (rearranges, does not break the chain)
+GH57	2.4.1.18	1,4-a-glucan branching enzyme	aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH57	2.4.1.25	4-a-glucanotransferase	aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH65	2.4.1.8	maltose phosphorylase	[aDGlcp -(1,4)- DGlcp]	transferase (rearranges, does not break the chain)
+GH65	2.4.1.64	trehalose phosphorylase	[aDGlcp -(1,1)- aDGlcp]	transferase (rearranges, does not break the chain)
+GH65	2.4.1.216	trehalose 6-phosphate phosphorylase	[aDGlcp -(1,1)- aDGlcp_6P]	transferase (rearranges, does not break the chain)
+GH65	2.4.1.230	kojibiose phosphorylase	[aDGlcp -(1,2)- DGlcp]	transferase (rearranges, does not break the chain)
+GH65	2.4.1.279	nigerose phosphorylase	[aDGlcp -(1,3)- DGlcp]	transferase (rearranges, does not break the chain)
+GH65	2.4.1.282	a-1,3-glucosyl-L-rhamnose phosphorylase	[aDGlcp -(1,3)- LRhap]	transferase (rearranges, does not break the chain)
+GH65	2.4.1.332	a-glucosyl-glycerol phosphorylase	[aDGlcp -(1,X)- glycerol]	transferase (rearranges, does not break the chain)
+GH65	2.4.1.334	a-1,3-glucan phosphorylase	[aDGlcp -(1,3)- aDGlcp	transferase (rearranges, does not break the chain)
+GH65	2.4.1.-	a-glucan phosphorylase	[aDGlcp -(1,X)- aDGlcp	transferase (rearranges, does not break the chain)
+GH65	2.4.1.-	Aprosamine a-glucosyltransferase	[aDGlcp_4N -(1,X)- alcohol	transferase (rearranges, does not break the chain)
+GH66	2.4.1.248	cycloisomaltooligosaccharide glucanotransferase	aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.5	dextransucrase	[aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.140	Alternansucrase a-1,3-glucosyltransferase	[aDGlcp -(1,3)- aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.140	Alternansucrase a-1,6-glucosyltransferase	[aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.395	reuteransucrase a-1,6-glucosyltransferase	[aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.395	reuteransucrase a-1,4-glucosyltransferase	[aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.373	a-1,2-branched dextransucrase	[aDGlcp -(1,2)- (aDGlcp-1,6)aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.394	Linear a-4,6-glucanotransferase	[aDGlcp -(1,6)- aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.390	a-4,3-glucanotransferase	[aDGlcp -(1,3)- (aDGlcp-1,4)aDGlcp	transferase (rearranges, does not break the chain)
+GH70	2.4.1.396	branched a-4,6-glucanotransferase	[aDGlcp -(1,6)- (aDGlcp-1,4)aDGlcp	transferase (rearranges, does not break the chain)
+GH77	2.4.1.25	4-a-glucanotransferase	aDGlcp -(1,4)- aDGlcp	transferase (rearranges, does not break the chain)
+GH13	3.2.1.141	maltotrehalose a-1,4-glucosidase	aDGlcp -(1,4)- aDGlcp	trehalose-type substrate

@@ -1,0 +1,32 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.spl
+*.lof
+*.lot
+# keep the .bbl files (journals ask for them with the source)
+!*.bbl
+
+# third-party example figures: not redistributable (licences in figures/references/REFERENCES.md)
+figures/references/*
+!figures/references/REFERENCES.md
+
+# local bookkeeping of sync_from_project.sh (holds absolute local paths)
+.sync_manifest
+
+# Python
+__pycache__/
+*.pyc
+
+# the parent repository ignores *.log and *.out; the logs and outputs in data/ are part of the record
+!data/**/*.log
+!data/**/*.out
+
+# working files of figure agents (local paths)
+figures/candidates/*/work/

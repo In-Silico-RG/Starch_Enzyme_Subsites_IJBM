@@ -1,0 +1,10 @@
+MM/GBSA, single minimised structure
+&general
+  keep_files=0, verbose=1,
+/
+&gb
+  igb=5, saltcon=0.150,
+/
+&decomp
+  idecomp=1, dec_verbose=0, print_res="189,199,281,283,311-313,348,350,388,423,425-426,430,432,507,520,522-523,552,556,579,581-584,846",
+/

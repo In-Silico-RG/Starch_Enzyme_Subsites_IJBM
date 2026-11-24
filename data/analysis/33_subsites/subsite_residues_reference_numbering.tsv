@@ -1,0 +1,235 @@
+family	subsite	ref_position	ref_uniprot_resnum	n_entries_subsite	n_entries_contact	fraction	category
+GH13	-6	A95	119.0	4	1	0.25	variable
+GH13	-6	Y104	128.0	4	1	0.25	variable
+GH13	-5	A146	170.0	4	3	0.75	variable
+GH13	-5	A95	119.0	4	1	0.25	variable
+GH13	-5	Y104	128.0	4	1	0.25	variable
+GH13	-5	T94	118.0	4	1	0.25	variable
+GH13	-4	A145	169.0	19	7	0.368	variable
+GH13	-4	A146	170.0	19	5	0.263	variable
+GH13	-4	P147	171.0	19	3	0.158	variable
+GH13	-4	G144	168.0	19	3	0.158	variable
+GH13	-4	M52	76.0	19	1	0.053	variable
+GH13	-4	T94	118.0	19	1	0.053	variable
+GH13	-4	V46	70.0	19	1	0.053	variable
+GH13	-4	D142	166.0	19	1	0.053	variable
+GH13	-3	M52	76.0	38	22	0.579	variable
+GH13	-3	A146	170.0	38	7	0.184	variable
+GH13	-3	Q294	318.0	38	5	0.132	variable
+GH13	-3	F143	167.0	38	2	0.053	variable
+GH13	-3	T94	118.0	38	1	0.026	variable
+GH13	-3	V46	70.0	38	1	0.026	variable
+GH13	-3	Q49	73.0	38	1	0.026	variable
+GH13	-3~S1	A145	169.0	1	1	1.0	conserved
+GH13	-2	Y51	75.0	55	51	0.927	conserved
+GH13	-2	M52	76.0	55	41	0.745	variable
+GH13	-2	Q49	73.0	55	29	0.527	variable
+GH13	-2	Q294	318.0	55	28	0.509	variable
+GH13	-2	D289	313.0	55	27	0.491	variable
+GH13	-2	A145	169.0	55	8	0.145	variable
+GH13	-2	W9	33.0	55	8	0.145	variable
+GH13	-2	A146	170.0	55	7	0.127	variable
+GH13	-2	F143	167.0	55	6	0.109	variable
+GH13	-2	K182	206.0	55	1	0.018	variable
+GH13	-2~O6	A146	170.0	2	1	0.5	variable
+GH13	-2~O6	A145	169.0	2	1	0.5	variable
+GH13	-2~O6	Q49	73.0	2	1	0.5	variable
+GH13	-2~O6	F143	167.0	2	1	0.5	variable
+GH13	-2~O6	G183	207.0	2	1	0.5	variable
+GH13	-1	D289	313.0	74	74	1.0	conserved
+GH13	-1	H92	116.0	74	74	1.0	conserved
+GH13	-1	D179	203.0	74	73	0.986	conserved
+GH13	-1	R177	201.0	74	71	0.959	conserved
+GH13	-1	Y51	75.0	74	71	0.959	conserved
+GH13	-1	H288	312.0	74	71	0.959	conserved
+GH13	-1	E204	228.0	74	53	0.716	variable
+GH13	-1	F143	167.0	74	29	0.392	variable
+GH13	-1	F180	204.0	74	28	0.378	variable
+GH13	-1	W9	33.0	74	11	0.149	variable
+GH13	-1	A146	170.0	74	11	0.149	variable
+GH13	-1	Q49	73.0	74	10	0.135	variable
+GH13	-1	Q294	318.0	74	7	0.095	variable
+GH13	-1	V89	113.0	74	5	0.068	variable
+GH13	-1	A145	169.0	74	2	0.027	variable
+GH13	-1	W206	230.0	74	1	0.014	variable
+GH13	-1	G183	207.0	74	1	0.014	variable
+GH13	-1~N1J	E204	228.0	1	1	1.0	conserved
+GH13	-1~N1J	F180	204.0	1	1	1.0	conserved
+GH13	-1~N1J	G183	207.0	1	1	1.0	conserved
+GH13	-1~O10	Y51	75.0	1	1	1.0	conserved
+GH13	-1~O10	Q49	73.0	1	1	1.0	conserved
+GH13	-1~O10	Q294	318.0	1	1	1.0	conserved
+GH13	-1~O10	M52	76.0	1	1	1.0	conserved
+GH13	-1~O2	M52	76.0	2	2	1.0	conserved
+GH13	-1~O2	D289	313.0	2	2	1.0	conserved
+GH13	-1~O2	Y51	75.0	2	2	1.0	conserved
+GH13	-1~O6	Q294	318.0	1	1	1.0	conserved
+GH13	-1~O6	Y51	75.0	1	1	1.0	conserved
+GH13	-1~O6	A145	169.0	1	1	1.0	conserved
+GH13	-1~O6	Q49	73.0	1	1	1.0	conserved
+GH13	+1	E204	228.0	44	44	1.0	conserved
+GH13	+1	F180	204.0	44	43	0.977	conserved
+GH13	+1	G183	207.0	44	34	0.773	variable
+GH13	+1	W206	230.0	44	20	0.455	variable
+GH13	+1	D289	313.0	44	19	0.432	variable
+GH13	+1	K182	206.0	44	17	0.386	variable
+GH13	+1	F143	167.0	44	4	0.091	variable
+GH13	+1	M296	320.0	44	2	0.045	variable
+GH13	+2	W206	230.0	41	37	0.902	conserved
+GH13	+2	K182	206.0	41	37	0.902	conserved
+GH13	+2	M296	320.0	41	2	0.049	variable
+GH13	+2	S208	232.0	41	2	0.049	variable
+GH13	+2	T207	231.0	41	2	0.049	variable
+GH13	+2	G183	207.0	41	2	0.049	variable
+GH13	+2	D289	313.0	41	1	0.024	variable
+GH13	+3	W206	230.0	14	8	0.571	variable
+GH13	+3	G250	274.0	14	6	0.429	variable
+GH13	+3	T207	231.0	14	3	0.214	variable
+GH13	+3	H224	248.0	14	1	0.071	variable
+GH13	+3	W297	321.0	14	1	0.071	variable
+GH13	+3	M296	320.0	14	1	0.071	variable
+GH14	-2	R420	421.0	16	16	1.0	conserved
+GH14	-2	H93	94.0	16	16	1.0	conserved
+GH14	-2	D53	54.0	16	16	1.0	conserved
+GH14	-2	W55	56.0	16	16	1.0	conserved
+GH14	-2	L20	21.0	16	16	1.0	conserved
+GH14	-2	A184	185.0	16	15	0.938	conserved
+GH14	-2	M17	18.0	16	15	0.938	conserved
+GH14	-2	K295	296.0	16	9	0.562	variable
+GH14	-2	I89	90.0	16	8	0.5	variable
+GH14	-1	L419	420.0	16	16	1.0	conserved
+GH14	-1	A382	383.0	16	16	1.0	conserved
+GH14	-1	A184	185.0	16	16	1.0	conserved
+GH14	-1	E380	381.0	16	16	1.0	conserved
+GH14	-1	K295	296.0	16	16	1.0	conserved
+GH14	-1	E186	187.0	16	14	0.875	conserved
+GH14	-1	T342	343.0	16	14	0.875	conserved
+GH14	-1	M17	18.0	16	12	0.75	variable
+GH14	-1	N381	382.0	16	6	0.375	variable
+GH14	-1	R420	421.0	16	1	0.062	variable
+GH14	+1	W301	302.0	3	3	1.0	conserved
+GH14	+1	G298	299.0	3	3	1.0	conserved
+GH14	+1	A382	383.0	3	3	1.0	conserved
+GH14	+1	T342	343.0	3	3	1.0	conserved
+GH14	+1	R188	189.0	3	3	1.0	conserved
+GH14	+1	C343	344.0	3	3	1.0	conserved
+GH14	+1	E186	187.0	3	2	0.667	variable
+GH14	+1	Y192	193.0	3	2	0.667	variable
+GH14	+1	H300	301.0	3	2	0.667	variable
+GH14	+1	A184	185.0	3	2	0.667	variable
+GH14	+1	S297	298.0	3	2	0.667	variable
+GH14	+2	F200	201.0	3	3	1.0	conserved
+GH14	+2	H300	301.0	3	3	1.0	conserved
+GH14	+2	W301	302.0	3	3	1.0	conserved
+GH14	+2	L383	384.0	3	3	1.0	conserved
+GH14	+2	M346	347.0	3	3	1.0	conserved
+GH14	+2	A382	383.0	3	2	0.667	variable
+GH14	+2	Y192	193.0	3	1	0.333	variable
+GH14	+2	W198	199.0	3	1	0.333	variable
+GH14	+2	Q194	195.0	3	1	0.333	variable
+GH15	-1	R54	78.0	4	4	1.0	conserved
+GH15	-1	D55	79.0	4	4	1.0	conserved
+GH15	-1	E179	203.0	4	4	1.0	conserved
+GH15	-1	Y48	72.0	4	4	1.0	conserved
+GH15	-1	W317	341.0	4	4	1.0	conserved
+GH15	-1	L177	201.0	4	4	1.0	conserved
+GH15	-1	W417	441.0	4	4	1.0	conserved
+GH15	-1	W52	76.0	4	4	1.0	conserved
+GH15	-1	A39	63.0	4	4	1.0	conserved
+GH15	-1	L415	439.0	4	4	1.0	conserved
+GH15	-1	E400	424.0	4	3	0.75	variable
+GH15	-1	R305	329.0	4	1	0.25	variable
+GH15	+1	E180	204.0	4	4	1.0	conserved
+GH15	+1	Y311	335.0	4	4	1.0	conserved
+GH15	+1	W178	202.0	4	4	1.0	conserved
+GH15	+1	E179	203.0	4	4	1.0	conserved
+GH15	+1	W120	144.0	4	4	1.0	conserved
+GH15	+1	R305	329.0	4	3	0.75	variable
+GH15	+2	E179	203.0	4	4	1.0	conserved
+GH15	+2	G121	145.0	4	4	1.0	conserved
+GH15	+2	W120	144.0	4	2	0.5	variable
+GH15	+2	S119	143.0	4	2	0.5	variable
+GH15	+3	G121	145.0	4	4	1.0	conserved
+GH15	+3	E180	204.0	4	2	0.5	variable
+GH15	+3	Y175	199.0	4	2	0.5	variable
+GH15	+3	E179	203.0	4	2	0.5	variable
+GH15	+3	W120	144.0	4	1	0.25	variable
+GH31	-1	D327	413.0	18	18	1.0	conserved
+GH31	-1	H600	686.0	18	18	1.0	conserved
+GH31	-1	D443	529.0	18	18	1.0	conserved
+GH31	-1	D542	628.0	18	18	1.0	conserved
+GH31	-1	W539	625.0	18	18	1.0	conserved
+GH31	-1	W441	527.0	18	18	1.0	conserved
+GH31	-1	I328	414.0	18	17	0.944	conserved
+GH31	-1	F575	661.0	18	16	0.889	conserved
+GH31	-1	I364	450.0	18	16	0.889	conserved
+GH31	-1	Y299	385.0	18	12	0.667	variable
+GH31	-1	W406	492.0	18	10	0.556	variable
+GH31	-1	R526	612.0	18	9	0.5	variable
+GH31	-1	M444	530.0	18	8	0.444	variable
+GH31	-1	D366	452.0	18	3	0.167	variable
+GH31	-1~O2	W406	492.0	1	1	1.0	conserved
+GH31	-1~O2	F575	661.0	1	1	1.0	conserved
+GH31	-1~O2	D542	628.0	1	1	1.0	conserved
+GH31	-1~O2	Y299	385.0	1	1	1.0	conserved
+GH31	-1~O2	A576	662.0	1	1	1.0	conserved
+GH31	-1~O3	A576	662.0	1	1	1.0	conserved
+GH31	-1~O3	F575	661.0	1	1	1.0	conserved
+GH31	-1~O3	W406	492.0	1	1	1.0	conserved
+GH31	-1~O3	Y299	385.0	1	1	1.0	conserved
+GH31	+1	D203	289.0	9	9	1.0	conserved
+GH31	+1	M444	530.0	9	8	0.889	conserved
+GH31	+1	R526	612.0	9	8	0.889	conserved
+GH31	+1	Y299	385.0	9	6	0.667	variable
+GH31	+1	W406	492.0	9	3	0.333	variable
+GH31	+1	F575	661.0	9	3	0.333	variable
+GH31	+1	D542	628.0	9	2	0.222	variable
+GH31	+1	F450	536.0	9	1	0.111	variable
+GH31	+1	A576	662.0	9	1	0.111	variable
+GH31	+2	D542	628.0	9	5	0.556	variable
+GH31	+2	F575	661.0	9	4	0.444	variable
+GH31	+2	T205	291.0	9	4	0.444	variable
+GH31	+2	A576	662.0	9	2	0.222	variable
+GH31	+2	K480	566.0	9	1	0.111	variable
+GH31	+2	D203	289.0	9	1	0.111	variable
+GH31	+3	T205	291.0	9	6	0.667	variable
+GH31	+3	N207	293.0	9	5	0.556	variable
+GH31	+3	T204	290.0	9	5	0.556	variable
+GH31	+3	A576	662.0	9	3	0.333	variable
+GH31	+3	T544	630.0	9	3	0.333	variable
+GH31	+3	T211	297.0	9	1	0.111	variable
+GH31	+3	D203	289.0	9	1	0.111	variable
+GH31	+4	L473	559.0	4	4	1.0	conserved
+GH31	+4	T211	297.0	4	4	1.0	conserved
+GH31	+4	N207	293.0	4	3	0.75	variable
+GH31	+4	T204	290.0	4	1	0.25	variable
+GH31	+5	L473	559.0	3	3	1.0	conserved
+GH31	+5	G475	561.0	3	3	1.0	conserved
+GH31	+7	Y476	562.0	1	1	1.0	conserved
+GH31	+7	T469	555.0	1	1	1.0	conserved
+GH57	-4	V22		3	2	0.667	variable
+GH57	-4	Q626		3	1	0.333	variable
+GH57	-4	G363		3	1	0.333	variable
+GH57	-4	D632		3	1	0.333	variable
+GH57	-3	V22		5	5	1.0	conserved
+GH57	-3	A26		5	5	1.0	conserved
+GH57	-3	G363		5	4	0.8	conserved
+GH57	-3	Q14		5	1	0.2	variable
+GH57	-2	H13		5	5	1.0	conserved
+GH57	-2	D354		5	5	1.0	conserved
+GH57	-2	Q14		5	5	1.0	conserved
+GH57	-2	P15		5	5	1.0	conserved
+GH57	-2	E216		5	5	1.0	conserved
+GH57	-2	A26		5	5	1.0	conserved
+GH57	-2	G363		5	4	0.8	conserved
+GH57	-1	D214		5	5	1.0	conserved
+GH57	-1	E123		5	5	1.0	conserved
+GH57	-1	D354		5	5	1.0	conserved
+GH57	-1	H11		5	5	1.0	conserved
+GH57	-1	Y272		5	5	1.0	conserved
+GH57	-1	H13		5	5	1.0	conserved
+GH57	-1	E87		5	4	0.8	conserved
+GH57	+1	D214		1	1	1.0	conserved
+GH57	+1	E123		1	1	1.0	conserved
+GH57	+1	Y272		1	1	1.0	conserved
+GH57	+2	M275		1	1	1.0	conserved

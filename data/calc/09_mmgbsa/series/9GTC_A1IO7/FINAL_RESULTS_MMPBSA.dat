@@ -1,0 +1,93 @@
+| Run on Tue Nov 24 01:31:05 2026
+|
+|Input file:
+|--------------------------------------------------------------
+|MM/GBSA, single minimised structure
+|&general
+|  keep_files=0, verbose=1,
+|/
+|&gb
+|  igb=5, saltcon=0.150,
+|/
+|&decomp
+|  idecomp=1, dec_verbose=0, print_res="186,196,278,280,308-309,345,347,385,420,422-423,425,427,429,504,517,519-520,549,553-554,576,578-581,849",
+|/
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           complex.prmtop
+|Receptor topology file:          receptor.prmtop
+|Ligand topology file:            ligand.prmtop
+|Initial mdcrd(s):                min.nc
+|
+|Receptor mask:                  ":1-848"
+|Ligand mask:                    ":849"
+|Ligand residue name is "LIG"
+|
+|Calculations performed using 1.0 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -7970.7200                0.0000              0.0000
+EEL                     -58262.4321                0.0000              0.0000
+EGB                      -8110.7469                0.0000              0.0000
+ESURF                      195.9920                0.0000              0.0000
+
+G gas                   -66233.1521                0.0000              0.0000
+G solv                   -7914.7549                0.0000              0.0000
+
+TOTAL                   -74147.9070                0.0000              0.0000
+
+
+Receptor:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                  -7949.2894                0.0000              0.0000
+EEL                     -57812.1572                0.0000              0.0000
+EGB                      -8341.0285                0.0000              0.0000
+ESURF                      197.4162                0.0000              0.0000
+
+G gas                   -65761.4466                0.0000              0.0000
+G solv                   -8143.6123                0.0000              0.0000
+
+TOTAL                   -73905.0589                0.0000              0.0000
+
+
+Ligand:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                     -2.9628                0.0000              0.0000
+EEL                       -107.7229                0.0000              0.0000
+EGB                        -69.5868                0.0000              0.0000
+ESURF                        3.1552                0.0000              0.0000
+
+G gas                     -110.6857                0.0000              0.0000
+G solv                     -66.4316                0.0000              0.0000
+
+TOTAL                     -177.1173                0.0000              0.0000
+
+
+Differences (Complex - Receptor - Ligand):
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                    -18.4678                0.0000              0.0000
+EEL                       -342.5520                0.0000              0.0000
+EGB                        299.8684                0.0000              0.0000
+ESURF                       -4.5793                0.0000              0.0000
+
+DELTA G gas               -361.0198                0.0000              0.0000
+DELTA G solv               295.2891                0.0000              0.0000
+
+DELTA TOTAL                -65.7307                0.0000              0.0000
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

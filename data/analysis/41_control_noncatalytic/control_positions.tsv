@@ -1,0 +1,33 @@
+family	position	entries	proteins	contact	cls	dominant	dominant_fraction	types
+GH13	D117	8	3	apolar	Al	PRO	0.75	PRO 6, THR 2
+GH13	K269	6	3	apolar	Al	GLY	1.0	GLY 6
+GH13	D187	5	2	apolar	Al	GLY	1.0	GLY 5
+GH13	P315	5	2	apolar	Al	ALA	0.6	ALA 3, GLU 2
+GH13	F246	5	3	apolar	Al	ASP	1.0	ASP 5
+GH13	V229	4	3	apolar	Al	VAL	0.75	VAL 3, ASN 1
+GH13	K83	4	2	apolar	Al	GLN	0.5	GLN 2, ASN 2
+GH13	R155	9	4	apolar	Ar	TYR	0.667	TYR 6, TRP 2, GLU 1
+GH13	W118	8	3	apolar	Ar	TYR	0.75	TYR 6, ALA 2
+GH13	F200	8	4	apolar	Ar	PHE	0.875	PHE 7, VAL 1
+GH13	P271	7	4	backbone_polar	Ar	TRP	0.857	TRP 6, ASP 1
+GH13	W277	6	3	apolar	Ar	TRP	0.5	TRP 3, HIS 3
+GH13	S185	4	2	apolar	Ar	TRP	1.0	TRP 4
+GH13	K280	4	2	apolar	Ar	HIS	0.75	HIS 3, LYS 1
+GH13	A279	10	5	backbone_polar	BB	VAL	0.4	VAL 4, SER 3, PHE 2, ILE 1
+GH13	P278	6	3	backbone_polar	BB	PRO	0.833	PRO 5, SER 1
+GH13	G316	6	3	backbone_polar	BB	GLY	1.0	GLY 6
+GH13	T317	9	5	sidechain_polar	H	TYR	0.889	TYR 8, GLN 1
+GH13	G119	8	3	sidechain_polar	H	SER	0.75	SER 6, ASN 2
+GH13	H121	8	4	sidechain_polar	H	TRP	0.75	TRP 6, LEU 1, TYR 1
+GH13	M122	7	3	sidechain_polar	H	ASP	1.0	ASP 7
+GH13	N153	7	3	sidechain_polar	H	LYS	0.857	LYS 6, HIS 1
+GH13	T35	7	4	sidechain_polar	H	THR	0.857	THR 6, ALA 1
+GH13	E259	6	3	sidechain_polar	H	GLU	1.0	GLU 6
+GH13	E333	6	4	sidechain_polar	H	GLN	0.667	GLN 4, GLU 1, TYR 1
+GH13	R336	6	2	sidechain_polar	H	SER	0.667	SER 4, ASN 2
+GH13	K331	5	3	sidechain_polar	H	TRP	1.0	TRP 5
+GH13	E332	5	3	sidechain_polar	H	ARG	1.0	ARG 5
+GH13	I85	5	2	sidechain_polar	H	TYR	1.0	TYR 5
+GH13	A357	4	2	sidechain_polar	H	TYR	1.0	TYR 4
+GH13	V188	4	2	sidechain_polar	H	ASP	1.0	ASP 4
+GH13	L152	4	2	sidechain_polar	H	GLU	0.75	GLU 3, GLY 1

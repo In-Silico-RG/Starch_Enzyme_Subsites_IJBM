@@ -1,0 +1,741 @@
+family	activity_id	EC	name	res_m2	bond_m1	res_m1	reacting_bond	res_p1	bond_p1	res_p2	reactant
+GH1	H13	3.2.1.18	a-neuraminidase			[aDNeup5NAc	2,X	alcohol			H2O
+GH1	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH1	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH1	H19	3.2.1.25	b-mannosidase			[bDManp	1,X	alcohol			H2O
+GH1	H22	3.2.1.31	b-glucuronidase			[bDGlcpA	1,X	alcohol			H2O
+GH1	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH1	H28	3.2.1.38	b-fucosidase			[bDFucp	1,X	alcohol			H2O
+GH1	H32	3.2.1.45	ceramide b-glucosidase			[bDGlcp	1,X	ceramide			H2O
+GH1	H33	3.2.1.46	ceramide b-galactosidase			[bDGalp	1,X	ceramide			H2O
+GH1	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH1	H56	3.2.1.74	cellulose exo-b-1,4-glucosidase			[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH1	H64	3.2.1.85	b-(6-phospho)-galactosidase			[bDGalp_6P	1,X	alcohol			H2O
+GH1	H65	3.2.1.86	b-(6 phospho)-glucosidase			[bDGlcp_6P	1,4	DGlcp	1,X	alcohol	H2O
+GH1	H82	3.2.1.105	strictosidine b-glucosidase			[bDGlcp	1,X	strictosidine			H2O
+GH1	H85	3.2.1.108	lactose b-1,4-galactosidase			[bDGalp	1,4	DGlcp]			H2O
+GH1	H92	3.2.1.117	amygdalin b-glucosidase			[bDGlcp	1,6	bDGlcp	1,X	prunasin	H2O
+GH1	H93	3.2.1.118	prunasin b-glucosidase			[bDGlcp	1,X	mandelonitrile			H2O
+GH1	H94	3.2.1.119	vicianin b-glucosidase	[aLArap	1,6	bDGlcp	1,X	mandelonitrile			H2O
+GH1	H99	3.2.1.125	raucaffricine b-glucosidase			[bDGlcp	1,X	vomilenine			H2O
+GH1	H115	3.2.1.147	thio-b-glucosidase			[bDGlcp_1S	1,X	aldoxime			H2O
+GH1	H116	3.2.1.149	primeverose b-glucosidase	[bDXylp	1,6	bDGlcp	1,X	alcohol			H2O
+GH1	H126	3.2.1.161	isoflavonoid b-(apiosyl)-glucosidase	[bDApif	1,6	bDGlcp	1,X	flavonoid			H2O
+GH1	H140	3.2.1.175	abscisate b-glucosidase			[bDGlcp	1,X	abscisate			H2O
+GH1	H147	3.2.1.182	benzoxazin b-glucosidase			[bDGlcp	1,X	benzoxazinone			H2O
+GH1	H149	3.2.1.186	protodioscin 26-O-b-glucosidase			[bDGlcp	1,X	triterpenoid			H2O
+GH1	H151	3.2.1.188	avenacosidase 26-O-b-glucosidase			[bDGlcp	1,X	triterpenoid			H2O
+GH1	H159	3.2.1.206	oleuropein b-glucosidase			[bDGlcp	1,X	oleuropein			H2O
+GH1	H180	3.2.1.-	arabinan exo-a-1,5-L-arabinofuranosidase			[aLAraf	1,5	aLAraf	1,5	aLAraf	H2O
+GH1	H198	3.2.1.-	a-L-arabinopyranosidase			[aLArap	1,X	alcohol			H2O
+GH1	H208	3.2.1.-	glucan exo-b-1,2-glucosidase			[bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH1	H244	3.2.1.-	Flavonoid b-glucosidase			[bDGlcp	1,X	flavonoid			H2O
+GH1	T324	2.4.1.299	anthocyanin 5-O-glucosyltransferase / 5-O-transglucosidase			[bDGlcp	1,X	5-anthocyanidin 3-glucoside			e-acyl]
+GH1	T337	2.4.1.300	anthocyanin 7-O-glucosyltransferase / 7-O-transglucosidase			[bDGlcp	1,X	7-anthocyanidin 3-glucoside			e-acyl]
+GH1	T339	2.4.1.-	b-transglucosidase			[bDGlcp	1,X	bDGlcp	1,X	alcohol	e-acyl]
+GH1	H419	3.2.1.-	b-4,6-pyruvated-galactosidase			[bDGalp_46Py	1,X	alcohol			H2O
+GH2	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH2	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH2	H19	3.2.1.25	b-mannosidase			[bDManp	1,X	alcohol			H2O
+GH2	H22	3.2.1.31	b-glucuronidase			[bDGlcpA	1,X	alcohol			H2O
+GH2	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH2	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH2	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH2	H85	3.2.1.108	lactose b-1,4-galactosidase			[bDGalp	1,4	DGlcp]			H2O
+GH2	H102	3.2.1.128	glycyrrhizin b-glucuronidase			[bDGlcpA	1,2	bDGlcpA	1,X	glycyrrhetinic acid	H2O
+GH2	H113	3.2.1.145	galactan exo-b-1,3-galactosidase			[bDGalp	1,3	bDGalp	1,3	bDGalp	H2O
+GH2	H114	3.2.1.146	b-galactofuranosidase			[bDGalf	1,X	alcohol			H2O
+GH2	H119	3.2.1.152	mannosyl-oligosaccharide endo-b-1,4-mannosidase	[aDManp	1,6	bDManp	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH2	H130	3.2.1.165	chitosan exo-b-1,4-N-glucosaminase			[bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH2	H187	3.2.1.-	antigen exo-b-1,3-galactosidase			[bDGalp	1,3	DGlcpNAc	1,X	alcohol	H2O
+GH2	H198	3.2.1.-	a-L-arabinopyranosidase			[aLArap	1,X	alcohol			H2O
+GH2	H212	3.2.1.-	b-galacturonidase			[bDGalpA	1,X	alcohol			H2O
+GH2	H241	3.2.1.-	rhamnogalacturonan II exo-b-1,3-galacturonidase			[bDGalpA	1,3	aLRhap	1,3	bDApif	H2O
+GH2	H429	3.2.1.-	agarose exo-b-1,4-galactosidase			[bDGalp	1,4	aLGalp36An	1,3	bDGalp	H2O
+GH3	H5	3.2.1.6	MLG endo-b-1,3/4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH3	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH3	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH3	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH3	H22	3.2.1.31	b-glucuronidase			[bDGlcpA	1,X	alcohol			H2O
+GH3	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH3	H28	3.2.1.38	b-fucosidase			[bDFucp	1,X	alcohol			H2O
+GH3	H32	3.2.1.45	ceramide b-glucosidase			[bDGlcp	1,X	ceramide			H2O
+GH3	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH3	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH3	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH3	H54	3.2.1.72	xylan exo-b-1,3-xylosidase			[bDXylp	1,3	bDXylp	1,3	bDXylp	H2O
+GH3	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH3	H56	3.2.1.74	cellulose exo-b-1,4-glucosidase			[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH3	H74	3.2.1.97	protein O endo-a-N-acetylgalactosaminidase	[bDGalp	1,3	aDGalpNAc	1,X	Ser/Thr			H2O
+GH3	H95	3.2.1.120	xyloglucan exo-b-1,4-glucosidase			[(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH3	H100	3.2.1.126	coniferin b-glucosidase			[bDGlcp	1,X	coniferol			H2O
+GH3	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH3	H115	3.2.1.147	thio-b-glucosidase			[bDGlcp_1S	1,X	aldoxime			H2O
+GH3	H133	3.2.1.168	Flavonoid 6-O-a-L-rhamnosyl-b-glucosidase	[aLRhap	1,6	bDGlcp	1,X	flavonoid			H2O
+GH3	H149	3.2.1.186	protodioscin 26-O-b-glucosidase			[bDGlcp	1,X	triterpenoid			H2O
+GH3	H174	3.2.1.-	unsaturated-b-glucuronidase			[bDGlcpA_UNS	1,X	alcohol			H2O
+GH3	H179	3.2.1.-	MLG exo-b-1,3/4-glucosidase			[bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH3	H189	3.2.1.-	avenacin b-1,2-glucosidase			[bDGlcp	1,2	aLArap	1,X	triterpenoid	H2O
+GH3	H190	3.2.1.-	avenacin b-1,4-glucosidase			[bDGlcp	1,4	aLArap	1,X	triterpenoid	H2O
+GH3	H198	3.2.1.-	a-L-arabinopyranosidase			[aLArap	1,X	alcohol			H2O
+GH3	H206	3.2.1.-	xyloglucan exo-b-1,4-glucosidase			[bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH3	H208	3.2.1.-	glucan exo-b-1,2-glucosidase			[bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH3	H215	3.2.1.-	triterpenoid b-1,2-glucosidase			[bDGlcp	1,2	bDGlcp	1,X	triterpenoid	H2O
+GH3	H232	3.2.1.-	steviol b-1,2-glucosidase			[bDGlcp	1,2	bDGlcp	1,X	steviol	H2O
+GH3	H234	3.2.1.-	gentiobiose b-1,6-glucosidase			[bDGlcp	1,6	DGlcp]			H2O
+GH3	H242	3.2.1.-	tomatin b-1,2-glucosidase			[bDGlcp	1,2	bDGlcp	1,4	bDGalp	H2O
+GH3	H262	3.2.1.-	MLG exo-b-1,4-glucosidase			[bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH3	T296	2.4.1.-	b-glucoside phosphorylase			[bDGlcp	1,X	alcohol			ePi
+GH3	T297	2.4.1.-	b-N-acteylglucosamine phosphorylase			[bDGlcpNAc	1,X	alcohol			ePi
+GH3	T319	2.4.1.207	xyloglucan:xyloglucosyl transferase			[(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,X	alcohol	e-1,4-(aDXylp-1,6)bDGlcp
+GH3	H412	3.2.1.-	b-D-xylosidase			[bDXylp	1,X	alcohol			H2O
+GH4	H14	3.2.1.20	a-glucosidase			[aDGlcp	1,X	alcohol			H2O
+GH4	H16	3.2.1.22	a-galactosidase			[aDGalp	1,X	alcohol			H2O
+GH4	H50	3.2.1.67	galacturonan exo-a-1,4-galacturonidase			[aDGalpA	1,4	aDGalpA	1,4	aDGalpA	H2O
+GH4	H65	3.2.1.86	b-(6 phospho)-glucosidase			[bDGlcp_6P	1,4	DGlcp	1,X	alcohol	H2O
+GH4	H96	3.2.1.122	a-(6-phospho)-1,4-glucosidase			[aDGlcp_6P	1,4	DGlcp]			H2O
+GH4	H110	3.2.1.139	a-glucuronidase			[aDGlcpA	1,X	alcohol			H2O
+GH5	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH5	H5	3.2.1.6	MLG endo-b-1,3/4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH5	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH5	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH5	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH5	H19	3.2.1.25	b-mannosidase			[bDManp	1,X	alcohol			H2O
+GH5	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH5	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH5	H32	3.2.1.45	ceramide b-glucosidase			[bDGlcp	1,X	ceramide			H2O
+GH5	H33	3.2.1.46	ceramide b-galactosidase			[bDGalp	1,X	ceramide			H2O
+GH5	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH5	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH5	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH5	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH5	H56	3.2.1.74	cellulose exo-b-1,4-glucosidase			[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH5	H57	3.2.1.75	pustulan endo-b-1,6-glucosidase	bDGlcp	1,6	bDGlcp	1,6	bDGlcp	1,6	bDGlcp	H2O
+GH5	H59	3.2.1.78	mannan endo-b-1,4-mannosidase	bDManp	1,4	bDManp	1,4	bDManp	1,4	bDManp	H2O
+GH5	H68	3.2.1.91	cellulose exo-b-1,4-glucobiosidase	[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH5	H81	3.2.1.104	steryl b-glucosidase			[bDGlcp	1,X	sterol			H2O
+GH5	H97	3.2.1.123	oligoglycan ceramide endo-b-glucosidase	bDGalp	1,4	bDGlcp	1,X	ceramide			H2O
+GH5	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH5	H114	3.2.1.146	b-galactofuranosidase			[bDGalf	1,X	alcohol			H2O
+GH5	H116	3.2.1.149	primeverose b-glucosidase	[bDXylp	1,6	bDGlcp	1,X	alcohol			H2O
+GH5	H117	3.2.1.150	reducing end xyloglucan exo-b-1,4-glucobiosidase	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	DGlcp]	H2O
+GH5	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH5	H129	3.2.1.164	galactan endo-b-1,6-galactosidase	bDGalp	1,6	bDGalp	1,6	bDGalp	1,6	bDGalp	H2O
+GH5	H133	3.2.1.168	Flavonoid 6-O-a-L-rhamnosyl-b-glucosidase	[aLRhap	1,6	bDGlcp	1,X	flavonoid			H2O
+GH5	H170	3.2.1.-	glucomannan exo-b-1,3-mannosidase			[bDManp	1,3	bDManp	1,4	bDManp	H2O
+GH5	H192	3.2.1.-	MLG endo-b-1,3-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3	bDGlcp	1,3/4	bDGlcp	H2O
+GH5	H201	3.2.1.-	arabinoxylan endo-b-1,4-xylosidase	bDXylp	1,4	(aLAraf-1,3)bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH5	H228	3.2.1.-	glucomannan endo-b-1,4-glucosidase	bDManp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDManp	H2O
+GH5	H354	3.2.1.-	mannan exo-b-1,4-mannosidase			[bDManp	1,4	bDManp	1,4	bDManp	H2O
+GH5	H413	3.2.1.-	arabinoxylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	(aLAraf-1,3)bDXylp	H2O
+GH6	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH6	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH6	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH6	H68	3.2.1.91	cellulose exo-b-1,4-glucobiosidase	[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH7	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH7	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH7	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH7	H141	3.2.1.176	reducing end cellulose exo-b-1,4-glucobiosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	DGlcp]	H2O
+GH8	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH8	H5	3.2.1.6	MLG endo-b-1,3/4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH8	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH8	H23	3.2.1.32	xylan endo-b-1,3-xylosidase	bDXylp	1,3	bDXylp	1,3	bDXylp	1,3	bDXylp	H2O
+GH8	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH8	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH8	H122	3.2.1.156	reducing end xylan exo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	DXylp]			H2O
+GH9	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH9	H5	3.2.1.6	MLG endo-b-1,3/4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH9	H6	3.2.1.7	inulin endo-b-2,1-fructosidase	bDFruf	2,1	bDFruf	2,1	bDFruf	2,1	bDFruf	H2O
+GH9	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH9	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH9	H56	3.2.1.74	cellulose exo-b-1,4-glucosidase			[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH9	H68	3.2.1.91	cellulose exo-b-1,4-glucobiosidase	[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH9	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH9	H130	3.2.1.165	chitosan exo-b-1,4-N-glucosaminase			[bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH9	H226	3.2.1.-	xanthan endo-b-1,4-glucosidase	bDGlcp	1,4	(bDGlcpA_UNS-1,2-aDManp_6OAc-1,3)bDGlcp	1,4	bDGlcp	1,4	(bDGlcpA_UNS-1,2-aDManp_6OAc-1,3)bDGlcp	H2O
+GH10	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH10	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH10	H23	3.2.1.32	xylan endo-b-1,3-xylosidase	bDXylp	1,3	bDXylp	1,3	bDXylp	1,3	bDXylp	H2O
+GH10	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH10	H68	3.2.1.91	cellulose exo-b-1,4-glucobiosidase	[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH10	H122	3.2.1.156	reducing end xylan exo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	DXylp]			H2O
+GH10	H184	3.2.1.-	tomatin b-galatosidase	[bDGlcp	1,4	bDGalp	1,X	triterpenoid			H2O
+GH10	H201	3.2.1.-	arabinoxylan endo-b-1,4-xylosidase	bDXylp	1,4	(aLAraf-1,3)bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH10	T344	2.4.2.-	xylan transglycosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4-bDXylp
+GH10	H355	3.2.1.-	MLX endo-b-1,4-xylosidase	bDXylp	1,3	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH10	H449	3.2.1.-	arabinoxylan endo-b-1,4-xylosidase	(aLAraf-1,3)bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH11	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH11	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH12	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH12	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH12	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH13	H1	3.2.1.1	amylose endo-a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H3	3.2.1.3	amylose exo-a-1,4-glucosidase			[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H8	3.2.1.10	oligo exo-a-1,6-glucosidase			[aDGlcp	1,6	aDGlcp	1,X	aDGlcp	H2O
+GH13	H14	3.2.1.20	a-glucosidase			[aDGlcp	1,X	alcohol			H2O
+GH13	H21	3.2.1.28	trehalose a-1,1-glucosidase			[aDGlcp	1,1	aDGlcp]			H2O
+GH13	H31	3.2.1.41	pullulan endo-a-1,6-glucosidase	aDGlcp	1,4	aDGlcp	1,6	aDGlcp	1,4	aDGlcp	H2O
+GH13	H34	3.2.1.48	sucrose a-1,2-glucosidase			[aDGlcp	1,2	bDFruf]			H2O
+GH13	H40	3.2.1.54	cyclomaltodextrin endo-a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp(cyclic)	H2O
+GH13	H45	3.2.1.60	amylose exo-a-1,4-glucotetraosidase	[(aDGlcp)3	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H51	3.2.1.68	starch endo-a-1,6-glucosidase	aDGlcp	1,4	aDGlcp	1,6	(aDGlcp-1,4)aDGlcp	1,4	aDGlcp	H2O
+GH13	H52	3.2.1.70	dextran exo-a-1,6-glucosidase			[aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH13	H70	3.2.1.93	phosphotrehalose a-1,1-(6 phospho)-glucosidase			[aDGlcp_6P	1,1	aDGlcp]			H2O
+GH13	H75	3.2.1.98	amylose exo-a-1,4-glucohexaosidase	[(aDGlcp)5	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H91	3.2.1.116	amylose exo-a-1,4-glucotriosidase	[(aDGlcp-1,4)aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H107	3.2.1.133	amylose exo-a-1,4-glucobiosidase (Retaining)	[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H108	3.2.1.135	pullulan exo-a-1,4-panosidase	[(aDGlcp-1,6)aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H112	3.2.1.141	maltotrehalose a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,1	aDGlcp]	H2O
+GH13	H182	3.2.1.-	amylose exo-1,4-glucopentaosidase	[(aDGlcp)4	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH13	H191	3.2.1.-	palatin a-1,6-glucosidase			[aDGlcp	1,6	DFruf]			H2O
+GH13	H196	3.2.1.-	cyclic maltosyl-maltose a-1,6-glucosidase	aDGlcp	1,4	aDGlcp	1,6	aDGlcp	1,4	aDGlcp(cyclic)	H2O
+GH13	T264	2.4.1.7	sucrose phosphorylase			[aDGlcp	1,2	bDFruf]			aPi
+GH13	T283	2.4.1.329	sucrose 6'-phosphate phosphorylase			[aDGlcp	1,2	bDFruf_6P]			aPi
+GH13	T289	2.4.1.352	a-glucosyl-glycerate phosphorylase			[aDGlcp	1,X	glycerate]			aPi
+GH13	T290	2.4.1.359	a-glucosyl-glycerol phosphorylase			[aDGlcp	1,X	glycerol]			aPi
+GH13	T292	2.4.99.16	starch phosphorylase	[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	aPi
+GH13	T302	2.4.1.-	a-glucoside phosphorylase			[aDGlcp	1,X	alcohol			aPi
+GH13	T304	2.4.1.4	amylosucrase			[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	a-1,2-bDFruf]
+GH13	T308	2.4.1.18	1,4-a-glucan branching enzyme	aDGlcp	1,4	aDGlcp	1,6	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH13	T309	2.4.1.19	cyclomaltodextrin glucanotransferase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp(cyclic)	a-1,4-aDGlcp
+GH13	T311	2.4.1.25	4-a-glucanotransferase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH13	T318	2.4.1.161	oligosaccharide 4-a-D-glucosyltransferase			[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH13	T323	2.4.1.-	a-glucosyltransferase			[aDGlcp	1,X	hydroquinone			a-1,4-DGlcp]
+GH13	T327	2.4.1.-	a-1,6-maltooligosyltransferase	aDGlcp	1,4	aDGlcp	1,6	aDGlcp	1,4	aDGlcp(cyclic)	a-1,4-aDGlcp
+GH13	T334	2.4.1.-	acarviosyltransferase	myo-inositol	X,4	aDQuip_4N	1,4	aDGlcp	1,X	alcohol	a-1,4-aDGlcp
+GH13	T338	2.4.1.-	a-maltosyltransferase	[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH13	T342	2.4.1.-	sucrose a-transglucosidase			[aDGlcp	1,X	alcohol			a-1,2-bDFruf]
+GH13	M348	5.4.99.11	isomaltulose synthase			[aDGlcp	1,6	DFruf]			a-1,2-DbFruf]
+GH13	M349	5.4.99.15	malto-oligosyltrehalose synthase	aDGlcp	1,4	aDGlcp	1,1	aDGlcp]			a-1,4-aDGlcp
+GH13	M350	5.4.99.16	trehalose synthase / maltose glucosylmutase			[aDGlcp	1,1	aDGlcp]			a-1,4-DGlcp]
+GH13	H407	3.2.1.-	maltose a-1,4-glucosidase			[aDGlcp	1,4	DGlcp]			H2O
+GH13	H435	3.2.1.-	acarbose a-1,4-glucosidase	aDQuip_4N	1,4	aDGlcp	1,4	DGlcp]			H2O
+GH14	H2	3.2.1.2	amylose exo-a-1,4-glucobiosidase (inverting)	[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH15	H3	3.2.1.3	amylose exo-a-1,4-glucosidase			[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH15	H21	3.2.1.28	trehalose a-1,1-glucosidase			[aDGlcp	1,1	aDGlcp]			H2O
+GH15	H52	3.2.1.70	dextran exo-a-1,6-glucosidase			[aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH15	H158	3.2.1.205	isomaltose a-1,6-glucosidase			[aDGlcp	1,6	DGlcp]			H2O
+GH15	T444	2.4.1.2	dextrin dextranase			[aDGlcp	1,6	aDGlcp	1,6	aDGlcp	a-1,4-aDGlcp
+GH16	H5	3.2.1.6	MLG endo-b-1,3/4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH16	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH16	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH16	H25	3.2.1.35	hyaluronan endo-b-1,4-N-acetylglucosaminidase	bDGlcpA	1,3	bDGlcpNAc	1,4	bDGlcpA	1,3	bDGlcpNAc	H2O
+GH16	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH16	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH16	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH16	H60	3.2.1.81	agarose endo-b-1,4-galactosidase	aLGalp36An	1,3	bDGalp	1,4	aLGalp36An	1,3	bDGalp	H2O
+GH16	H62	3.2.1.83	k-carrageenan endo-b-1,4-(4-sulfo)-galactosidase	aDGalp36An	1,3	bDGalp_4S	1,4	aDGalp36An	1,3	bDGalp_4S	H2O
+GH16	H80	3.2.1.103	keratan sulfate endo-b-1,4-galactosidase	bDGlcpNAc_6S	1,3	bDGalp	1,4	bDGlcpNAc_6S	1,3	bDGalp	H2O
+GH16	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH16	H143	3.2.1.178	porphyran endo-b-1,4-galactosidase	aLGalp_6S	1,3	bDGalp	1,4	aLGalp_6S	1,3	bDGalp	H2O
+GH16	H146	3.2.1.181	galactan endo-b-1,3-galactosidase	bDGalp	1,3	bDGalp	1,3	bDGalp	1,3	bDGalp	H2O
+GH16	H176	3.2.1.-	polylactosamine endo-b-1,4-galactosidase	bDGlcpNAc	1,3	bDGalp	1,4	bDGlcpNAc	1,3	bDGalp	H2O
+GH16	H186	3.2.1.-	mucin endo-b-1,4-galactosidase	aDGlcpNAc	1,4	bDGalp	1,4	bDGlcpNAc	1,6	aDGalpNAc	H2O
+GH16	H192	3.2.1.-	MLG endo-b-1,3-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3	bDGlcp	1,3/4	bDGlcp	H2O
+GH16	H224	3.2.1.-	b-carrageenase endo-b-1,4-galactosidase	aDGalp36An	1,3	bDGalp	1,4	aDGalp36An	1,3	bDGalp	H2O
+GH16	T319	2.4.1.207	xyloglucan:xyloglucosyl transferase			[(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,X	alcohol	e-1,4-(aDXylp-1,6)bDGlcp
+GH16	T325	2.4.1.-	b-1,3-glucanosyltransglucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	e-1,3-bDGlcp
+GH16	T326	2.4.1.-	chitin b-1,3/1,6-glucanosyltransferase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcp	1,3/6	bDGlcp	e-1,4-bDGlcpNAc
+GH16	T341	2.4.1.-	b-transglycosidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	e-1,4-bDGlcpNAc
+GH16	H410	3.2.1.-	MLG endo-b-1,4-glucosidase	bDGlcp	1,3	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH16	H422	3.2.1.-	a-carrageenase endo-b-1,4-galactosidase	aDGalp36An_2S	1,3	bDGalp	1,4	aDGalp36An_2S	1,3	bDGalp	H2O
+GH16	H427	3.2.1.-	a-Gal epitope b-1,4-galactosidase	aDGalp	1,3	bDGalp	1,4	bDGlcpNAc	1,X	alcohol	H2O
+GH17	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH17	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH17	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH17	H140	3.2.1.175	abscisate b-glucosidase			[bDGlcp	1,X	abscisate			H2O
+GH17	T325	2.4.1.-	b-1,3-glucanosyltransglucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	e-1,3-bDGlcp
+GH17	T405	2.4.1.-	laminarin b-1,6-glucanosyltransglucosidase	bDGlcp	1,3	bDGlcp	1,6	bDGlcp	1,3	DGlcp	e-1,3-DGlcp
+GH18	H10	3.2.1.14	chitin endo-b-1,4-N-acetylglucosaminidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH18	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH18	H73	3.2.1.96	mannosyl-oligosaccharide endo-b-1,4-N-acetylglucosaminidase	bDManp	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,X	Asn	H2O
+GH18	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH18	H155	3.2.1.200	chitin exo-b-1,4-N-acetylglucobiosaminidase	[bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH18	H156	3.2.1.201	reducing end chitin exo-b-1,4-N-acetylglucosaminidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	DGlcpNAc]	H2O
+GH18	H175	3.2.1.-	mannosyl-oligosaccharide exo-b-1,4-N-acetylglucosaminidase			[bDGlcpNAc	1,4	bDGlcpNAc	1,X	Asn	H2O
+GH18	H181	3.2.1.-	chitin exo-b-1,4-N-acetylglucosaminidase			[bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH18	H183	3.2.1.-	peptidoglycan endo-b-1,4-N-acetylglucosaminidase	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	H2O
+GH18	H205	3.2.1.-	Nod factor endo-b-1,4-N-acetylglucosaminidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc_6S	H2O
+GH19	H10	3.2.1.14	chitin endo-b-1,4-N-acetylglucosaminidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH19	H12	3.2.1.17	peptidoglycan endo-b-1,4-N-acetylmuramidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH19	H156	3.2.1.201	reducing end chitin exo-b-1,4-N-acetylglucosaminidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	DGlcpNAc]	H2O
+GH20	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH20	H39	3.2.1.53	b-N-acetylgalactosaminidase			[bDGalpNAc	1,X	alcohol			H2O
+GH20	H73	3.2.1.96	mannosyl-oligosaccharide endo-b-1,4-N-acetylglucosaminidase	bDManp	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,X	Asn	H2O
+GH20	H111	3.2.1.140	antigen b-1,3-lacto-N-biosidase	[bDGalp	1,3	bDGlcpNAc	1,3	bDGalp	1,X	alcohol	H2O
+GH20	H171	3.2.1.-	poly-N-acetylglucose endo-b-1,6-N-acetylglucosaminidase	bDGlcpNAc	1,6	bDGlcpNAc	1,6	bDGlcpNAc	1,6	bDGlcpNAc	H2O
+GH20	H181	3.2.1.-	chitin exo-b-1,4-N-acetylglucosaminidase			[bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH20	H200	3.2.1.-	b-Nâ€acetyl-lactosaminidase	[bDGalp	1,4	bDGlcpNAc	1,X	alcohol			H2O
+GH20	H219	3.2.1.-	b-N-Acetyl-(6-sulfo)-glucosaminidase			[bDGlcpNAc_6S	1,X	alcohol			H2O
+GH20	H418	3.2.1.-	poly-N-acetylglucose exo-b-1,6-N-acetylglucosaminidase			[bDGlcpNAc	1,6	bDGlcpNAc	1,6	bDGlcpNAc	H2O
+GH20	H432	3.2.1.-	LNT2 b-1,4-N-acetylglucosidase			[bDGlcpNAc	1,3	bDGalp	1,4	DGlcp	H2O
+GH20	H433	3.2.1.-	Lacto-N-biosidase b-N-acetylglucosaminidase	[bDGalp	1,3	bDGlcpNAc	1,X	alcohol			H2O
+GH22	H12	3.2.1.17	peptidoglycan endo-b-1,4-N-acetylmuramidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH23	H10	3.2.1.14	chitin endo-b-1,4-N-acetylglucosaminidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH23	H12	3.2.1.17	peptidoglycan endo-b-1,4-N-acetylmuramidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH23	L347	4.2.2.29	peptidoglycan lytic b-1,4-muraminidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	
+GH24	H12	3.2.1.17	peptidoglycan endo-b-1,4-N-acetylmuramidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH25	H12	3.2.1.17	peptidoglycan endo-b-1,4-N-acetylmuramidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH26	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH26	H23	3.2.1.32	xylan endo-b-1,3-xylosidase	bDXylp	1,3	bDXylp	1,3	bDXylp	1,3	bDXylp	H2O
+GH26	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH26	H59	3.2.1.78	mannan endo-b-1,4-mannosidase	bDManp	1,4	bDManp	1,4	bDManp	1,4	bDManp	H2O
+GH26	H77	3.2.1.100	mannan exo-b-1,4-mannobiosidase	[bDManp	1,4	bDManp	1,4	bDManp	1,4	bDManp	H2O
+GH26	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH26	H355	3.2.1.-	MLX endo-b-1,4-xylosidase	bDXylp	1,3	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH26	H438	3.2.1.-	xylan exo-b-1,3-xylobiosidase	[bDXylp	1,3	bDXylp	1,3	bDXylp	1,3	bDXylp	H2O
+GH27	H9	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH27	H16	3.2.1.22	a-galactosidase			[aDGalp	1,X	alcohol			H2O
+GH27	H35	3.2.1.49	antigen a-1,3-N-acetylgalactosaminidase			[aDGalpNAc	1,3	DGalp	1,X	alcohol	H2O
+GH27	H66	3.2.1.88	b-L-arabinopyranosidase			[bLArap	1,X	alcohol			H2O
+GH27	H71	3.2.1.94	dextran exo-a-1,6-glucobiosidase	[aDGlcp	1,6	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH27	H246	3.2.1.-	galactomannan exo-a-1,6-galactosidase			[aDGalp	1,6	bDManp	1,4	bDManp	H2O
+GH27	H251	3.2.1.-	raffinose exo-a-1,6-galactosidase			[aDGalp	1,6	aDGlcp	1,2	bDFruf]	H2O
+GH27	T332	2.4.1.-	galactan:galactan galactosyltransferase			[aDGalp	1,6	aDGalp	1,6	aDGalp	a-1,6-aDGalp
+GH27	H404	3.2.1.-	melibiose a-1,6-galactosidase			[aDGalp	1,6	DGlcp]			H2O
+GH28	H11	3.2.1.15	galacturonan endo-a-1,4-galacturonidase	aDGalpA	1,4	aDGalpA	1,4	aDGalpA	1,4	aDGalpA	H2O
+GH28	H50	3.2.1.67	galacturonan exo-a-1,4-galacturonidase			[aDGalpA	1,4	aDGalpA	1,4	aDGalpA	H2O
+GH28	H61	3.2.1.82	galacturonan exo-a-1,4-galacturobiodase	[aDGalpA	1,4	aDGalpA	1,4	aDGalpA	1,4	aDGalpA	H2O
+GH28	H136	3.2.1.171	rhamnogalacturonan I endo-a-1,2-galacturonidase	aLRhap	1,4	aDGalpA	1,2	aLRhap	1,4	aDGalpA	H2O
+GH28	H138	3.2.1.173	rhamnogalacturonan I exo-a-1,2-galacturonidase			[aDGalpA	1,2	aLRhap	1,4	aDGalpA	H2O
+GH28	H177	3.2.1.-	xylogalacturonan endo-a-1,4-galacturonidase	(bDXylp-1,3)aDGalpA	1,4	(bDXylp-1,3)aDGalpA	1,4	(bDXylp-1,3)aDGalpA	1,4	(bDXylp-1,3)aDGalpA	H2O
+GH29	H37	3.2.1.51	a-L-fucosidase			[aLFucp	1,X	alcohol			H2O
+GH29	H47	3.2.1.63	exo-a-1,2-L-fucosidase			[aLFucp	1,2	bDGalp	1,X	alcohol	H2O
+GH29	H87	3.2.1.111	antigen exo-a-1,3-L-fucosidase			[aLFucp	1,3	bDGlcpNAc	1,X	alcohol	H2O
+GH29	H101	3.2.1.127	antigen a-1,6-fucosidase			[aLFucp	1,6	DGlcpNAc	1,X	alcohol	H2O
+GH29	H236	3.2.1.-	desulfated porphyran exo-a-1,3-L-galactosidase			[aLGalp	1,3	bDGalp	1,4	aLGalp	H2O
+GH29	H245	3.2.1.-	Lewis A antigen exo-a-1,4-fucosidase			[aLFucp	1,4	(bDGalp-1,3)bDGlcpNAc	1,X	alcohol	H2O
+GH29	H248	3.2.1.-	a-L-glucosidase			[aLGlcp	1,X	alcohol			H2O
+GH29	H414	3.2.1.-	antigen 3-fucosyllactose exo-a-1,3-L-fucosidase			[aLFucp	1,3	(bDGalp-1,4)bDGlcp	1,X	alcohol	H2O
+GH29	H420	3.2.1.-	a-L-galactosidase			[aLGalp	1,X	alcohol			H2O
+GH29	H431	3.2.1.-	antigen a-1,4-fucosidase			[aLFucp	1,4	bDGlcpNAc	1,X	alcohol	H2O
+GH30	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH30	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH30	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH30	H28	3.2.1.38	b-fucosidase			[bDFucp	1,X	alcohol			H2O
+GH30	H32	3.2.1.45	ceramide b-glucosidase			[bDGlcp	1,X	ceramide			H2O
+GH30	H57	3.2.1.75	pustulan endo-b-1,6-glucosidase	bDGlcp	1,6	bDGlcp	1,6	bDGlcp	1,6	bDGlcp	H2O
+GH30	H109	3.2.1.136	glucuronoarabinoxylan endo-b-1,4-xylosidase	(aDGlcpA-1,2)bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH30	H122	3.2.1.156	reducing end xylan exo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	DXylp]			H2O
+GH30	H129	3.2.1.164	galactan endo-b-1,6-galactosidase	bDGalp	1,6	bDGalp	1,6	bDGalp	1,6	bDGalp	H2O
+GH30	H132	3.2.1.167	baicalin b-glucuronidase			[bDGlcpA	1,X	baicalein			H2O
+GH30	H164	3.2.1.213	galactan exo-b-1,6-galactobiosidase	[bDGalp	1,6	bDGalp	1,6	bDGalp	1,6	bDGalp	H2O
+GH30	H214	3.2.1.-	glucuronoxylan endo-b-1,4-xylosidase	(bDGlcpA-1,2)bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH30	H234	3.2.1.-	gentiobiose b-1,6-glucosidase			[bDGlcp	1,6	DGlcp]			H2O
+GH30	H235	3.2.1.-	glucuronoxylan exo-b-1,4-xylobiosidase	[bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	(bDGlcpA_4OMe-1,2)bDXylp	H2O
+GH30	H408	3.2.1.-	arabinogalactan exo-b-1,6-galactobiosidase	[bDGalp	1,6	bDGalp	1,6	bDGalp	1,3	bDGalp	H2O
+GH30	H409	3.2.1.-	exo-b-1,4-xylobiosidase	[bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH30	H412	3.2.1.-	b-D-xylosidase			[bDXylp	1,X	alcohol			H2O
+GH31	H8	3.2.1.10	oligo exo-a-1,6-glucosidase			[aDGlcp	1,6	aDGlcp	1,X	aDGlcp	H2O
+GH31	H9	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH31	H14	3.2.1.20	a-glucosidase			[aDGlcp	1,X	alcohol			H2O
+GH31	H16	3.2.1.22	a-galactosidase			[aDGalp	1,X	alcohol			H2O
+GH31	H18	3.2.1.24	a-mannosidase			[aDManp	1,X	alcohol			H2O
+GH31	H34	3.2.1.48	sucrose a-1,2-glucosidase			[aDGlcp	1,2	bDFruf]			H2O
+GH31	H63	3.2.1.84	glucan exo-a-1,3-glucosidase			[aDGlcp	1,3	aDGlcp	1,3	aDGlcp	H2O
+GH31	H142	3.2.1.177	a-xylosidase			[aDXylp	1,X	alcohol			H2O
+GH31	H154	3.2.1.199	a-(6-sulfo)-quinovosidase			[aDQuip_6S	1,X	(1,2)diacylglycerol			H2O
+GH31	H157	3.2.1.204	cyclobis-(1,6)-a-nigerose a-1,3-glucosidase	aDGlcp	1,6	aDGlcp	1,3	aDGlcp	1,6	aDGlcp	H2O
+GH31	H160	3.2.1.207	mannosyl-oligosaccharide exo-a-1,3-glucosidase			[aDGlcp	1,3	aDGlcp	1,3	aDManp	H2O
+GH31	H168	3.2.1.217	protein O exo-a-N-acetylgalactosaminidase			[aDGalpNAc	1,X	Ser/Thr			H2O
+GH31	H256	3.2.1.-	exo-a-1,4-galactosidase			[aDGalp	1,4	aDGalp	1,X	alcohol	H2O
+GH31	T310	2.4.1.24	1,4-a-glucan 6-a-glucosyltransferase			[aDGlcp	1,6	aDGlcp	1,4	DGlcp]	a-1,6-DGlcp]
+GH31	T318	2.4.1.161	oligosaccharide 4-a-D-glucosyltransferase			[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH31	T322	2.4.1.387	isomaltosyltransferase	aDGlcp	1,6	aDGlcp	1,3	aDGlcp	1,6	aDGlcp	a-1,4-(aDGlcp)3
+GH31	L345	4.2.2.13	Exo-1,4-a-D-glucan lyase			[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	
+GH32	H6	3.2.1.7	inulin endo-b-2,1-fructosidase	bDFruf	2,1	bDFruf	2,1	bDFruf	2,1	bDFruf	H2O
+GH32	H20	3.2.1.26	sucrose b-2,1-fructosidase			[bDFruf	2,1	aDGlcp]			H2O
+GH32	H48	3.2.1.64	levan exo-b-2,6-fructobiosidase	[bDFruf	2,6	bDFruf	2,6	bDFruf	2,6	bDFruf	H2O
+GH32	H49	3.2.1.65	levan endo-b-2,6-fructosidase	bDFruf	2,6	bDFruf	2,6	bDFruf	2,6	bDFruf	H2O
+GH32	H120	3.2.1.153	inulin exo-b-2,1-fructosidase			[bDFruf	2,1	bDFruf	2,1	bDFruf	H2O
+GH32	H121	3.2.1.154	levan exo-b-2,6-fructosidase			[bDFruf	2,6	bDFruf	2,6	bDFruf	H2O
+GH32	H243	3.2.1.-	6-kesose b-2,6-fructose			[bDFruf	2,6	bDFruf	2,1	aDGlcp]	H2O
+GH32	T307	2.4.1.10	levansucrase			[bDFruf	2,6	bDFruf	2,6	bDFruf	a-2,1-aDGlcp]
+GH32	T314	2.4.1.99	sucrose:sucrose fructosyltransferase			[bDFruf	2,1	bDFruf	2,1	aDGlcp]	a-2,1-aDGlcp]
+GH32	T315	2.4.1.100	2,1-fructan:2,1-fructan 1-fructosyltransferase	bDFruf	2,1	bDFruf	2,1	bDFruf	2,1	bDFruf	a-2,1-bDFruf
+GH32	T320	2.4.1.243	6G-fructosyltransferase	aDGlcp	1,2	bDFruf	2,6	aDGlcp	1,2	bDFruf	a-1,2-bDFruf
+GH32	T331	2.4.1.-	cycloinulo-oligosaccharide fructanotransferase	bDFruf	2,1	bDFruf	2,1	bDFruf	2,1	bDFruf(cyclic)	a-2,1-bDFruf
+GH32	T336	2.4.1.-	sucrose:sucrose 6-fructosyltransferase (6-SST)			[bDFruf	2,6	bDFruf	2,1	aDGlcp]	a-2,1-aDGlcp]
+GH32	T353	2.4.1.-	sucrose 6 acetate b-2,1-fructosyltransferase			[bDFruf	2,1	aDGlcp_6Ac]			a-2,1-aDGlcp]
+GH33	H13	3.2.1.18	a-neuraminidase			[aDNeup5NAc	2,X	alcohol			H2O
+GH33	H98	3.2.1.124	LPS exo-a-3-deoxy-2-octulosonidase (Kdo hydrolase)			[aDKdop	2,X	alcohol			H2O
+GH33	H199	3.2.1.-	a-(2-keto)-(3-deoxy)-nononic acid hydrolase (KDNase)			[aDKdnp	2,X	alcohol			H2O
+GH33	T328	2.4.1.-	trans-sialidase			[aDNeup5NAc	2,3	alcohol			e-alcohol
+GH33	L346	4.2.2.15	anhydrosialidase			aDNeup5NAc	2,8	aDNeup5NAc	2,8	aDNeup5NAc	
+GH34	H13	3.2.1.18	a-neuraminidase			[aDNeup5NAc	2,X	alcohol			H2O
+GH35	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH35	H130	3.2.1.165	chitosan exo-b-1,4-N-glucosaminase			[bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH35	H187	3.2.1.-	antigen exo-b-1,3-galactosidase			[bDGalp	1,3	DGlcpNAc	1,X	alcohol	H2O
+GH35	H202	3.2.1.-	galactan exo-b-1,4-galactosidase			[bDGalp	1,4	bDGalp	1,4	bDGalp	H2O
+GH35	T343	2.4.1.391	b-1,2-glucan synthetase (elongation)			bDGlcp	1,2	bDGlcp	1,2	bDGlcp	e-1,2-bDGlcp
+GH35	H415	3.2.1.-	galactooligosaccharide exo-b-1,2-galactosidase			[bDGalp	1,2	bDGalp	1,2	bDGalp	H2O
+GH36	H16	3.2.1.22	a-galactosidase			[aDGalp	1,X	alcohol			H2O
+GH36	H35	3.2.1.49	antigen a-1,3-N-acetylgalactosaminidase			[aDGalpNAc	1,3	DGalp	1,X	alcohol	H2O
+GH36	H66	3.2.1.88	b-L-arabinopyranosidase			[bLArap	1,X	alcohol			H2O
+GH36	H169	3.2.1.-	antigen a-1,3-galactosidase			[aDGalp	1,3	(aLFucp-1,2)bDGalp	1,X	alcohol	H2O
+GH36	H222	3.2.1.-	antigen exo-a-1,3-galactosamine			[aDGalpN	1,3	(aLFucp-1,2)bDGalp	1,X	alcohol	H2O
+GH36	H238	3.2.1.-	a-1,3-D-galactosidase			[aDGalp	1,3	aDGalp	1,X	alcohol	H2O
+GH36	H251	3.2.1.-	raffinose exo-a-1,6-galactosidase			[aDGalp	1,6	aDGlcp	1,2	bDFruf]	H2O
+GH36	H256	3.2.1.-	exo-a-1,4-galactosidase			[aDGalp	1,4	aDGalp	1,X	alcohol	H2O
+GH36	T312	2.4.1.67	galactinol-raffinose galactosyltransferase			[aDGalp	1,6	aDGalp	1,6	aDGlcp-1,2-bDFruf]	a-myo-inositol
+GH36	T313	2.4.1.82	galactinol-sucrose galactosyltransferase			[aDGalp	1,6	aDGlcp	1,2	bDFruf]	a-myo-inositol
+GH36	H404	3.2.1.-	melibiose a-1,6-galactosidase			[aDGalp	1,6	DGlcp]			H2O
+GH37	H21	3.2.1.28	trehalose a-1,1-glucosidase			[aDGlcp	1,1	aDGlcp]			H2O
+GH38	H18	3.2.1.24	a-mannosidase			[aDManp	1,X	alcohol			H2O
+GH38	H88	3.2.1.113	mannosyl-oligosaccharide exo-a-1,2-mannosidase			[aDManp	1,2	aDManp	1,6	aDManp	H2O
+GH38	H89	3.2.1.114	mannosyl-oligosaccharide exo-a-1,3-mannosidase			[aDManp	1,3	aDManp	1,6	bDManp	H2O
+GH38	H90	3.2.1.114	mannosyl-oligosaccharide exo-a-1,6-mannosidase			[aDManp	1,6	aDManp	1,6	bDManp	H2O
+GH38	H128	3.2.1.163	mannosyl-oligosaccharide exo-a-1,6-mannosidase			[aDManp	1,6	DManp	1,X	alcohol	H2O
+GH38	H195	3.2.1.-	mannosyl-oligosaccharide exo-a-1,3-mannosidase			[aDManp	1,3	DManp	1,X	alcohol	H2O
+GH38	H203	3.2.1.-	mannosyl-oligosaccharide endo-a-1,P-mannosidase	aDManp	1,3	aDManp	1,X	PO4	X,6	aDManp	H2O
+GH38	H437	3.2.1.-	a-1,2-mannosidase			[aDManp	1,2	aDManp	1,X	alcohol	H2O
+GH39	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH39	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH39	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH39	H56	3.2.1.74	cellulose exo-b-1,4-glucosidase			[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH39	H58	3.2.1.76	dermatan sulfate endo-a-1,3-iduronidase	bDGalpNAc_4S	1,4	aLIdopA	1,3	bDGalpNAc_4S	1,4	aLIdopA	H2O
+GH39	H166	3.2.1.215	arabinogalactan a-1,3-(galactosyl)-arabinofuranosidase	[aDGalp	1,3	aLAraf	1,3	bDGalp	1,6	bDGalp	H2O
+GH39	H223	3.2.1.-	ulvan endo-a-1,3-L-(3-sulfo)-rhamnosidase	bDXylp	1,4	aLRhap_3S	1,4	bDXylp	1,4	aLRhap_3S	H2O
+GH39	H352	3.2.1.223	arabinogalactan a-1,3-(L-arabinopyranosyl)-L-arabinofuranosidase	bLArap	1,3	aLAraf	1,3	bDGalp	1,6	bDGalp	H2O
+GH42	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH42	H187	3.2.1.-	antigen exo-b-1,3-galactosidase			[bDGalp	1,3	DGlcpNAc	1,X	alcohol	H2O
+GH42	H198	3.2.1.-	a-L-arabinopyranosidase			[aLArap	1,X	alcohol			H2O
+GH43	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH43	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH43	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH43	H54	3.2.1.72	xylan exo-b-1,3-xylosidase			[bDXylp	1,3	bDXylp	1,3	bDXylp	H2O
+GH43	H76	3.2.1.99	arabinan endo-a-1,5-arabinofuranosidase	aLAraf	1,5	aLAraf	1,5	aLAraf	1,5	aLAraf	H2O
+GH43	H113	3.2.1.145	galactan exo-b-1,3-galactosidase			[bDGalp	1,3	bDGalp	1,3	bDGalp	H2O
+GH43	H114	3.2.1.146	b-galactofuranosidase			[bDGalf	1,X	alcohol			H2O
+GH43	H146	3.2.1.181	galactan endo-b-1,3-galactosidase	bDGalp	1,3	bDGalp	1,3	bDGalp	1,3	bDGalp	H2O
+GH43	H180	3.2.1.-	arabinan exo-a-1,5-L-arabinofuranosidase			[aLAraf	1,5	aLAraf	1,5	aLAraf	H2O
+GH43	H197	3.2.1.-	arabinan exo-a-1,2-L-arabinofuranosidase			[aLAraf	1,2	aLAraf	1,5	aLAraf	H2O
+GH43	H218	3.2.1.-	arabinan exo-a-1,3-L-arabinofuranosidase			[aLAraf	1,3	aLAraf	1,5	aLAraf	H2O
+GH43	H412	3.2.1.-	b-D-xylosidase			[bDXylp	1,X	alcohol			H2O
+GH44	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH44	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH44	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH44	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH45	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH45	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH45	H228	3.2.1.-	glucomannan endo-b-1,4-glucosidase	bDManp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDManp	H2O
+GH46	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH47	H88	3.2.1.113	mannosyl-oligosaccharide exo-a-1,2-mannosidase			[aDManp	1,2	aDManp	1,6	aDManp	H2O
+GH48	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH48	H10	3.2.1.14	chitin endo-b-1,4-N-acetylglucosaminidase	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,4	bDGlcpNAc	H2O
+GH48	H68	3.2.1.91	cellulose exo-b-1,4-glucobiosidase	[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH48	H141	3.2.1.176	reducing end cellulose exo-b-1,4-glucobiosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	DGlcp]	H2O
+GH49	H9	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH49	H42	3.2.1.57	pullulan exo-a-1,4-isopanosidase	[(aDGlcp-1,4)aDGlcp	1,6	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH49	H72	3.2.1.95	dextran exo-a-1,6-glucotriosidase	[(aDGlcp-1,6)aDGlcp	1,6	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH49	H220	3.2.1.-	chaetomorphan endo-b-1,4-(3-sulfo)-arabinopyranosidase	bLArap_3S	1,4	bLArap_3S	1,4	bLArap_3S	1,4	bLArap_3S	H2O
+GH49	H249	3.2.1.-	panose a-1,4-glucosidase	aDGlcp	1,6	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH50	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH50	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH50	H60	3.2.1.81	agarose endo-b-1,4-galactosidase	aLGalp36An	1,3	bDGalp	1,4	aLGalp36An	1,3	bDGalp	H2O
+GH51	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH51	H5	3.2.1.6	MLG endo-b-1,3/4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH51	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH51	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH51	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH51	H197	3.2.1.-	arabinan exo-a-1,2-L-arabinofuranosidase			[aLAraf	1,2	aLAraf	1,5	aLAraf	H2O
+GH51	H198	3.2.1.-	a-L-arabinopyranosidase			[aLArap	1,X	alcohol			H2O
+GH51	H218	3.2.1.-	arabinan exo-a-1,3-L-arabinofuranosidase			[aLAraf	1,3	aLAraf	1,5	aLAraf	H2O
+GH51	H259	3.2.1.-	arabinoxylan exo-a-1,3-L-arabinofuranosidase			[aLAraf	1,3	bDXylp	1,4	bDXylp	H2O
+GH52	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH53	H67	3.2.1.89	arabinogalactan endo-b-1,4-galactosidase	bDGalp	1,4	bDGalp	1,4	bDGalp	1,4	bDGalp	H2O
+GH53	H408	3.2.1.-	arabinogalactan exo-b-1,6-galactobiosidase	[bDGalp	1,6	bDGalp	1,6	bDGalp	1,3	bDGalp	H2O
+GH54	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH54	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH54	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH55	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH55	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH55	H133	3.2.1.168	Flavonoid 6-O-a-L-rhamnosyl-b-glucosidase	[aLRhap	1,6	bDGlcp	1,X	flavonoid			H2O
+GH55	H381	3.2.1.-	laminarin endo-b-1,3-glucosidase	bDGlcp	1,6	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH56	H25	3.2.1.35	hyaluronan endo-b-1,4-N-acetylglucosaminidase	bDGlcpA	1,3	bDGlcpNAc	1,4	bDGlcpA	1,3	bDGlcpNAc	H2O
+GH56	H173	3.2.1.-	chondroitin endo-b-1,4-N-acetylgalactosaminidase	bDGlcpA	1,3	bDGalpNAc	1,4	bDGlcpA	1,3	bDGalpNAc	H2O
+GH57	H1	3.2.1.1	amylose endo-a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH57	H16	3.2.1.22	a-galactosidase			[aDGalp	1,X	alcohol			H2O
+GH57	H31	3.2.1.41	pullulan endo-a-1,6-glucosidase	aDGlcp	1,4	aDGlcp	1,6	aDGlcp	1,4	aDGlcp	H2O
+GH57	H40	3.2.1.54	cyclomaltodextrin endo-a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp(cyclic)	H2O
+GH57	H107	3.2.1.133	amylose exo-a-1,4-glucobiosidase (Retaining)	[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH57	T308	2.4.1.18	1,4-a-glucan branching enzyme	aDGlcp	1,4	aDGlcp	1,6	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH57	T311	2.4.1.25	4-a-glucanotransferase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH58	H103	3.2.1.129	endo-a-2,8-neuraminidase	aDNeup5NAc	2,8	aDNeup5NAc	2,8	aDNeup5NAc	2,8	aDNeup5NAc	H2O
+GH59	H33	3.2.1.46	ceramide b-galactosidase			[bDGalp	1,X	ceramide			H2O
+GH62	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH62	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH62	H218	3.2.1.-	arabinan exo-a-1,3-L-arabinofuranosidase			[aLAraf	1,3	aLAraf	1,5	aLAraf	H2O
+GH62	H446	3.2.1.-	glucuronoxylan exo-b-1,2-xylosidase			[bDXylp	1,2	(bDXylp-1,4)bDXylp	1,4	bDXylp	H2O
+GH63	H14	3.2.1.20	a-glucosidase			[aDGlcp	1,X	alcohol			H2O
+GH63	H63	3.2.1.84	glucan exo-a-1,3-glucosidase			[aDGlcp	1,3	aDGlcp	1,3	aDGlcp	H2O
+GH63	H83	3.2.1.106	mannosyl-oligosaccharide exo-a-1,2-glucosidase			[aDGlcp	1,2	aDGlcp	1,3	aDGlcp	H2O
+GH63	H135	3.2.1.170	glycerate a-mannosidase			[aDManp	1,X	glycerate			H2O
+GH63	H161	3.2.1.208	glycerate exo-a-glucosidase			[aDGlcp	1,X	D-glycerate			H2O
+GH64	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH64	H423	3.2.1.-	glucan exo-1,3-glucopentaosidase	[(bDGlcp)4	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH65	H21	3.2.1.28	trehalose a-1,1-glucosidase			[aDGlcp	1,1	aDGlcp]			H2O
+GH65	H84	3.2.1.107	hydroxylysine exo-a-1,2-glucosidase			[aDGlcp	1,2	bDGalp	1,X	hydroxylysine	H2O
+GH65	H167	3.2.1.216	kojibiose a-1,2-glucosidase			[aDGlcp	1,2	DGlcp]			H2O
+GH65	H247	3.2.1.115	branched-dextran exo-1,2-a-glucosidase			[aDGlcp	1,2	aDGlcp	1,6	aDGlcp	H2O
+GH65	T265	2.4.1.8	maltose phosphorylase			[aDGlcp	1,4	DGlcp]			ePi
+GH65	T269	2.4.1.64	trehalose phosphorylase			[aDGlcp	1,1	aDGlcp]			ePi
+GH65	T273	2.4.1.216	trehalose 6-phosphate phosphorylase			[aDGlcp	1,1	aDGlcp_6P]			ePi
+GH65	T274	2.4.1.230	kojibiose phosphorylase			[aDGlcp	1,2	DGlcp]			ePi
+GH65	T276	2.4.1.279	nigerose phosphorylase			[aDGlcp	1,3	DGlcp]			ePi
+GH65	T279	2.4.1.282	a-1,3-glucosyl-L-rhamnose phosphorylase			[aDGlcp	1,3	LRhap]			ePi
+GH65	T284	2.4.1.332	a-glucosyl-glycerol phosphorylase			[aDGlcp	1,X	glycerol]			ePi
+GH65	T286	2.4.1.334	a-1,3-glucan phosphorylase			[aDGlcp	1,3	aDGlcp	1,3	aDGlcp	ePi
+GH65	T294	2.4.1.-	a-glucan phosphorylase			[aDGlcp	1,X	aDGlcp	1,X	alcohol	ePi
+GH65	T436	2.4.1.-	Aprosamine a-glucosyltransferase			[aDGlcp_4N	1,X	alcohol			e-NDP
+GH66	H9	3.2.1.11	dextran endo-a-1,6-glucosidase	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH66	T321	2.4.1.248	cycloisomaltooligosaccharide glucanotransferase	aDGlcp	1,6	aDGlcp	1,6	aDGlcp	1,6	aDGlcp(cyclic)	a-1,6-aDGlcp
+GH67	H105	3.2.1.131	xylan exo-a-1,2-(4 OMethyl)-glucuronosidase			[aDGlcpA_4OMe	1,2	bDXylp	1,4	bDXylp	H2O
+GH68	H20	3.2.1.26	sucrose b-2,1-fructosidase			[bDFruf	2,1	aDGlcp]			H2O
+GH68	T306	2.4.1.9	inulosucrase			[bDFruf	2,1	bDFruf	2,1	bDFruf	a-2,1-aDGlcp]
+GH68	T307	2.4.1.10	levansucrase			[bDFruf	2,6	bDFruf	2,6	bDFruf	a-2,1-aDGlcp]
+GH70	T305	2.4.1.5	dextransucrase			[aDGlcp	1,6	aDGlcp	1,6	aDGlcp	a-1,2-bDFruf]
+GH70	T316	2.4.1.140	Alternansucrase a-1,3-glucosyltransferase			[aDGlcp	1,3	aDGlcp	1,6	aDGlcp	a-1,2-bDFruf]
+GH70	T317	2.4.1.140	Alternansucrase a-1,6-glucosyltransferase			[aDGlcp	1,6	aDGlcp	1,3	aDGlcp	a-1,2-bDFruf]
+GH70	T329	2.4.1.395	reuteransucrase a-1,6-glucosyltransferase			[aDGlcp	1,6	aDGlcp	1,4	aDGlcp	a-1,2-bDFruf]
+GH70	T330	2.4.1.395	reuteransucrase a-1,4-glucosyltransferase			[aDGlcp	1,4	aDGlcp	1,6	aDGlcp	a-1,2-bDFruf]
+GH70	T333	2.4.1.373	a-1,2-branched dextransucrase			[aDGlcp	1,2	(aDGlcp-1,6)aDGlcp	1,6	aDGlcp	a-1,2-bDFruf]
+GH70	T335	2.4.1.394	Linear a-4,6-glucanotransferase			[aDGlcp	1,6	aDGlcp	1,4	aDGlcp	a-1,4-aDGclp
+GH70	T340	2.4.1.390	a-4,3-glucanotransferase			[aDGlcp	1,3	(aDGlcp-1,4)aDGlcp	1,4	aDGlcp	a-1,4-aDGclp
+GH70	T448	2.4.1.396	branched a-4,6-glucanotransferase			[aDGlcp	1,6	(aDGlcp-1,4)aDGlcp	1,4	aDGlcp	a-1,4-aDGclp
+GH71	H44	3.2.1.59	MLG endo-a-1,3-glucosidase	aDGlcp	1,X	aDGlcp	1,3	aDGlcp	1,X	aDGlcp	H2O
+GH71	H63	3.2.1.84	glucan exo-a-1,3-glucosidase			[aDGlcp	1,3	aDGlcp	1,3	aDGlcp	H2O
+GH71	H445	3.2.1.-	glucan endo-a-1,3-glucosidase	aDGlcp	1,3	aDGlcp	1,3	aDGlcp	1,3	aDGlcp	H2O
+GH72	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH72	T325	2.4.1.-	b-1,3-glucanosyltransglucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	e-1,3-bDGlcp
+GH73	H73	3.2.1.96	mannosyl-oligosaccharide endo-b-1,4-N-acetylglucosaminidase	bDManp	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,X	Asn	H2O
+GH73	H183	3.2.1.-	peptidoglycan endo-b-1,4-N-acetylglucosaminidase	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	H2O
+GH74	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH74	H117	3.2.1.150	reducing end xyloglucan exo-b-1,4-glucobiosidase	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	DGlcp]	H2O
+GH74	H118	3.2.1.151	xyloglucan endo-b-1,4-glucosidase	(aDXylp-1,6)bDGlcp	1,4	bDGlcp	1,4	(aDXylp-1,6)bDGlcp	1,4	(aDXylp-1,6)bDGlcp	H2O
+GH75	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH76	H14	3.2.1.20	a-glucosidase			[aDGlcp	1,X	alcohol			H2O
+GH76	H78	3.2.1.101	mannan endo-a-1,6-mannosidase	aDManp	1,6	aDManp	1,6	aDManp	1,6	aDManp	H2O
+GH77	T311	2.4.1.25	4-a-glucanotransferase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	a-1,4-aDGlcp
+GH78	H30	3.2.1.40	a-L-rhamnosidase			[aLRhap	1,X	alcohol			H2O
+GH78	H139	3.2.1.174	rhamnogalacturonan I exo-a-1,4-L-rhamnosidase			[aLRhap	1,4	aDGalpA	1,2	aLRhap	H2O
+GH78	H263	3.2.1.-	flavonoid-O-(a-1,6-L-rhamnosyl-)glucoside a-1,6-L-rhamnosidase			[aLRhap	1,6	bDGlcp	1,X	flavonoid	H2O
+GH78	H447	3.2.1.-	flavonoid-O-(a-1,2-L-rhamnosyl-)glucoside a-1,2-L-rhamnosidase			[aLRhap	1,2	bDGlcp	1,X	flavonoid	H2O
+GH78	H451	3.2.1.-	flavonoid-O-(a-1,2-L-rhamnosyl-)L-rhamnoside a-1,2-L-rhamnosidase			[aLRhap	1,2	aLRhap	1,X	flavonoid	H2O
+GH79	H22	3.2.1.31	b-glucuronidase			[bDGlcpA	1,X	alcohol			H2O
+GH79	H26	3.2.1.36	hyaluronan endo-b-1,3-glucuronidase	bDGlcpNAc	1,4	bDGlcpA	1,3	bDGlcpNAc	1,4	bDGlcpA	H2O
+GH79	H102	3.2.1.128	glycyrrhizin b-glucuronidase			[bDGlcpA	1,2	bDGlcpA	1,X	glycyrrhetinic acid	H2O
+GH79	H131	3.2.1.166	heparan sulfate endo-b-1,4-glucuronidase	aDGlcpNAc_6S	1,4	bDGlcpA	1,4	aDGlcpNAc_6S	1,4	bDGlcpA	H2O
+GH79	H132	3.2.1.167	baicalin b-glucuronidase			[bDGlcpA	1,X	baicalein			H2O
+GH79	H172	3.2.1.-	arabinogalactan exo-b-1,6-(4-OMethyl)-glucuronidase			[bDGlcpA_4OMe	1,6	bDGalp	1,6	bDGalp	H2O
+GH79	H417	3.2.1.-	4-O-a-L-rhamnosyl-b-D-glucuronidase	[aLRhap	1,4	bDGlcpA	1,6	bDGalp	1,6	bDGalp	H2O
+GH80	H106	3.2.1.132	chitosan endo-b-1,4-N-glucosaminase	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	1,4	bDGlcpN	H2O
+GH81	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH82	H123	3.2.1.157	i-carrageenan endo-b-1,4-(4-sulfo)-galactosidase	aDGalp36An_2S	1,3	bDGalp_4S	1,4	aDGalp36An_2S	1,3	bDGalp_4S	H2O
+GH83	H13	3.2.1.18	a-neuraminidase			[aDNeup5NAc	2,X	alcohol			H2O
+GH84	H25	3.2.1.35	hyaluronan endo-b-1,4-N-acetylglucosaminidase	bDGlcpA	1,3	bDGlcpNAc	1,4	bDGlcpA	1,3	bDGlcpNAc	H2O
+GH84	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH84	H134	3.2.1.169	protein O b-N-acetylglucosaminidase			[bDGlcpNAc	1,X	Ser/Thr			H2O
+GH85	H73	3.2.1.96	mannosyl-oligosaccharide endo-b-1,4-N-acetylglucosaminidase	bDManp	1,4	bDGlcpNAc	1,4	bDGlcpNAc	1,X	Asn	H2O
+GH86	H60	3.2.1.81	agarose endo-b-1,4-galactosidase	aLGalp36An	1,3	bDGalp	1,4	aLGalp36An	1,3	bDGalp	H2O
+GH86	H143	3.2.1.178	porphyran endo-b-1,4-galactosidase	aLGalp_6S	1,3	bDGalp	1,4	aLGalp_6S	1,3	bDGalp	H2O
+GH86	H421	3.2.1.222	funoran endo-b-1,4-(6-sulfo)-galactosidase	aLGalp36An	1,3	bDGalp_6S	1,4	aLGalp36An	1,3	bDGalp_6S	H2O
+GH87	H44	3.2.1.59	MLG endo-a-1,3-glucosidase	aDGlcp	1,X	aDGlcp	1,3	aDGlcp	1,X	aDGlcp	H2O
+GH87	H46	3.2.1.61	mycodextran endo-a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,3	aDGlcp	H2O
+GH88	H144	3.2.1.179	gellan unsaturated-b-1,4-glucuronidase			[bDGlcpA_UNS	1,4	bDGlcp	1,4	aLRhap	H2O
+GH88	H145	3.2.1.180	chondroitin sulfate unsaturated-b-1,3-glucuronidase			[bDGlcpA_UNS	1,3	DGalpNAc_6S]			H2O
+GH88	H174	3.2.1.-	unsaturated-b-glucuronidase			[bDGlcpA_UNS	1,X	alcohol			H2O
+GH88	H426	3.2.1.-	chondroitin unsaturated-b-1,3-glucuronidase			[bDGlcpA_UNS	1,3	bDGalpNAc	1,4	bDGlcpA	H2O
+GH89	H36	3.2.1.50	a-N-acetylglucosaminidase			[aDGlcpNAc	1,X	alcohol			H2O
+GH90	H178	3.2.1.-	LPS endo-a-1,3-L-rhamnosidase	bDManp	1,4	aLRhap	1,3	bDGalp	1,4	aDGlcp	H2O
+GH91	H194	3.2.1.-	dianhydride (1,2':2,3') fructofuranose b-2,3-fructosidase			[bDFruf	2,3	bDFruf]			H2O
+GH92	H18	3.2.1.24	a-mannosidase			[aDManp	1,X	alcohol			H2O
+GH92	H88	3.2.1.113	mannosyl-oligosaccharide exo-a-1,2-mannosidase			[aDManp	1,2	aDManp	1,6	aDManp	H2O
+GH92	H193	3.2.1.-	mannosyl-oligosaccharide exo-a-1,4-mannosidase			[aDManp	1,4	DManp	1,X	alcohol	H2O
+GH92	H195	3.2.1.-	mannosyl-oligosaccharide exo-a-1,3-mannosidase			[aDManp	1,3	DManp	1,X	alcohol	H2O
+GH92	H203	3.2.1.-	mannosyl-oligosaccharide endo-a-1,P-mannosidase	aDManp	1,3	aDManp	1,X	PO4	X,6	aDManp	H2O
+GH92	H437	3.2.1.-	a-1,2-mannosidase			[aDManp	1,2	aDManp	1,X	alcohol	H2O
+GH93	H441	3.2.1.-	arabinan exo-a-1,5-L-arabinofuranobiosidase	[aLAraf	1,5	aLAraf	1,5	aLAraf	1,5	aLAraf	H2O
+GH94	T266	2.4.1.20	cellobiose phosphorylase			[bDGlcp	1,4	DGlcp]			aPi
+GH94	T267	2.4.1.31	laminaribiose phosphorylase			[bDGlcp	1,3	DGlcp]			aPi
+GH94	T268	2.4.1.49	cellodextrin phosphorylase			[bDGlcp	1,4	bDGlcp	1,4	bDGlcp	aPi
+GH94	T277	2.4.1.280	chitobiose phosphorylase			[bDGlcpNAc	1,4	DGlcpNAc]			aPi
+GH94	T282	2.4.1.321	cellobionic acid phosphorylase			[bDGlcp	1,4	DGlcpA]			aPi
+GH94	T285	2.4.1.333	b-1,2-glucan phosphorylase			[bDGlcp	1,2	bDGlcp	1,2	bDGlcp	aPi
+GH94	T291	2.4.1.389	solabiose phosphorylase			[bDGlcp	1,3	DGalp]			aPi
+GH94	T293	2.4.1.392	b-1,3-glucosyl-glucuronic acid phosphorylase			[bDGlcp	1,3	DGlcpA]			aPi
+GH94	T298	2.4.1.-	b-1,4-glucosyl-galactose phosphorylase			[bDGlcp	1,4	DGalp	1,X	alcohol	aPi
+GH94	T299	2.4.1.-	acholetin phosphorylase			[bDGlcpNAc	1,3	bDGlcpNAc	1,3	bDGlcpNAc	aPi
+GH94	T303	2.4.1.-	b-1,4-mixed linkage glucan phosphorylase			[bDGlcp	1,4	bDGlcp	1,3	bDGlcp	aPi
+GH95	H37	3.2.1.51	a-L-fucosidase			[aLFucp	1,X	alcohol			H2O
+GH95	H47	3.2.1.63	exo-a-1,2-L-fucosidase			[aLFucp	1,2	bDGalp	1,X	alcohol	H2O
+GH95	H207	3.2.1.-	Rhamnogalacturonan a-1,2-L-galactosidase			[aLGalp	1,2	bDGlcpA	1,4	aLFucp	H2O
+GH95	H434	3.2.1.-	glucuronoarabinoxylan a-1,2-L-galactosidase			[aLGalp	1,2	bDXylp	1,2	aLAraf	H2O
+GH96	H124	3.2.1.158	agarose endo-a-1,3-anhydro-L-galactosidase	bDGalp	1,4	aLGalp36An	1,3	bDGalp	1,4	aLGalp36An	H2O
+GH96	H406	3.2.1.228	funoran endo-a-1,3-anhydro-L-galactosidase	bDGalp_6S	1,4	aLGalp36An	1,3	bDGalp_6S	1,4	aLGalp36An	H2O
+GH97	H3	3.2.1.3	amylose exo-a-1,4-glucosidase			[aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH97	H14	3.2.1.20	a-glucosidase			[aDGlcp	1,X	alcohol			H2O
+GH97	H16	3.2.1.22	a-galactosidase			[aDGalp	1,X	alcohol			H2O
+GH97	H52	3.2.1.70	dextran exo-a-1,6-glucosidase			[aDGlcp	1,6	aDGlcp	1,6	aDGlcp	H2O
+GH97	H66	3.2.1.88	b-L-arabinopyranosidase			[bLArap	1,X	alcohol			H2O
+GH98	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH98	H79	3.2.1.102	antigen endo-b-1,4-galactosidase			[(aLFucp-1,2)bDGalp	1,4	DGlcpNAc	1,X	alcohol	H2O
+GH99	H104	3.2.1.130	mannosyl-oligosaccharide endo-a-1,2-mannosidase	[aDGlcp	1,3	aDManp	1,2	aDManp	1,2	aDManp	H2O
+GH99	H153	3.2.1.198	N-glycan endo-a-1,2-mannosidase	[aDManp	1,3	aDManp	1,2	aDManp	1,2	aDManp	H2O
+GH100	H34	3.2.1.48	sucrose a-1,2-glucosidase			[aDGlcp	1,2	bDFruf]			H2O
+GH101	H74	3.2.1.97	protein O endo-a-N-acetylgalactosaminidase	[bDGalp	1,3	aDGalpNAc	1,X	Ser/Thr			H2O
+GH102	L347	4.2.2.29	peptidoglycan lytic b-1,4-muraminidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	
+GH103	L347	4.2.2.29	peptidoglycan lytic b-1,4-muraminidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	
+GH104	L347	4.2.2.29	peptidoglycan lytic b-1,4-muraminidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	
+GH105	H137	3.2.1.172	rhamnogalacturonan I unsaturated-a-1,2-galacturonidase			[aDGalpA_UNS	1,2	aLRhap	1,4	aDGalpA	H2O
+GH105	H174	3.2.1.-	unsaturated-b-glucuronidase			[bDGlcpA_UNS	1,X	alcohol			H2O
+GH105	H217	3.2.1.-	homogalacturonan unsaturated-a-1,4-galacturonidase			[aDGalpA_UNS	1,4	aDGalpA	1,4	aDGalpA	H2O
+GH106	H30	3.2.1.40	a-L-rhamnosidase			[aLRhap	1,X	alcohol			H2O
+GH106	H139	3.2.1.174	rhamnogalacturonan I exo-a-1,4-L-rhamnosidase			[aLRhap	1,4	aDGalpA	1,2	aLRhap	H2O
+GH106	H263	3.2.1.-	flavonoid-O-(a-1,6-L-rhamnosyl-)glucoside a-1,6-L-rhamnosidase			[aLRhap	1,6	bDGlcp	1,X	flavonoid	H2O
+GH106	H447	3.2.1.-	flavonoid-O-(a-1,2-L-rhamnosyl-)glucoside a-1,2-L-rhamnosidase			[aLRhap	1,2	bDGlcp	1,X	flavonoid	H2O
+GH107	H162	3.2.1.211	fucan endo-a-1,3-(2-sulfo)-fucosidase	aLFucp_2S	1,3/4	aLFucp_2S	1,3	aLFucp_2S	1,3/4	aLFucp_2S	H2O
+GH107	H163	3.2.1.212	fucan endo-a-1,4-(2-sulfo)-fucosidase	aLFucp_2S	1,3	aLFucp_2S	1,4	aLFucp_2S	1,3	aLFucp_2S	H2O
+GH107	H439	3.2.1.211	fucan endo-a-1,3-L-(4-sulfo)-fucosidase	aLFucp_4S	1,3	aLFucp_4S	1,3	aLFucp_4S	1,3	aLFucp_4S	H2O
+GH107	H440	3.2.1.211	fucan endo-a-1,3-L-(2,4-disulfo)-fucosidase	aLFucp_2,4S	1,3	aLFucp_2,4S	1,3	aLFucp_2,4S	1,3	aLFucp_2,4S	H2O
+GH108	H12	3.2.1.17	peptidoglycan endo-b-1,4-N-acetylmuramidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH109	H25	3.2.1.35	hyaluronan endo-b-1,4-N-acetylglucosaminidase	bDGlcpA	1,3	bDGlcpNAc	1,4	bDGlcpA	1,3	bDGlcpNAc	H2O
+GH109	H35	3.2.1.49	antigen a-1,3-N-acetylgalactosaminidase			[aDGalpNAc	1,3	DGalp	1,X	alcohol	H2O
+GH109	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH109	H168	3.2.1.217	protein O exo-a-N-acetylgalactosaminidase			[aDGalpNAc	1,X	Ser/Thr			H2O
+GH110	H16	3.2.1.22	a-galactosidase			[aDGalp	1,X	alcohol			H2O
+GH110	H169	3.2.1.-	antigen a-1,3-galactosidase			[aDGalp	1,3	(aLFucp-1,2)bDGalp	1,X	alcohol	H2O
+GH110	H238	3.2.1.-	a-1,3-D-galactosidase			[aDGalp	1,3	aDGalp	1,X	alcohol	H2O
+GH111	H185	3.2.1.-	keratan endo-b-1,3-N-acetyl-(6-sulfo)-glucosaminidase	bDGalp_6S	1,4	bDGlcpNAc_6S	1,3	bDGalp_6S	1,4	bDGlcpNAc_6S	H2O
+GH112	T271	2.4.1.211	b-1,3-galactosyl-N-acetyl-glucosamine phosphorylase			[bDGalp	1,3	DGlcpNAc	1,X	alcohol	aPi
+GH112	T272	2.4.1.211	b-1,3-galactosyl-N-acetyl-galactosamine phosphorylase			[bDGalp	1,3	DGalpNAc	1,X	alcohol	aPi
+GH112	T275	2.4.1.247	b-1,4-galactosyl-L-rhamnose phosphorylase			[bDGalp	1,4	LRhap]			aPi
+GH112	T300	2.4.1.-	b-galactoside phosphorylase			[bDGalp	1,X	alcohol			aPi
+GH113	H19	3.2.1.25	b-mannosidase			[bDManp	1,X	alcohol			H2O
+GH113	H59	3.2.1.78	mannan endo-b-1,4-mannosidase	bDManp	1,4	bDManp	1,4	bDManp	1,4	bDManp	H2O
+GH113	H237	3.2.1.-	reducing end mannan exo-b1,4-mannosidase	bDManp	1,4	bDManp	1,4	DManp]			H2O
+GH114	H86	3.2.1.109	endo-a-1,4-N-galactosaminidase	aDGalpN	1,4	aDGalpN	1,4	aDGalpN	1,4	aDGalpN	H2O
+GH115	H105	3.2.1.131	xylan exo-a-1,2-(4 OMethyl)-glucuronosidase			[aDGlcpA_4OMe	1,2	bDXylp	1,4	bDXylp	H2O
+GH115	H188	3.2.1.-	arabinogalactan exo-a-1,6-(4-OMethyl)-glucuronidase			[aDGlcpA_4OMe	1,6	bDGalp	1,6	bDGalp	H2O
+GH116	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH116	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH116	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH116	H32	3.2.1.45	ceramide b-glucosidase			[bDGlcp	1,X	ceramide			H2O
+GH116	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH116	H257	3.2.1.-	b-D-arabinofuranosidase			[bDAraf	1,X	alcohol			H2O
+GH117	H114	3.2.1.146	b-galactofuranosidase			[bDGalf	1,X	alcohol			H2O
+GH117	H125	3.2.1.159	agarose exo-a-1,3-anhydro-L-galactosidase			[aLGalp36An	1,3	bDGalp	1,4	aLGalp36An	H2O
+GH117	H258	3.2.1.-	agarobiose exo-a-1,3-anhydro-L-galactosidase			[aLGalp36An	1,3	DGalp]			H2O
+GH118	H60	3.2.1.81	agarose endo-b-1,4-galactosidase	aLGalp36An	1,3	bDGalp	1,4	aLGalp36An	1,3	bDGalp	H2O
+GH119	H1	3.2.1.1	amylose endo-a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH120	H27	3.2.1.37	xylan exo-b-1,4-xylosidase			[bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH121	H150	3.2.1.187	Hydroxyproline exo-b-1,2-arabinofuranobiosidase	[bLAraf	1,2	bLAraf	1,2	bLAraf	1,X	hydroxyproline	H2O
+GH122	H14	3.2.1.20	a-glucosidase			[aDGlcp	1,X	alcohol			H2O
+GH123	H39	3.2.1.53	b-N-acetylgalactosaminidase			[bDGalpNAc	1,X	alcohol			H2O
+GH123	H399	3.2.1.-	exo-b-1,3-N-acetylgalactosaminidase			[bDGalpNAc	1,3	aDGalp	1,4	bDGalp	H2O
+GH123	H400	3.2.1.-	exo-b-1,4-N-acetylgalactosaminidase			[bDGalpNAc	1,4	bDGalp	1,4	bDGlcp	H2O
+GH123	H401	3.2.1.-	b-N-acetyl-4-sulfo-galactosaminidase			[bDGalpNAc_4S	1,X	alcohol			H2O
+GH123	H402	3.2.1.-	endo-b-1,4-N-acetylgalactosaminidase	bDGalp	1,3	bDGalpNAc	1,4	bDGalp	1,4	bDGlcp	H2O
+GH123	H403	3.2.1.-	endo-b-1,3-N-acetylgalactosaminidase	bDGalp	1,3	bDGalpNAc	1,3	aDGalp	1,4	bDGalp	H2O
+GH124	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH125	H128	3.2.1.163	mannosyl-oligosaccharide exo-a-1,6-mannosidase			[aDManp	1,6	DManp	1,X	alcohol	H2O
+GH126	H1	3.2.1.1	amylose endo-a-1,4-glucosidase	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	1,4	aDGlcp	H2O
+GH127	H148	3.2.1.185	b-L-arabinofuranosidase			[bLAraf	1,X	alcohol			H2O
+GH127	H213	3.2.1.-	rhamnogalacturonan II endo-a-1,3-aceric acid hydrolase	bDGalp	1,2	aLAcefA	1,3	aLRhap	1,3	bDApif	H2O
+GH127	H227	3.2.1.-	b-carrageenan exo-a-1,3-anhydro-galactosidase			[aDGalp36An	1,3	bDGalp	1,4	aDGalp36An	H2O
+GH127	H411	3.2.1.-	hydroxyproline exo-b-1,2-L-arabinofuranosidase			[bLAraf	1,2	bLAraf	1,X	hydroxyproline	H2O
+GH128	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH128	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH129	H35	3.2.1.49	antigen a-1,3-N-acetylgalactosaminidase			[aDGalpNAc	1,3	DGalp	1,X	alcohol	H2O
+GH129	H74	3.2.1.97	protein O endo-a-N-acetylgalactosaminidase	[bDGalp	1,3	aDGalpNAc	1,X	Ser/Thr			H2O
+GH129	H227	3.2.1.-	b-carrageenan exo-a-1,3-anhydro-galactosidase			[aDGalp36An	1,3	bDGalp	1,4	aDGalp36An	H2O
+GH130	H152	3.2.1.197	b-mannan exo-b-1,2-mannosidase			[bDManp	1,2	bDManp	1,2	bDManp	H2O
+GH130	T278	2.4.1.281	b-1,4-mannosyl-glucose phosphorylase			[bDManp	1,4	DGlcp]			aPi
+GH130	T280	2.4.1.319	b-1,4-mannan phosphorylase			[bDManp	1,4	bDManp	1,4	bDManp	aPi
+GH130	T281	2.4.1.320	b-1,4-mannosyl-N-acetyl-glucosamine phosphorylase			[bDManp	1,4	DGlcpNAc]			aPi
+GH130	T287	2.4.1.339	b-1,2-mannobiose phosphorylase			[bDManp	1,2	DManp]			aPi
+GH130	T288	2.4.1.340	b-1,2-mannan phosphorylase			[bDManp	1,2	bDManp	1,2	bDManp	aPi
+GH130	T295	2.4.1.-	b-1,3-mannan phosphorylase			[bDManp	1,3	bDManp	1,3	bDManp	aPi
+GH130	T301	2.4.1.-	b-mannoside phosphorylase			[bDManp	1,X	alcohol			aPi
+GH131	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH131	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH132	H43	3.2.1.58	glucan exo-b-1,3-glucosidase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH133	H24	3.2.1.33	glycogen exo-a-1,6-glucosidase			[aDGlcp	1,6	aDGlcp	1,4	aDGlcp	H2O
+GH134	H59	3.2.1.78	mannan endo-b-1,4-mannosidase	bDManp	1,4	bDManp	1,4	bDManp	1,4	bDManp	H2O
+GH135	H233	3.2.1.-	poly-N-acetylgalactosamine endo-a-1,4-N-acetylgalactosaminidase	aDGalpNAc	1,4	aDGalpNAc	1,4	aDGalpNAc	1,4	aDGalpNAc	H2O
+GH136	H111	3.2.1.140	antigen b-1,3-lacto-N-biosidase	[bDGalp	1,3	bDGlcpNAc	1,3	bDGalp	1,X	alcohol	H2O
+GH136	H225	3.2.1.-	lewis antigen endo-b-1,3-(fucosyl)-N-acetylglucosidase	bDGalp	1,3	(aLFucp-1,4)bDGlcpNAc	1,3	bDGalp	1,4	DGlcp	H2O
+GH137	H148	3.2.1.185	b-L-arabinofuranosidase			[bLAraf	1,X	alcohol			H2O
+GH138	H138	3.2.1.173	rhamnogalacturonan I exo-a-1,2-galacturonidase			[aDGalpA	1,2	aLRhap	1,4	aDGalpA	H2O
+GH139	H211	3.2.1.-	rhamnogalacturonan II exo-a-1,2-(2-Omethyl)-fucosidase			[aLFucp_2OMe	1,2	bDGalp	1,2	aLAcefA	H2O
+GH140	H210	3.2.1.-	rhamnogalacturonan II endo-b-1,2-apiosidase	aLRhap	1,3	bDApif	1,2	aDGalpA	1,4	aDGalpA	H2O
+GH141	H7	3.2.1.8	xylan endo-b-1,4-xylosidase	bDXylp	1,4	bDXylp	1,4	bDXylp	1,4	bDXylp	H2O
+GH141	H37	3.2.1.51	a-L-fucosidase			[aLFucp	1,X	alcohol			H2O
+GH142	H148	3.2.1.185	b-L-arabinofuranosidase			[bLAraf	1,X	alcohol			H2O
+GH143	H209	3.2.1.-	rhamnogalacturonan II endo-b-2,3-(2-keto)-(3-deoxy)-lyxo-heptulosaric acid hydrolase	[bLAraf	1,5	bDDhap	2,3	aDGalpA	1,4	aDGalpA	H2O
+GH144	H53	3.2.1.71	glucan endo-b-1,2-glucosidase	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH144	H165	3.2.1.214	glucan exo-b-1,2-glucobiosidase	[bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH146	H148	3.2.1.185	b-L-arabinofuranosidase			[bLAraf	1,X	alcohol			H2O
+GH147	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH147	H67	3.2.1.89	arabinogalactan endo-b-1,4-galactosidase	bDGalp	1,4	bDGalp	1,4	bDGalp	1,4	bDGalp	H2O
+GH148	H4	3.2.1.4	cellulose endo-b-1,4-glucosidase	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	1,4	bDGlcp	H2O
+GH148	H55	3.2.1.73	MLG endo-b-1,4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,4	bDGlcp	1,3/4	bDGlcp	H2O
+GH148	H192	3.2.1.-	MLG endo-b-1,3-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3	bDGlcp	1,3/4	bDGlcp	H2O
+GH149	T270	2.4.1.97	b-1,3-glucan phosphorylase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	aPi
+GH150	H127	3.2.1.162	l-carrageenan endo-b-1,4-(2-sulfo)-galactosidase	aDGalp_2,6S	1,3	bDGalp_2S	1,4	aDGalp_2,6S	1,3	bDGalp_2S	H2O
+GH151	H37	3.2.1.51	a-L-fucosidase			[aLFucp	1,X	alcohol			H2O
+GH152	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH153	H171	3.2.1.-	poly-N-acetylglucose endo-b-1,6-N-acetylglucosaminidase	bDGlcpNAc	1,6	bDGlcpNAc	1,6	bDGlcpNAc	1,6	bDGlcpNAc	H2O
+GH154	H230	3.2.1.-	gum arabic exo-b-1,6-glucuronidase			[bDGlcpA	1,6	bDGalp	1,6	bDGalp	H2O
+GH154	H351	3.2.1.-	allolactose exo-b-1,6-galactosidase			[bDGalp	1,6	bDGlcp]			H2O
+GH156	H13	3.2.1.18	a-neuraminidase			[aDNeup5NAc	2,X	alcohol			H2O
+GH157	H5	3.2.1.6	MLG endo-b-1,3/4-glucosidase	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	1,3/4	bDGlcp	H2O
+GH157	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH158	H29	3.2.1.39	glucan endo-b-1,3-glucosidase	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	1,3	bDGlcp	H2O
+GH159	H41	3.2.1.55	a-L-arabinofuranosidase			[aLAraf	1,X	alcohol			H2O
+GH159	H114	3.2.1.146	b-galactofuranosidase			[bDGalf	1,X	alcohol			H2O
+GH160	H428	3.2.1.-	Nostoc EPS a-1,4-galactosidase	bDGlcp	1,4	aDGalp	1,4	bDGlcp	1,4	bDXylp	H2O
+GH161	T270	2.4.1.97	b-1,3-glucan phosphorylase			[bDGlcp	1,3	bDGlcp	1,3	bDGlcp	aPi
+GH162	H53	3.2.1.71	glucan endo-b-1,2-glucosidase	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH163	H221	3.2.1.-	mannosyl-oligosaccharide endo-b-1,3-N-acetylglucosaminidase	bDGalp	1,4	bDGlcpNAc	1,2	aDManp	1,X	aDManp	H2O
+GH164	H19	3.2.1.25	b-mannosidase			[bDManp	1,X	alcohol			H2O
+GH165	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH166	H233	3.2.1.-	poly-N-acetylgalactosamine endo-a-1,4-N-acetylgalactosaminidase	aDGalpNAc	1,4	aDGalpNAc	1,4	aDGalpNAc	1,4	aDGalpNAc	H2O
+GH167	H254	3.2.1.-	b-neocarrageen exo-b-1,4-galactobiosidase	[aDGalp36An	1,3	bDGalp	1,4	aDGalp36An	1,3	bDGalp	H2O
+GH167	H255	3.2.1.-	k-neocarrageen exo-b-1,4-(4-sulfo)-galactobiosidase	[aDGalp36An	1,3	bDGalp_4S	1,4	aDGalp36An	1,3	bDGalp_4S	H2O
+GH168	H162	3.2.1.211	fucan endo-a-1,3-(2-sulfo)-fucosidase	aLFucp_2S	1,3/4	aLFucp_2S	1,3	aLFucp_2S	1,3/4	aLFucp_2S	H2O
+GH168	H163	3.2.1.212	fucan endo-a-1,4-(2-sulfo)-fucosidase	aLFucp_2S	1,3	aLFucp_2S	1,4	aLFucp_2S	1,3	aLFucp_2S	H2O
+GH168	H260	3.2.1.-	fucan (Ib) endo-a-1,3-L-fucosidase	aLFucp_2S	1,3	aLFucp_2S	1,3	aLFucp	1,3	aLFucp_2,4S	H2O
+GH169	H231	3.2.1.-	capsular polysaccharide endo-b-1,4-glucuronidase	bDGlcp	1,4	bDGlcpA	1,4	bDGlcp	1,4	bDGlcpA	H2O
+GH170	H229	3.2.1.-	peptidoglycan exo-b-1,4-N-acetyl-(6 phospho)-muramidase			[bDMurpNAc_6P	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH171	H69	3.2.1.92	peptidoglycan exo-b-1,4-N-acetylmuramidase			[bDMurpNAc	1,4	bDGlcp	1,4	bDMurpNAc	H2O
+GH172	H239	3.2.1.-	a-D-arabinofuranosidase			[aDAraf	1,X	alcohol			H2O
+GH172	H240	3.2.1.-	a-D-fructofuranosidase			[aDFruf	2,X	alcohol			H2O
+GH172	H253	3.2.1.-	exo-a-1,5-D-arabinofuranosidase			[aDAraf	1,5	aDAraf	1,5	aDAraf	H2O
+GH173	H17	3.2.1.23	b-galactosidase			[bDGalp	1,X	alcohol			H2O
+GH174	H162	3.2.1.211	fucan endo-a-1,3-(2-sulfo)-fucosidase	aLFucp_2S	1,3/4	aLFucp_2S	1,3	aLFucp_2S	1,3/4	aLFucp_2S	H2O
+GH174	H260	3.2.1.-	fucan (Ib) endo-a-1,3-L-fucosidase	aLFucp_2S	1,3	aLFucp_2S	1,3	aLFucp	1,3	aLFucp_2,4S	H2O
+GH175	H15	3.2.1.21	b-glucosidase			[bDGlcp	1,X	alcohol			H2O
+GH176	H51	3.2.1.68	starch endo-a-1,6-glucosidase	aDGlcp	1,4	aDGlcp	1,6	(aDGlcp-1,4)aDGlcp	1,4	aDGlcp	H2O
+GH176	H450	3.2.1.-	glucan exo-a-1,2-glucosidase			[aDGlcp	1,2	aDGlcp	1,2	aDGlcp	H2O
+GH177	H13	3.2.1.18	a-neuraminidase			[aDNeup5NAc	2,X	alcohol			H2O
+GH178	H250	3.2.1.-	mannan endo-a-1,4-mannosidase	aDManp_3OMe	1,4	aDManp_3OMe	1,4	aDManp_3OMe	1,4	aDManp_3OMe	H2O
+GH179	H38	3.2.1.52	b-N-acetylhexosaminidase			[bDGlcpNAc/bDGalpNAc	1,X	alcohol			H2O
+GH181	H13	3.2.1.18	a-neuraminidase			[aDNeup5NAc	2,X	alcohol			H2O
+GH182	H114	3.2.1.146	b-galactofuranosidase			[bDGalf	1,X	alcohol			H2O
+GH183	H252	3.2.1.-	endo-a-1,5-D-arabinofuranosidase	aDAraf	1,5	aDAraf	1,5	aDAraf	1,5	aDAraf	H2O
+GH184	H12	3.2.1.17	peptidoglycan endo-b-1,4-N-acetylmuramidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	H2O
+GH185	H219	3.2.1.-	b-N-Acetyl-(6-sulfo)-glucosaminidase			[bDGlcpNAc_6S	1,X	alcohol			H2O
+GH186	H53	3.2.1.71	glucan endo-b-1,2-glucosidase	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH187	H261	3.2.1.-	fucan (Ht) endo-a-1,3-L-fucosidase	aLFucp_2,4S	1,3	aLFucp	1,3	aLFucp_2S	1,3	aLFucp_2S	H2O
+GH187	H439	3.2.1.211	fucan endo-a-1,3-L-(4-sulfo)-fucosidase	aLFucp_4S	1,3	aLFucp_4S	1,3	aLFucp_4S	1,3	aLFucp_4S	H2O
+GH188	H154	3.2.1.199	a-(6-sulfo)-quinovosidase			[aDQuip_6S	1,X	(1,2)diacylglycerol			H2O
+GH189	T343	2.4.1.391	b-1,2-glucan synthetase (elongation)			bDGlcp	1,2	bDGlcp	1,2	bDGlcp	e-1,2-bDGlcp
+GH189	T398	2.4.1.397	b-1,2-glucan synthetase (cyclisation)	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp(cyclic)	e-1,2-DGlcp]
+GH190	L347	4.2.2.29	peptidoglycan lytic b-1,4-muraminidase	bDGlcpNAc	1,4	bDMurpNAc	1,4	bDGlcpNAc	1,4	bDMurpNAc	
+GH191	H233	3.2.1.-	poly-N-acetylgalactosamine endo-a-1,4-N-acetylgalactosaminidase	aDGalpNAc	1,4	aDGalpNAc	1,4	aDGalpNAc	1,4	aDGalpNAc	H2O
+GH192	H53	3.2.1.71	glucan endo-b-1,2-glucosidase	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH193	H53	3.2.1.71	glucan endo-b-1,2-glucosidase	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH194	H53	3.2.1.71	glucan endo-b-1,2-glucosidase	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	1,2	bDGlcp	H2O
+GH195	H443	3.2.1.-	endo-a-1,3-(6-sulfate)-mannosidase	aDManp_6S	1,3	aDManp	1,3	aDManp_6S	1,3	aDManp_6S	H2O
+AA13	O393	1.14.99.55	Lytic starch monooxygenase / starch oxidase (glycosidic bond-cleaving)	aDGlcp	1,4	aDGlcp	1o,4	aDGlcp	1,4	aDGlcp	H2O2

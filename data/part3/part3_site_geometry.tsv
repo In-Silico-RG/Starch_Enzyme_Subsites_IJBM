@@ -1,0 +1,12 @@
+family	structure	pdb	mechanism	residue_source	nuc_or_base	acid	d_CC_A	d_OO_min_A	ligand_at_-1	d_nuc/base_C_to_C1_A	plus1	d_acid_O_to_X_A	Q_A	theta_deg	phiCP_deg	pucker_at_-1	phi_deg	psi_deg	linkage_note
+GH13	alpha-amylase, barley AMY2 (M-CSA ref)	1AMY	retaining	M-CSA 397 (auth numbering 1amy)	ASP179:ok	GLU204:ok	5.49	3.85	none within 9 Å of the site										
+GH13	maltogenic alpha-amylase Novamyl	1QHO	retaining	M-CSA 905 (auth numbering 1qho)	ASP228:ok	GLU256:ok	5.31	3.64	GLC D4: valienamine-type ring deposited as GLC (C1 bonded to N4 of the next unit)	3.95	AGL D3 N4	2.87	0.578	50.9	141.8	half-chair / envelope	26.3	-148.0	
+GH13	neopullulanase T. vulgaris (M-CSA ref)	1BVZ	retaining	M-CSA 433 (auth numbering 1bvz)	ASP325:ok	GLU354:ok	5.65	3.73	none within 9 Å of the site										
+GH13	neopullulanase T. vulgaris, glucan bound	2D2O	retaining	M-CSA 433 numbering, same protein	ASP325:MUTANT ASN found, ASP expected (amide used as proxy)	GLU354:ok	5.09	3.05	GLC C4: pyranose	4.21	GLC C3 O4	3.27	0.587	14.9	116.9	4C1 chair	42.6	-149.1	
+GH13	isoamylase P. amyloderamosa	1BF2	retaining	M-CSA 421 (auth numbering 1bf2)	ASP375:ok	GLU435:ok	5.08	3.3	none within 9 Å of the site										
+GH13	oligo-1,6-glucosidase B. cereus	1UOK	retaining	M-CSA 285 (auth numbering 1uok)	ASP199:ok	GLU255:ok	5.21	3.52	none within 9 Å of the site										
+GH14	beta-amylase soybean (M-CSA ref)	1BYA	inverting	M-CSA 436 (auth numbering 1bya)	GLU380:ok	GLU186:ok	8.26	6.46	none within 9 Å of the site										
+GH14	beta-amylase soybean, maltotetraose bound	1WDR	inverting	M-CSA 436 numbering, same protein	GLU380:ok	GLU186:ok	7.46	5.58	GLC B3: pyranose	5.47	no residue bonded to C1 (product or single sugar at -1)		0.647	7.5	220.9	4C1 chair			
+GH15	glucoamylase A. awamori + acarbose	1AGM	inverting	M-CSA 393 (auth numbering 1agm)	GLU400:ok	GLU179:ok	9.55	7.44	AC1 D3: valienamine (acarbose), ring O5 position is carbon C7	5.02	AC1 D3 N4A	2.58	0.501	39.9	146.9	half-chair / envelope	104.5	-112.3	
+GH31	maltase-glucoamylase human + acarbose	2QMJ	retaining	M-CSA 976 (auth numbering 2qmj)	ASP443:ok	ASP542:ok	7.33	6.15	AC1 B3: valienamine (acarbose), ring O5 position is carbon C7	4.13	AC1 B3 N4A	2.83	0.534	41.3	139.2	half-chair / envelope	55.3	-131.5	
+GH57	4-alpha-glucanotransferase T. litoralis, no carbohydrate ligand (CA, TRS only; family reference)	1K1X	retaining	CAZypedia GH57	GLU123:ok	ASP214:ok	7.66	6.53	none within 9 Å of the site										

@@ -1,0 +1,61 @@
+open <PROJECT_ROOT>/resultados/figures/fig2_style_work/1G94_style_rot.pdb
+hide atoms
+hide cartoons
+set bgColor white
+style stick
+show /A:200@CA,CB,CG,CD,OE1,OE2 atoms
+color /A:200@CA,CB,CG,CD,OE1,OE2 & C #0072B2
+size /A:200@CA,CB,CG,CD,OE1,OE2 stickRadius 0.13
+show /A:175@CA,CB atoms
+color /A:175@CA,CB & C #CC79A7
+size /A:175@CA,CB stickRadius 0.13
+show /A:177@CA,CB,CG,CD,CE,NZ atoms
+color /A:177@CA,CB,CG,CD,CE,NZ & C #0072B2
+size /A:177@CA,CB,CG,CD,CE,NZ stickRadius 0.13
+show /A:202@CA,CB,CG1,CG2,CD1 atoms
+color /A:202@CA,CB,CG1,CG2,CD1 & C #CC79A7
+size /A:202@CA,CB,CG1,CG2,CD1 stickRadius 0.13
+show /A:174@CA,CB,CG,OD1,OD2 atoms
+color /A:174@CA,CB,CG,OD1,OD2 & C #0072B2
+size /A:174@CA,CB,CG,OD1,OD2 stickRadius 0.13
+show /A:264@CA,CB,CG,OD1,OD2 atoms
+color /A:264@CA,CB,CG,OD1,OD2 & C #0072B2
+size /A:264@CA,CB,CG,OD1,OD2 stickRadius 0.13
+show /A:263@CA,CB,CG,ND1,CD2,CE1,NE2 atoms
+color /A:263@CA,CB,CG,ND1,CD2,CE1,NE2 & C #0072B2
+size /A:263@CA,CB,CG,ND1,CD2,CE1,NE2 stickRadius 0.13
+show /A:172@CA,CB,CG,CD,NE,CZ,NH1,NH2 atoms
+color /A:172@CA,CB,CG,CD,NE,CZ,NH1,NH2 & C #0072B2
+size /A:172@CA,CB,CG,CD,NE,CZ,NH1,NH2 stickRadius 0.13
+show /A:89@CA,CB,CG,ND1,CD2,CE1,NE2 atoms
+color /A:89@CA,CB,CG,ND1,CD2,CE1,NE2 & C #0072B2
+size /A:89@CA,CB,CG,ND1,CD2,CE1,NE2 stickRadius 0.13
+show /A:50@CA,CB,CG,CD1,CD2,CE1,CE2,CZ,OH atoms
+color /A:50@CA,CB,CG,CD1,CD2,CE1,CE2,CZ,OH & C #E69F00
+size /A:50@CA,CB,CG,CD1,CD2,CE1,CE2,CZ,OH stickRadius 0.13
+show /C:3@N4,C1H,C2H,O2H,C3H,O3H,C4H,O4H,C5H,C6H,C7H,O7H atoms
+style /C:3@N4,C1H,C2H,O2H,C3H,O3H,C4H,O4H,C5H,C6H,C7H,O7H ball
+color /C:3@N4,C1H,C2H,O2H,C3H,O3H,C4H,O4H,C5H,C6H,C7H,O7H & C #D4D4D4
+size /C:3@N4,C1H,C2H,O2H,C3H,O3H,C4H,O4H,C5H,C6H,C7H,O7H stickRadius 0.095 ballScale 0.16
+show /C:3@C1,C2,O2,C3,O3,C4,C5,O5,C6 atoms
+style /C:3@C1,C2,O2,C3,O3,C4,C5,O5,C6 ball
+color /C:3@C1,C2,O2,C3,O3,C4,C5,O5,C6 & C #D4D4D4
+size /C:3@C1,C2,O2,C3,O3,C4,C5,O5,C6 stickRadius 0.095 ballScale 0.16
+show /C:2@C1,C2,C3,C4,C5,C6,O2,O3,O4,O5,O6 atoms
+style /C:2@C1,C2,C3,C4,C5,C6,O2,O3,O4,O5,O6 ball
+color /C:2@C1,C2,C3,C4,C5,C6,O2,O3,O4,O5,O6 & C #D4D4D4
+size /C:2@C1,C2,C3,C4,C5,C6,O2,O3,O4,O5,O6 stickRadius 0.095 ballScale 0.16
+color #1 & O #E0242B
+color #1 & N #2F4FD8
+open <PROJECT_ROOT>/resultados/figures/fig2_style_work/hbonds_1G94.pb
+lighting soft
+lighting intensity 0.35 ambientIntensity 1.25
+material dull
+graphics silhouettes true width 3.5 color black depthJump 0.01
+graphics quality 20
+windowsize 2400 2400
+camera fieldOfView 16.0
+view matrix camera 1,0,0,0,0,1,0,0,0,0,1,80.281
+clip near -8.07 far 17.60 position 0,0,0
+save <PROJECT_ROOT>/resultados/figures/fig2_style_work/style_2_render.png width 2400 height 2400 supersample 3 transparentBackground false
+exit

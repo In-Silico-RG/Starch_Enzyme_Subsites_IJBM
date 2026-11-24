@@ -1,0 +1,12 @@
+family	pdb	chain	seq	mutant	wild_type	details
+GH14	1Q6D	A	51	THR	MET	engineered mutation
+GH14	1Q6E	A	178	TYR	GLU	engineered mutation
+GH14	1Q6F	A	178	TYR	GLU	engineered mutation
+GH14	1Q6G	A	340	THR	ASN	engineered mutation
+GH14	1VEO	A	164	PHE	TYR	engineered mutation
+GH14	1VEP	A	47	MET	THR	engineered mutation
+GH14	1VEP	A	164	GLU	TYR	engineered mutation
+GH14	1VEP	A	328	ASN	THR	engineered mutation
+GH14	1WDQ	A	342	VAL	THR	engineered mutation
+GH14	1WDR	A	342	SER	THR	engineered mutation
+GH14	1WDS	A	342	ALA	THR	engineered mutation

@@ -49,9 +49,6 @@ show cartoon, prot
 set cartoon_loop_radius, 0.12
 set cartoon_oval_width, 0.18
 set cartoon_rect_width, 0.25
-show sticks, chain D and resi 6 and resn GLC and name C1+C2+C3+C4+C5+C6+O2+O3+O4+O5+O6
-set stick_radius, 0.10, chain D and resi 6 and resn GLC and name C1+C2+C3+C4+C5+C6+O2+O3+O4+O5+O6
-color grey65, chain D and resi 6 and resn GLC and name C1+C2+C3+C4+C5+C6+O2+O3+O4+O5+O6
 show sticks, chain D and resi 7 and resn AC1 and name C1+O2+C2+C3+O3+C4+N4A+C5+O5+C6
 set stick_radius, 0.15, chain D and resi 7 and resn AC1 and name C1+O2+C2+C3+O3+C4+N4A+C5+O5+C6
 color sub3, chain D and resi 7 and resn AC1 and name C1+O2+C2+C3+O3+C4+N4A+C5+O5+C6 and elem C
@@ -72,6 +69,6 @@ set stick_radius, 0.13, prot and resi 568 and not name N+C+O
 color catc, prot and resi 568 and not name N+C+O and elem C
 color ocol, prot and resi 568 and not name N+C+O and elem O
 color ncol, prot and resi 568 and not name N+C+O and elem N
-set_view (1,0,0, 0,1,0, 0,0,1, 0,0,-36.642, 0,0,0, 27.642,45.642, 1)
-ray 2400,1432
+set_view (1,0,0, 0,1,0, 0,0,1, 0,0,-32.820, 0,0,0, 23.820,41.820, 1)
+ray 2400,1869
 png /media/aldo/Aldo/Documents/Investigacion/Amilosa/Proyecto_F_Enzimas_Amiloliticas/manuscript_ijbm/figures/candidates/fig1_protein/work/close_3WEO.png, dpi=300

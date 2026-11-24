@@ -1,0 +1,173 @@
+5NN5 NOJ protein residues 845 | ions [] | ligand atoms 11
+protonation changes (pH 7): ['HIS180->HIP (8.68)', 'GLU262->GLH (8.91)', 'ASP413->ASH (7.91)', 'HIS432->HIP (7.26)', 'ASP443->ASH (9.06)', 'GLU579->GLH (9.54)', 'GLU630->GLH (9.84)'] | disulfides 5
+ligand OC[C@H]1[NH2+]C[C@H](O)[C@@H](O)[C@@H]1O charge 1
+$ antechamber -i lig_in.mol2 -fi mol2 -o lig.mol2 -fo mol2 -c bcc -nc 1 -at gaff2 -rn LIG -ek "qm_theory='AM1', maxcyc=0, scfconv=1.d-10" -pf y -dr no
+Info: The atom type is set to gaff2; the options available to the -at flag are
+      gaff, gaff2, amber, bcc, abcg2, and sybyl.
+
+
+Running: ~/enz_md/soft/amber/bin/sqm -O -i sqm.in -o sqm.out
+
+
+$ parmchk2 -i lig.mol2 -f mol2 -o lig.frcmod -s 2
+
+$ tleap -f tleap.in
+g!
+The unperturbed charge of the unit (-22.000000) is not zero.
+
+~/enz_md/soft/amber/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 2795 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CCYS	1
+	CGLN	1
+	CGLU	1
+	CILE	1
+	CTHR	1
+	LIG	1
+	NALA	1
+	NGLN	1
+	NGLU	1
+	NGLY	1
+	NVAL	1
+  )
+ (no restraints)
+Writing pdb file: complex_start.pdb
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NGLN -> GLN
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CGLN -> GLN
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NGLY -> GLY
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CTHR -> THR
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NALA -> ALA
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CGLU -> GLU
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NGLU -> GLU
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CILE -> ILE
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NVAL -> VAL
+
+~/enz_md/soft/amber/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CCYS -> CYS
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 13; Notes = 3.
+
+tleap ok
+$ sander -O -i min.in -o min.out -p complex.prmtop -c complex.inpcrd -r min.rst7 -ref complex.inpcrd
+
+$ cpptraj -p complex.prmtop -y min.rst7 -x min.nc
+ 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 11/24/26 03:34:58
+| Available memory: 77.332 GB
+
+	Reading 'complex.prmtop' as Amber Topology
+	Radius Set: H(N)-modified Bondi radii (mbondi2)
+	Reading 'min.rst7' as Amber NC Restart
+	Writing 'min.nc' as Amber NetCDF
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: complex.prmtop, 13117 atoms, 846 res, box: None, 5 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'min.rst7' is a NetCDF AMBER restart file with coordinates, time, Parm complex.prmtop (reading 1 of 1)
+  Coordinate processing will occur on 1 frames.
+
+OUTPUT TRAJECTORIES (1 total):
+  'min.nc' (1 frames) is a NetCDF (NetCDF3) AMBER trajectory
+
+BEGIN TRAJECTORY PROCESSING:
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+.....................................................
+ACTIVE OUTPUT TRAJECTORIES (1):
+  min.nc (coordinates, time)
+----- min.rst7 (1-1, 1) -----
+100% Complete.
+
+Read 1 frames and processed 1 frames.
+TIME: Avg. throughput= 54.8607 frames / second.
+
+ACTION OUTPUT:
+TIME: Analyses took 0.0000 seconds.
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.08%)
+TIME:		Trajectory Process : 0.0182 s ( 80.92%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.00%)
+TIME:		Other              : 0.0043 s (  0.19%)
+TIME:	Run Total 0.0225 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.1709 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+
+$ MMPBSA.py -O -i mmgbsa.in -o FINAL_RESULTS_MMPBSA.dat -do FINAL_DECOMP_MMPBSA.dat -cp complex.prmtop -rp receptor.prmtop -lp ligand.prmtop -y min.nc
+Loading and checking parameter files for compatibility...
+cpptraj found! Using ~/enz_md/soft/amber/bin/cpptraj
+sander found! Using ~/enz_md/soft/amber/bin/sander
+Preparing trajectories for simulation...
+1 frames were processed by cpptraj for use in calculation.
+
+Running calculations on normal system...
+
+Beginning GB calculations with ~/enz_md/soft/amber/bin/sander
+  calculating complex contribution...
+  calculating receptor contribution...
+  calculating ligand contribution...
+
+Timing:
+Total setup time:                           0.045 min.
+Creating trajectories with cpptraj:         0.011 min.
+Total calculation time:                     3.038 min.
+
+Total GB calculation time:                  3.038 min.
+
+Statistics calculation & output writing:    0.001 min.
+Total time taken:                           3.095 min.
+
+
+MMPBSA.py Finished! Thank you for using. Please cite us if you publish this work with this paper:
+   Miller III, B. R., McGee Jr., T. D., Swails, J. M. Homeyer, N. Gohlke, H. and Roitberg, A. E.
+   J. Chem. Theory Comput., 2012, 8 (9) pp 3314--3321
+
+free residues (within 6 A): 26 | DELTA TOTAL (kcal/mol): -63.8019

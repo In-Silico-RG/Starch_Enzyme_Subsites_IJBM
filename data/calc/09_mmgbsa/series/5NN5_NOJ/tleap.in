@@ -1,0 +1,18 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+set default PBradii mbondi2
+loadamberparams lig.frcmod
+LIG = loadmol2 lig.mol2
+r = loadpdb complex_in.pdb
+bond r.2.SG r.29.SG
+bond r.12.SG r.28.SG
+bond r.23.SG r.40.SG
+bond r.440.SG r.465.SG
+bond r.554.SG r.565.SG
+c = combine { r LIG }
+saveamberparm r receptor.prmtop receptor.inpcrd
+saveamberparm LIG ligand.prmtop ligand.inpcrd
+saveamberparm c complex.prmtop complex.inpcrd
+savepdb c complex_start.pdb
+quit

@@ -1,0 +1,5 @@
+GB minimisation, protein heavy atoms > 6 A from the inhibitor restrained
+ &cntrl
+  imin=1, maxcyc=1000, ncyc=300, ntb=0, igb=5, saltcon=0.150, cut=16.0, rgbmax=15.0, ntpr=100,
+  ntr=1, restraint_wt=5.0, restraintmask=':1-188,190-198,200-280,282,284-310,314-347,349,351-387,389-422,424,427-429,431,433-506,508-519,521,524-551,553-555,557-578,580,585-845&!@H=',
+ /

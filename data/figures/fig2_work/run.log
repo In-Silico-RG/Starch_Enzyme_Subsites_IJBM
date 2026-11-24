@@ -1,0 +1,351 @@
+ ObjectMolecule: Read crystal symmetry information.
+ CmdLoad: "" loaded as "m".
+ Setting: ray_opaque_background set to 1.
+ Setting: orthoscopic set to on.
+ Setting: field_of_view set to 20.00000.
+ Setting: ray_shadow set to off.
+ Setting: antialias set to 2.
+ Setting: ambient set to 0.45000.
+ Setting: specular set to 0.15000.
+ Setting: direct set to 0.60000.
+ Setting: depth_cue set to off.
+ Setting: stick_radius set to 0.17000.
+ Setting: dash_gap set to 0.25000.
+ Setting: dash_length set to 0.25000.
+ Setting: dash_radius set to 0.06000.
+ Setting: dash_color set to black.
+ Setting: cartoon_transparency set to 0.82000.
+ Setting: cartoon_color set to grey70.
+ Setting: ray_trace_mode set to 1.
+ Setting: ray_trace_gain set to 0.60000.
+ Setting: ray_trace_color set to grey25.
+ Setting: stick_radius set for 22 bonds in object "m".
+ Color: "sugc" defined as [ 0.180, 0.550, 0.340 ].
+ Executive: Colored 13 atoms.
+ Executive: Colored 7 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 4 atoms.
+ Executive: Colored 3 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 6 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 3 atoms.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 4 atoms.
+ Executive: Colored 3 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 6 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 4 atoms.
+ Color: "cls_Ar" defined as [ 0.878, 0.482, 0.000 ].
+ Executive: Colored 9 atoms.
+ Executive: Colored 2 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 5 atoms.
+ Executive: Colored 2 atoms.
+ Executive: Colored 2 atoms.
+ Color: "cls_Al" defined as [ 0.550, 0.550, 0.550 ].
+ Executive: Colored 4 atoms.
+ Executive: Colored 2 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 6 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 3 atoms.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 5 atoms.
+ Executive: Colored 3 atoms.
+ Executive: Colored 1 atom.
+ Executive: object "hb0" created.
+ Executive: object "hb1" created.
+ Executive: object "hb2" created.
+ Executive: object "hb3" created.
+ Executive: object "hb4" created.
+ Executive: object "hb5" created.
+ Executive: object "hb6" created.
+ Executive: object "hb7" created.
+ Executive: object "hb8" created.
+ Executive: object "hb9" created.
+ Executive: object "hb10" created.
+ Executive: object "hb11" created.
+ Setting: dash_round_ends set to on.
+ Scene: view updated.
+ Ray: render time: 19.25 sec. = 187.0 frames/hour (19.25 sec. accum.).
+ ScenePNG: wrote 2000x2000 pixel image to file "<PROJECT_ROOT>/resultados/figures/fig2_work/6SAO_ray.png".
+PyMOL>reinitialize
+PyMOL>load <PROJECT_ROOT>/resultados/figures/fig2_work/6SAO_rot.pdb, m
+PyMOL>hide everything
+PyMOL>bg_color white
+PyMOL>set ray_opaque_background, 1
+PyMOL>set orthoscopic, 1
+PyMOL>set field_of_view, 20.0
+PyMOL>set ray_shadows, 0
+PyMOL>set antialias, 2
+PyMOL>set ambient, 0.45
+PyMOL>set specular, 0.15
+PyMOL>set direct, 0.6
+PyMOL>set depth_cue, 0
+PyMOL>set stick_radius, 0.17
+PyMOL>set dash_gap, 0.25
+PyMOL>set dash_length, 0.25
+PyMOL>set dash_radius, 0.06
+PyMOL>set dash_color, black
+PyMOL>set cartoon_transparency, 0.82
+PyMOL>set cartoon_color, grey70
+PyMOL>set ray_trace_mode, 1
+PyMOL>set ray_trace_gain, 0.6
+PyMOL>set ray_trace_color, grey25
+PyMOL>show sticks, chain B and resi 3 and resn AC1
+PyMOL>set stick_radius, 0.22, chain B and resi 3 and resn AC1
+PyMOL>set_color sugc, [0.18, 0.55, 0.34]
+PyMOL>color sugc, chain B and resi 3 and resn AC1 and elem C
+PyMOL>color red, chain B and resi 3 and resn AC1 and elem O
+PyMOL>color blue, chain B and resi 3 and resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 280 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 280 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 280 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 280 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 114 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 114 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 114 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 114 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 190 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 190 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 190 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 190 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 188 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 188 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 188 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 188 and not resn AC1 and elem N
+PyMOL>set_color cls_Ar, [0.878, 0.482, 0.0]
+PyMOL>show sticks, chain A and resi 74 and not resn AC1 and not name N+C+O
+PyMOL>color cls_Ar, chain A and resi 74 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 74 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 74 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 279 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 279 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 279 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 279 and not resn AC1 and elem N
+PyMOL>set_color cls_Al, [0.55, 0.55, 0.55]
+PyMOL>show sticks, chain A and resi 191 and not resn AC1 and not name N+C+O
+PyMOL>color cls_Al, chain A and resi 191 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 191 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 191 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 194 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 194 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 194 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 194 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 214 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 214 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 214 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 214 and not resn AC1 and elem N
+PyMOL>distance hb0, chain A and resi 280 and name OD1 and not resn AC1, chain B and resi 3 and resn AC1 and name O3B
+PyMOL>distance hb1, chain A and resi 280 and name OD2 and not resn AC1, chain B and resi 3 and resn AC1 and name O2B
+PyMOL>distance hb2, chain A and resi 280 and name OD2 and not resn AC1, chain B and resi 3 and resn AC1 and name O3B
+PyMOL>distance hb3, chain A and resi 114 and name NE2 and not resn AC1, chain B and resi 3 and resn AC1 and name O6B
+PyMOL>distance hb4, chain A and resi 190 and name OD2 and not resn AC1, chain B and resi 3 and resn AC1 and name O6B
+PyMOL>distance hb5, chain A and resi 188 and name NH2 and not resn AC1, chain B and resi 3 and resn AC1 and name O2B
+PyMOL>distance hb6, chain A and resi 279 and name NE2 and not resn AC1, chain B and resi 3 and resn AC1 and name O2B
+PyMOL>distance hb7, chain A and resi 279 and name NE2 and not resn AC1, chain B and resi 3 and resn AC1 and name O3B
+PyMOL>distance hb8, chain A and resi 194 and name NE2 and not resn AC1, chain B and resi 3 and resn AC1 and name O2
+PyMOL>distance hb9, chain A and resi 214 and name OE1 and not resn AC1, chain B and resi 3 and resn AC1 and name O3
+PyMOL>distance hb10, chain A and resi 214 and name OE2 and not resn AC1, chain B and resi 3 and resn AC1 and name O3
+PyMOL>distance hb11, chain A and resi 214 and name OE2 and not resn AC1, chain B and resi 3 and resn AC1 and name O2B
+PyMOL>hide labels
+PyMOL>set dash_round_ends, 1
+PyMOL>set_view (1,0,0, 0,1,0, 0,0,1, 0,0,-69.275, 0,0,0, 44.275,94.275, 1)
+PyMOL>ray 2000,2000
+PyMOL>png <PROJECT_ROOT>/resultados/figures/fig2_work/6SAO_ray.png, dpi=300
+ ObjectMolecule: Read crystal symmetry information.
+ CmdLoad: "" loaded as "m".
+ Setting: ray_opaque_background set to 1.
+ Setting: orthoscopic set to on.
+ Setting: field_of_view set to 20.00000.
+ Setting: ray_shadow set to off.
+ Setting: antialias set to 2.
+ Setting: ambient set to 0.45000.
+ Setting: specular set to 0.15000.
+ Setting: direct set to 0.60000.
+ Setting: depth_cue set to off.
+ Setting: stick_radius set to 0.17000.
+ Setting: dash_gap set to 0.25000.
+ Setting: dash_length set to 0.25000.
+ Setting: dash_radius set to 0.06000.
+ Setting: dash_color set to black.
+ Setting: cartoon_transparency set to 0.82000.
+ Setting: cartoon_color set to grey70.
+ Setting: ray_trace_mode set to 1.
+ Setting: ray_trace_gain set to 0.60000.
+ Setting: ray_trace_color set to grey25.
+ Setting: stick_radius set for 22 bonds in object "m".
+ Color: "sugc" defined as [ 0.180, 0.550, 0.340 ].
+ Executive: Colored 13 atoms.
+ Executive: Colored 7 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 4 atoms.
+ Executive: Colored 3 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 6 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 3 atoms.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 4 atoms.
+ Executive: Colored 3 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_H" defined as [ 0.122, 0.373, 0.749 ].
+ Executive: Colored 4 atoms.
+ Executive: Colored 3 atoms.
+ Executive: Colored 1 atom.
+ Color: "cls_Ar" defined as [ 0.878, 0.482, 0.000 ].
+ Executive: Colored 11 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 2 atoms.
+ Color: "cls_Ar" defined as [ 0.878, 0.482, 0.000 ].
+ Executive: Colored 11 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 2 atoms.
+ Color: "cls_Al" defined as [ 0.550, 0.550, 0.550 ].
+ Executive: Colored 6 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 1 atom.
+ Color: "cls_Ar" defined as [ 0.878, 0.482, 0.000 ].
+ Executive: Colored 9 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 1 atom.
+ Color: "cls_Al" defined as [ 0.550, 0.550, 0.550 ].
+ Executive: Colored 6 atoms.
+ Executive: Colored 1 atom.
+ Executive: Colored 1 atom.
+ Executive: object "hb0" created.
+ Executive: object "hb1" created.
+ Executive: object "hb2" created.
+ Executive: object "hb3" created.
+ Executive: object "hb4" created.
+ Executive: object "hb5" created.
+ Setting: dash_round_ends set to on.
+ Scene: view updated.
+ Ray: render time: 19.56 sec. = 184.0 frames/hour (19.56 sec. accum.).
+ ScenePNG: wrote 2000x2000 pixel image to file "<PROJECT_ROOT>/resultados/figures/fig2_work/3WEO_ray.png".
+PyMOL>reinitialize
+PyMOL>load <PROJECT_ROOT>/resultados/figures/fig2_work/3WEO_rot.pdb, m
+PyMOL>hide everything
+PyMOL>bg_color white
+PyMOL>set ray_opaque_background, 1
+PyMOL>set orthoscopic, 1
+PyMOL>set field_of_view, 20.0
+PyMOL>set ray_shadows, 0
+PyMOL>set antialias, 2
+PyMOL>set ambient, 0.45
+PyMOL>set specular, 0.15
+PyMOL>set direct, 0.6
+PyMOL>set depth_cue, 0
+PyMOL>set stick_radius, 0.17
+PyMOL>set dash_gap, 0.25
+PyMOL>set dash_length, 0.25
+PyMOL>set dash_radius, 0.06
+PyMOL>set dash_color, black
+PyMOL>set cartoon_transparency, 0.82
+PyMOL>set cartoon_color, grey70
+PyMOL>set ray_trace_mode, 1
+PyMOL>set ray_trace_gain, 0.6
+PyMOL>set ray_trace_color, grey25
+PyMOL>show sticks, chain D and resi 7 and resn AC1
+PyMOL>set stick_radius, 0.22, chain D and resi 7 and resn AC1
+PyMOL>set_color sugc, [0.18, 0.55, 0.34]
+PyMOL>color sugc, chain D and resi 7 and resn AC1 and elem C
+PyMOL>color red, chain D and resi 7 and resn AC1 and elem O
+PyMOL>color blue, chain D and resi 7 and resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 357 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 357 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 357 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 357 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 626 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 626 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 626 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 626 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 469 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 469 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 469 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 469 and not resn AC1 and elem N
+PyMOL>set_color cls_H, [0.122, 0.373, 0.749]
+PyMOL>show sticks, chain A and resi 568 and not resn AC1 and not name N+C+O
+PyMOL>color cls_H, chain A and resi 568 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 568 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 568 and not resn AC1 and elem N
+PyMOL>set_color cls_Ar, [0.878, 0.482, 0.0]
+PyMOL>show sticks, chain A and resi 565 and not resn AC1 and not name N+C+O
+PyMOL>color cls_Ar, chain A and resi 565 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 565 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 565 and not resn AC1 and elem N
+PyMOL>set_color cls_Ar, [0.878, 0.482, 0.0]
+PyMOL>show sticks, chain A and resi 467 and not resn AC1 and not name N+C+O
+PyMOL>color cls_Ar, chain A and resi 467 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 467 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 467 and not resn AC1 and elem N
+PyMOL>set_color cls_Al, [0.55, 0.55, 0.55]
+PyMOL>show sticks, chain A and resi 358 and not resn AC1 and not name N+C+O
+PyMOL>color cls_Al, chain A and resi 358 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 358 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 358 and not resn AC1 and elem N
+PyMOL>set_color cls_Ar, [0.878, 0.482, 0.0]
+PyMOL>show sticks, chain A and resi 601 and not resn AC1 and not name N+C+O
+PyMOL>color cls_Ar, chain A and resi 601 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 601 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 601 and not resn AC1 and elem N
+PyMOL>set_color cls_Al, [0.55, 0.55, 0.55]
+PyMOL>show sticks, chain A and resi 396 and not resn AC1 and not name N+C+O
+PyMOL>color cls_Al, chain A and resi 396 and not resn AC1 and elem C
+PyMOL>color red, chain A and resi 396 and not resn AC1 and elem O
+PyMOL>color blue, chain A and resi 396 and not resn AC1 and elem N
+PyMOL>distance hb0, chain A and resi 357 and name OD1 and not resn AC1, chain D and resi 7 and resn AC1 and name O6B
+PyMOL>distance hb1, chain A and resi 357 and name OD2 and not resn AC1, chain D and resi 7 and resn AC1 and name O4
+PyMOL>distance hb2, chain A and resi 626 and name NE2 and not resn AC1, chain D and resi 7 and resn AC1 and name O3B
+PyMOL>distance hb3, chain A and resi 626 and name NE2 and not resn AC1, chain D and resi 7 and resn AC1 and name O4
+PyMOL>distance hb4, chain A and resi 568 and name OD1 and not resn AC1, chain D and resi 7 and resn AC1 and name O2B
+PyMOL>distance hb5, chain A and resi 568 and name OD2 and not resn AC1, chain D and resi 7 and resn AC1 and name O2B
+PyMOL>hide labels
+PyMOL>set dash_round_ends, 1
+PyMOL>set_view (1,0,0, 0,1,0, 0,0,1, 0,0,-73.597, 0,0,0, 48.597,98.597, 1)
+PyMOL>ray 2000,2000
+PyMOL>png <PROJECT_ROOT>/resultados/figures/fig2_work/3WEO_ray.png, dpi=300
+GH13 top entries (positions contacted, resolution A): 6SAO (9, 1.2), 3BC9 (9, 1.35), 6SAU (9, 1.35), 3DHP (9, 1.5), 3OLI (9, 1.5)
+GH31 top entries (positions contacted, resolution A): 3WEO (9, 1.45), 3W37 (9, 1.7), 7WJC (9, 1.75), 7WJF (9, 1.8), 3WEL (9, 1.84)
+6SAO: view min anchor distance 2.58 A, ring atoms occluded 0, -1 ring face-on 0.55, +1 ring face-on 0.43, ring atoms overlapped 1
+6SAO hydrogen bonds: A280:OD1-O3B 2.68, A280:OD2-O2B 2.65, A280:OD2-O3B 3.41, A114:NE2-O6B 2.88, A190:OD2-O6B 2.79, A188:NH2-O2B 2.91, A279:NE2-O2B 2.90, A279:NE2-O3B 3.25, A194:NE2-O2 2.67, A214:OE1-O3 2.69, A214:OE2-O3 3.39, A214:OE2-O2B 3.41
+   Asp289         ASP280 class H contact sidechain_polar
+   His92          HIS114 class H contact sidechain_polar
+   Asp179         ASP190 class H contact sidechain_polar
+   Arg177         ARG188 class H contact sidechain_polar
+   Tyr51          TYR74 class Ar contact apolar
+   Gln(His288)    GLN279 class H contact sidechain_polar
+   Thr(Phe180)    THR191 class Al contact apolar
+   His(Gly183)    HIS194 class H contact sidechain_polar
+   Glu204         GLU214 class H contact sidechain_polar
+3WEO: view min anchor distance 1.88 A, ring atoms occluded 0, -1 ring face-on 0.44, +1 ring face-on 0.48, ring atoms overlapped 0
+3WEO hydrogen bonds: A357:OD1-O6B 2.57, A357:OD2-O4 2.61, A626:NE2-O3B 3.06, A626:NE2-O4 2.98, A568:OD1-O2B 2.62, A568:OD2-O2B 3.31
+   Asp327         ASP357 class H contact sidechain_polar
+   His600         HIS626 class H contact sidechain_polar
+   Asp443         ASP469 class H contact apolar
+   Asp542         ASP568 class H contact sidechain_polar
+   Trp539         TRP565 class Ar contact apolar
+   Trp441         TRP467 class Ar contact apolar
+   Ile328         ILE358 class Al contact apolar
+   Phe575         PHE601 class Ar contact apolar
+   Ile364         ILE396 class Al contact apolar
+wrote <PROJECT_ROOT>/manuscript_short/figures/fig2_contact_classes.png

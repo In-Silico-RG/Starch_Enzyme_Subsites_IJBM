@@ -1,0 +1,25 @@
+family	subsite	position	catalytic	n_entries_subsite	n_contact	frac	meets_80	in_draft_table	kinds_contacted	majority_kind	residues_contacted	residues_all_entries_at_subsite	mutant_entries_excluded
+GH13	+1	E204	True	44	44	1.000	True	True	H:44	H	E44	E44	
+GH13	+1	F180	False	44	43	0.977	True	True	Al:38 Ar:5	Al	A31 F4 T4 V3 Y1	A31 F4 V4 T4 Y1	
+GH13	+2	K182	False	41	37	0.902	True	False	Al:1 H:36	H	K33 R3 Q1	K33 R3 gap2 Q1 A1 H1	
+GH13	+2	W206	False	41	37	0.902	True	True	Al:21 Ar:16	Al	I20 W13 F2 Y1 L1	I20 W13 gap4 F2 Y1 L1	
+GH13	-1	H92	False	74	74	1.000	True	True	Ar:15 H:59	H	H74	H74	
+GH13	-1	D289	True	74	74	1.000	True	True	Al:1 H:69	H	D70	D70	1QI5 5TD4 9UNS 9XG6
+GH13	-1	D179	True	74	73	0.986	True	True	Al:4 H:69	H	D73	D74	
+GH13	-1	R177	False	74	71	0.959	True	True	Al:2 H:69	H	R71	R74	
+GH13	-1	Y51	False	74	71	0.959	True	True	Ar:69 H:2	Ar	Y71	Y74	
+GH13	-1	H288	False	74	71	0.959	True	True	H:71	H	H70 Q1	H73 Q1	
+GH13	-2	Y51	False	55	51	0.927	True	False	Ar:51	Ar	Y51	Y55	
+GH13	+1	G183	False	44	34	0.773	False	True	H:34	H	H33 Y1	H33 G6 M2 Y1 E1 gap1	
+GH31	+1	D203	False	9	9	1.000	True	False	H:9	H	D9	D9	
+GH31	+1	M444	False	9	8	0.889	True	False	Al:8	Al	M8	M9	
+GH31	+1	R526	False	9	8	0.889	True	False	H:8	H	R8	R9	
+GH31	-1	W441	False	18	18	1.000	True	True	Ar:18	Ar	W18	W18	
+GH31	-1	D327	False	18	18	1.000	True	True	H:18	H	D18	D18	
+GH31	-1	D542	True	18	18	1.000	True	True	H:16	H	D16	D16	7WJC 7WJF
+GH31	-1	H600	False	18	18	1.000	True	True	H:18	H	H18	H18	
+GH31	-1	D443	True	18	18	1.000	True	True	Al:7 H:11	H	D18	D18	
+GH31	-1	W539	False	18	18	1.000	True	True	Ar:18	Ar	W15 F3	W15 F3	
+GH31	-1	I328	False	18	17	0.944	True	True	Al:17	Al	I7 L4 V3 M3	I7 V4 L4 M3	
+GH31	-1	I364	False	18	16	0.889	True	True	Al:11 H:5	Al	I9 N7	I11 N7	
+GH31	-1	F575	False	18	16	0.889	True	True	Ar:16	Ar	F13 H3	F15 H3	

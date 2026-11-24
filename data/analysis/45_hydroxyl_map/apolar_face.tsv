@@ -1,0 +1,44 @@
+set	family	subsite	n_entries	n_cl50	frac_cl_ring_carbon_contact	frac_cl_aromatic_face	aromatic_positions_entries
+all_glucoselike	GH13	+1	43	17	1.0	0.0	G183:33 W206:10 unmapped:7 F180:5 F143:3
+all_glucoselike	GH13	+2	41	15	1.0	0.333	unmapped:19 W206:11 M296:1
+all_glucoselike	GH13	+3	13	10	1.0	0.1	G250:3 W206:3 unmapped:2 H224:1 W297:1
+all_glucoselike	GH13	-1	70	29	1.0	0.172	Y51:57 H92:56 H288:54 unmapped:12 F143:10 A145:2
+all_glucoselike	GH13	-2	54	22	1.0	0.045	unmapped:32 Q49:27 Y51:14 W9:8 F143:6 M52:6 A145:1
+all_glucoselike	GH13	-3	38	17	1.0	0.0	unmapped:27 M52:6 A146:2 F143:2
+all_glucoselike	GH14	+1	3	2	1.0	0.0	W301:3 Y192:2
+all_glucoselike	GH14	+2	3	2	1.0	0.0	F200:3 H300:3 W301:3 W198:1
+all_glucoselike	GH14	-1	16	2	1.0	0.0	
+all_glucoselike	GH14	-2	15	2	1.0	0.0	H93:15 W55:1
+all_glucoselike	GH15	+1	4	2	1.0	0.0	W120:4 Y311:4 Y48:4 W52:2
+all_glucoselike	GH15	+2	4	2	1.0	0.5	W120:4
+all_glucoselike	GH15	+3	4	2	1.0	0.0	Y175:2
+all_glucoselike	GH15	-1	4	2	1.0	0.0	W317:4 W52:4 Y48:3 W417:1
+all_glucoselike	GH31	+1	9	5	1.0	0.2	F575:9 Y299:8 W406:5 A576:1
+all_glucoselike	GH31	+2	9	5	1.0	0.0	unmapped:3 A576:1
+all_glucoselike	GH31	+3	9	5	1.0	0.0	unmapped:3 A576:1 T544:1
+all_glucoselike	GH31	-1	17	6	1.0	0.0	F575:17 H600:16 Y299:13 W441:8 W406:4 D366:3 unmapped:3 W539:3
+glc_units	GH13	+1	3	3	1.0	0.0	G183:2 unmapped:1 W206:1
+glc_units	GH13	+2	41	15	1.0	0.333	unmapped:19 W206:11 M296:1
+glc_units	GH13	+3	13	10	1.0	0.1	G250:3 W206:3 unmapped:2 H224:1 W297:1
+glc_units	GH13	-1	28	18	1.0	0.222	H288:19 Y51:17 H92:15 unmapped:7 F143:4 A145:2
+glc_units	GH13	-2	53	21	1.0	0.048	unmapped:31 Q49:26 Y51:13 W9:8 F143:6 M52:6 A145:1
+glc_units	GH13	-3	20	8	1.0	0.0	unmapped:16 A146:2 M52:2 F143:1
+glc_units	GH14	+1	3	2	1.0	0.0	W301:3 Y192:2
+glc_units	GH14	+2	3	2	1.0	0.0	F200:3 H300:3 W301:3 W198:1
+glc_units	GH14	-1	13	2	1.0	0.0	
+glc_units	GH14	-2	15	2	1.0	0.0	H93:15 W55:1
+glc_units	GH15	+2	4	2	1.0	0.5	W120:4
+glc_units	GH15	+3	4	2	1.0	0.0	Y175:2
+glc_units	GH31	+2	9	5	1.0	0.0	unmapped:3 A576:1
+glc_units	GH31	+3	9	5	1.0	0.0	unmapped:3 A576:1 T544:1
+glc_units	GH31	-1	5	2	1.0	0.0	F575:5 H600:5 Y299:5 D366:3 W406:3 W441:1
+glc_only_entries	GH13	+1	3	3	1.0	0.0	G183:2 unmapped:1 W206:1
+glc_only_entries	GH13	+2	2	2	1.0	0.0	unmapped:1 W206:1
+glc_only_entries	GH13	-1	24	16	1.0	0.188	H288:16 H92:14 Y51:14 unmapped:5 F143:3 A145:1
+glc_only_entries	GH13	-2	24	11	1.0	0.091	Q49:17 unmapped:15 Y51:7 M52:3 F143:3 W9:2 A145:1
+glc_only_entries	GH13	-3	12	5	1.0	0.0	unmapped:12 M52:2
+glc_only_entries	GH14	+1	3	2	1.0	0.0	W301:3 Y192:2
+glc_only_entries	GH14	+2	3	2	1.0	0.0	F200:3 H300:3 W301:3 W198:1
+glc_only_entries	GH14	-1	13	2	1.0	0.0	
+glc_only_entries	GH14	-2	13	2	1.0	0.0	H93:13 W55:1
+glc_only_entries	GH31	-1	5	2	1.0	0.0	F575:5 H600:5 Y299:5 D366:3 W406:3 W441:1

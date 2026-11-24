@@ -1,0 +1,38 @@
+group	family	EC	name	attack	bond	reactant	reason	mechanism	clan	fold	nucleophile_base	proton_donor	n_sequences
+A	GH119	3.2.1.1	amylose endo-a-1,4-glucosidase	endo	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-T	( β / α ) 7 barrel	Glu	Asp	120
+A	GH126	3.2.1.1	amylose endo-a-1,4-glucosidase	endo	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Inverting (inferred) a		( α / α ) 6 barrel			2227
+A	GH13	3.2.1.-	amylose exo-1,4-glucopentaosidase	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.-	cyclic maltosyl-maltose a-1,6-glucosidase	endo	aDGlcp -(1,6)- aDGlcp	H2O	hydrolysis of alpha(1->6) branch	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.1	amylose endo-a-1,4-glucosidase	endo	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.116	amylose exo-a-1,4-glucotriosidase	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.133	amylose exo-a-1,4-glucobiosidase (Retaining)	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.135	pullulan exo-a-1,4-panosidase	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.3	amylose exo-a-1,4-glucosidase	exo (non-reducing end)	[aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.41	pullulan endo-a-1,6-glucosidase	endo	aDGlcp -(1,6)- aDGlcp	H2O	hydrolysis of alpha(1->6) branch	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.54	cyclomaltodextrin endo-a-1,4-glucosidase	endo	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.60	amylose exo-a-1,4-glucotetraosidase	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.68	starch endo-a-1,6-glucosidase	endo	aDGlcp -(1,6)- (aDGlcp-1,4)aDGlcp	H2O	hydrolysis of alpha(1->6) branch	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH13	3.2.1.98	amylose exo-a-1,4-glucohexaosidase	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+A	GH133	3.2.1.33	glycogen exo-a-1,6-glucosidase	exo (non-reducing end)	[aDGlcp -(1,6)- aDGlcp	H2O	hydrolysis of alpha(1->6) branch	Inverting a		( α / α ) 6 barrel	Asp	Asp	4169
+A	GH14	3.2.1.2	amylose exo-a-1,4-glucobiosidase (inverting)	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Inverting a		( β / α ) 8 barrel	Glu (experimental)	Glu (experimental)	2968
+A	GH15	3.2.1.3	amylose exo-a-1,4-glucosidase	exo (non-reducing end)	[aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Inverting a	GH-L	( α / α ) 6 barrel	Glu (experimental)	Glu (experimental)	24069
+A	GH176	3.2.1.68	starch endo-a-1,6-glucosidase	endo	aDGlcp -(1,6)- (aDGlcp-1,4)aDGlcp	H2O	hydrolysis of alpha(1->6) branch	Inverting (inferred) a		( α / α ) 6 barrel			5014
+A	GH49	3.2.1.-	panose a-1,4-glucosidase	endo	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Inverting a	GH-N	parallel β-helix	Asp	Asp	322
+A	GH49	3.2.1.57	pullulan exo-a-1,4-isopanosidase	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Inverting a	GH-N	parallel β-helix	Asp	Asp	322
+A	GH57	3.2.1.1	amylose endo-a-1,4-glucosidase	endo	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-T	( β / α ) 7 barrel	Glu	Asp	13029
+A	GH57	3.2.1.133	amylose exo-a-1,4-glucobiosidase (Retaining)	exo (non-reducing end)	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-T	( β / α ) 7 barrel	Glu	Asp	13029
+A	GH57	3.2.1.41	pullulan endo-a-1,6-glucosidase	endo	aDGlcp -(1,6)- aDGlcp	H2O	hydrolysis of alpha(1->6) branch	Retaining a	GH-T	( β / α ) 7 barrel	Glu	Asp	13029
+A	GH57	3.2.1.54	cyclomaltodextrin endo-a-1,4-glucosidase	endo	aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Retaining a	GH-T	( β / α ) 7 barrel	Glu	Asp	13029
+A	GH97	3.2.1.3	amylose exo-a-1,4-glucosidase	exo (non-reducing end)	[aDGlcp -(1,4)- aDGlcp	H2O	hydrolysis of alpha(1->4)	Inverting and retaining a		( β / α ) 8 barrel	Glu for inverting members; Asp for retaining members	Glu	7491
+B	AA13	1.14.99.55	Lytic starch monooxygenase / starch oxidase (glycosidic bond-cleaving)	endo	aDGlcp -(1o,4)- aDGlcp	H2O2	oxidative cleavage	peroxygenase					550
+B	GH31	4.2.2.13	Exo-1,4-a-D-glucan lyase	exo (non-reducing end)	[aDGlcp -(1,4)- aDGlcp		elimination (lyase)	Retaining a	GH-D	( β / α ) 8 barrel	Asp	Asp	83071
+B	GT35	2.4.1.1	alpha-1,4-glucan phosphorylase	exo (non-reducing end)	[aDGlcp -(1,4)- aDGlcp	Pi	phosphorolysis	Retaining		GT-B			37995
+C	GH122	3.2.1.20	a-glucosidase	exo (non-reducing end)	[aDGlcp -(1,X)- alcohol	H2O	alpha-glucosidase, generic aglycone in CAZy	Unknown a		7-fold β-propeller (AlphaFold)			114
+C	GH13	3.2.1.10	oligo exo-a-1,6-glucosidase	exo (non-reducing end)	[aDGlcp -(1,6)- aDGlcp	H2O	alpha(1->6) cut next to an unspecified (1,X) bond: limit dextrins / isomaltose	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+C	GH13	3.2.1.20	a-glucosidase	exo (non-reducing end)	[aDGlcp -(1,X)- alcohol	H2O	alpha-glucosidase, generic aglycone in CAZy	Retaining a	GH-H	( β / α ) 8 barrel	Asp (experimental)	Glu (experimental)	481112
+C	GH31	3.2.1.10	oligo exo-a-1,6-glucosidase	exo (non-reducing end)	[aDGlcp -(1,6)- aDGlcp	H2O	alpha(1->6) cut next to an unspecified (1,X) bond: limit dextrins / isomaltose	Retaining a	GH-D	( β / α ) 8 barrel	Asp	Asp	83071
+C	GH31	3.2.1.20	a-glucosidase	exo (non-reducing end)	[aDGlcp -(1,X)- alcohol	H2O	alpha-glucosidase, generic aglycone in CAZy	Retaining a	GH-D	( β / α ) 8 barrel	Asp	Asp	83071
+C	GH4	3.2.1.20	a-glucosidase	exo (non-reducing end)	[aDGlcp -(1,X)- alcohol	H2O	alpha-glucosidase, generic aglycone in CAZy	Other a,e		Rossmann fold	Not applicable	Not known	33866
+C	GH63	3.2.1.20	a-glucosidase	exo (non-reducing end)	[aDGlcp -(1,X)- alcohol	H2O	alpha-glucosidase, generic aglycone in CAZy	Inverting a	GH-G	( α / α ) 6 barrel	Glu (inferred)	Asp (inferred)	10015
+C	GH76	3.2.1.20	a-glucosidase	exo (non-reducing end)	[aDGlcp -(1,X)- alcohol	H2O	alpha-glucosidase, generic aglycone in CAZy	Retaining a		( α / α ) 6 barrel	Asp (inferred from 3-D structure)	Asp (inferred from 3-D structure)	13131
+C	GH97	3.2.1.20	a-glucosidase	exo (non-reducing end)	[aDGlcp -(1,X)- alcohol	H2O	alpha-glucosidase, generic aglycone in CAZy	Inverting and retaining a		( β / α ) 8 barrel	Glu for inverting members; Asp for retaining members	Glu	7491

@@ -1,0 +1,70 @@
+% ---- replacement for the rule part of Results (from a44, resultados/analysis/44_rule_test/) ----
+\subsection{Which contact positions keep their residue across lineages}
+
+\paragraph{Positions and counting.} To avoid choosing positions after seeing their residues,
+every reference position contacted (4.0~\AA) in at least 20\% of the entries with a sugar
+unit at a subsite from $-3$ to $+3$ was taken: 17 positions in GH13 and 19 in GH31, the five
+catalytic residues among them. Residue identity at each position was read for every chain from
+the superposition (a residue belongs to a reference position when its C$\alpha$ lies within
+2.0~\AA{} of the reference C$\alpha$), not only for chains whose residue touches the sugar, and
+was counted once per group of proteins sharing at least 50\% sequence identity (29 groups in
+GH13, 6 in GH31). Engineered mutants were removed at the mutated position (1QI5, 5TD4, 9UNS,
+9XG6 at Asp289; 7WJC, 7WJF at Asp542; 3PHA, 3BLP, 3DHP, 3OLD, 3OLE, 3OLG, 3OLI, 1UA7 and 8CQF at
+the positions they alter, from the \texttt{\_struct\_ref\_seq\_dif} records). The class of a
+position is the contact kind made in most groups (H, side-chain hydrogen bond; Ar, apolar
+contact by an aromatic residue; Al, apolar contact by an aliphatic residue). Conservation of a
+position is the modal fraction
+\begin{equation}
+m = \frac{\max_a n_a}{\sum_a n_a},
+\label{eq:modal}
+\end{equation}
+where $n_a$ is the number of group votes for residue type $a$ (a group whose members differ
+splits its vote). For GH13 Lys182: Lys 9.5, Arg 2.5, His 2, Gln 1 of 15 groups,
+$m = 9.5/15 = 0.63$. For aromatic positions the aromatic fraction (Phe, Tyr, Trp, His) is also
+given.
+
+\paragraph{What is read off.} Table~\ref{tab:rule} lists the 36 positions; 35 have a majority class
+(17 H, 10 Ar, 8 Al) and one, GH31 Thr544, has none. Of the 13 hydrogen-bonding positions that contact a ring at subsite $-1$
+or $+1$, eleven carry one residue type in every group ($m = 1$): in GH13 the catalytic Asp179,
+Glu204 and Asp289 and the non-catalytic Arg177 and His92, with His288 at 0.97 (one natural Gln,
+6SAO); in GH31 the catalytic Asp443 and Asp542 and the non-catalytic Asp327, His600, Asp203 and
+Arg526. The one hydrogen-bonding position at $-1$/$+1$ that varies is the GH13 position of
+Gly183 ($m = 0.50$): it is His in the eight groups where it contacts the sugar and Gly, Tyr, Glu
+or Met where it does not. The ten aromatic positions keep an aromatic ring more often than
+their identity (aromatic fraction 0.41--1.00, identity 0.31--1.00). The aliphatic positions vary
+(GH13 Phe180 position: Ala, Val, Thr, Leu, Phe, Tyr, Met, $m = 0.24$; GH31 Ile328, $m = 0.50$),
+with two exceptions: GH31 Met444 ($m = 0.83$) and GH13 Thr207, which is Lys in both of
+its only two groups. At the outer subsites ($-3$, $-2$, $+2$, $+3$),
+hydrogen-bonding positions vary as much as the aliphatic ones: GH13 Lys182 0.63, Met52 0.41,
+Gln294 0.80, GH31 Asn207 0.50.
+
+\paragraph{The test.} Table~\ref{tab:tests} gives the differences in mean $m$ between classes
+and their significance by permutation of the class labels over positions (10\,000
+permutations; 95\% intervals from 2\,000 bootstrap resamples of the sequence groups). The
+hydrogen-bonding positions are more conserved than the aliphatic ones by 0.33 (all 35
+positions, $p = 0.003$) and by 0.28 without the catalytic residues ($p = 0.015$). The result
+holds when the class is taken from the reference structure alone instead of from the groups
+($p = 0.005$--0.016), when the class is assigned on a random half of the groups and conservation
+measured on the other half (positive in all 1\,000 splits; median 0.30, 95\% range
+0.17--0.41), on 98 entries of 37 groups never seen with a bound sugar ($+0.31$, $p = 0.007$),
+and for hydrogen-bond cut-offs of 3.2, 3.5 and 4.0~\AA{} with or without an angle criterion
+($p = 0.003$--0.040). Aromatic positions keep an aromatic ring more often than aliphatic
+positions keep their residue ($+0.33$, $p < 0.001$). Hydrogen-bonding and aromatic positions do
+not differ significantly ($+0.18$, $p = 0.052$; held-out groups $+0.08$, $p = 0.23$). Within the
+hydrogen-bonding class, positions at $-1$/$+1$ are more conserved than positions that contact
+only the outer subsites (0.96 against 0.59, 13 and 4 positions, $p = 0.0015$); at the outer
+subsites, hydrogen-bonding and aliphatic positions do not differ ($-0.09$, $p = 0.67$).
+
+\paragraph{The statement the data support.} The residues whose side chains hydrogen-bond the two
+rings on either side of the cut are fixed in every lineage; aromatic residues at the same
+subsites are kept as aromatic rings, less strictly as the same residue; aliphatic residues at
+these subsites, and residues of every kind at the outer subsites, change between lineages.
+Conservation is therefore set jointly by where a residue touches the sugar and by the kind of
+contact it makes, not by the kind of contact alone.
+
+\paragraph{Limits.} GH31 rests on six groups, three of them not $\alpha$-glucosidases (an
+$\alpha$-xylosidase and an $\alpha$-1,4-glucan lyase carry the Trp539$\to$Phe, Phe575$\to$His
+and Met444$\to$Trp changes and, with the lyase, Ile364$\to$Asn); within the three
+$\alpha$-glucosidases only Ile328, Tyr299 and five outer positions vary. Only four
+hydrogen-bonding positions lie at the outer subsites. Hydrogen bonds are judged from heavy
+atoms; aromatic stacking from residue type, not from ring geometry.
