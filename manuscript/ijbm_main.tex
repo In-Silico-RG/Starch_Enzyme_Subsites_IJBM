@@ -1,5 +1,6 @@
 %% ijbm_main.tex -- International Journal of Biological Macromolecules (Elsevier) submission format of
-%% manuscript_short/grip_finding.tex. Text from the source except the rule section (44_rule_test, author decision 2026-11-24)
+%% manuscript_short/grip_finding.tex. Text from the source except the rule section (44_rule_test, author decision 2026-11-24),
+%% the reference cut of 2026-11-24 (method details, the map-vs-experiment table and the deoxy block moved to the SI)
 %% and the consistency edits listed in ../manuscript_carbpol/JOURNAL_RULES.md; journal rules there.
 %% Build: pdflatex, bibtex, pdflatex x2.
 \documentclass[preprint,12pt]{elsarticle}
@@ -101,9 +102,9 @@ Starch-degrading enzymes \sep Glycoside hydrolase \sep Subsite \sep Functionalis
 Starch is modified chemically for engineering uses: hydroxyl groups at O2, O3 and O6 of its
 glucose units are etherified or esterified with hydroxypropyl, carboxymethyl, acetyl or
 octenyl-succinyl groups, which change its solubility, paste behaviour and emulsifying
-capacity~\citep{Masina2017,Chen2015,Altuna2018}. Amylolytic enzymes act on these products,
+capacity~\citep{Masina2017}. Amylolytic enzymes act on these products,
 and enzymatic digestion followed by analysis of the released fragments is a standard route
-to where the substituents lie along the chain~\citep{Richardson2003,Mischnick2010,Zhao2012}.
+to where the substituents lie along the chain~\citep{Mischnick2010}.
 A substituent changes what an enzyme releases: pancreatic $\alpha$-amylase gives different
 hydrolysis products from modified and unmodified tapioca starch~\citep{Conway1976}. The
 extent of hydrolysis and the product profile therefore depend on which substituted glucose
@@ -239,8 +240,8 @@ lies within 3.5~\AA{} of it (waters are not partners). The partner is \emph{inva
 is a side chain at a reference position whose modal fraction $m$ (eq~\ref{eq:modal}) is 1 over at
 least three sequence groups in GH13 and GH31, or over both groups in GH14 and GH15; here $m$ is
 counted over all ligand-bound entries of the family, mutants removed. The open surface of each
-oxygen was computed by the Shrake--Rupley method~\citep{Shrake1973} (480 points per atom, probe 1.4~\AA, Bondi
-radii, no hydrogens, waters removed) in the complex and in the ligand alone. The properties
+oxygen was computed as its solvent-accessible surface (probe 1.4~\AA) in the complex and in the
+ligand alone (settings in Section~S12.1 of the Supplementary material). The properties
 were aggregated from atom to entry (an entry has the property when at least half of its units
 at that subsite do), from entry to 50\% sequence group (at least half of its entries), and
 from group to cell (subsite $\times$ oxygen). A cell is held when at least half of the groups
@@ -256,7 +257,7 @@ Each O2, O3 and O6 is coloured by the state of its cell in the family map, not b
 residues drawn are the polar partners within 3.5~\AA{} of that oxygen in the entry, coloured as fixed
 when their position meets the invariance criterion above.
 
-For the comparison with experiment (Table~\ref{tab:mapexp}), published limit products and
+For the comparison with experiment (Table~S6), published limit products and
 kinetics of substituted substrates were read onto subsites with the standard rule for
 products~\citep{Davies1997}: when an endo-acting enzyme cuts, the new reducing-end residue sat at
 $-1$ and the new non-reducing-end residue at $+1$, so a substituted residue at position $k$ from
@@ -272,47 +273,26 @@ literature result is labelled by what was read: full text (FT) or abstract (ABS)
 of products onto subsites is ours unless the authors state it.
 
 \subsection{Steric fit of substituents}\label{sec:methods_fit}
-The 439 units of Section~\ref{sec:methods_map} were used with the deposited protein and sugar fixed.
-Eight substituents were built as fragments Cprev--\allowbreak Cring--\allowbreak O--\allowbreak R with RDKit 2025.03 (ETKDGv3
-conformers~\citep{Wang2020}, each optimised with MMFF94~\citep{Halgren1996}, hydrogens then removed): methyl, 2-\hspace{0pt}hydroxyethyl,
-2-\hspace{0pt}hydroxypropyl (both configurations), acetyl, carboxymethyl, phosphate monoester,
-succinyl and octenylsuccinyl (both configurations at the branch carbon, $E$ alkene); 9 to 400 conformers
-per substituent and configuration. Each conformer was placed on the deposited Cprev, Cring and O of O2, O3 and O6 (the
-deposited oxygen becomes the attachment oxygen) and turned about the Cring--O bond in 30$^\circ$ steps
-(108 to 9\,600 poses per site). O6 was tested at its deposited position and rebuilt at the gg, gt and
-tg rotamers ($\omega = -60^\circ$, $+60^\circ$, $180^\circ$); O6$^\ast$ means a fit at any of the four,
-the only test possible where no O6 is deposited. A pose fits when no substituent heavy atom lies within
-3.0~\AA{} of a protein heavy atom of the asymmetric unit or within 2.8~\AA{} of another sugar atom (atoms
-within three bonds excluded); 2.8 and 3.2~\AA{}, and a polar-aware rule that lets a substituent O/N
-approach a protein N/O to 2.5~\AA, were run as sensitivity tests. A unit fits when any pose fits, and
-the counting goes from unit to entry to 50\% sequence group as in Section~\ref{sec:methods_map}. A cell
-is F when the substituent fits in at least half of the groups, s when it fits in at least one unit
-but in fewer than half of the groups, and N when it fits in no unit. The one assumption is that the
-deposited coordinates are where a substituted chain would sit.
+Eight substituents (methyl, 2-hydroxyethyl, 2-hydroxypropyl, acetyl, carboxymethyl, phosphate monoester,
+succinyl and octenylsuccinyl; 9 to 400 conformers each) were placed on the deposited O2, O3 and O6 of the
+439 units of Section~\ref{sec:methods_map}, with protein and sugar fixed, and turned about the Cring--O bond
+in 30$^\circ$ steps; O6 was also rebuilt at the gg, gt and tg rotamers, and O6$^\ast$ means a fit at any of
+the four. A pose fits when no substituent heavy atom lies within 3.0~\AA{} of a protein heavy atom or within
+2.8~\AA{} of another sugar atom; counted from unit to entry to 50\% sequence group as in
+Section~\ref{sec:methods_map}, a cell is F when the substituent fits in at least half of the groups, s when
+it fits in at least one unit but in fewer than half of the groups, and N when it fits in no unit. The one
+assumption is that the deposited coordinates are where a substituted chain would sit. Construction of the
+conformers, the poses and the sensitivity tests (2.8 and 3.2~\AA{} cut-offs, a polar-aware rule) are in
+Section~S12.2 of the Supplementary material.
 
 \subsection{Molecular dynamics of enzyme--glucan complexes}\label{sec:methods_md}
-Twelve wild-type complexes with a glucose-only glucan of 2--7 units (every unit RSCC $\ge0.80$, X-ray
-at $\le2.2$~\AA, no mutation, not cyclic, no covalent bond to another molecule) were simulated, one per
-family with such a complex and several GH13 enzyme types (Table~S5). The protein was described by
-ff14SB~\citep{Maier2015}, the glucan by GLYCAM06j-1~\citep{kirschner2008}, water by TIP3P~\citep{Jorgensen1983},
-Na$^+$/Cl$^-$ by the Joung--Cheatham parameters~\citep{Joung2008} and Ca$^{2+}$/Zn$^{2+}$ by the Li--Merz
-12-6 set~\citep{Li2013}. Protonation at pH~7 followed PROPKA~3~\citep{Olsson2011} (carboxylates bound to a
-metal kept charged); deposited ions and crystal waters within 3.5~\AA{} of the chain were kept; each
-complex was solvated in a truncated octahedron with 10~\AA{} of water and 0.15~M NaCl after
-neutralisation. Systems were built with AmberTools~24 (tleap) and run with GROMACS
-2024.4~\citep{Abraham2015}; the bonded and 1-4 energies of the converted topology agree with the Amber
-topology within 0.4~kJ\,mol$^{-1}$ in all twelve systems. After two minimisations, 100~ps NVT and
-2$\times$500~ps NPT with heavy-atom restraints (1000, then 100~kJ\,mol$^{-1}$\,nm$^{-2}$), production was
-unrestrained at 300~K (V-rescale~\citep{Bussi2007}) and 1~bar (C-rescale~\citep{Bernetti2020}), 2~fs steps,
-bonds to hydrogen constrained (LINCS~\citep{Hess1997}), PME electrostatics~\citep{Essmann1995} and 1.0~nm
-cut-offs. One 100~ns run per system was started; the part written when the analysis was made (18.7 to
-30.6~ns per system) was read every 100~ps with MDAnalysis~\citep{MichaudAgrawal2011}. In each frame the
-pocket C$\alpha$ atoms were superposed on the start structure and each glucan oxygen received the state of
-Section~\ref{sec:methods_map}, with frames in place of sequence groups: held when a protein N/O lies within
-3.5~\AA{} in at least half of the frames, INV when an invariant side chain holds it in at least half of
-the frames, otherwise VAR or MC; free oxygens EXP or BUR by their median open surface. Subsites are those
-of the deposited units.
-
+Twelve wild-type complexes with a glucose-only glucan of 2--7 units (every unit RSCC $\ge0.80$, X-ray at
+$\le2.2$~\AA; Table~S5) were simulated in explicit water with the ff14SB protein and GLYCAM06j-1
+carbohydrate force fields in GROMACS 2024.4 at 300~K and 1~bar; of one 100~ns run per system, the part
+written when the analysis was made (18.7 to 30.6~ns) was read every 100~ps, and in each frame each glucan
+oxygen received the state of Section~\ref{sec:methods_map}, with frames in place of sequence groups (held
+when a protein N/O lies within 3.5~\AA{} in at least half of the frames). System preparation, parameters
+and protocol are in Section~S12.3 of the Supplementary material.
 
 \section{Results and discussion}
 
@@ -542,40 +522,34 @@ hydroxypropyl, acetyl, octenyl-succinyl or carboxymethyl group, nor any 2-O- or
 3-O-substituted glucose, is bound in these families in the PDB; the 18 substituted rings of the
 census carry their substituent on O1 or O4.
 
-\paragraph{The map against experiment} Table~\ref{tab:mapexp} sets every cell for which a
-positional result with a substituted substrate was found against the prediction of its state.
-Of the 21 cells with a prediction (INV, VAR or EXP), 19 agree and 2 disagree. Four further full texts
-(methyl starch, end-blocked and 6-modified maltooligosaccharides) and one abstract add results to nine of these cells and
-change the verdict of none. At GH13 $-1$, methyl starch digested by a \emph{Bacillus} liquefying
+\paragraph{The map against experiment} Every cell for which a positional result with a substituted
+substrate was found is set against the prediction of its state in Table~S6 of the Supplementary material,
+cell by cell with its references (Section~S13); the lower marks of Figure~\ref{fig:map} show these cells.
+Of the 21 cells with a prediction (INV, VAR or EXP), 19 agree and 2 disagree: 12 of the 14 fixed cells, all
+3 variable cells and all 4 free, exposed cells agree. Four further full texts (methyl starch, end-blocked and
+6-modified maltooligosaccharides) and one abstract add results to nine of these cells and change the verdict
+of none. The key sources are these. At GH13 $-1$, methyl starch digested by a \emph{Bacillus} liquefying
 $\alpha$-amylase leaves no 2-O- or 3-O-methylglucose at the new reducing ends, although at MS 0.30 these
 are 19.4\% and 6.2\% of all residues, and 6-O-methylglucose only as a trace~\citep{vanderBurgt1998}. At
 GH13 $-3$ and $-4$, porcine and human pancreatic $\alpha$-amylases accept a glucose carrying a 6-O-galactosyl
-or 3-O-$N$-acetylglucosaminyl group, but at $-2$ in at most 3\% of cuts~\citep{Okada2000}; human
-pancreatic and salivary $\alpha$-amylases accept a 6-deoxy-6-pyridylamino glucose at $-3$ and
-$-4$~\citep{Omichi1988}. All three variable GH13 cells with data ($-2$ O3, $-2$ O6, $+2$ O3) are cells where
-the phosphate products of \emph{Bacillus subtilis}, porcine pancreatic and \emph{Aspergillus oryzae}
-$\alpha$-amylases differ~\citep{Takeda1983,TakedaHizukuri1986,Takeda1987}; at $-2$ the porcine enzyme
-accepts a 3-phosphate but not a hexose on O3 or O6~\citep{Okada2000}. The two disagreements are both at a
-fixed cell of subsite $+1$. In GH15, O2 at $+1$ is held by Glu180 in both lineages of the map (median
-9~\AA$^2$ open), yet the O-methyl and deoxy analogues at OH-2 of the reducing unit are hydrolysed
-with kinetics virtually unchanged~\citep{Lemieux1996,Bock1987}, and 2-O-methylglucose is found at the
-non-reducing ends of methyl amylose digested by a \emph{Bacillus} $\alpha$-amylase and glucoamylase,
-that is, at $+1$ (abstract; the two enzymes are not separated)~\citep{Mischnick2001}: O2 at $+1$ is free in
-the kinetics. In GH14, O6 at $+1$ is held by the catalytic Glu186 and by Arg188 in both lineages
-(three entries), yet sweet-potato $\beta$-amylase cleaves with a 6-phosphorylated residue at
-$+1$~\citep{Takeda1987}. Of the four cells without a prediction, GH13 O3 at $+3$ (main chain) carries a
-tolerated 3-phosphate, GH13 O6 at $+1$ (buried, three units) a 6-phosphate tolerated by two of
-three $\alpha$-amylases, GH14 O3 at $-1$ (main chain) a 3-phosphate that is not tolerated, and GH15 O6
-at $+1$ (no O6 in the map) a 6-phosphate in the polymer~\citep{Takeda1987} and every neutral C6 group
-tested on methyl $\beta$-maltoside, but not a 6-amino or 6-carboxylate group~\citep{Bock1988}; whether the
-charge or the length of the substrate makes the difference is not tested.
+or 3-O-$N$-acetylglucosaminyl group, but at $-2$ in at most 3\% of cuts~\citep{Okada2000}. All three
+variable GH13 cells with data ($-2$ O3, $-2$ O6, $+2$ O3) are cells where the phosphate products of
+\emph{Bacillus subtilis}, porcine pancreatic and \emph{Aspergillus oryzae} $\alpha$-amylases
+differ~\citep{Takeda1983,TakedaHizukuri1986,Takeda1987}; at $-2$ the porcine enzyme accepts a 3-phosphate
+but not a hexose on O3 or O6~\citep{Okada2000}. The two disagreements are both at a fixed cell of subsite
+$+1$. In GH15, O2 at $+1$ is held by Glu180 in both lineages of the map (median 9~\AA$^2$ open), yet the
+O-methyl and deoxy analogues at OH-2 of the reducing unit are hydrolysed with kinetics virtually
+unchanged~\citep{Lemieux1996,Bock1987}, and 2-O-methylglucose is found at the non-reducing ends of methyl
+amylose digested by a \emph{Bacillus} $\alpha$-amylase and glucoamylase, that is, at $+1$ (abstract; the
+two enzymes are not separated)~\citep{Mischnick2001}: O2 at $+1$ is free in the kinetics. In GH14, O6 at
+$+1$ is held by the catalytic Glu186 and by Arg188 in both lineages (three entries), yet sweet-potato
+$\beta$-amylase cleaves with a 6-phosphorylated residue at $+1$~\citep{Takeda1987}. The four cells without a
+prediction (main chain, buried, or no O6 in the map) are described in Section~S13.
 
-Deoxy substrates, in which the hydroxyl is removed, are listed apart (Table~\ref{tab:mapexp}, last
-block). Four GH31 $\alpha$-glucosidases hydrolyse 2-deoxy $p$-nitrophenyl $\alpha$-glucoside 1.8--2.6 times
-faster than the parent but not the 6-deoxy compound, and the 3-deoxy compound not at all or at 4--12\%
-of the parent rate~\citep{Nishio2002}; glucoamylase needs O6$'$ at $-1$ and O3 at $+1$ but not O2$'$ or
-O3$'$ at $-1$, nor O6 at $+1$~\citep{Bock1987}. At subsite $-1$ the hydrogen bonds of O6 (and of O3 in
-GH31) are needed for turnover; those of O2, made by fixed residues in both families, are not.
+Deoxy substrates, in which the hydroxyl is removed rather than substituted, test whether the hydrogen bond
+of an oxygen is needed, not whether a group fits; they are listed apart and not counted (Table~S6, last
+block; Section~S13). At subsite $-1$ the hydrogen bonds of O6 (and of O3 in GH31) are needed for turnover;
+those of O2, made by fixed residues in GH31 and GH15, are not.
 
 \begin{figure}[!htbp]
 \centering
@@ -583,7 +557,7 @@ GH31) are needed for turnover; those of O2, made by fixed residues in both famil
 \caption{The subsite $\times$ oxygen map. Cell colour, state of the oxygen
 (Section~\ref{sec:methods_map}); number, fraction of 50\% sequence groups in which a protein N/O lies
 within 3.5~\AA; lower mark, published result for a substrate substituted at that oxygen and
-subsite (Table~\ref{tab:mapexp}; d, deoxy substrate, not counted). Bold line, the scissile bond.}
+subsite (Table~S6; d, deoxy substrate, not counted). Bold line, the scissile bond.}
 \label{fig:map}
 \end{figure}
 
@@ -598,61 +572,6 @@ $^\ast$, author number); dashes, N/O--O $\le3.5$~\AA. Insets: whole protein, box
 \label{fig:mapmol}
 \end{figure}
 
-\begin{sidewaystable}
-\centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.92}\scriptsize\setlength{\tabcolsep}{2pt}
-\caption{The map against experiment, cell by cell. State and holding residues (reference
-numbering: GH13 1AMY, GH31 2QMJ, GH14 1BYA, GH15 1AGM);
-open surface in \AA$^2$ for EXP cells. Prediction: INV, not tolerated; EXP, tolerated; VAR,
-depends on the enzyme. P, phosphate; HE, hydroxyethyl; Me, methyl; Gal, $\beta$-galactosyl; GlcNAc,
-$\beta$-$N$-acetylglucosaminyl; PA, 6-deoxy-6-(2-pyridylamino). Ev.: FT, full text read;
-ABS, abstract. Agreement: 19 of 21
-cells with a prediction. Deoxy rows (OH removed) test whether the hydroxyl is needed and are not counted.}
-\label{tab:mapexp}
-\begin{tabular}{lllp{3.3cm}p{7.5cm}lp{4.2cm}}
-\toprule
-Fam. & Sub. & O & Map state (holding residues) & Experiment (substituent, enzyme, result) & Agree & Reference (Ev.)\\
-\midrule
-GH13 & $-3$ & O3 & EXP (26) & 3-P tolerated: \emph{A.~oryzae} and a bacterial liquefying $\alpha$-amylase; 3-O-GlcNAc at $-3$/$-4$: porcine and human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{TakedaHizukuri1986,Kamasaka1997} (ABS)\\
-GH13 & $-3$ & O6 & EXP (22) & 6-P tolerated: porcine pancreatic, \emph{A.~oryzae}; 6-O-Gal at $-3$/$-4$: porcine, human pancreatic; 6-PA and 6-iodo-6-deoxy: human salivary and pancreatic; 4,6-O-benzylidene favourable: porcine, human salivary & yes & \citep{Takeda1987,Okada2000,Omichi1988} (FT), \citep{Takeda1983,Omichi1992,Kandra1997,Kandra2000} (ABS)\\
-GH13 & $-2$ & O3 & VAR (Gln294 pos., Arg) & 3-P tolerated by \emph{B.~subtilis} and porcine; not by \emph{A.~oryzae}; 3-O-GlcNAc only in a very slow reaction: porcine, human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
-GH13 & $-2$ & O6 & VAR (Met52 pos.) & 6-P tolerated by \emph{B.~subtilis}; not by porcine, \emph{A.~oryzae}; 6-O-Gal in $\le$3\% of cuts: porcine, human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
-GH13 & $-1$ & O2 & INV (Asp289, Arg177, His288) & 2-O-HE not tolerated: porcine pancreatic; 2-O-Me absent from reducing ends: \emph{Bacillus} liquefying $\alpha$-amylase & yes & \citep{vanderBurgt1998} (FT), \citep{Yoshida1984} (ABS)\\
-GH13 & $-1$ & O3 & INV (Asp289, His288) & 3-O-HE, 3-P not tolerated: porcine, \emph{B.~subtilis}, \emph{A.~oryzae}; 3-O-Me absent from reducing ends: \emph{Bacillus} liquefying & yes & \citep{Takeda1987,vanderBurgt1998} (FT), \citep{Yoshida1984,Takeda1983} (ABS)\\
-GH13 & $-1$ & O6 & INV (Asp179, His92) & 6-O-HE, 6-P not tolerated: porcine, \emph{B.~subtilis}, \emph{A.~oryzae}; 6-O-Me only as a trace at reducing ends: \emph{Bacillus} liquefying & yes & \citep{Takeda1987,vanderBurgt1998} (FT), \citep{Yoshida1984,Takeda1983} (ABS)\\
-GH13 & $+1$ & O3 & INV (Glu204) & 3-P not tolerated: all three $\alpha$-amylases & yes & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
-GH13 & $+2$ & O3 & VAR (Lys182 pos.) & 3-P not tolerated by \emph{B.~subtilis}, porcine; tolerated by \emph{A.~oryzae} & yes & \citep{Takeda1987} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
-GH13 & $+2$ & O6 & EXP (27) & 6-P tolerated: \emph{B.~subtilis}; 6-amino-6-deoxy: human salivary and pancreatic & yes & \citep{Takeda1983,Omichi1992} (ABS)\\
-\addlinespace
-GH14 & $-2$ & O3 & INV (His93) & 3-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $-2$ & O6 & INV (Asp53, Arg420) & 6-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $-1$ & O6 & INV (Glu380, Lys295) & 6-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $+1$ & O3 & INV (Thr342) & 3-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $+1$ & O6 & INV (Glu186, Arg188) & 6-P tolerated: sweet-potato $\beta$-amylase & \textbf{no} & \citep{Takeda1987} (FT)\\
-\addlinespace
-GH15 & $-1$ & O2 & INV (Arg305) & 2-O-Me not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Lemieux1996} (ABS)\\
-GH15 & $-1$ & O3 & INV (Arg54) & 3-O-Me, 3-P not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Lemieux1996,Takeda1983} (ABS)\\
-GH15 & $-1$ & O6 & INV (Asp55) & 6-O-Me, 6-P, 6$'$-F, 6$'$-Br not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987,Bock1988} (FT), \citep{Lemieux1996,Abe1982} (ABS)\\
-GH15 & $+1$ & O2 & INV (Glu180) & 2-O-Me tolerated, kinetics virtually unaffected: \emph{A.~niger} glucoamylase; 2-O-Me at product non-reducing ends ($\alpha$-amylase + glucoamylase) & \textbf{no} & \citep{Lemieux1996,Mischnick2001} (ABS)\\
-GH15 & $+1$ & O3 & INV (Glu180, Arg305) & 3-P not tolerated; 3-O-Me costs 1.9~kcal\,mol$^{-1}$ (25-fold in $k_\mathrm{cat}/K_\mathrm{M}$): \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Takeda1983,Kamasaka1997,Lemieux1996} (ABS)\\
-GH15 & $+2$ & O3 & EXP (30) & 3-P tolerated (one glucose left on the non-reducing side of the 3-P residue): \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
-\midrule
-\multicolumn{7}{l}{Cells without a prediction}\\
-GH13 & $+1$ & O6 & BUR (3 units) & 6-P tolerated by porcine, \emph{A.~oryzae}; not by \emph{B.~subtilis} & -- & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
-GH13 & $+3$ & O3 & MC & 3-P tolerated: \emph{B.~subtilis}, porcine & -- & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
-GH14 & $-1$ & O3 & MC & 3-P not tolerated: sweet-potato $\beta$-amylase & -- & \citep{Takeda1987} (FT)\\
-GH15 & $+1$ & O6 & no O6 in the map & 6-P tolerated (polymer); neutral C6 groups tolerated, 6-NH$_2$, 6-COOH not (methyl $\beta$-maltoside): \emph{A.~niger} glucoamylase & -- & \citep{Takeda1987,Bock1988} (FT), \citep{Takeda1983,Abe1982} (ABS)\\
-\midrule
-\multicolumn{7}{l}{Deoxy substrates (hydroxyl removed; not counted). Agree column: whether the OH is needed}\\
-GH31 & $-1$ & O2 & INV (Asp542, Arg526) & 2-deoxy hydrolysed at 175--259\% of the parent rate: rice, sugar beet, flint corn, \emph{A.~niger} $\alpha$-glucosidases & dispensable & \citep{Nishio2002,Ogawa2004} (FT)\\
-GH31 & $-1$ & O3 & INV (His600) & 3-deoxy not hydrolysed (rice, sugar beet) or at 3.7 and 11.9\% (flint corn, \emph{A.~niger}) & needed & \citep{Nishio2002} (FT)\\
-GH31 & $-1$ & O6 & INV (Asp327) & 6-deoxy not hydrolysed: all four & needed & \citep{Nishio2002,Ogawa2004} (FT)\\
-GH15 & $-1$ & O2 & INV (Arg305) & 2$'$-deoxy hydrolysed ($k_\mathrm{cat}/K_\mathrm{M}$ 26\% of parent): \emph{A.~niger} glucoamylase & dispensable & \citep{Bock1987} (FT)\\
-GH15 & $-1$ & O3 & INV (Arg54) & 3$'$-deoxy hydrolysed faster than the parent & dispensable & \citep{Bock1987,Bock1988} (FT)\\
-GH15 & $-1$ & O6 & INV (Asp55) & 6$'$-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
-GH15 & $+1$ & O3 & INV (Glu180, Arg305) & 3-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
-\bottomrule
-\end{tabular}
-\end{sidewaystable}
 
 \subsection{The map with real glucose in solution}\label{sec:md}
 At $-1$ and $+1$ the crystal map rests mostly on inhibitor rings, and the $+1$ ring of acarbose has no
@@ -665,7 +584,7 @@ are not compared. In GH13 at $-1$, the two glucose complexes give the crystal-ma
 (7DCG only), O3 is held by Glu204 in 99.5\% of frames, as in the map, whereas O6, which the crystal map
 had as buried from three units, is free and exposed (held in 3\% of frames, median 15.4~\AA$^2$ open).
 In GH14 (1J18), O6 at $+1$ is held in 82\% of frames by Glu186, Arg188 and Tyr192, as in the crystal map,
-so the disagreement of that cell with the sweet-potato $\beta$-amylase result (Table~\ref{tab:mapexp})
+so the disagreement of that cell with the sweet-potato $\beta$-amylase result (Table~S6)
 remains. Over the 48 GH13 and GH14 cells, 35 keep the crystal state and 40 keep the distinction between
 held and not held. The limits are these: the trajectories are the first 19--31~ns of 100~ns runs, with one
 replica; GH13 has two comparable complexes and GH14 one; GH31 and GH15 have no wild-type glucose complex
@@ -789,7 +708,7 @@ O3 at $+1$ is also held by fixed residues and no substituent fits there.
 \begin{sidewaystable}
 \centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.95}\scriptsize\setlength{\tabcolsep}{3pt}
 \caption{Which enzyme for which purpose. Facts: cell states (Fig.~\ref{fig:map}), steric fit (Table~S4;
-F, fits in $\ge$half of the groups; s, in fewer; N, in none) and literature (Table~\ref{tab:mapexp}).
+F, fits in $\ge$half of the groups; s, in fewer; N, in none) and literature (Table~S6, Section~\ref{sec:map}).
 Expected product: our interpretation. Sub., substituent; Me, methyl; P, phosphate; OSA, octenylsuccinyl.}
 \label{tab:purpose}
 \begin{tabular}{p{2.2cm}p{2.8cm}p{4.6cm}p{4.4cm}p{4.2cm}}
@@ -832,8 +751,8 @@ Avoid releasing substituted glucose &
 GH15 glucoamylase; GH31 $\alpha$-glucosidase &
 $-1$ INV for O2, O3, O6 in both families; fit N for every sub.\ except Me (GH31 $-1$ O2 s, O3 and O6 F; GH15
 $-1$ O3 s, O6$^\ast$ F) &
-GH15: no 6-P or 3-P at $-1$~\citep{Abe1982,Takeda1987}; O-Me at $-1$ blocks~\citep{Lemieux1996}; every C6$'$
-change blocks~\citep{Bock1988}. GH31: 4- and 6-deoxy not hydrolysed~\citep{Nishio2002} &
+GH15: no 6-P or 3-P at $-1$~\citep{Takeda1987}; O-Me at $-1$ blocks~\citep{Lemieux1996}; every C6$'$
+change blocks~\citep{Bock1988}. GH31: 4- and 6-deoxy not hydrolysed (Section~S13) &
 Free glucose comes only from unsubstituted units; substituted units stay in the residual oligosaccharides;
 for methyl the steric room at $-1$ does not mean tolerance (lost hydrogen bond)\\
 \midrule
@@ -857,9 +776,9 @@ abstracts~\citep{Lemieux1996,Mischnick2001}. No subsite-resolved product study e
 acetyl, octenyl-succinyl or carboxymethyl starch: their digests leave short oligomers carrying one
 substituent that resist glucoamylase, without the position of the substituent being
 determined~\citep{Huang2007,Huijbrechts2008}. For GH31 there are only deoxy substrates at
-$-1$~\citep{Ogawa2004,Nishio2002}. The two disagreements show that a fixed hydrogen bond in the crystal does
+$-1$ (Table~S6). The two disagreements show that a fixed hydrogen bond in the crystal does
 not by itself make an oxygen indispensable: O2 at $+1$ of glucoamylase is held by Glu180 but
-contributes nearly nothing to the transition state~\citep{Lemieux1996,Bock1987}. Whether a given
+contributes nearly nothing to the transition state (Section~\ref{sec:map}). Whether a given
 substituent has room at a free oxygen is a separate question (Section~\ref{sec:fit}).
 
 \subsection{What this does not show}
@@ -908,7 +827,7 @@ article.
 \section*{Data availability}
 The database, the scripts and the result tables that produce every number, table and figure are
 public at \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM} [PENDIENTE: Zenodo DOI];
-Section S12 of the Supplementary material lists the script and the result table behind each table
+Section S14 of the Supplementary material lists the script and the result table behind each table
 and figure.
 
 \section*{Acknowledgements}
@@ -923,7 +842,7 @@ Investigaci\'on GIFTEX, Universidad Industrial de Santander) for support during 
 work.
 
 \section*{Appendix A. Supplementary material}
-Supplementary material (Sections S1--S11, Tables S1--S5, Figure S1) accompanies this article
+Supplementary material (Sections S1--S14, Tables S1--S7, Figure S1) accompanies this article
 (ijbm\_SI.pdf).
 
 \bibliographystyle{elsarticle-num}

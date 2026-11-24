@@ -12,40 +12,12 @@ N.~Masina, Y.~E. Choonara, P.~Kumar, L.~C. du~Toit, M.~Govender, S.~Indermun,
 \newblock \href {https://doi.org/10.1016/j.carbpol.2016.09.094}
   {\path{doi:10.1016/j.carbpol.2016.09.094}}.
 
-\bibitem{Chen2015}
-Q.~Chen, H.~Yu, L.~Wang, Z.~ul~Abdin, Y.~Chen, J.~Wang, W.~Zhou, X.~Yang, R.~U.
-  Khan, H.~Zhang, X.~Chen, Recent progress in chemical modification of starch
-  and its applications, RSC Advances 5~(83) (2015) 67459--67474.
-\newblock \href {https://doi.org/10.1039/C5RA10849G}
-  {\path{doi:10.1039/C5RA10849G}}.
-
-\bibitem{Altuna2018}
-L.~Altuna, M.~L. Herrera, M.~L. Foresti, Synthesis and characterization of
-  octenyl succinic anhydride modified starches for food applications. {A}
-  review of recent literature, Food Hydrocolloids 80 (2018) 97--110.
-\newblock \href {https://doi.org/10.1016/j.foodhyd.2018.01.032}
-  {\path{doi:10.1016/j.foodhyd.2018.01.032}}.
-
-\bibitem{Richardson2003}
-S.~Richardson, L.~Gorton, Characterisation of the substituent distribution in
-  starch and cellulose derivatives, Analytica Chimica Acta 497~(1-2) (2003)
-  27--65.
-\newblock \href {https://doi.org/10.1016/j.aca.2003.08.005}
-  {\path{doi:10.1016/j.aca.2003.08.005}}.
-
 \bibitem{Mischnick2010}
 P.~Mischnick, D.~Momcilovic, Chemical structure analysis of starch and
   cellulose derivatives, in: Advances in Carbohydrate Chemistry and
   Biochemistry, Vol.~64, Academic Press, 2010, pp. 117--210.
 \newblock \href {https://doi.org/10.1016/S0065-2318(10)64004-8}
   {\path{doi:10.1016/S0065-2318(10)64004-8}}.
-
-\bibitem{Zhao2012}
-J.~Zhao, H.~A. Schols, Z.~Chen, Z.~Jin, P.~Buwalda, H.~Gruppen, Substituent
-  distribution within cross-linked and hydroxypropylated sweet potato starch
-  and potato starch, Food Chemistry 133~(4) (2012) 1333--1340.
-\newblock \href {https://doi.org/10.1016/j.foodchem.2012.02.021}
-  {\path{doi:10.1016/j.foodchem.2012.02.021}}.
 
 \bibitem{Conway1976}
 R.~L. Conway, L.~F. Hood, Pancreatic alpha amylase hydrolysis products of
@@ -116,116 +88,6 @@ W.~Kabsch, {A solution for the best rotation to relate two sets of vectors},
 \newblock \href {https://doi.org/10.1107/s0567739476001873}
   {\path{doi:10.1107/s0567739476001873}}.
 
-\bibitem{Shrake1973}
-A.~Shrake, J.~A. Rupley, Environment and exposure to solvent of protein atoms.
-  {Lysozyme} and insulin, Journal of Molecular Biology 79~(2) (1973) 351--371.
-\newblock \href {https://doi.org/10.1016/0022-2836(73)90011-9}
-  {\path{doi:10.1016/0022-2836(73)90011-9}}.
-
-\bibitem{Wang2020}
-S.~Wang, J.~Witek, G.~A. Landrum, S.~Riniker, Improving conformer generation
-  for small rings and macrocycles based on distance geometry and experimental
-  torsional-angle preferences, Journal of Chemical Information and Modeling
-  60~(4) (2020) 2044--2058.
-\newblock \href {https://doi.org/10.1021/acs.jcim.0c00025}
-  {\path{doi:10.1021/acs.jcim.0c00025}}.
-
-\bibitem{Halgren1996}
-T.~A. Halgren, Merck molecular force field. {I}. {Basis}, form, scope,
-  parameterization, and performance of {MMFF94}, Journal of Computational
-  Chemistry 17~(5--6) (1996) 490--519.
-\newblock \href
-  {https://doi.org/10.1002/(SICI)1096-987X(199604)17:5/6<490::AID-JCC1>3.0.CO;2-P}
-  {\path{doi:10.1002/(SICI)1096-987X(199604)17:5/6<490::AID-JCC1>3.0.CO;2-P}}.
-
-\bibitem{Maier2015}
-J.~A. Maier, C.~Martinez, K.~Kasavajhala, L.~Wickstrom, K.~E. Hauser,
-  C.~Simmerling, ff14sb: Improving the accuracy of protein side chain and
-  backbone parameters from ff99sb, Journal of Chemical Theory and Computation
-  11~(8) (2015) 3696--3713.
-\newblock \href {https://doi.org/10.1021/acs.jctc.5b00255}
-  {\path{doi:10.1021/acs.jctc.5b00255}}.
-
-\bibitem{kirschner2008}
-K.~N. Kirschner, A.~B. Yongye, S.~M. Tschampel, J.~Gonz{\'a}lez-Outeiri{\~n}o,
-  C.~R. Daniels, B.~L. Foley, R.~J. Woods, {GLYCAM06}: a generalizable
-  biomolecular force field. {C}arbohydrates, J. Comput. Chem. 29 (2008)
-  622--655.
-\newblock \href {https://doi.org/10.1002/jcc.20820}
-  {\path{doi:10.1002/jcc.20820}}.
-
-\bibitem{Jorgensen1983}
-W.~L. Jorgensen, J.~Chandrasekhar, J.~D. Madura, R.~W. Impey, M.~L. Klein,
-  Comparison of simple potential functions for simulating liquid water, The
-  Journal of Chemical Physics 79~(2) (1983) 926--935.
-\newblock \href {https://doi.org/10.1063/1.445869}
-  {\path{doi:10.1063/1.445869}}.
-
-\bibitem{Joung2008}
-I.~S. Joung, T.~E. Cheatham, Determination of alkali and halide monovalent ion
-  parameters for use in explicitly solvated biomolecular simulations, The
-  Journal of Physical Chemistry B 112~(30) (2008) 9020--9041.
-\newblock \href {https://doi.org/10.1021/jp8001614}
-  {\path{doi:10.1021/jp8001614}}.
-
-\bibitem{Li2013}
-P.~Li, B.~P. Roberts, D.~K. Chakravorty, K.~M. Merz, Rational design of
-  particle mesh ewald compatible lennard-jones parameters for +2 metal cations
-  in explicit solvent, Journal of Chemical Theory and Computation 9~(6) (2013)
-  2733--2748.
-\newblock \href {https://doi.org/10.1021/ct400146w}
-  {\path{doi:10.1021/ct400146w}}.
-
-\bibitem{Olsson2011}
-M.~H.~M. Olsson, C.~R. S{\o}ndergaard, M.~Rostkowski, J.~H. Jensen, Propka3:
-  Consistent treatment of internal and surface residues in empirical
-  p{$K_\mathrm{a}$} predictions, Journal of Chemical Theory and Computation
-  7~(2) (2011) 525--537.
-\newblock \href {https://doi.org/10.1021/ct100578z}
-  {\path{doi:10.1021/ct100578z}}.
-
-\bibitem{Abraham2015}
-M.~J. Abraham, T.~Murtola, R.~Schulz, S.~P{\'a}ll, J.~C. Smith, B.~Hess,
-  E.~Lindahl, Gromacs: High performance molecular simulations through
-  multi-level parallelism from laptops to supercomputers, SoftwareX 1-2 (2015)
-  19--25.
-\newblock \href {https://doi.org/10.1016/j.softx.2015.06.001}
-  {\path{doi:10.1016/j.softx.2015.06.001}}.
-
-\bibitem{Bussi2007}
-G.~Bussi, D.~Donadio, M.~Parrinello, Canonical sampling through velocity
-  rescaling, The Journal of Chemical Physics 126~(1) (2007).
-\newblock \href {https://doi.org/10.1063/1.2408420}
-  {\path{doi:10.1063/1.2408420}}.
-
-\bibitem{Bernetti2020}
-M.~Bernetti, G.~Bussi, Pressure control using stochastic cell rescaling, The
-  Journal of Chemical Physics 153~(11) (2020).
-\newblock \href {https://doi.org/10.1063/5.0020514}
-  {\path{doi:10.1063/5.0020514}}.
-
-\bibitem{Hess1997}
-B.~Hess, H.~Bekker, H.~J.~C. Berendsen, J.~G. E.~M. Fraaije, Lincs: A linear
-  constraint solver for molecular simulations, Journal of Computational
-  Chemistry 18~(12) (1997) 1463--1472.
-\newblock \href
-  {https://doi.org/10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H}
-  {\path{doi:10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H}}.
-
-\bibitem{Essmann1995}
-U.~Essmann, L.~Perera, M.~L. Berkowitz, T.~Darden, H.~Lee, L.~G. Pedersen, A
-  smooth particle mesh ewald method, The Journal of Chemical Physics 103~(19)
-  (1995) 8577--8593.
-\newblock \href {https://doi.org/10.1063/1.470117}
-  {\path{doi:10.1063/1.470117}}.
-
-\bibitem{MichaudAgrawal2011}
-N.~Michaud-Agrawal, E.~J. Denning, T.~B. Woolf, O.~Beckstein, Mdanalysis: A
-  toolkit for the analysis of molecular dynamics simulations, Journal of
-  Computational Chemistry 32~(10) (2011) 2319--2327.
-\newblock \href {https://doi.org/10.1002/jcc.21787}
-  {\path{doi:10.1002/jcc.21787}}.
-
 \bibitem{vanderBurgt1998}
 Y.~E.~M. van~der Burgt, J.~Bergsma, I.~P. Bleeker, P.~J. H.~C. Mijland, A.~van
   der Kerk-van Hoof, J.~P. Kamerling, J.~F.~G. Vliegenthart, Distribution of
@@ -240,13 +102,6 @@ M.~Okada, K.~Ogawa, T.~Usui, Substrate specificity of human and bovine
   of Applied Glycoscience 47~(1) (2000) 35--44.
 \newblock \href {https://doi.org/10.5458/jag.47.35}
   {\path{doi:10.5458/jag.47.35}}.
-
-\bibitem{Omichi1988}
-K.~Omichi, T.~Ikenaka, Differential assays of human pancreatic and salivary
-  $\alpha$-amylases with fluorogenic maltooligosaccharides as substrates,
-  Journal of the Japanese Society of Starch Science 35~(2) (1988) 165--171.
-\newblock \href {https://doi.org/10.5458/jag1972.35.165}
-  {\path{doi:10.5458/jag1972.35.165}}.
 
 \bibitem{Takeda1983}
 Y.~Takeda, S.~Hizukuri, Y.~Ozono, M.~Suetake, Actions of porcine pancreatic and
@@ -290,72 +145,6 @@ P.~Mischnick, Specificity of microbial $\alpha$-amylase and amyloglucosidase
 \newblock \href
   {https://doi.org/10.1002/1521-379X(200104)53:3/4<110::AID-STAR110>3.0.CO;2-Y}
   {\path{doi:10.1002/1521-379X(200104)53:3/4<110::AID-STAR110>3.0.CO;2-Y}}.
-
-\bibitem{Bock1988}
-K.~Bock, H.~Pedersen, The substrate specificity of the enzyme amyloglucosidase
-  ({AMG}). {Part II}. 6-{Substituted} maltose derivatives, Acta Chemica
-  Scandinavica B 42 (1988) 75--85.
-\newblock \href {https://doi.org/10.3891/acta.chem.scand.42b-0075}
-  {\path{doi:10.3891/acta.chem.scand.42b-0075}}.
-
-\bibitem{Nishio2002}
-T.~Nishio, Effect of sugar hydroxyl groups on activities and specificities of
-  $\alpha$-glycosidase and lipase, Journal of Applied Glycoscience 49~(1)
-  (2002) 45--55.
-\newblock \href {https://doi.org/10.5458/jag.49.45}
-  {\path{doi:10.5458/jag.49.45}}.
-
-\bibitem{Kamasaka1997}
-H.~Kamasaka, K.~To-o, K.~Kusaka, T.~Kuriki, T.~Kometani, H.~Hayashi, S.~Okada,
-  The structures of phosphoryl oligosaccharides prepared from potato starch,
-  Bioscience, Biotechnology, and Biochemistry 61~(2) (1997) 238--244.
-\newblock \href {https://doi.org/10.1271/bbb.61.238}
-  {\path{doi:10.1271/bbb.61.238}}.
-
-\bibitem{Omichi1992}
-K.~Omichi, S.~Hase, T.~Ikenaka, Studies on the active site of human
-  $\alpha$-amylases: examination of the third subsite {S3$'$} of the
-  aglycone-binding site by control of substrate binding mode, The Journal of
-  Biochemistry 111~(1) (1992) 4--7.
-\newblock \href {https://doi.org/10.1093/oxfordjournals.jbchem.a123716}
-  {\path{doi:10.1093/oxfordjournals.jbchem.a123716}}.
-
-\bibitem{Kandra1997}
-L.~Kandra, G.~Gy{\'e}m{\'a}nt, E.~Farkas, A.~Lipt{\'a}k, Action pattern of
-  porcine pancreatic alpha-amylase on three different series of
-  $\beta$-maltooligosaccharide glycosides, Carbohydrate Research 298~(3) (1997)
-  237--242.
-\newblock \href {https://doi.org/10.1016/S0008-6215(96)00310-2}
-  {\path{doi:10.1016/S0008-6215(96)00310-2}}.
-
-\bibitem{Kandra2000}
-L.~Kandra, G.~Gy{\'e}m{\'a}nt, Examination of the active sites of human
-  salivary $\alpha$-amylase ({HSA}), Carbohydrate Research 329~(3) (2000)
-  579--585.
-\newblock \href {https://doi.org/10.1016/S0008-6215(00)00221-4}
-  {\path{doi:10.1016/S0008-6215(00)00221-4}}.
-
-\bibitem{Yoshida1984}
-M.~Yoshida, T.~Kishikawa, A study of hydroxyethyl starch. {Part II}.
-  {Degradation}-sites of hydroxyethyl starch by pig pancreas $\alpha$-amylase,
-  Starch - St{\"a}rke 36~(5) (1984) 167--169.
-\newblock \href {https://doi.org/10.1002/star.19840360505}
-  {\path{doi:10.1002/star.19840360505}}.
-
-\bibitem{Abe1982}
-J.-I. Abe, Y.~Takeda, S.~Hizukuri, Action of glucoamylase from {Aspergillus
-  niger} on phosphorylated substrate, Biochimica et Biophysica Acta, Protein
-  Structure and Molecular Enzymology 703~(1) (1982) 26--33.
-\newblock \href {https://doi.org/10.1016/0167-4838(82)90006-1}
-  {\path{doi:10.1016/0167-4838(82)90006-1}}.
-
-\bibitem{Ogawa2004}
-M.~Ogawa, T.~Nishio, W.~Hakamata, Y.~Matsuishi, S.~Hoshino, A.~Kondo,
-  M.~Kitagawa, R.~Kawachi, T.~Oku, Substrate hydroxyl groups are involved in
-  the ionization of catalytic carboxyl groups of {Aspergillus niger}
-  $\alpha$-glucosidase, Journal of Applied Glycoscience 51~(1) (2004) 9--14.
-\newblock \href {https://doi.org/10.5458/jag.51.9}
-  {\path{doi:10.5458/jag.51.9}}.
 
 \bibitem{vanderBurgt2000b}
 Y.~E.~M. van~der Burgt, J.~Bergsma, I.~P. Bleeker, P.~J. H.~C. Mijland, J.~P.
@@ -411,6 +200,20 @@ M.~S{\o}gaard, A.~Kadziola, R.~Haser, B.~Svensson, Site-directed mutagenesis of
   (1993) 22480--22484.
 \newblock \href {https://doi.org/10.1016/S0021-9258(18)41554-2}
   {\path{doi:10.1016/S0021-9258(18)41554-2}}.
+
+\bibitem{Bock1988}
+K.~Bock, H.~Pedersen, The substrate specificity of the enzyme amyloglucosidase
+  ({AMG}). {Part II}. 6-{Substituted} maltose derivatives, Acta Chemica
+  Scandinavica B 42 (1988) 75--85.
+\newblock \href {https://doi.org/10.3891/acta.chem.scand.42b-0075}
+  {\path{doi:10.3891/acta.chem.scand.42b-0075}}.
+
+\bibitem{Omichi1988}
+K.~Omichi, T.~Ikenaka, Differential assays of human pancreatic and salivary
+  $\alpha$-amylases with fluorogenic maltooligosaccharides as substrates,
+  Journal of the Japanese Society of Starch Science 35~(2) (1988) 165--171.
+\newblock \href {https://doi.org/10.5458/jag1972.35.165}
+  {\path{doi:10.5458/jag1972.35.165}}.
 
 \bibitem{Huang2007}
 J.~Huang, H.~A. Schols, R.~Klaver, Z.~Jin, A.~G.~J. Voragen, Acetyl
