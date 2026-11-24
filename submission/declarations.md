@@ -1,4 +1,4 @@
-# Declarations: A fixed core and a variable rim: hydroxyl contacts at the subsites of α-amylases and related starch hydrolases, compared with the hydrolysis of substituted starch
+# Declarations: A structural map of glucose-hydroxyl recognition in α-amylases and α-glucosidases and its implications for the enzymatic hydrolysis of chemically modified starch
 
 Manuscript for the *International Journal of Biological Macromolecules*. Authors: Nedis I. Acevedo-Viloria (a, b), Yurimar
 Ruiz-Rocha (c, d) and Aldo F. Combariza (e, d; corresponding author).

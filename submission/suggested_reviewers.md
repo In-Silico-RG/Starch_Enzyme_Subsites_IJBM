@@ -2,7 +2,7 @@
 
 **The author selects 3–5. None of these names goes into the submission without approval.**
 
-Manuscript: "A fixed core and a variable rim: hydroxyl contacts at the subsites of α-amylases and related starch hydrolases, compared with the hydrolysis of substituted starch" (IJBM). Compiled 2026-11-24.
+Manuscript: "A structural map of glucose-hydroxyl recognition in α-amylases and α-glucosidases and its implications for the enzymatic hydrolysis of chemically modified starch" (IJBM). Compiled 2026-11-24.
 
 How each item was checked: the affiliation and e-mail come from a current institutional page or from the
 author line of a 2024–2026 paper (Europe PMC record, which carries the affiliation as printed). Paper titles and
