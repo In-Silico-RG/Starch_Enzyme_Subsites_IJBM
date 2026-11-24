@@ -117,18 +117,24 @@ clans~\citep{Henrissat1996}. Because families are defined by similarity of amino
 
 \begin{table}[t]
 \centering
-\caption{The four CAZy families analysed. Distinct enzymes: PDB entries of proteins whose amino-acid sequences are at least 50\% identical are counted as one enzyme, so that many structures of one enzyme do not outweigh the rest.}
+\caption{From the 637 PDB entries to the enzymes compared.}
 \label{tab:families}
-\begin{tabular}{lllll}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llllrrrr}
 \toprule
-Family & Enzymes & Clan & Mechanism~\citep{Davies1995} & Distinct enzymes\\
+ & & & & PDB & \multicolumn{2}{c}{Used$^b$} & Distinct\\
+Family & Enzymes & Clan & Mechanism$^a$ & entries & residues & map & enzymes$^c$\\
 \midrule
-GH13 & $\alpha$-amylase family & GH-H & retaining & 29\\
-GH31 & $\alpha$-glucosidases & GH-D & retaining & 6\\
-GH14 & $\beta$-amylase & none & inverting & 2\\
-GH15 & glucoamylase & GH-L & inverting & 2\\
+GH13 & $\alpha$-amylases & GH-H & retaining & 412 & 79 & 76 & 29\\
+GH31 & $\alpha$-glucosidases & GH-D & retaining & 73 & 18 & 17 & 6\\
+GH14 & $\beta$-amylase & none & inverting & 50 & -- & 17 & 2\\
+GH15 & glucoamylase & GH-L & inverting & 18 & -- & 4 & 2\\
+\multicolumn{4}{l}{Ten other families (Table~S13)} & 84 & -- & -- & --\\
+\midrule
+\multicolumn{4}{l}{Total} & 637 & 97 & 114 & \\
 \bottomrule
 \end{tabular}
+\par\smallskip\noindent{\scriptsize $^a$ From \citep{Davies1995}. $^b$ Entries with a glucose unit supported by the electron density at subsites $-3$ to $+3$; residues, entries used for residue conservation (Section~\ref{sec:rule}); map, entries used for the oxygen map (Section~\ref{sec:map}). $^c$ All entries of proteins whose amino-acid sequences are at least 50\% identical count as one enzyme.\par}
 \end{table}
 
 In each of these four families two catalytic carboxylic acids do the
@@ -167,12 +173,9 @@ and the substituents in question; the same structures with opaque surfaces are i
 \section{Materials and methods}
 
 \subsection{Database and superposition}
-The families were taken from the CAZy~\citep{Drula2022} family and activity pages read on 11 November 2026 (site update of 6
-November 2026): every family whose CAZy activities include breaking an $\alpha(1\!\to\!4)$ bond of an
-$\alpha$-glucan chain or an $\alpha(1\!\to\!6)$ branch on such a chain, by hydrolysis, phosphorolysis (GT35),
-elimination (the GH31 lyase) or oxidation (AA13), or a generic $\alpha$-glucosidase activity (EC 3.2.1.20,
-3.2.1.10), and that has deposited structures of such an enzyme: 14 families (Table~S13 gives the clan, three-dimensional structure type,
-mechanism, catalytic residues and starch-related activities of each as CAZy states them; GH119 has no structure).
+The database holds every CAZy~\citep{Drula2022} family with an activity that breaks an $\alpha(1\!\to\!4)$ bond of
+an $\alpha$-glucan chain or an $\alpha(1\!\to\!6)$ branch on it (by hydrolysis, phosphorolysis, elimination or
+oxidation) and with deposited structures of such an enzyme: 14 families (Table~S13; GH119 has no structure).
 Every PDB entry~\citep{Berman2000} of the 14 families was read
 with gemmi~\citep{Wojdyr2022}; every non-water, non-standard residue was registered with
 its fit to the experimental electron density (the real-space correlation coefficient,
@@ -375,7 +378,7 @@ A substituent sits on O2, O3 or O6 of a glucose unit, so a processing design ask
 not only which residues are fixed. The data are 439 density-supported glucose-like units in 114 entries: GH13, 299
 units in 76 entries; GH31, 77 in 17; GH14, 43 in 17; GH15, 20 in 4. In GH13 the subsites $-3$ to $+3$ are represented
 by 17, 22, 29, 17, 15 and 10 distinct enzymes; in GH31, subsite $-1$ by 6 enzymes and $+1$ to $+3$ by 5; GH14 ($-2$ to
-$+2$) and GH15 ($-1$ to $+3$) by two groups each. (The 308 GH13 and 82 GH31 units of Fig.~\ref{fig:overview}c,d
+$+2$) and GH15 ($-1$ to $+3$) by two enzymes each. (The 308 GH13 and 82 GH31 units of Fig.~\ref{fig:overview}c,d
 become 299 and 77 after the exclusions of Section~\ref{sec:methods_map}.)
 
 Figure~\ref{fig:map} gives the state of every cell and the fraction of distinct enzymes in which the oxygen is held.
