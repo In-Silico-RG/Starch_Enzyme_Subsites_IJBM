@@ -13,6 +13,7 @@
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{tabularx}
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage{lineno}
@@ -135,20 +136,20 @@ glycosyl--enzyme intermediate formed by a nucleophile and broken with the help o
 one step with a general base and a general acid~\citep{Davies1995}.
 
 \begin{table}[htbp]
-\centering\renewcommand{\baselinestretch}{1}\small\setlength{\tabcolsep}{4pt}
+\centering\renewcommand{\baselinestretch}{1}\footnotesize\setlength{\tabcolsep}{3pt}
 \caption{The four CAZy families analysed. Action: endo, cuts inside the chain; exo, removes units from the
 non-reducing end. Catalytic residues are numbered as in the reference structure of each family (Section~2).}
 \label{tab:families}
-\begin{tabular}{l>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{1.6cm}l>{\raggedright\arraybackslash}p{1.6cm}>{\raggedright\arraybackslash}p{3.0cm}l}
+\begin{tabularx}{\linewidth}{l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}Xlp{0.9cm}>{\raggedright\arraybackslash}Xl}
 \toprule
-Family & Typical enzymes & Action & Mechanism & Clan & Catalytic residues & Reference PDB\\
+Family & Typical enzymes & Action & Mech. & Clan & Catalytic residues & PDB\\
 \midrule
 GH13 & $\alpha$-amylase, pullulanase, maltogenic amylase, $\alpha$-glucosidase & endo ($\alpha$-amylase) and exo & retaining & GH-H & Asp179 nucleophile, Glu204 proton donor & 1AMY\\
 GH31 & $\alpha$-glucosidase, $\alpha$-1,4-glucan lyase & exo & retaining & GH-D & Asp443 nucleophile, Asp542 proton donor & 2QMJ\\
 GH14 & $\beta$-amylase & exo (maltose) & inverting & none & Glu380 base, Glu186 acid & 1BYA\\
 GH15 & glucoamylase & exo (glucose) & inverting & GH-L & Glu400 base, Glu179 acid & 1AGM\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 What distinguishes one enzyme from another of the same family is usually described as the set of residues at the
@@ -296,9 +297,9 @@ unit at the cell. Code: short label of the state in the code and data. Predictio
 against published hydrolysis data of substituted substrates (Section~2.5); ``tolerated'' means that the enzyme cuts
 with the substituted unit at that subsite.}
 \label{tab:states}
-\begin{tabular}{l l >{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{1.6cm} >{\raggedright\arraybackslash}p{1.7cm} >{\raggedright\arraybackslash}p{3.6cm}}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{1.6cm}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{1.4cm}>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}X}
 \toprule
-State & Code & Criterion & Colour in Fig.~\ref{fig:map} & Prediction & Scoring\\
+State & Code & Criterion & Colour & Prediction & Scoring\\
 \midrule
 Fixed & INV & held in $\ge$half of the groups, and in $\ge$half of them by a fixed side chain & orange & not tolerated & agrees if no enzyme tested tolerates the substituent; disagrees if any does\\
 Variable & VAR & held in $\ge$half of the groups, by side chains that are not fixed & blue & depends on the enzyme & agrees (compatible) if at least one enzyme tolerates; disagrees if none does\\
@@ -306,7 +307,7 @@ Main chain & MC & held in $\ge$half of the groups, by main-chain N/O only & sand
 Free, exposed & EXP & not held; median open surface $\ge$5~\AA$^2$ and $\ge$25\% of that of the same atom in the ligand alone & white, hatched & tolerated & agrees (compatible) if at least one enzyme tolerates; disagrees if none does\\
 Free, buried & BUR & not held and not exposed & grey & none & not scored\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsection{Comparison with published hydrolysis data}\label{sec:methods_lit}
@@ -334,14 +335,14 @@ In 6$^k$-phosphoryl maltotriose the phosphate is on O6 of unit $k$, counted from
 ends of these products were made by cuts, so the phosphorylated unit sat at $-k$ in the cut that made the reducing
 end and at $+(n-k+1)$ in the cut that made the non-reducing end.}
 \label{tab:reading}
-\begin{tabular}{llrrcc}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}Xrrcc}
 \toprule
 Product & Enzyme & $n$ & $k$ & At $-k$ & At $+(n-k+1)$\\
 \midrule
 6$^2$-phosphoryl maltotriose & \emph{Bacillus subtilis} $\alpha$-amylase & 3 & 2 & $-2$ & $+(3-2+1) = +2$\\
 6$^3$-phosphoryl maltotriose & porcine pancreatic $\alpha$-amylase & 3 & 3 & $-3$ & $+(3-3+1) = +1$\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsection{Free volume around the oxygens}\label{sec:methods_fit}
@@ -383,7 +384,7 @@ holds in at least half of the sequence groups with a unit there; in brackets, in
 groups with a residue at the position. $m$: eq~\ref{eq:modal}. Fixed, the same residue in every group; variable, the
 residue differs between groups; $^\dagger$ one exception (Gln in 6SAO).}
 \label{tab:hpos}
-\begin{tabular}{lllllrrl}
+\begin{tabularx}{\linewidth}{llll>{\raggedright\arraybackslash}Xrrl}
 \toprule
 Family & Position & TAKA & Subsites & Oxygens held & Groups & $m$ & Status\\
 \midrule
@@ -402,7 +403,7 @@ GH31 & His600 & -- & $-1$ & O3 at $-1$ & 6 & 1.00 & fixed\\
 GH31 & Asp203 & -- & $+1$ & O2, O3 at $+1$ & 5 & 1.00 & fixed\\
 GH31 & Arg526 & -- & $-1$, $+1$ & O2 at $-1$; O3 at $+1$ & 5 & 1.00 & fixed\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 The ten aromatic positions keep an aromatic ring more often than their identity (aromatic fraction 0.41--1.00,
@@ -447,7 +448,7 @@ over the hydrogen-bonding positions; --, not applicable. The outer-subsite row h
 because it classes positions by their contacts at $-3$, $-2$, $+2$ and $+3$ only: it adds GH13 Lys182, which also
 contacts $+2$, and it has six aliphatic positions. Robustness settings in Table~S6.}
 \label{tab:tests}
-\begin{tabular}{>{\raggedright\arraybackslash}p{5.6cm}rrrrr}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}Xrrrrr}
 \toprule
 Comparison & $n$ & Difference & $p$ & $p$ within family & $p$ within location\\
 \midrule
@@ -458,7 +459,7 @@ All positions: hydrogen-bonding vs aliphatic & 17/8 & +0.33 & 0.005 & 0.003 & 0.
 All positions: hydrogen-bonding vs aromatic & 17/10 & +0.18 & 0.10 & 0.11 & 0.066\\
 Without catalytic residues: hydrogen-bonding vs aliphatic & 12/8 & +0.28 & 0.029 & 0.027 & 0.036\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsection{The glucose oxygens held at each subsite form a map of contact states}\label{sec:map}
@@ -518,7 +519,7 @@ numbering: GH13 1AMY, GH31 2QMJ, GH14 1BYA, GH15 1AGM; ``pos.'', a variable posi
 ``no ref.'', a residue without a structural equivalent in the reference; residues of fixed cells in bold). O4 at $+1$ is the oxygen of the bond that is
 cut. --, no density-supported unit or atom.}
 \label{tab:cells}
-\begin{tabular}{l>{\raggedright\arraybackslash}p{3.7cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{2.2cm}}
+\begin{tabularx}{\linewidth}{l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 \toprule
 Cell & GH13 & GH31 & GH14 & GH15\\
 \midrule
@@ -540,7 +541,7 @@ $+2$ O6 & free, exposed & free, exposed & free, buried & main chain\\
 \addlinespace
 $-3$, $+3$ & free, exposed; at $+3$, O2 and O3 main chain & $+3$: O2, O3 exposed; O6 buried & -- & $+3$: free, exposed\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \begin{figure}[!htbp]
@@ -616,7 +617,7 @@ oxygen at $-1$/$+1$ not tolerated and every other tolerated (exact McNemar test 
 map); permuted maps, states shuffled within family (10\,000 maps; mean and 95\% range of the fraction agreeing among
 their predicted cells). Informative: cells with an enzyme contrast where variable is predicted.}
 \label{tab:agree}
-\begin{tabular}{lrr}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}Xrr}
 \toprule
 Map or subset & Cells & Agree\\
 \midrule
@@ -638,7 +639,7 @@ By substituent: phosphate & 18 & 17\\
 \quad 6-amino, 6-iodo, 6-pyridylamino, 6-halo & 3 & 3\\
 All evidence except phosphate (informative) & 13 (11) & 10\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \begin{figure}[!htbp]
@@ -683,7 +684,7 @@ methyl at fixed cells, 8 of 21). Me, methyl; HE, 2-hydroxyethyl; HP, 2-hydroxypr
 P, phosphate; Suc, succinyl; OSA, octenylsuccinyl. 52 cells with a state; two O6$^\ast$ cells without a state (no O6
 deposited) are not shown.}
 \label{tab:fit}
-\begin{tabular}{lrrrrrrrrr}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}Xrrrrrrrrr}
 \toprule
 State & Cells & Me & HE & HP & Ac & CM & P & Suc & OSA\\
 \midrule
@@ -693,7 +694,7 @@ Main chain & 6 & 50 & 50 & 50 & 50 & 50 & 17 & 33 & 0\\
 Free, exposed & 15 & 100 & 100 & 100 & 93 & 100 & 67 & 87 & 80\\
 Free, buried & 3 & 100 & 100 & 100 & 100 & 100 & 33 & 100 & 100\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsection{Hypotheses for processing substituted starch}\label{sec:design}
@@ -721,7 +722,7 @@ GH13 oxygens are held only by variable residues.
 glucan~\citep{Takeda1983,TakedaHizukuri1986,Takeda1987}, read from their limit products with the rule of
 Table~\ref{tab:reading}.}
 \label{tab:phos}
-\begin{tabular}{llll}
+\begin{tabularx}{\linewidth}{ll>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 \toprule
 $\alpha$-Amylase & Substituent & Subsites where accepted & Limit product\\
 \midrule
@@ -732,7 +733,7 @@ Porcine pancreatic & 6-phosphate & $-3$ and $+1$ & 6$^3$-phosphoryl maltotriose\
 \emph{Aspergillus oryzae} & 6-phosphate & $-3$ and $+1$ & 6$^3$-phosphoryl maltotriose\\
  & 3-phosphate & $-3$ and $+2$ & \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \emph{(iii) The variable positions at $-2$ and $+2$ are candidates for engineering tolerance of substituted units.}
@@ -753,7 +754,7 @@ been measured (facts per purpose in Table~S12).
 \caption{Expected behaviour of three kinds of enzyme on a substituted starch, from the map, and the evidence. No family
 accepts a substituted unit at $-1$ in the data.}
 \label{tab:choice}
-\begin{tabular}{>{\raggedright\arraybackslash}p{2.9cm}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{5.6cm}}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 \toprule
 Enzyme type & Expected behaviour on substituted starch & Evidence; not yet measured\\
 \midrule
@@ -769,7 +770,7 @@ $\alpha$-Amylase chosen for $-2$/$+2$ & sets the distance of the substituted uni
 substituted oligosaccharides & phosphate products of three $\alpha$-amylases (Table~\ref{tab:phos}); not measured for
 other substituents\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsection{Limitations}
