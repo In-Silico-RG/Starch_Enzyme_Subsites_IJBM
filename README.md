@@ -29,7 +29,7 @@ paper asks which glucose oxygens each subsite holds.
 
 The Supplementary material also holds the contact positions (Table S1), unfinished molecular dynamics of three
 glucose-only complexes (S3; not used in the main text), the GH13 map over the 13 α-amylase groups (Table S9), the
-sequence groups with UniProt/EC/GH13 subfamily (Table S10) and the numbering concordance with TAKA-amylase and porcine
+distinct enzymes with UniProt/EC/GH13 subfamily (Table S10) and the numbering concordance with TAKA-amylase and porcine
 pancreatic α-amylase (Table S11). Ring distortion, conserved waters, PROPKA and MM/GBSA, which the article does not
 use, were removed from the Supplementary material in the round-2 revision; their scripts and results remain in `code/`
 and `data/` (steps 12 and 2).
@@ -92,7 +92,7 @@ Run from the repository root with the Python environment of `environment.txt`. E
 | 4 | Kind of contact (Sect. 2.3; GH14/GH15 in Section S4) | `python code/analysis/a40_contact_types.py`; `python code/analysis/a40_contact_types.py GH14 GH15` | → `data/analysis/40_contact_types/` (`all_*` for the second) |
 | 5 | Protein identity groups (Sect. 2.2) | `code/analysis/grip_independence_check/step1.py … step5.py <workdir>` | see note 2 → `data/analysis/grip_independence_check/` |
 | 6 | Table S1, earlier test runs (residue test) | `python code/analysis/a44a_build.py`; `python code/analysis/a44b_tests.py`; `python code/analysis/a44c_tables.py` | → `data/analysis/44_rule_test/` (`C_identity_T20.tsv`, `D_tests.tsv`, …; the pre-revision `REPORT.md`, `rule_section.tex`, `tab_tests.tex`, `E_inner_vs_outer_H.tsv` are in `superseded/`, see its `NOTE.md`) |
-| 7 | Revision analyses: m vs m_map (Table S5), map baselines (Table 2, Table S8), sequence groups with GH13 subfamily (Table S10), numbering concordance (Table S11) | `python code/analysis/a44d_revision.py` (part D reads UniProt once, cached in `revision/uniprot_ncbi_cache.json`, and the CAZy data file `cazy_data.zip`, not shipped) | → `data/analysis/44_rule_test/revision/` |
+| 7 | Revision analyses: m vs m_map (Table S5), map baselines (Table 2, Table S8), distinct enzymes with GH13 subfamily (Table S10), numbering concordance (Table S11) | `python code/analysis/a44d_revision.py` (part D reads UniProt once, cached in `revision/uniprot_ncbi_cache.json`, and the CAZy data file `cazy_data.zip`, not shipped) | → `data/analysis/44_rule_test/revision/` |
 | 7b | Round-2 analyses: every reported permutation test with 100 000 permutations and one seed (Table 1, Table S6), model of m (Table S7), McNemar, per-family and abstract-only scores (Table 2, Section S8), α-amylase-only map (Table S9), MD numbers (Section S3) | `python code/analysis/a44e_round2.py` (runs from the shipped `data/` alone) | → `data/analysis/44_rule_test/revision2/` |
 | 8 | Control at non-catalytic sites (not in the article since round 2) | `python code/analysis/a41_control_noncatalytic.py` | → `data/analysis/41_control_noncatalytic/` |
 | 9 | Subsite × oxygen map (Sect. 3.2, Figs 3–4) | `python code/analysis/a45_hydroxyl_map.py` | → `data/analysis/45_hydroxyl_map/` |
