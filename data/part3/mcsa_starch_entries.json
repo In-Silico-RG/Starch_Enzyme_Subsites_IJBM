@@ -327,28 +327,28 @@
      "type": "product",
      "chebi_id": "58601",
      "name": "alpha-D-glucose 1-phosphate(2-)",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/58601.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "18167",
      "name": "alpha-maltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "17925",
      "name": "alpha-D-glucose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "43474",
      "name": "hydrogenphosphate",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/43474.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -362,23 +362,23 @@
       {
        "step_id": 1,
        "description": "The ring oxygen of the substrate initiates an elimination of the alcohol product, which deprotonates a non-covalently bound phosphate, which in turn deprotonates the phosphate of the covalently attached PLP cofactor.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/MACiE__entry_205_mechanism_1_step_1_ZN6Bkxh",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/MACiE__entry_205_mechanism_1_step_1_ZN6Bkxh.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 2,
        "description": "The phosphate of the covalently attached PLP cofactor deprotonates the non-covalently bound phosphate, which in turn attacks the intermediate in a nucleophilic addition that produces the second product.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_205_1_2",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_205_1_2.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 3,
        "description": "Products.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_205_1_3",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": true,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_205_1_3.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       }
      ],
      "references": [
@@ -784,28 +784,28 @@
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "28189",
      "name": "isomaltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/28189.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "17925",
      "name": "alpha-D-glucose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "4167",
      "name": "D-glucopyranose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/4167.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -819,23 +819,23 @@
       {
        "step_id": 1,
        "description": "Asp displaces the terminal sugar in a nucleophilic substitution reaction, forming a covalent bond between the enzyme and substrate. The mechanism proceeds through a high-energy oxocarbenium-like transition state, in which the reaction centre of the sugar is planar and positively charged [PMID:10331869].",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_285_mechanism_1_step_1",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_285_mechanism_1_step_1.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 2,
        "description": "Glu255 deprotonates the water, which initiates a nucleophilic attack on the covalently bound sugar, displacing the Asp199. The mechanism proceeds through a high-energy oxocarbenium-like transition state, in which the reaction centre of the sugar is planar and positively charged [PMID:10331869].",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_285_mechanism_1_step_2",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_285_mechanism_1_step_2.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 3,
        "description": "Products.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_285_mechanism_1_step_3_UkHINNp",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": true,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_285_mechanism_1_step_3_UkHINNp.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       }
      ],
      "references": [
@@ -1106,28 +1106,28 @@
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "15903",
      "name": "beta-D-glucose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15903.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "37680",
      "name": "alpha-L-mannose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/37680.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "47934",
      "name": "beta-D-glucosyl-(1->4)-alpha-D-mannose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/47934.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -1372,21 +1372,21 @@
      "type": "product",
      "chebi_id": "17925",
      "name": "alpha-D-glucose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "18167",
      "name": "alpha-maltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -1400,23 +1400,23 @@
       {
        "step_id": 1,
        "description": "Nucleophilic attack at the sugar anomeric centre by Asp179 side chain. This is assisted by general acid catalysis by Glu204 and Asp289. H atoms omitted for clarity.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_397_mechanism_2_step_1_YYjVFMn",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_397_mechanism_2_step_1_YYjVFMn.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 2,
        "description": "The covalent glycosyl intermediate undergoes general base catalysed hydrolysis via attack of nucleophilic water at the anomeric centre, again catalysed by Glu204 and Asp289. These residues also form hydrogen bonds to the molecule. This leads to a oxocarbenium ion-like transition state, which forms the deglycosylated product.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_397_mechanism_2_step_2_qDFt2On",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_397_mechanism_2_step_2_qDFt2On.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 3,
        "description": "Product.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/macie_entry_397_mechanism_2_step_3",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": true,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/macie_entry_397_mechanism_2_step_3.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       }
      ],
      "references": [
@@ -1815,28 +1815,28 @@
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "17925",
      "name": "alpha-D-glucose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "28189",
      "name": "isomaltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/28189.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "4167",
      "name": "D-glucopyranose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/4167.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -2028,28 +2028,28 @@
      "type": "reactant",
      "chebi_id": "27941",
      "name": "pullulan",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/27941.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "7912",
      "name": "panose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/7912.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "27941",
      "name": "pullulan",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/27941.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -2350,28 +2350,28 @@
      "type": "reactant",
      "chebi_id": "27931",
      "name": "alpha-maltotriose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/27931.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "17925",
      "name": "alpha-D-glucose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17925.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "17306",
      "name": "maltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17306.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -2639,28 +2639,28 @@
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "18167",
      "name": "alpha-maltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "61988",
      "name": "alpha-maltotetraose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/61988.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "product",
      "chebi_id": "18167",
      "name": "alpha-maltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/18167.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -3154,21 +3154,21 @@
      "type": "reactant",
      "chebi_id": "17306",
      "name": "maltose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17306.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 1,
      "type": "reactant",
      "chebi_id": "15377",
      "name": "water",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/15377_Sw86oy5.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     },
     {
      "count": 2,
      "type": "product",
      "chebi_id": "17634",
      "name": "D-glucose",
-     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa/media/compound_mols/17634.mol"
+     "mol_file": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
     }
    ],
    "mechanisms": [
@@ -3182,23 +3182,23 @@
       {
        "step_id": 1,
        "description": "Asp443 performs a nucleophilic attack on the anomeric carbon of the maltose molecule, while Asp542 acts as a general acid/base and protonates the glyosidic oxygen atom.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/abeje_entry_5_1_1",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/abeje_entry_5_1_1.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 2,
        "description": "Asp542 deprotonates the water molecule which in turn attacks the anomeric carbon and forms a covalent bond.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/abeje_entry_5_1_3",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/abeje_entry_5_1_3.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       },
       {
        "step_id": 3,
        "description": "Products. Two glucose molecules are formed.",
-       "figure": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes_svg/abeje_entry_5_1_4",
+       "figure": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>",
        "is_product": false,
-       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa/media/schemes/abeje_entry_5_1_4.mrv"
+       "marvin_xml": "www.ebi.ac.uk/thornton-srv/m-csa<LOCAL_DISK>"
       }
      ],
      "references": [

@@ -23,11 +23,11 @@ D="$PKG/data"
 [ -d "$S" ] && [ -d "$R" ] || { echo "PROJECT=$PROJECT has no scripts/ and resultados/"; exit 1; }
 
 cp1() {  # cp1 SOURCE_FILE DEST_FILE
-  mkdir -p "$(dirname "$2")"; cp -p "$1" "$2"; echo "  $1 -> $2" >> "$PKG/.sync_manifest"
+  mkdir -p "$(dirname "$2")"; cp -p "$1" "$2"; echo "  ${1#$PROJECT/} -> ${2#$PKG/}" >> "$PKG/.sync_manifest"
 }
 cpdir() {  # cpdir SOURCE_DIR DEST_DIR [rsync excludes...]
   local src="$1" dst="$2"; shift 2
-  mkdir -p "$dst"; rsync -a --delete "$@" "$src/" "$dst/"; echo "  $src/ -> $dst/  ($*)" >> "$PKG/.sync_manifest"
+  mkdir -p "$dst"; rsync -a --delete "$@" "$src/" "$dst/"; echo "  ${src#$PROJECT/}/ -> ${dst#$PKG/}/  ($*)" >> "$PKG/.sync_manifest"
 }
 : > "$PKG/.sync_manifest"
 
@@ -129,21 +129,30 @@ PY
 
 echo "== path shim (code/)"
 find "$C" -name '*.py' -not -path '*/obsolete_build/*' -print0 | xargs -0 sed -i \
-  -e "s#'/media/aldo/Aldo/Documents/Investigacion/Amilosa/Proyecto_F_Enzimas_Amiloliticas/#__import__('os').path.abspath(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', '..')) + '/#g" \
+  -E -e "s#'/media/[^']*/Proyecto_F_Enzimas_Amiloliticas/#__import__('os').path.abspath(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', '..')) + '/#g" \
   -e "s#resultados/#data/#g" \
   -e "s#'resultados'#'data'#g" \
   -e "s#scripts/analysis#code/analysis#g; s#scripts/calc#code/calc#g; s#scripts/figures#code/figures#g" \
   -e "s#manuscript_ijbm/figures#figures#g; s#manuscript_short/figures#figures#g"
 
 echo "== scrub (code/, data/)"
-find "$C" "$D" -type f \( -name '*.py' -o -name '*.sh' -o -name '*.md' -o -name '*.tsv' -o -name '*.txt' -o -name '*.json' \
-     -o -name '*.log' -o -name '*.out' -o -name '*.dat' -o -name '*.in' -o -name '*.pml' -o -name '*.cxc' -o -name '*.tex' \) \
-     -print0 | xargs -0 sed -i -E \
-  -e 's#/media/aldo/Aldo/Documents/Investigacion/Amilosa/Proyecto_F_Enzimas_Amiloliticas#<PROJECT_ROOT>#g' \
-  -e 's#/media/aldo/Aldo#<LOCAL_DISK>#g' \
-  -e 's#/home/[A-Za-z0-9_.-]+/#~/#g' \
-  -e 's#\b(yrrocha|sdvargas|afcombarizam)\b#<cluster-account>#g'
+# Cluster account names are read from .scrub_accounts (one per line; kept out of the repository by .gitignore).
+ACC=""; [ -f "$PKG/.scrub_accounts" ] && ACC=$(grep -v '^\s*$' "$PKG/.scrub_accounts" | paste -sd'|')
+[ -n "$ACC" ] || echo "WARNING: no .scrub_accounts file; cluster account names are not scrubbed"
+TEXT=( \( -name '*.py' -o -name '*.sh' -o -name '*.md' -o -name '*.tsv' -o -name '*.txt' -o -name '*.json' \
+       -o -name '*.log' -o -name '*.out' -o -name '*.dat' -o -name '*.in' -o -name '*.pml' -o -name '*.cxc' -o -name '*.tex' \) )
+find "$C" "$D" -type f "${TEXT[@]}" -print0 | xargs -0 sed -i -E \
+  -e 's#/media/[^ ]*/Proyecto_F_Enzimas_Amiloliticas#<PROJECT_ROOT>#g' \
+  -e 's#/media/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+#<LOCAL_DISK>#g' \
+  -e 's#/home/[A-Za-z0-9_.-]+/#~/#g'
+[ -n "$ACC" ] && find "$C" "$D" -type f "${TEXT[@]}" -print0 | xargs -0 sed -i -E "s#\b($ACC)\b#<cluster-account>#g"
+# mentions of the earlier submission and its reviews (not part of this record)
+sed -i 's#^Both JACS Au referees said the draft.s claim is circular (2026-11-24 reviews in `docs/reviews/`):#The claim of the earlier draft was open to the objection that it is circular:#' \
+  "$D/analysis/44_rule_test/REPORT.md"
+sed -i 's#for the short draft (JACS Au, two-column width 7.0 in)#for the short draft (two-column width 7.0 in)#' "$C/figures/fig2_v2_layouts.py"
 
 echo "== private-pattern check (must list nothing)"
-grep -rIE '/home/|/media/aldo|yrrocha|sdvargas|afcombarizam|[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}' "$C" "$D" | grep -v 'aldo.combariza@unisucre.edu.co' | cut -c1-200 || true
+PAT='/home/|/media/|referee|JACS Au|docs/reviews|[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}'
+[ -n "$ACC" ] && PAT="$PAT|$ACC"
+grep -rIE "$PAT" "$C" "$D" | grep -v 'aldo.combariza@unisucre.edu.co' | cut -c1-200 || true
 echo "done; pairs in $PKG/.sync_manifest; size: $(du -sh "$PKG" --exclude=.git | cut -f1)"

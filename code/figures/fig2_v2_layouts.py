@@ -1,4 +1,4 @@
-"""Figure 2 (v2) candidates A, B, C for the short draft (JACS Au, two-column width 7.0 in).
+"""Figure 2 (v2) candidates A, B, C for the short draft (two-column width 7.0 in).
 
 Inputs
   data/figures/fig2_v2_work/per_protein_counts.tsv, contact_rows.tsv  (code/figures/fig2_v2_data.py)

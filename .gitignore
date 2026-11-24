@@ -30,3 +30,4 @@ __pycache__/
 
 # working files of figure agents (local paths)
 figures/candidates/*/work/
+.scrub_accounts

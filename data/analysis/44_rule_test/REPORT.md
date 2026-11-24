@@ -6,7 +6,7 @@ file reproduces that report in substance. Every number below is in a TSV of this
 (about 5 min). Both ran on the laptop.
 
 ## Problem
-Both JACS Au referees said the draft's claim is circular (2026-11-24 reviews in `docs/reviews/`):
+The claim of the earlier draft was open to the objection that it is circular:
 - it uses 19 positions chosen after the fact;
 - a position's class is read from the same residues whose identity is then tested;
 - residues are counted per entry, not per lineage;
