@@ -175,7 +175,7 @@ stricter selection, positions contacted in at least 80\% of the entries with a u
 given subsite, with residues counted per entry; each place where this criterion is used
 says so.
 
-\subsection{Kind of contact}
+\subsection{Kind of contact}\label{sec:methods_contacts}
 For each contacted position and each entry, the residue and
 the sugar unit were read from the deposited coordinates (model 1, first alternate
 conformation). The contact is a side-chain hydrogen bond when a side-chain nitrogen or
@@ -187,6 +187,13 @@ stands for a hydrogen bond; no angle is tested in the main count, and no hydroge
 placed. The sensitivity of the result to this definition (cut-offs of 3.2 and 4.0~\AA, and
 3.5~\AA{} with both heavy-atom angles at least 90$^\circ$) is reported in
 Section~\ref{sec:rule}.
+Figure~\ref{fig:classes} uses two wild-type entries whose sugar units all fit the density with
+RSCC $\ge0.94$: 1G94 ($\alpha$-amylase of \textit{Pseudoalteromonas haloplanktis}, UniProt P29957, 1.74~\AA,
+acarbose-derived heptasaccharide) and 3WEO (sugar beet $\alpha$-glucosidase, UniProt L0N7E5, 1.45~\AA,
+acarviosyl-maltohexaose). Residues are named by their position in the family reference (GH13: 1AMY; GH31:
+2QMJ), with the entry's own residue first where it differs; sugar atoms by the equivalent glucose atom, N
+being the glycosidic nitrogen of the inhibitors. Its panel (c) counts one vote per UniProt accession over
+the positions contacted in at least 80\% of entries, engineered mutants excluded.
 
 \section{Results and discussion}
 
@@ -347,25 +354,10 @@ family.
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{fig2_contact_classes_v2.pdf}
-\caption{Each kind of contact at the catalytic subsite, shown on a deposited structure, and the residue types
-found at each position. (a) GH13, PDB 1G94 ($\alpha$-amylase of \textit{Pseudoalteromonas haloplanktis}, UniProt
-P29957, 1.74~\AA, with an acarbose-derived heptasaccharide); (b) GH31, PDB 3WEO (sugar beet
-$\alpha$-glucosidase, UniProt L0N7E5, 1.45~\AA, with acarviosyl-maltohexaose). Both are wild-type proteins;
-every sugar unit drawn fits the electron density with RSCC $\ge0.94$. Residues are named by their position in
-the family reference structure (GH13: 1AMY; GH31: 2QMJ); where the entry carries a different residue, the
-entry's residue is given first and the reference position in parentheses. Side-chain carbons are coloured by
-contact class: blue, H (a side-chain N or O within 3.5~\AA{} of a sugar O or N); orange, Ar (apolar contact
-by an aromatic side chain); pink, Al (apolar contact by an aliphatic side chain). Sugar carbons grey, O red,
-N blue; $-1$, $+1$, $+2$ mark the subsites (cleavage between $-1$ and $+1$). Dashed lines join each side-chain
-N or O to its nearest sugar O or N when that distance is $\le3.5$~\AA; sugar atoms are named after the
-equivalent glucose atom, and N is the glycosidic nitrogen of the inhibitor, in place of O4. In 3WEO the
-nucleophile Asp443 is 3.73~\AA{} from the nearest sugar O, so no line is drawn. Insets: the aromatic ring next
-to the $-1$ ring (Tyr51 in 1G94, Phe575 in 3WEO) seen from the side, with the centroid--centroid distance and
-the angle between the ring planes (1G94: 4.9~\AA, 21$^\circ$; 3WEO: 5.2~\AA, 34$^\circ$). (c) Residue types at
-each position as the fraction of proteins (one vote per UniProt accession; engineered mutants excluded), $n$
-the number of proteins; left, positions whose side chain hydrogen-bonds the sugar in most entries; right,
-apolar contacts. Positions: those contacted in at least 80\% of entries at their subsite (Gly183 excluded,
-34 of 44; Lys182 included, 37 of 41).}
+\caption{Contacts at the catalytic subsites. (a) GH13 $\alpha$-amylase, PDB 1G94; (b) GH31
+$\alpha$-glucosidase, PDB 3WEO. Side chains coloured by contact: blue, hydrogen bond (H); orange, aromatic (Ar);
+pink, aliphatic (Al); dashes, N/O--N/O $\le3.5$~\AA. Insets: aromatic ring beside the $-1$ ring. (c) Residue
+types at each position, one vote per protein. Residue numbering and entry details: Section~\ref{sec:methods_contacts}.}
 \label{fig:classes}
 \end{figure}
 
