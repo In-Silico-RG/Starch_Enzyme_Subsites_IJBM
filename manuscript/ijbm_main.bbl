@@ -52,14 +52,6 @@ G.~Davies, B.~Henrissat, {Structures and mechanisms of glycosyl hydrolases},
 \newblock \href {https://doi.org/10.1016/s0969-2126(01)00220-9}
   {\path{doi:10.1016/s0969-2126(01)00220-9}}.
 
-\bibitem{Stam2006}
-M.~R. Stam, E.~G.~J. Danchin, C.~Rancurel, P.~M. Coutinho, B.~Henrissat,
-  Dividing the large glycoside hydrolase family 13 into subfamilies: towards
-  improved functional annotations of $\alpha$-amylase-related proteins, Protein
-  Engineering, Design and Selection 19~(12) (2006) 555--562.
-\newblock \href {https://doi.org/10.1093/protein/gzl044}
-  {\path{doi:10.1093/protein/gzl044}}.
-
 \bibitem{Davies1997}
 G.~J. Davies, K.~S. Wilson, B.~Henrissat, Nomenclature for sugar-binding
   subsites in glycosyl hydrolases, Biochemical Journal 321~(2) (1997) 557--559.

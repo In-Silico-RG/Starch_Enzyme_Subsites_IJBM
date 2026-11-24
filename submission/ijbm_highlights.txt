@@ -1,6 +1,5 @@
 Highlights
-- Subsite × oxygen map of glucose contacts in GH13, GH31, GH14, GH15 (114 PDB entries)
-- 11 of 14 side-chain hydrogen-bonders at subsites -1/+1 are fixed in every group
-- Conserved polar residues hold O2, O3, O6 at -1 in GH13, GH31 and GH15; O6 mostly free
-- 12 of 14 'not tolerated' cells agree; a subsite-only rule gets 10 of 12
-- Hypothesis: substitution at O6 obstructs hydrolysis less than at O2 or O3
+- Contact map of glucose oxygens at each subsite of four starch-active enzyme families
+- Side chains binding the rings next to the cleaved bond are the same in every group
+- Conserved residues hold O2, O3 and O6 at the -1 subsite; O6 is mostly free elsewhere
+- Substitution at O6 is expected to obstruct hydrolysis less than at O2 or O3
