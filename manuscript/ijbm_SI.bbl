@@ -331,4 +331,38 @@ M.~I. Nilsson, M.~A. Kroos, A.~J. Reuser, E.~Hatcher, M.~Akhtar, E.~McCready,
 \newblock \href {https://doi.org/10.1016/j.gene.2013.12.033}
   {\path{doi:10.1016/j.gene.2013.12.033}}.
 
+\bibitem{Henrissat1991}
+B.~Henrissat, A classification of glycosyl hydrolases based on amino acid
+  sequence similarities, Biochemical Journal 280~(2) (1991) 309--316.
+\newblock \href {https://doi.org/10.1042/bj2800309}
+  {\path{doi:10.1042/bj2800309}}.
+
+\bibitem{Lombard2014}
+V.~Lombard, H.~Golaconda~Ramulu, E.~Drula, P.~M. Coutinho, B.~Henrissat, The
+  carbohydrate-active enzymes database (cazy) in 2013, Nucleic Acids Research
+  42~(D1) (2013) D490--D495.
+\newblock \href {https://doi.org/10.1093/nar/gkt1178}
+  {\path{doi:10.1093/nar/gkt1178}}.
+
+\bibitem{Drula2022}
+E.~Drula, M.-L. Garron, S.~Dogan, V.~Lombard, B.~Henrissat, N.~Terrapon, The
+  carbohydrate-active enzyme database: functions and literature, Nucleic Acids
+  Research 50~(D1) (2022) D571--D577.
+\newblock \href {https://doi.org/10.1093/nar/gkab1045}
+  {\path{doi:10.1093/nar/gkab1045}}.
+
+\bibitem{Henrissat1996}
+B.~Henrissat, A.~Bairoch, Updating the sequence-based classification of
+  glycosyl hydrolases, Biochemical Journal 316~(2) (1996) 695--696.
+\newblock \href {https://doi.org/10.1042/bj3160695}
+  {\path{doi:10.1042/bj3160695}}.
+
+\bibitem{Stam2006}
+M.~R. Stam, E.~G.~J. Danchin, C.~Rancurel, P.~M. Coutinho, B.~Henrissat,
+  Dividing the large glycoside hydrolase family 13 into subfamilies: towards
+  improved functional annotations of $\alpha$-amylase-related proteins, Protein
+  Engineering, Design and Selection 19~(12) (2006) 555--562.
+\newblock \href {https://doi.org/10.1093/protein/gzl044}
+  {\path{doi:10.1093/protein/gzl044}}.
+
 \end{thebibliography}

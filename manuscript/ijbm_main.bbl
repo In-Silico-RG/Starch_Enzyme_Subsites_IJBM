@@ -33,12 +33,32 @@ E.~Drula, M.-L. Garron, S.~Dogan, V.~Lombard, B.~Henrissat, N.~Terrapon, The
 \newblock \href {https://doi.org/10.1093/nar/gkab1045}
   {\path{doi:10.1093/nar/gkab1045}}.
 
+\bibitem{Henrissat1996}
+B.~Henrissat, A.~Bairoch, Updating the sequence-based classification of
+  glycosyl hydrolases, Biochemical Journal 316~(2) (1996) 695--696.
+\newblock \href {https://doi.org/10.1042/bj3160695}
+  {\path{doi:10.1042/bj3160695}}.
+
 \bibitem{Janecek2014}
 {\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, $\alpha$-amylase: an enzyme
   specificity found in various families of glycoside hydrolases, Cellular and
   Molecular Life Sciences 71~(7) (2013) 1149--1170.
 \newblock \href {https://doi.org/10.1007/s00018-013-1388-z}
   {\path{doi:10.1007/s00018-013-1388-z}}.
+
+\bibitem{Davies1995}
+G.~Davies, B.~Henrissat, {Structures and mechanisms of glycosyl hydrolases},
+  Structure 3~(9) (1995) 853--859.
+\newblock \href {https://doi.org/10.1016/s0969-2126(01)00220-9}
+  {\path{doi:10.1016/s0969-2126(01)00220-9}}.
+
+\bibitem{Stam2006}
+M.~R. Stam, E.~G.~J. Danchin, C.~Rancurel, P.~M. Coutinho, B.~Henrissat,
+  Dividing the large glycoside hydrolase family 13 into subfamilies: towards
+  improved functional annotations of $\alpha$-amylase-related proteins, Protein
+  Engineering, Design and Selection 19~(12) (2006) 555--562.
+\newblock \href {https://doi.org/10.1093/protein/gzl044}
+  {\path{doi:10.1093/protein/gzl044}}.
 
 \bibitem{Davies1997}
 G.~J. Davies, K.~S. Wilson, B.~Henrissat, Nomenclature for sugar-binding
@@ -68,12 +88,6 @@ L.~Kandra, $\alpha$-amylases of medical and industrial importance, Journal of
   Molecular Structure: THEOCHEM 666--667 (2003) 487--498.
 \newblock \href {https://doi.org/10.1016/j.theochem.2003.08.073}
   {\path{doi:10.1016/j.theochem.2003.08.073}}.
-
-\bibitem{Davies1995}
-G.~Davies, B.~Henrissat, {Structures and mechanisms of glycosyl hydrolases},
-  Structure 3~(9) (1995) 853--859.
-\newblock \href {https://doi.org/10.1016/s0969-2126(01)00220-9}
-  {\path{doi:10.1016/s0969-2126(01)00220-9}}.
 
 \bibitem{MacGregor2001}
 E.~A. MacGregor, {\v S}.~Jane{\v c}ek, B.~Svensson, Relationship of sequence

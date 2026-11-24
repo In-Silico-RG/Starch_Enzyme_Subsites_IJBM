@@ -111,11 +111,24 @@ extent of hydrolysis and the product profile therefore depend on which substitut
 units an enzyme accepts at each of its subsites, and through which oxygen. This has been
 measured for particular enzymes and substituents, not in general.
 
-The enzymes that break down starch are sorted by CAZy~\citep{Drula2022}
-into families by sequence similarity, not by function: the same job, cutting an
-$\alpha(1\!\to\!4)$ bond in the middle of the chain, is carried out by families with
-different folds and catalytic machinery (GH13; GH57 and GH119, which form one clan;
-GH126)~\citep{Janecek2014}. Within a family, two catalytic carboxylic acids do the
+In the CAZy database~\citep{Drula2022}, the enzymes that break down starch are classified into families of
+catalytic modules related by amino-acid sequence; because fold is better conserved than sequence, families that
+share a fold, catalytic residues and mechanism are grouped into clans~\citep{Henrissat1996}. The classification
+follows sequence, not function: the same job, cutting an $\alpha(1\!\to\!4)$ bond in the middle of the chain, is
+done by GH13, by GH57 and GH119 (together clan GH-T, a $(\beta/\alpha)_7$ barrel) and by GH126 (no
+clan)~\citep{Janecek2014}. The four families analysed here belong to three clans, one (GH14) to none, and use two mechanisms (Table~S13).
+GH13, the $\alpha$-amylase family, belongs to clan GH-H with GH70 and GH77; GH31, the main other family of
+$\alpha$-glucosidases, to clan GH-D. Both are $(\beta/\alpha)_8$ barrels that retain the anomeric configuration of
+the released sugar, by an aspartate nucleophile and a proton donor that is glutamate in GH13 and aspartate in GH31.
+GH14 ($\beta$-amylase, a $(\beta/\alpha)_8$ barrel, no clan) and GH15 (glucoamylase, clan GH-L, an
+$(\alpha/\alpha)_6$ barrel) invert it, by two glutamates, one acting as general base and one as general
+acid~\citep{Davies1995}. GH13 groups many specificities, so membership alone does not predict function; it was therefore divided
+into subfamilies by sequence, most of them monofunctional (35 in the original division~\citep{Stam2006}, 49 listed
+by CAZy now); the 29 GH13 sequence groups
+used here span 20 subfamilies (Table~S10), so a GH13 result is pooled across subfamilies and enzyme types, not
+read from $\alpha$-amylases alone.
+
+In each of these four families two catalytic carboxylic acids do the
 chemistry, and the residues around this pair define subsites, numbered from the bond that is cut: negative towards
 the non-reducing end of the chain, positive towards the reducing end~\citep{Davies1997}. For $\alpha$-amylases, the
 number of subsites and their affinities have long been mapped from the bond-cleavage patterns of
@@ -158,6 +171,12 @@ per subsite. (e) Maltohexaose over the subsites, the scissile bond, and the subs
 \section{Materials and methods}
 
 \subsection{Database and superposition}
+The families were taken from the CAZy family and activity pages read on 11 November 2026 (site update of 6
+November 2026): every family whose CAZy activities include breaking an $\alpha(1\!\to\!4)$ bond of an
+$\alpha$-glucan chain or an $\alpha(1\!\to\!6)$ branch on such a chain, by hydrolysis, phosphorolysis (GT35),
+elimination (the GH31 lyase) or oxidation (AA13), or a generic $\alpha$-glucosidase activity (EC 3.2.1.20,
+3.2.1.10), and that has deposited structures of such an enzyme: 14 families (Table~S13 gives the clan, fold,
+mechanism, catalytic residues and starch-related activities of each as CAZy states them; GH119 has no structure).
 Every PDB entry of the 14 families was read
 with gemmi~\citep{Wojdyr2022}; every non-water, non-standard residue was registered with
 its fit to the experimental electron density (the real-space correlation coefficient,
@@ -314,7 +333,9 @@ The finding is therefore that the side chains hydrogen-bonding the two rings on 
 in every sequence group of GH13 and GH31 (with the two GH13 exceptions at $+1$); aromatic residues at these subsites
 are kept as rings, less strictly as the same residue; aliphatic residues at these subsites, and residues of every
 kind at the outer subsites, change. For GH13 this confirms, contact by contact, the conserved sequence
-regions~\citep{MacGregor2001,Janecek2014}. Because the class is read from the same structures whose residues are then
+regions~\citep{MacGregor2001,Janecek2014}. GH13 and GH31 share the $(\beta/\alpha)_8$ barrel and the retaining
+mechanism but are placed in different clans, GH-H and GH-D (Table~S13), so CAZy does not group them as one lineage;
+the conservation at $-1$/$+1$ is found in each family separately, not inherited within one clan. Because the class is read from the same structures whose residues are then
 counted, and because location and class are entangled, kind of contact and location cannot be fully separated with
 36 positions. GH31 rests on six groups (Table~S10): three in subfamily GH31\_1 (sugar beet
 $\alpha$-glucosidase, human maltase-glucoamylase and lysosomal $\alpha$-glucosidase), within which only Ile328,
@@ -388,7 +409,9 @@ Glu380 and Lys295, conserved in its two groups, but O2 and O3 only by main-chain
 (GH13 Glu204; GH31 Asp203 and Arg526; GH14 Thr342; GH15 Glu180 and Arg305), and the scissile oxygen, O4 of the $+1$
 unit, by catalytic residues in all four (GH13 Asp289 and Glu204, GH31 Asp542, GH14 Glu186, GH15 Glu179). O2 at $+1$
 differs between families: held by variable residues in GH13 (the Gly183 position, His in 11 of 28 groups, $\mmap =
-0.39$, and the Lys182 position), by the invariant Asp203 in GH31 and Glu180 in GH15, by main chain in GH14. In GH13,
+0.39$, and the Lys182 position), by the invariant Asp203 in GH31 and Glu180 in GH15, by main chain in GH14. The states shared at $-1$ and at $+1$ thus hold across two retaining families of
+different clans (GH13, clan GH-H; GH31, clan GH-D) and two inverting ones (GH14, no clan; GH15, clan GH-L, an
+$(\alpha/\alpha)_6$ barrel; Table~S13). In GH13,
 O2 and O3 at $-2$ and at $+2$ are held only by variable residues (at $-2$, the Gln294 position, $\mmap = 0.60$, and
 residues with no structural equivalent in the reference; at $+2$, the Lys182 position, $\mmap = 0.50$), and O6 at
 $-2$ by the variable Met52 position ($\mmap = 0.52$), while O6 at $+2$ is free and exposed (median 27~\AA$^2$). The
@@ -642,7 +665,7 @@ responsibility for the content of the published article.
 \section*{Data availability}
 The database, the scripts and the result tables that produce every number, table and figure are
 public at \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM} [PENDIENTE: Zenodo DOI]
-(code under the MIT licence, data under CC BY 4.0); Section S13 of the Supplementary material lists the script and
+(code under the MIT licence, data under CC BY 4.0); Section S14 of the Supplementary material lists the script and
 the result table behind each table and figure.
 
 \section*{Acknowledgements}
@@ -657,7 +680,7 @@ Investigaci\'on GIFTEX, Universidad Industrial de Santander) for support during 
 work.
 
 \section*{Appendix A. Supplementary material}
-Supplementary material (Sections S1--S13, Tables S1--S13, Figures S1--S2) accompanies this article
+Supplementary material (Sections S1--S14, Tables S1--S14, Figures S1--S2) accompanies this article
 (ijbm\_SI.pdf).
 
 \bibliographystyle{elsarticle-num}

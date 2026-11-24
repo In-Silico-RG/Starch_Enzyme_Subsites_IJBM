@@ -844,6 +844,60 @@ $k_\mathrm{cat}/K_\mathrm{M}$~\citep{Sogaard1993}; GH31 Asp404Gly (a Pompe-disea
 
 
 \clearpage
+\section{The 14 CAZy families of the database}\label{sec:cazy}
+CAZy groups glycoside hydrolases into families by amino-acid sequence similarity~\citep{Henrissat1991,Lombard2014,Drula2022}
+and families that share a fold, catalytic residues and mechanism into clans~\citep{Henrissat1996}.
+Table~\ref{tab:cazy} gives, for each of the 14 families of the database, what the CAZy family page states (pages
+read on 11 November 2026, site update of 6 November 2026; every field rechecked against the live pages on 24
+November 2026): clan, fold (``3D structure status''), mechanism, the residue type of the catalytic nucleophile (retaining
+families) or general base (inverting families) and of the proton donor, and the CAZy activities that break the
+starch chain or that CAZy writes as a generic $\alpha$-glucosidase. For the four analysed families the catalytic
+residues are also named in the numbering of the reference structure used in the main text. Of the families named in
+the main text but not in the database, GH70 and GH77 (clan GH-H with GH13; retaining, $(\beta/\alpha)_8$, Asp and Glu)
+carry only transferase activities on their CAZy pages and were out of scope (enzymes that only rearrange the chain), and
+GH119 (clan GH-T with GH57; retaining, $(\beta/\alpha)_7$, Glu and Asp; EC 3.2.1.1) has no deposited structure. GH13
+is divided into subfamilies~\citep{Stam2006}, 49 on the CAZy site; the subfamilies of the GH13 and GH31 sequence groups
+used in the analysis are in Table~\ref{tab:groups}.
+
+\begin{sidewaystable}
+\centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{1.0}\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{The 14 CAZy families of the database. Clan, fold, mechanism and catalytic residue types as stated on the
+CAZy family pages (``--'', no clan or no residue given by CAZy; ``(inf.)'', inferred, and ``(exp.)'', experimental, as
+CAZy marks them). Nu/base: catalytic nucleophile (retaining) or general base (inverting); donor: proton donor
+(general acid). Activities: CAZy activities of the family that break an $\alpha(1\!\to\!4)$ bond of an $\alpha$-glucan
+chain or an $\alpha(1\!\to\!6)$ branch on it, or a generic $\alpha$-glucosidase (EC 3.2.1.20, 3.2.1.10, marked
+$^\dagger$). Entries: PDB entries in the database (637 in all; GT35, starch and maltodextrin phosphorylases only).
+Analysis: R, residue conservation (entries, 50\% sequence groups); M, oxygen map (entries); reference residues in the
+numbering of 1AMY (GH13), 2QMJ (GH31), 1BYA (GH14) and 1AGM (GH15). Sources:
+\texttt{resultados/cazy\_20261111\_families.tsv}, \texttt{cazy\_20261111\_activities.tsv},
+\texttt{part1\_starch\_breaking\_activities.tsv}; entries, \texttt{data/pdb\_entries.tsv}.}
+\label{tab:cazy}
+\begin{tabular}{l l >{\raggedright\arraybackslash}p{1.4cm} >{\raggedright\arraybackslash}p{1.6cm} >{\raggedright\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}p{1.3cm} >{\raggedright\arraybackslash}p{5.4cm} r >{\raggedright\arraybackslash}p{3.3cm}}
+\toprule
+Family & Clan & Fold & Mechanism & Nu/base & Donor & Starch-related activities (EC) & Entries & Analysis\\
+\midrule
+GH13 & GH-H & $(\beta/\alpha)_8$ & retaining & Asp (exp.) & Glu (exp.) & 3.2.1.1 $\alpha$-amylase; 3.2.1.3; 3.2.1.41 pullulanase; 3.2.1.54; 3.2.1.60; 3.2.1.68 isoamylase; 3.2.1.98; 3.2.1.116; 3.2.1.133 maltogenic amylase; 3.2.1.135; two 3.2.1.-; 3.2.1.10$^\dagger$, 3.2.1.20$^\dagger$ & 412 & R 79, 29 groups; M 76. Asp179 Nu, Glu204 donor (Asp289 transition-state stabiliser)\\
+GH31 & GH-D & $(\beta/\alpha)_8$ & retaining & Asp & Asp & 4.2.2.13 $\alpha$-1,4-glucan lyase; 3.2.1.10$^\dagger$, 3.2.1.20$^\dagger$ & 73 & R 18, 6 groups; M 17. Asp443 Nu, Asp542 donor\\
+GH14 & -- & $(\beta/\alpha)_8$ & inverting & Glu (exp.) & Glu (exp.) & 3.2.1.2 $\beta$-amylase & 50 & M 17, 2 groups. Glu380 base, Glu186 donor\\
+GH15 & GH-L & $(\alpha/\alpha)_6$ & inverting$^a$ & Glu (exp.) & Glu (exp.) & 3.2.1.3 glucoamylase & 18 & M 4, 2 groups. Glu400 base, Glu179 donor\\
+GT35 & -- & GT-B & retaining & -- & -- & 2.4.1.1 $\alpha$-1,4-glucan phosphorylase & 27 & --\\
+GH57 & GH-T & $(\beta/\alpha)_7$ & retaining & Glu & Asp & 3.2.1.1; 3.2.1.41; 3.2.1.54; 3.2.1.133 & 25 & subsites assigned, not analysed\\
+GH63 & GH-G & $(\alpha/\alpha)_6$ & inverting & Glu (inf.) & Asp (inf.) & 3.2.1.20$^\dagger$ & 9 & --\\
+AA13 & -- & -- & peroxygenase & -- & -- & 1.14.99.55 lytic starch monooxygenase & 8 & --\\
+GH97 & -- & $(\beta/\alpha)_8$ & inverting and retaining & Glu (inverting), Asp (retaining) & Glu & 3.2.1.3; 3.2.1.20$^\dagger$ & 7 & --\\
+GH49 & GH-N & parallel $\beta$-helix & inverting & Asp & Asp & 3.2.1.57 isopullulanase; 3.2.1.- panose $\alpha$-1,4-glucosidase & 4 & --\\
+GH126 & -- & $(\alpha/\alpha)_6$ & inverting (inf.) & -- & -- & 3.2.1.1 & 1 & --\\
+GH133 & -- & $(\alpha/\alpha)_6$ & inverting & Asp & Asp & 3.2.1.33 glycogen debranching & 1 & --\\
+GH176 & -- & $(\alpha/\alpha)_6$ & inverting (inf.) & -- & -- & 3.2.1.68 isoamylase & 1 & --\\
+GH4 & -- & Rossmann fold & other (NAD$^+$) & not applicable & not known & 3.2.1.20$^\dagger$ & 1 & --\\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\raggedright $^a$ CAZy notes that a retaining mechanism has been shown for transglucosylating dextran dextranases of GH15.
+\end{sidewaystable}
+
+\clearpage
 \section{Code and data}\label{sec:codedata}
 Everything below is in the public repository\\ \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM}
 (folders \texttt{code/} and \texttt{data/}; the README gives the order in which to run them; code under the MIT
