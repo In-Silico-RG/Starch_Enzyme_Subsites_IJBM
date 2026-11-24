@@ -1,4 +1,4 @@
-Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a structural basis for processing functionalised starch
+A fixed core and a variable rim: hydroxyl contacts of α-amylases and α-glucosidases set the tolerance to starch substituents
 
 Highlights
 - Subsite × oxygen map of glucose contacts in GH13, GH31, GH14, GH15 (114 PDB entries)

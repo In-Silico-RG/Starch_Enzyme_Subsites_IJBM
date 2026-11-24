@@ -1,4 +1,4 @@
-# Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a structural basis for processing functionalised starch
+# A fixed core and a variable rim: hydroxyl contacts of α-amylases and α-glucosidases set the tolerance to starch substituents
 
 Manuscript, supplementary material, code and data of the article submitted to the *International Journal of
 Biological Macromolecules* (Elsevier). Authors: Nedis I. Acevedo-Viloria (Programa de Doctorado en Ingeniería, Universidad del Magdalena; Departamento de Ingeniería Agroindustrial, Universidad de Sucre), Yurimar Ruiz-Rocha (Departamento de Física, Facultad de Educación y Ciencias, Universidad de Sucre;

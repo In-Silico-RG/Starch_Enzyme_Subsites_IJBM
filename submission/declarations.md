@@ -1,4 +1,4 @@
-# Declarations: Fixed and variable sugar contacts at the subsites of starch-degrading enzymes
+# Declarations: A fixed core and a variable rim: hydroxyl contacts of α-amylases and α-glucosidases set the tolerance to starch substituents
 
 Manuscript for the *International Journal of Biological Macromolecules*. Authors: Nedis I. Acevedo-Viloria (a, b), Yurimar
 Ruiz-Rocha (c, d) and Aldo F. Combariza (e, d; corresponding author).

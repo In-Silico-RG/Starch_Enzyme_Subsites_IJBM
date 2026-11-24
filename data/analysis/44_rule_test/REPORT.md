@@ -1,9 +1,6 @@
 # 44 — Rule test for the contact-type claim (GH13, GH31), 2026-11-24
 
-The analysis agent ran this and returned the report as a message, because the harness did not let it write files. This
-file reproduces that report in substance. Every number below is in a TSV of this folder; the main tests are in
-`D_tests.tsv`. Scripts: `scripts/analysis/a44a_build.py` (about 1 min) and `scripts/analysis/a44b_tests.py`
-(about 5 min). Both ran on the laptop.
+Report of the rule test (analyses A–H) for the contact-type claim in GH13 and GH31.
 
 ## Problem
 The claim of the earlier draft was open to the objection that it is circular:

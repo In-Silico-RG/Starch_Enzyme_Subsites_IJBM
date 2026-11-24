@@ -2,8 +2,7 @@
 
 **The author selects 3–5. None of these names goes into the submission without approval.**
 
-Manuscript: "Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a structural basis
-for processing functionalised starch" (IJBM). Compiled 2026-11-24.
+Manuscript: "A fixed core and a variable rim: hydroxyl contacts of α-amylases and α-glucosidases set the tolerance to starch substituents" (IJBM). Compiled 2026-11-24.
 
 How each item was checked: the affiliation and e-mail come from a current institutional page or from the
 author line of a 2024–2026 paper (Europe PMC record, which carries the affiliation as printed). Paper titles and
