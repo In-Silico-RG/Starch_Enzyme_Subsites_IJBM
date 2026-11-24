@@ -11,7 +11,7 @@ Substituents (attachment point *): hydroxypropyl *CC(O)C; acetyl *C(C)=O; octeny
 2-octenylsuccinic anhydride, ester at the ring-distal carbonyl as written by the author)
 *C(=O)CC(C/C=C/CCCCC)C(=O)O; carboxymethyl *CC(=O)O.
 
-Images are drawn by MolDraw2DCairo with the DejaVu Sans font at the pixel size that matches the target point
+Images are drawn by MolDraw2DCairo with Liberation Sans at the pixel size that matches the target point
 size of the figure; atom drawing coordinates are returned so matplotlib can place the subsite marks.
 """
 import math
@@ -24,7 +24,7 @@ from rdkit.Chem.Draw import rdMolDraw2D
 
 import fig1_protein_common as C
 
-FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+FONT = C.FONT_FILE      # Liberation Sans, as the rest of the figure (fig2_v3)
 GLC = 'OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O'
 # template with C1 -> [*:a] (O1 removed) and O4-H -> O4-[*:b]; atom order O6 C6 C5 O5 C1 * C2 O2 C3 O3 C4 O4 *
 NAMES = ['O6', 'C6', 'C5', 'O5', 'C1', None, 'C2', 'O2', 'C3', 'O3', 'C4', 'O4', None]
@@ -105,7 +105,8 @@ def draw(mol, w, h, font_px, png, bond_px=2.0, padding=0.04, atom_labels=None, h
     o.bondLineWidth = bond_px
     o.scaleBondWidth = False
     o.padding = padding
-    o.clearBackground = False
+    o.clearBackground = True       # white; a transparent Cairo PNG gives hollow strokes after resampling
+    o.annotationFontScale = 1.0
     o.additionalAtomLabelPadding = 0.08
     o.useBWAtomPalette()
     o.setAtomPalette({-1: (0, 0, 0), 0: (0, 0, 0), 1: (0, 0, 0), 6: (0, 0, 0), 7: tuple(C.hexrgb(C.N_COL)),
@@ -131,6 +132,9 @@ def draw(mol, w, h, font_px, png, bond_px=2.0, padding=0.04, atom_labels=None, h
 def chain_panel(w, h, font_px, png, bond_px):
     check_template()
     mol = depict(build_chain(6), straighten_units=6)
+    for a in mol.GetAtoms():               # O2, O3, O6 named on unit -2 (k = 1) as RDKit atom notes
+        if a.GetIntProp('unit') == 1 and a.GetProp('nm') in ('O2', 'O3', 'O6'):
+            a.SetProp('atomNote', a.GetProp('nm'))
     xy = draw(mol, w, h, font_px, png, bond_px)
     info = dict(units={}, atoms={})
     for a in mol.GetAtoms():

@@ -1,0 +1,15 @@
+source leaprc.protein.ff14SB
+source leaprc.GLYCAM_06j-1
+source leaprc.water.tip3p
+m = loadpdb complex_in.pdb
+bond m.54.SG m.91.SG
+bond m.472.SG m.487.SG
+bond m.612.SG m.613.SG
+bond m.1053.O4 m.1054.C1
+bond m.1054.O4 m.1055.C1
+bond m.1055.O4 m.1056.C1
+bond m.1057.O1 m.1053.C1
+charge m
+solvateOct m TIP3PBOX 10.0
+saveamberparm m probe.prmtop probe.inpcrd
+quit

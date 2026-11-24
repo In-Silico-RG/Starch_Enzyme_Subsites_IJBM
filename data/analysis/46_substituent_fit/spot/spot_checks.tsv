@@ -1,0 +1,4 @@
+tag	family	pdb	subsite	label	substituent	comp	crit	pose	fits_3	frac_3	fits_hb	frac_hb	best_clear_prot	closest
+GH13_m1_O3_phosphate_5TD4	GH13	5TD4	-1	O3	phosphate	GLC	3.0	324	False	0.0	False	0.0	1.44	O4 - TYR62:A.CE2 1.44 A
+GH13_p2_O6_phosphate_1MFU	GH13	1MFU	+2	O6	phosphate	GLC	3.0	96	True	0.25	True	0.25	4.75	O4 - SER163:A.OG 4.75 A
+GH15_p1_O6gt_phosphate_1GAH	GH15	1GAH	+1	O6gt	phosphate	AC1	3.0	846	False	0.0	False	0.0	2.44	O3 - TRP52:A.CH2 2.44 A

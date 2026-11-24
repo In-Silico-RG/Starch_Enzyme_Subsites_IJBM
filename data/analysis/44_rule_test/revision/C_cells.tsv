@@ -1,0 +1,26 @@
+family	subsite	oxygen	state	trivial	outcome	evidence	agree_published	agree_trivial
+GH13	-3	O3	EXP	EXP	T	P:T glycosyl:T	True	True
+GH13	-3	O6	EXP	EXP	T	P:T glycosyl:T other:T	True	True
+GH13	-2	O3	VAR	EXP	M	P:M glycosyl:n	True	True
+GH13	-2	O6	VAR	EXP	M	P:M glycosyl:n	True	True
+GH13	-1	O2	INV	INV	N	HE:N Me:N	True	True
+GH13	-1	O3	INV	INV	N	HE:N P:N Me:N	True	True
+GH13	-1	O6	INV	INV	N	HE:N P:N Me:N	True	True
+GH13	+1	O3	INV	INV	N	P:N	True	True
+GH13	+2	O3	VAR	EXP	M	P:M	True	True
+GH13	+2	O6	EXP	EXP	T	P:T other:T	True	True
+GH14	-2	O3	INV	EXP	N	P:N	True	False
+GH14	-2	O6	INV	EXP	N	P:N	True	False
+GH14	-1	O6	INV	INV	N	P:N	True	True
+GH14	+1	O3	INV	INV	N	P:N	True	True
+GH14	+1	O6	INV	INV	T	P:T	False	False
+GH15	-1	O2	INV	INV	N	Me:N	True	True
+GH15	-1	O3	INV	INV	N	Me:N P:N	True	True
+GH15	-1	O6	INV	INV	N	Me:N P:N other:N	True	True
+GH15	+1	O2	INV	INV	T	Me:T	False	False
+GH15	+1	O3	INV	INV	N	P:N Me:N	True	True
+GH15	+2	O3	EXP	EXP	T	P:T	True	True
+GH13	+1	O6	BUR	INV	M	P:M		False
+GH13	+3	O3	MC	EXP	T	P:T		True
+GH14	-1	O3	MC	INV	N	P:N		True
+GH15	+1	O6	none	INV	M	P:T other:M		False

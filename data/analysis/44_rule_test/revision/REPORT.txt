@@ -1,0 +1,88 @@
+== A. H positions at -1/+1 (Table 1 subsites include -1 or +1) vs outer-only
+  all: inner 14 mean 0.936; outer 3 mean 0.570; diff +0.366; p1 0.0089 p2 0.0089; family-strat p1 0.0127 p2 0.0127
+  no-catalytic: inner 9 mean 0.900; outer 3 mean 0.570; diff +0.330; p1 0.0284 p2 0.0284; family-strat p1 0.0384 p2 0.0384
+  H positions at -1/+1: 14; m = 1: 11; variable (m < 0.9): GH13 G183 0.50, GH13 K182 0.63
+
+== A2. H - Al, class labels permuted within strata
+  all: H 17 Al 8 diff +0.333; p2 0.0053; family p2 0.0053; location p1 0.0176 p2 0.0176; family x location p2 0.0177
+  no-catalytic: H 12 Al 8 diff +0.279; p2 0.0366; family p2 0.0339; location p1 0.0429 p2 0.0429; family x location p2 0.0433
+  groups>=5: H 16 Al 6 diff +0.454; p2 0.0011; family p2 0.0004; location p1 0.0022 p2 0.0022; family x location p2 0.0014
+  groups>=5 no-catalytic: H 11 Al 6 diff +0.406; p2 0.0094; family p2 0.0041; location p1 0.0048 p2 0.0048; family x location p2 0.0047
+  at -1/+1 only: H 14 Al 4 diff +0.375 p1 0.0069 p2 0.0069
+
+== A3. H-Al variants (D_tests.tsv)
+  T20 cl50 class=cluster all: +0.333 p1 0.0026 p2 0.0041 strat p2 0.0041
+  T20 cl50 class=cluster no-catalytic: +0.279 p1 0.0155 p2 0.0295 strat p2 0.0263
+  T20 cl30 class=cluster all: +0.380 p1 0.0011 p2 0.0011 strat p2 0.0015
+  T50 cl50 class=cluster all: +0.308 p1 0.0076 p2 0.0085 strat p2 0.0058
+  T80 cl50 class=cluster all: +0.341 p1 0.0031 p2 0.0031 strat p2 0.0011
+  T20 cl50 class=ref_entry all: +0.280 p1 0.0084 p2 0.0134 strat p2 0.0171
+  T50 cl50 class=ref_entry all: +0.164 p1 0.0884 p2 0.1795 strat p2 0.1807
+  T80 cl50 class=ref_entry all: +0.177 p1 0.0793 p2 0.1179 strat p2 0.0431
+  T50 cl50 class=ref_entry no-catalytic: +0.180 p1 0.0978 p2 0.1886 strat p2 0.1998
+  T80 cl50 class=ref_entry no-catalytic: +0.230 p1 0.0728 p2 0.1140 strat p2 0.0443
+  HELDOUT T20 cl50 class=cluster(bound) all: +0.310 p1 0.0075 p2 0.0117 strat p2 0.0099
+  HELDOUT T20 cl50 class=cluster(bound) no-catalytic: +0.233 p1 0.0363 p2 0.0757 strat p2 0.0812
+  HELDOUT T20 cl30 class=cluster(bound) all: +0.173 p1 0.0674 p2 0.1363 strat p2 0.1369
+  OUTER T20 cl50 class=cluster(outer contacts) all: -0.087 p1 0.6722 p2 0.6660 strat p2 0.6724
+  SENS T20 cut3.2 cl50 class=cluster all: +0.273 p1 0.0113 p2 0.0192 strat p2 0.0113
+  SENS T20 cut4.0 cl50 class=cluster all: +0.295 p1 0.0102 p2 0.0154 strat p2 0.0149
+  SENS T20 cut3.5 angle cl50 class=cluster all: +0.264 p1 0.0127 p2 0.0247 strat p2 0.0214
+
+== B. m (Table 1) and m_map (map section)
+  GH13 G183: m 0.50 (16 groups) / m_map 0.39 (28 groups)
+  GH13 G250: m 0.31 (8 groups) / m_map 0.25 (20 groups)
+  GH13 K182: m 0.63 (15 groups) / m_map 0.50 (25 groups)
+  GH13 M52: m 0.41 (22 groups) / m_map 0.52 (29 groups)
+  GH13 Q294: m 0.80 (15 groups) / m_map 0.60 (20 groups)
+  GH13 W206: m 0.54 (13 groups) / m_map 0.47 (17 groups)
+  GH31 T205: m 0.67 (3 groups) / m_map 0.50 (4 groups)
+  GH31 T544: m 0.20 (5 groups) / m_map 0.17 (6 groups)
+
+== C. Map against experiment: observed vs trivial map vs permuted states
+  published map: 19/21 cells agree
+  by state: EXP 4/4; VAR 3/3; INV 12/14
+  trivial map (-1/+1 blocked, rest tolerated): 17/21 on the 21 cells; 19/25 on all 25
+  trivial map, "blocked" cells among the 21: 10/12
+  permuted states (1000, within family, scored on the 25 literature cells): agreement fraction mean 0.585, 95% range 0.381-0.789; cells with a prediction mean 19.4; P(fraction >= 0.905) = 0.001
+  INV cells only: observed 12/14 = 0.857; permuted mean 0.626, 95% range 0.375-0.875; P(>= observed) = 0.048
+  base rate: 13 of 25 literature cells not tolerated
+  P: 18 cells, 17/18 informative agree, 8 rest on it alone
+  Me: 8 cells, 7/8 informative agree, 2 rest on it alone
+  HE: 3 cells, 3/3 informative agree, 0 rest on it alone
+  glycosyl: 4 cells, 2/2 informative agree, 0 rest on it alone
+  other: 3 cells, 3/3 informative agree, 0 rest on it alone
+  without phosphate data: 13 cells keep a result, 10/11 informative agree
+
+== D. 50% sequence groups of GH13 and GH31
+  UniProt lookup failed for PDB:1W9X: HTTP Error 400: Bad Request
+  UniProt lookup failed for PDB:24ZQ: HTTP Error 400: Bad Request
+  UniProt lookup failed for PDB:2E9B: HTTP Error 400: Bad Request
+  UniProt lookup failed for PDB:6GXV: HTTP Error 400: Bad Request
+  UniProt lookup failed for PDB:7P01: HTTP Error 400: Bad Request
+  UniProt lookup failed for PDB:7P07: HTTP Error 400: Bad Request
+  UniProt lookup failed for PDB:8DL2: HTTP Error 400: Bad Request
+  35 groups (29 GH13, 6 GH31); with a CAZy subfamily: 30; largest group: 27 entries
+
+== E. Numbering concordance (GH13)
+  CSR I TAKA 117-122: 7TAA reads DVVANH; expected DVVANH; OK
+  CSR II TAKA 202-210: 7TAA reads GLRIDTVKH; expected GLRIDTVKH; OK
+  CSR III TAKA 230-233: 7TAA reads EVLD; expected EVLD; OK
+  CSR IV TAKA 292-297: 7TAA reads FVENHD; expected FVENHD; OK
+  D179: TAKA Asp206, PPA Asp197, CSR II
+  D289: TAKA Asp297, PPA Asp300, CSR IV
+  E204: TAKA Glu230, PPA Glu233, CSR III
+  F143: TAKA Leu166, PPA Leu162, CSR 
+  F180: TAKA Thr207, PPA Ala198, CSR II
+  G183: TAKA His210, PPA His201, CSR II
+  G250: TAKA Tyr256, PPA Ala260, CSR 
+  H288: TAKA His296, PPA His299, CSR IV
+  H92: TAKA His122, PPA His101, CSR I
+  K182: TAKA Lys209, PPA Lys200, CSR II
+  M52: TAKA Trp83, PPA Gln63, CSR 
+  Q294: TAKA Asp340, PPA --, CSR 
+  Q49: TAKA His80, PPA --, CSR 
+  R177: TAKA Arg204, PPA Arg195, CSR II
+  T207: TAKA --, PPA --, CSR 
+  W206: TAKA Leu232, PPA Ile235, CSR III
+  Y51: TAKA Tyr82, PPA Tyr62, CSR 

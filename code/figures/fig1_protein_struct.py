@@ -200,7 +200,7 @@ def pml_header(px_w, px_h, half_h, slab_near, slab_far, fov=20.0):
                   f'set_color ocol, {C.hexrgb(C.O_COL)}', f'set_color ncol, {C.hexrgb(C.N_COL)}',
                   f'set_color catc, {C.hexrgb(C.CAT_C)}', f'set_color outc, {C.hexrgb(C.OUTSIDE_C)}',
                   f'set_color surfc, {C.hexrgb(C.SURF_C)}'] + \
-        [f'set_color sub{i}, {C.hexrgb(C.SUB_COL[s])}' for i, s in enumerate(C.SUBSITES)] + \
+        [f'set_color sub{i}, {C.hexrgb(C.SUGAR_C)}' for i, s in enumerate(C.SUBSITES)] + \
         [f'set_color dom_{k}, {C.hexrgb(v)}' for k, v in C.DOM_COL.items()]
 
 

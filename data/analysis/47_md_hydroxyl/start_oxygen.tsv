@@ -1,0 +1,203 @@
+system	family	pdb	frame	time_ps	unit_seq	subsite	label	role	held	hb_angle	n_polar	sc_inv	sc_var	mc	partners	partners_hb	partner_atoms	sasa_cplx	sasa_lig	rel
+S01_6Z8L	GH13	6Z8L	-1	-1.0	1		O2	OH	False	False	0	False	False	False				38.62	42.41	0.911
+S01_6Z8L	GH13	6Z8L	-1	-1.0	1		O3	OH	False	False	0	False	False	False				18.53	18.97	0.976
+S01_6Z8L	GH13	6Z8L	-1	-1.0	1		O4	glycosidic	False	False	0	False	False	False				6.47	6.47	1.0
+S01_6Z8L	GH13	6Z8L	-1	-1.0	1		O5	ring	False	False	0	False	False	False				0.67	12.95	0.052
+S01_6Z8L	GH13	6Z8L	-1	-1.0	1		O6	OH	True	False	1	False	True	False	A357[sc]		TYR276.OH(2.98)	25.22	45.76	0.551
+S01_6Z8L	GH13	6Z8L	-1	-1.0	1		O1	OH	False	False	0	False	False	False				38.39	43.08	0.891
+S01_6Z8L	GH13	6Z8L	-1	-1.0	2		O2	OH	True	False	2	False	True	False	E259[sc]		GLU272.OE1(2.68) GLU272.OE2(3.35)	10.71	31.25	0.343
+S01_6Z8L	GH13	6Z8L	-1	-1.0	2		O3	OH	True	False	1	False	True	False	E259[sc]		GLU272.OE2(2.67)	10.71	42.86	0.25
+S01_6Z8L	GH13	6Z8L	-1	-1.0	2		O4	OH	False	False	0	False	False	False				22.1	42.41	0.521
+S01_6Z8L	GH13	6Z8L	-1	-1.0	2		O5	ring	False	False	0	False	False	False				0.0	12.05	0.0
+S01_6Z8L	GH13	6Z8L	-1	-1.0	2		O6	OH	True	True	1	False	True	False	ASN279[sc]	ASN279[sc]	ASN279.ND2(2.96)	8.93	32.14	0.278
+S02_2FHF	GH13	2FHF	-1	-1.0	1		O2	OH	True	False	2	False	True	False	F246[sc] K249[sc]		ASP734.OD2(2.73) ARG737.NH2(2.92)	1.12	41.3	0.027
+S02_2FHF	GH13	2FHF	-1	-1.0	1		O3	OH	True	False	2	False	True	False	K249[sc]		ARG737.NH1(2.8) ARG737.NH2(3.26)	0.0	24.33	0.0
+S02_2FHF	GH13	2FHF	-1	-1.0	1		O4	glycosidic	False	False	0	False	False	False				3.57	4.91	0.727
+S02_2FHF	GH13	2FHF	-1	-1.0	1		O5	ring	False	False	0	False	False	False				4.02	14.51	0.277
+S02_2FHF	GH13	2FHF	-1	-1.0	1		O6	OH	False	False	0	False	False	False				33.04	50.0	0.661
+S02_2FHF	GH13	2FHF	-1	-1.0	1		O1	OH	False	False	0	False	False	False				17.41	38.17	0.456
+S02_2FHF	GH13	2FHF	-1	-1.0	2		O2	OH	True	True	1	False	True	False	ASN835[sc]	ASN835[sc]	ASN835.ND2(2.88)	0.22	27.68	0.008
+S02_2FHF	GH13	2FHF	-1	-1.0	2		O3	OH	True	False	2	False	True	False	ASN835[sc]		ASN835.OD1(3.08) ASN835.ND2(3.07)	0.45	28.13	0.016
+S02_2FHF	GH13	2FHF	-1	-1.0	2		O4	glycosidic	False	False	0	False	False	False				3.79	3.79	1.0
+S02_2FHF	GH13	2FHF	-1	-1.0	2		O5	ring	True	False	2	True	True	False	E204[sc] TRP708[sc]		GLU706.OE1(3.4) TRP708.NE1(3.29)	0.0	14.73	0.0
+S02_2FHF	GH13	2FHF	-1	-1.0	2		O6	OH	False	False	0	False	False	False				13.39	16.96	0.789
+S02_2FHF	GH13	2FHF	-1	-1.0	3		O2	OH	True	False	1	False	True	False	ARG889[sc]		ARG889.NH1(2.9)	0.22	27.9	0.008
+S02_2FHF	GH13	2FHF	-1	-1.0	3		O3	OH	True	True	2	False	True	False	ARG889[sc] Q294[sc]	ARG889[sc]	ARG889.NH2(2.91) ASP890.OD1(3.14)	1.12	29.24	0.038
+S02_2FHF	GH13	2FHF	-1	-1.0	3		O4	glycosidic	False	False	0	False	False	False				4.02	4.02	1.0
+S02_2FHF	GH13	2FHF	-1	-1.0	3		O5	ring	False	False	0	False	False	False				12.05	12.5	0.964
+S02_2FHF	GH13	2FHF	-1	-1.0	3		O6	OH	True	False	1	False	False	True	THR642[mc]		THR642.O(2.67)	2.68	29.24	0.092
+S02_2FHF	GH13	2FHF	-1	-1.0	4		O2	OH	False	False	0	False	False	False				22.55	27.68	0.815
+S02_2FHF	GH13	2FHF	-1	-1.0	4		O3	OH	False	False	0	False	False	False				42.64	42.64	1.0
+S02_2FHF	GH13	2FHF	-1	-1.0	4		O4	OH	False	False	0	False	False	False				41.3	41.3	1.0
+S02_2FHF	GH13	2FHF	-1	-1.0	4		O5	ring	False	False	0	False	False	False				1.12	8.26	0.135
+S02_2FHF	GH13	2FHF	-1	-1.0	4		O6	OH	True	False	1	False	False	True	G144[mc]		SER640.O(3.24)	16.52	45.76	0.361
+S03_6TP1	GH13	6TP1	-1	-1.0	1		O2	OH	True	True	1	False	False	True	G316[mc]	G316[mc]	GLY357.N(2.93)	2.23	40.85	0.055
+S03_6TP1	GH13	6TP1	-1	-1.0	1		O3	OH	True	False	2	False	False	True	G316[mc] P278[mc]		PRO317.O(2.86) GLY357.N(3.28)	0.0	33.04	0.0
+S03_6TP1	GH13	6TP1	-1	-1.0	1		O4	glycosidic	False	False	0	False	False	False				3.79	4.69	0.81
+S03_6TP1	GH13	6TP1	-1	-1.0	1		O5	ring	False	False	0	False	False	False				9.82	12.28	0.8
+S03_6TP1	GH13	6TP1	-1	-1.0	1		O6	OH	True	False	1	False	False	True	LEU3[mc]		LEU3.O(3.35)	26.34	47.55	0.554
+S03_6TP1	GH13	6TP1	-1	-1.0	1		O1	OH	False	False	0	False	False	False				32.59	41.74	0.781
+S03_6TP1	GH13	6TP1	-1	-1.0	2		O2	OH	True	False	1	False	False	True	A279[mc]		VAL318.O(2.74)	8.93	39.51	0.226
+S03_6TP1	GH13	6TP1	-1	-1.0	2		O3	OH	False	False	0	False	False	False				9.15	24.55	0.373
+S03_6TP1	GH13	6TP1	-1	-1.0	2		O4	glycosidic	False	False	0	False	False	False				1.79	4.24	0.421
+S03_6TP1	GH13	6TP1	-1	-1.0	2		O5	ring	False	False	0	False	False	False				0.0	11.38	0.0
+S03_6TP1	GH13	6TP1	-1	-1.0	2		O6	OH	True	False	1	False	False	True	GLY5[mc]		GLY5.N(3.07)	0.67	38.84	0.017
+S03_6TP1	GH13	6TP1	-1	-1.0	3		O2	OH	True	False	2	False	True	False	GLU255[sc]		GLU255.OE1(3.14) GLU255.OE2(2.52)	8.48	28.35	0.299
+S03_6TP1	GH13	6TP1	-1	-1.0	3		O3	OH	True	False	1	False	True	False	GLU255[sc]		GLU255.OE1(2.82)	11.16	28.13	0.397
+S03_6TP1	GH13	6TP1	-1	-1.0	3		O4	glycosidic	False	False	0	False	False	False				0.0	5.58	0.0
+S03_6TP1	GH13	6TP1	-1	-1.0	3		O5	ring	True	False	2	False	True	False	I85[sc] T317[sc]		TYR98.OH(3.28) TYR358.OH(3.2)	0.0	13.17	0.0
+S03_6TP1	GH13	6TP1	-1	-1.0	3		O6	OH	True	False	2	False	True	False	T317[sc] T35[sc]		THR38.OG1(2.67) TYR358.OH(2.71)	0.0	43.53	0.0
+S03_6TP1	GH13	6TP1	-1	-1.0	4		O2	OH	False	False	0	False	False	False				28.8	30.36	0.949
+S03_6TP1	GH13	6TP1	-1	-1.0	4		O3	OH	False	False	0	False	False	False				41.97	41.97	1.0
+S03_6TP1	GH13	6TP1	-1	-1.0	4		O4	OH	False	False	0	False	False	False				29.24	41.52	0.704
+S03_6TP1	GH13	6TP1	-1	-1.0	4		O5	ring	False	False	0	False	False	False				1.12	9.15	0.122
+S03_6TP1	GH13	6TP1	-1	-1.0	4		O6	OH	True	False	2	False	True	True	G81[mc] K83[sc]		ASP94.O(2.73) ASN96.ND2(3.48)	9.38	46.21	0.203
+S04_2GVY	GH13	2GVY	-1	-1.0	1		O2	OH	True	False	1	False	True	False	K182[sc]		LYS209.NZ(3.09)	17.86	41.07	0.435
+S04_2GVY	GH13	2GVY	-1	-1.0	1		O3	OH	True	False	1	False	True	False	K182[sc]		LYS209.NZ(2.7)	0.0	26.56	0.0
+S04_2GVY	GH13	2GVY	-1	-1.0	1		O4	glycosidic	False	False	0	False	False	False				1.56	4.24	0.368
+S04_2GVY	GH13	2GVY	-1	-1.0	1		O5	ring	False	False	0	False	False	False				9.38	11.83	0.792
+S04_2GVY	GH13	2GVY	-1	-1.0	1		O6	OH	False	False	0	False	False	False				27.68	41.52	0.667
+S04_2GVY	GH13	2GVY	-1	-1.0	1		O1	OH	False	False	0	False	False	False				39.51	45.98	0.859
+S04_2GVY	GH13	2GVY	-1	-1.0	2		O2	OH	True	True	1	False	True	False	G183[sc]	G183[sc]	HIS210.NE2(2.71)	0.89	27.23	0.033
+S04_2GVY	GH13	2GVY	-1	-1.0	2		O3	OH	False	False	0	False	False	False				6.92	41.3	0.168
+S04_2GVY	GH13	2GVY	-1	-1.0	2		O4	OH	False	False	0	False	False	False				32.14	41.97	0.766
+S04_2GVY	GH13	2GVY	-1	-1.0	2		O5	ring	False	False	0	False	False	False				2.23	7.14	0.312
+S04_2GVY	GH13	2GVY	-1	-1.0	2		O6	OH	False	False	0	False	False	False				24.33	46.65	0.522
+S05_1QHO	GH13	1QHO	-1	-1.0	1		O2	OH	True	False	1	False	True	False	LYS650[sc]		LYS650.NZ(3.2)	13.84	40.85	0.339
+S05_1QHO	GH13	1QHO	-1	-1.0	1		O3	OH	True	True	1	False	True	False	LYS650[sc]	LYS650[sc]	LYS650.NZ(2.79)	1.56	26.34	0.059
+S05_1QHO	GH13	1QHO	-1	-1.0	1		O4	glycosidic	False	False	0	False	False	False				3.57	3.57	1.0
+S05_1QHO	GH13	1QHO	-1	-1.0	1		O5	ring	False	False	0	False	False	False				5.58	13.84	0.403
+S05_1QHO	GH13	1QHO	-1	-1.0	1		O6	OH	False	False	0	False	False	False				47.1	47.1	1.0
+S05_1QHO	GH13	1QHO	-1	-1.0	1		O1	OH	False	False	0	False	False	False				38.62	38.62	1.0
+S05_1QHO	GH13	1QHO	-1	-1.0	2		O2	OH	True	False	1	False	True	False	ASN667[sc]		ASN667.OD1(2.58)	4.02	26.12	0.154
+S05_1QHO	GH13	1QHO	-1	-1.0	2		O3	OH	True	True	1	False	True	False	ASN667[sc]	ASN667[sc]	ASN667.ND2(3.01)	18.97	42.64	0.445
+S05_1QHO	GH13	1QHO	-1	-1.0	2		O4	OH	False	False	0	False	False	False				39.06	40.85	0.956
+S05_1QHO	GH13	1QHO	-1	-1.0	2		O5	ring	False	False	0	False	False	False				0.0	10.94	0.0
+S05_1QHO	GH13	1QHO	-1	-1.0	2		O6	OH	False	False	0	False	False	False				31.25	37.28	0.838
+S06_7DCG	GH13	7DCG	-1	-1.0	1	+1	O2	OH	False	False	0	False	False	False				11.16	41.52	0.269
+S06_7DCG	GH13	7DCG	-1	-1.0	1	+1	O3	OH	True	False	1	True	False	False	E204[sc]		GLN374.OE1(2.62)	0.0	32.14	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	1	+1	O4	glycosidic	True	True	1	True	False	False	E204[sc]	E204[sc]	GLN374.NE2(3.35)	0.0	3.35	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	1	+1	O5	ring	False	False	0	False	False	False				10.04	14.06	0.714
+S06_7DCG	GH13	7DCG	-1	-1.0	1	+1	O6	OH	False	False	0	False	False	False				11.38	24.55	0.464
+S06_7DCG	GH13	7DCG	-1	-1.0	1	+1	O1	OH	True	False	1	False	True	False	W206[sc]		TRP376.NE1(3.35)	18.3	38.84	0.471
+S06_7DCG	GH13	7DCG	-1	-1.0	2	-1	O2	OH	True	True	4	True	True	False	D289[sc] E204[sc] H288[sc] R177[sc]	R177[sc]	ARG343.NH2(3.08) GLN374.NE2(3.12) HIS439.NE2(3.12) ASP440.OD2(2.66)	0.0	43.08	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	2	-1	O3	OH	True	False	2	True	True	False	D289[sc] H288[sc]		HIS439.NE2(3.0) ASP440.OD1(2.73)	0.0	26.34	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	2	-1	O4	glycosidic	False	False	0	False	False	False				0.0	0.0	
+S06_7DCG	GH13	7DCG	-1	-1.0	2	-1	O5	ring	True	False	1	True	False	False	D179[sc]		ASP345.OD1(2.98)	0.0	6.03	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	2	-1	O6	OH	True	True	2	True	False	False	D179[sc] H92[sc]	D179[sc]	HIS256.NE2(2.96) ASP345.OD2(2.81)	0.0	44.64	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	3	-2	O2	OH	True	True	1	False	True	False	ARG488[sc]	ARG488[sc]	ARG488.NH2(2.88)	0.0	26.12	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	3	-2	O3	OH	True	False	3	False	True	False	ARG488[sc] Q294[sc]		ASP484.OD2(2.67) ARG488.NH1(3.09) ARG488.NH2(3.43)	3.35	43.08	0.078
+S06_7DCG	GH13	7DCG	-1	-1.0	3	-2	O4	OH	True	False	1	False	True	False	GLU296[sc]		GLU296.OE1(3.35)	13.84	39.06	0.354
+S06_7DCG	GH13	7DCG	-1	-1.0	3	-2	O5	ring	False	False	0	False	False	False				0.0	8.93	0.0
+S06_7DCG	GH13	7DCG	-1	-1.0	3	-2	O6	OH	True	False	1	False	True	False	GLU296[sc]		GLU296.OE2(2.88)	4.02	45.76	0.088
+S07_6A0K	GH13	6A0K	-1	-1.0	1	-1	O2	OH	True	True	4	True	True	False	D289[sc] H288[sc] R177[sc] Y51[sc]	R177[sc]	TYR81.OH(3.42) ARG199.NH2(2.84) HIS296.NE2(3.02) ASP297.OD2(2.47)	0.0	45.31	0.0
+S07_6A0K	GH13	6A0K	-1	-1.0	1	-1	O3	OH	True	False	3	True	True	False	D289[sc] H288[sc]		HIS296.NE2(3.18) ASP297.OD1(2.54) ASP297.OD2(3.46)	0.0	26.56	0.0
+S07_6A0K	GH13	6A0K	-1	-1.0	1	-1	O4	glycosidic	False	False	0	False	False	False				2.68	2.68	1.0
+S07_6A0K	GH13	6A0K	-1	-1.0	1	-1	O5	ring	True	False	2	True	False	False	D179[sc]		ASP201.OD1(2.75) ASP201.OD2(3.46)	0.0	12.72	0.0
+S07_6A0K	GH13	6A0K	-1	-1.0	1	-1	O6	OH	True	False	2	True	False	False	D179[sc] H92[sc]		HIS121.NE2(3.0) ASP201.OD2(2.67)	0.0	45.31	0.0
+S07_6A0K	GH13	6A0K	-1	-1.0	1	-1	O1	OH	True	True	2	True	False	False	E204[sc]	E204[sc]	GLU230.OE1(3.38) GLU230.OE2(2.64)	10.27	39.06	0.263
+S07_6A0K	GH13	6A0K	-1	-1.0	2	-2	O2	OH	True	True	2	False	True	False	ARG345[sc]	ARG345[sc]	ARG345.NH1(3.34) ARG345.NH2(3.15)	0.0	27.23	0.0
+S07_6A0K	GH13	6A0K	-1	-1.0	2	-2	O3	OH	True	False	2	False	True	False	ARG345[sc] Q294[sc]		ASP341.OD2(2.7) ARG345.NH1(3.18)	8.26	43.53	0.19
+S07_6A0K	GH13	6A0K	-1	-1.0	2	-2	O4	OH	False	False	0	False	False	False				31.03	34.6	0.897
+S07_6A0K	GH13	6A0K	-1	-1.0	2	-2	O5	ring	False	False	0	False	False	False				0.0	12.5	0.0
+S07_6A0K	GH13	6A0K	-1	-1.0	2	-2	O6	glycosidic	False	False	0	False	False	False				0.22	0.22	
+S07_6A0K	GH13	6A0K	-1	-1.0	3	-2~O6	O2	OH	False	False	0	False	False	False				34.6	42.86	0.807
+S07_6A0K	GH13	6A0K	-1	-1.0	3	-2~O6	O3	OH	False	False	0	False	False	False				39.51	41.3	0.957
+S07_6A0K	GH13	6A0K	-1	-1.0	3	-2~O6	O4	OH	False	False	0	False	False	False				37.05	37.05	1.0
+S07_6A0K	GH13	6A0K	-1	-1.0	3	-2~O6	O5	ring	False	False	0	False	False	False				0.0	12.95	0.0
+S07_6A0K	GH13	6A0K	-1	-1.0	3	-2~O6	O6	OH	True	False	1	False	True	False	SER164[sc]		SER164.OG(2.81)	8.93	42.86	0.208
+S08_1J18	GH14	1J18	-1	-1.0	1	+2	O2	OH	True	False	1	True	False	False	H300[sc]		HIS292.NE2(3.48)	5.8	43.08	0.135
+S08_1J18	GH14	1J18	-1	-1.0	1	+2	O3	OH	True	False	1	True	False	False	H300[sc]		HIS292.NE2(2.7)	0.0	24.55	0.0
+S08_1J18	GH14	1J18	-1	-1.0	1	+2	O4	glycosidic	False	False	0	False	False	False				0.0	0.45	
+S08_1J18	GH14	1J18	-1	-1.0	1	+2	O5	ring	False	False	0	False	False	False				4.02	12.5	0.321
+S08_1J18	GH14	1J18	-1	-1.0	1	+2	O6	OH	False	False	0	False	False	False				8.93	44.42	0.201
+S08_1J18	GH14	1J18	-1	-1.0	1	+2	O1	OH	False	False	0	False	False	False				15.18	38.62	0.393
+S08_1J18	GH14	1J18	-1	-1.0	2	+1	O2	OH	True	False	1	False	False	True	G298[mc]		GLY290.O(2.67)	0.0	22.32	0.0
+S08_1J18	GH14	1J18	-1	-1.0	2	+1	O3	OH	True	True	3	True	False	True	G298[mc] T342[mc] T342[sc]	G298[mc]	GLY290.N(3.09) THR330.OG1(2.8) THR330.O(3.19)	0.0	40.4	0.0
+S08_1J18	GH14	1J18	-1	-1.0	2	+1	O4	OH	True	False	2	True	False	False	E186[sc] T342[sc]		GLU172.OE2(2.52) THR330.OG1(3.06)	0.0	5.58	0.0
+S08_1J18	GH14	1J18	-1	-1.0	2	+1	O5	ring	True	False	1	True	False	False	Y192[sc]		TYR178.OH(3.07)	0.0	10.04	0.0
+S08_1J18	GH14	1J18	-1	-1.0	2	+1	O6	OH	True	False	2	True	False	False	E186[sc] R188[sc]		GLU172.OE1(3.42) ARG174.NH2(3.4)	0.89	36.83	0.024
+S08_1J18	GH14	1J18	-1	-1.0	3	-1	O2	OH	True	False	1	False	False	True	A382[mc]		ALA369.O(2.77)	0.0	25.89	0.0
+S08_1J18	GH14	1J18	-1	-1.0	3	-1	O3	OH	True	False	1	False	False	True	VAL95[mc]		VAL95.O(2.93)	1.12	32.37	0.034
+S08_1J18	GH14	1J18	-1	-1.0	3	-1	O4	glycosidic	False	False	0	False	False	False				0.0	1.12	0.0
+S08_1J18	GH14	1J18	-1	-1.0	3	-1	O5	ring	True	False	1	True	False	False	E186[sc]		GLU172.OE2(3.21)	0.0	14.73	0.0
+S08_1J18	GH14	1J18	-1	-1.0	3	-1	O6	OH	True	True	2	True	False	False	E380[sc] K295[sc]	E380[sc]	LYS287.NZ(3.02) GLU367.OE1(3.08)	0.0	28.13	0.0
+S08_1J18	GH14	1J18	-1	-1.0	4	-2	O2	OH	True	False	1	False	True	False	ASP97[sc]		ASP97.OD2(2.53)	0.0	33.04	0.0
+S08_1J18	GH14	1J18	-1	-1.0	4	-2	O3	OH	True	False	1	True	False	False	H93[sc]		HIS89.NE2(2.83)	0.0	42.64	0.0
+S08_1J18	GH14	1J18	-1	-1.0	4	-2	O4	OH	True	False	2	True	False	False	D53[sc] H93[sc]		ASP49.OD1(2.6) HIS89.NE2(2.92)	0.89	39.06	0.023
+S08_1J18	GH14	1J18	-1	-1.0	4	-2	O5	ring	True	True	1	True	False	False	R420[sc]	R420[sc]	ARG397.NH2(2.87)	0.0	10.94	0.0
+S08_1J18	GH14	1J18	-1	-1.0	4	-2	O6	OH	True	True	2	True	False	False	D53[sc] R420[sc]	R420[sc]	ASP49.OD2(2.49) ARG397.NH1(2.93)	2.46	46.21	0.053
+S09_9KYQ	GH57	9KYQ	-1	-1.0	1	-1	O2	OH	True	False	2	False	True	False	ASP352[sc] HIS11[sc]		HIS11.NE2(3.27) ASP352.OD1(2.76)	0.0	43.08	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	1	-1	O3	OH	True	False	1	False	True	False	HIS11[sc]		HIS11.NE2(3.31)	0.0	30.8	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	1	-1	O4	glycosidic	False	False	0	False	False	False				1.12	3.79	0.294
+S09_9KYQ	GH57	9KYQ	-1	-1.0	1	-1	O5	ring	True	True	1	False	True	False	GLU256[sc]	GLU256[sc]	GLU256.OE2(3.3)	0.0	12.5	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	1	-1	O6	OH	True	False	1	False	True	False	ASP448[sc]		ASP448.OD2(2.67)	0.0	36.61	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	1	-1	O1	OH	True	False	2	False	True	False	ASP352[sc]		ASP352.OD1(3.44) ASP352.OD2(2.78)	14.29	38.84	0.368
+S09_9KYQ	GH57	9KYQ	-1	-1.0	2	-2	O2	OH	True	True	5	False	True	True	ASN355[sc] GLU354[sc] HIS13[mc]	ASN355[sc]	HIS13.O(2.89) GLU354.OE1(3.01) GLU354.OE2(3.37) ASN355.OD1(3.46) ASN355.ND2(2.89)	0.0	34.15	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	2	-2	O3	OH	True	False	2	False	True	False	ASN355[sc] GLN14[sc]		GLN14.NE2(3.03) ASN355.OD1(2.65)	0.0	26.12	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	2	-2	O4	glycosidic	False	False	0	False	False	False				3.79	5.13	0.739
+S09_9KYQ	GH57	9KYQ	-1	-1.0	2	-2	O5	ring	True	False	1	False	True	False	ASP448[sc]		ASP448.OD2(3.1)	0.0	11.61	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	2	-2	O6	OH	True	True	2	False	True	False	ASP448[sc] TRP452[sc]	TRP452[sc]	ASP448.OD2(2.81) TRP452.NE1(2.83)	0.0	34.15	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	3	-3	O2	OH	True	False	1	False	True	False	HIS33[sc]		HIS33.NE2(2.86)	0.0	26.56	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	3	-3	O3	OH	False	False	0	False	False	False				4.69	41.74	0.112
+S09_9KYQ	GH57	9KYQ	-1	-1.0	3	-3	O4	OH	False	False	0	False	False	False				18.53	40.4	0.459
+S09_9KYQ	GH57	9KYQ	-1	-1.0	3	-3	O5	ring	True	False	1	False	True	False	TRP29[sc]		TRP29.NE1(3.21)	0.0	7.81	0.0
+S09_9KYQ	GH57	9KYQ	-1	-1.0	3	-3	O6	OH	True	False	2	False	True	True	PRO459[mc] TRP29[sc]		TRP29.NE1(3.06) PRO459.O(2.79)	0.0	45.76	0.0
+S10_2Z8G	GH49	2Z8G	-1	-1.0	1		O2	OH	True	False	2	False	False	True	GLY350[mc] TYR89[mc]		TYR89.O(2.56) GLY350.N(2.91)	0.0	41.97	0.0
+S10_2Z8G	GH49	2Z8G	-1	-1.0	1		O3	OH	True	True	3	False	False	True	GLN88[mc] THR90[mc] TYR89[mc]	TYR89[mc]	GLN88.O(2.89) TYR89.O(3.41) THR90.O(3.09)	3.35	42.64	0.079
+S10_2Z8G	GH49	2Z8G	-1	-1.0	1		O4	OH	False	False	0	False	False	False				33.26	41.97	0.793
+S10_2Z8G	GH49	2Z8G	-1	-1.0	1		O5	ring	False	False	0	False	False	False				1.12	1.56	0.714
+S10_2Z8G	GH49	2Z8G	-1	-1.0	1		O6	glycosidic	False	False	0	False	False	False				2.46	5.36	0.458
+S10_2Z8G	GH49	2Z8G	-1	-1.0	1		O1	OH	False	False	0	False	False	False				1.56	41.07	0.038
+S10_2Z8G	GH49	2Z8G	-1	-1.0	2		O2	OH	True	False	1	False	True	False	ASN427[sc]		ASN427.OD1(2.67)	7.81	41.97	0.186
+S10_2Z8G	GH49	2Z8G	-1	-1.0	2		O3	OH	True	False	1	False	False	True	GLY426[mc]		GLY426.O(2.58)	0.0	27.46	0.0
+S10_2Z8G	GH49	2Z8G	-1	-1.0	2		O4	glycosidic	False	False	0	False	False	False				0.0	2.68	0.0
+S10_2Z8G	GH49	2Z8G	-1	-1.0	2		O5	ring	False	False	0	False	False	False				12.05	12.05	1.0
+S10_2Z8G	GH49	2Z8G	-1	-1.0	2		O6	OH	False	False	0	False	False	False				37.05	42.19	0.878
+S10_2Z8G	GH49	2Z8G	-1	-1.0	3		O2	OH	True	True	1	False	True	False	ASN428[sc]	ASN428[sc]	ASN428.ND2(2.86)	0.0	28.35	0.0
+S10_2Z8G	GH49	2Z8G	-1	-1.0	3		O3	OH	True	False	2	False	True	False	ASP372[sc]		ASP372.OD1(2.78) ASP372.OD2(3.45)	0.89	42.64	0.021
+S10_2Z8G	GH49	2Z8G	-1	-1.0	3		O4	OH	True	False	2	False	True	False	ASP372[sc]		ASP372.OD1(3.28) ASP372.OD2(2.72)	10.49	41.07	0.255
+S10_2Z8G	GH49	2Z8G	-1	-1.0	3		O5	ring	False	False	0	False	False	False				0.0	8.93	0.0
+S10_2Z8G	GH49	2Z8G	-1	-1.0	3		O6	OH	True	False	1	False	False	True	PRO442[mc]		PRO442.O(2.77)	21.21	45.76	0.463
+S11_5T7N	AA13	5T7N	-1	-1.0	1		O2	OH	False	False	0	False	False	False				30.36	41.74	0.727
+S11_5T7N	AA13	5T7N	-1	-1.0	1		O3	OH	False	False	0	False	False	False				32.59	32.59	1.0
+S11_5T7N	AA13	5T7N	-1	-1.0	1		O4	glycosidic	False	False	0	False	False	False				0.22	6.47	0.034
+S11_5T7N	AA13	5T7N	-1	-1.0	1		O5	ring	False	False	0	False	False	False				1.79	12.72	0.14
+S11_5T7N	AA13	5T7N	-1	-1.0	1		O6	OH	False	False	0	False	False	False				14.51	29.24	0.496
+S11_5T7N	AA13	5T7N	-1	-1.0	1		O1	OH	True	False	1	False	True	False	GLN141[sc]		GLN141.OE1(2.48)	0.45	41.3	0.011
+S11_5T7N	AA13	5T7N	-1	-1.0	2		O2	OH	False	False	0	False	False	False				15.85	33.93	0.467
+S11_5T7N	AA13	5T7N	-1	-1.0	2		O3	OH	True	False	1	False	False	True	ASP178[mc]		ASP178.O(3.5)	7.59	27.01	0.281
+S11_5T7N	AA13	5T7N	-1	-1.0	2		O4	glycosidic	False	False	0	False	False	False				0.0	6.7	0.0
+S11_5T7N	AA13	5T7N	-1	-1.0	2		O5	ring	False	False	0	False	False	False				11.83	11.83	1.0
+S11_5T7N	AA13	5T7N	-1	-1.0	2		O6	OH	False	False	0	False	False	False				14.96	31.25	0.479
+S11_5T7N	AA13	5T7N	-1	-1.0	3		O2	OH	False	False	0	False	False	False				5.58	27.01	0.207
+S11_5T7N	AA13	5T7N	-1	-1.0	3		O3	OH	True	False	1	False	True	False	THR194[sc]		THR194.OG1(2.66)	6.7	41.52	0.161
+S11_5T7N	AA13	5T7N	-1	-1.0	3		O4	OH	True	True	1	False	True	False	GLN82[sc]	GLN82[sc]	GLN82.NE2(2.9)	1.79	29.47	0.061
+S11_5T7N	AA13	5T7N	-1	-1.0	3		O5	ring	False	False	0	False	False	False				9.38	9.38	1.0
+S11_5T7N	AA13	5T7N	-1	-1.0	3		O6	glycosidic	False	False	0	False	False	False				1.79	1.79	1.0
+S11_5T7N	AA13	5T7N	-1	-1.0	4		O2	OH	False	False	0	False	False	False				40.18	40.18	1.0
+S11_5T7N	AA13	5T7N	-1	-1.0	4		O3	OH	False	False	0	False	False	False				42.64	42.64	1.0
+S11_5T7N	AA13	5T7N	-1	-1.0	4		O4	OH	False	False	0	False	False	False				35.72	38.62	0.925
+S11_5T7N	AA13	5T7N	-1	-1.0	4		O5	ring	False	False	0	False	False	False				11.61	11.83	0.981
+S11_5T7N	AA13	5T7N	-1	-1.0	4		O6	OH	False	False	0	False	False	False				45.76	45.76	1.0
+S12_1L5W	GT35	1L5W	-1	-1.0	1		O2	OH	False	False	0	False	False	False				39.73	40.18	0.989
+S12_1L5W	GT35	1L5W	-1	-1.0	1		O3	OH	False	False	0	False	False	False				2.23	27.01	0.083
+S12_1L5W	GT35	1L5W	-1	-1.0	1		O4	glycosidic	False	False	0	False	False	False				2.68	4.46	0.6
+S12_1L5W	GT35	1L5W	-1	-1.0	1		O5	ring	False	False	0	False	False	False				6.7	14.06	0.476
+S12_1L5W	GT35	1L5W	-1	-1.0	1		O6	OH	True	True	3	False	True	False	GLU350[sc] HIS536[sc]	GLU350[sc]	GLU350.OE1(2.67) GLU350.OE2(3.13) HIS536.NE2(3.18)	3.57	51.79	0.069
+S12_1L5W	GT35	1L5W	-1	-1.0	1		O1	OH	False	False	0	False	False	False				39.06	39.06	1.0
+S12_1L5W	GT35	1L5W	-1	-1.0	2		O2	OH	False	False	0	False	False	False				9.15	29.02	0.315
+S12_1L5W	GT35	1L5W	-1	-1.0	2		O3	OH	True	False	2	False	True	False	ARG268[sc]		ARG268.NH1(3.42) ARG268.NH2(2.94)	2.9	31.92	0.091
+S12_1L5W	GT35	1L5W	-1	-1.0	2		O4	glycosidic	False	False	0	False	False	False				0.0	4.69	0.0
+S12_1L5W	GT35	1L5W	-1	-1.0	2		O5	ring	False	False	0	False	False	False				0.0	12.05	0.0
+S12_1L5W	GT35	1L5W	-1	-1.0	2		O6	OH	False	False	0	False	False	False				1.79	24.11	0.074
+S12_1L5W	GT35	1L5W	-1	-1.0	3		O2	OH	True	False	1	False	True	False	ARG268[sc]		ARG268.NH1(2.83)	2.46	34.82	0.071
+S12_1L5W	GT35	1L5W	-1	-1.0	3		O3	OH	True	False	1	False	True	False	HIS309[sc]		HIS309.NE2(2.89)	0.0	27.23	0.0
+S12_1L5W	GT35	1L5W	-1	-1.0	3		O4	glycosidic	False	False	0	False	False	False				2.01	4.46	0.45
+S12_1L5W	GT35	1L5W	-1	-1.0	3		O5	ring	False	False	0	False	False	False				1.12	11.38	0.098
+S12_1L5W	GT35	1L5W	-1	-1.0	3		O6	OH	True	False	2	False	True	False	ARG534[sc] ASN112[sc]		ASN112.ND2(2.75) ARG534.NH1(2.94)	1.79	32.81	0.054
+S12_1L5W	GT35	1L5W	-1	-1.0	4		O2	OH	True	False	1	False	True	False	ASP307[sc]		ASP307.OD2(2.63)	0.0	27.68	0.0
+S12_1L5W	GT35	1L5W	-1	-1.0	4		O3	OH	True	False	1	False	True	False	ASP307[sc]		ASP307.OD2(2.58)	0.0	43.53	0.0
+S12_1L5W	GT35	1L5W	-1	-1.0	4		O4	OH	True	False	1	False	True	False	ARG534[sc]		ARG534.NH2(3.28)	1.34	41.74	0.032
+S12_1L5W	GT35	1L5W	-1	-1.0	4		O5	ring	True	False	2	False	True	False	GLU67[sc] TYR256[sc]		GLU67.OE2(2.87) TYR256.OH(3.45)	0.0	7.14	0.0
+S12_1L5W	GT35	1L5W	-1	-1.0	4		O6	OH	True	False	5	False	True	True	GLU67[sc] GLY113[mc] GLY114[mc] LEU115[mc]		GLU67.OE1(3.44) GLU67.OE2(2.64) GLY113.N(3.38) GLY114.N(3.25) LEU115.N(3.0)	0.0	46.21	0.0

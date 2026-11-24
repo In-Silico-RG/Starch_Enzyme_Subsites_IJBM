@@ -1,0 +1,39 @@
+system	family	pdb	unit_seq	md_resid	ff	anomer	subsite	subsite_source	d_c1_catmid_start_A	oxygens
+S01_6Z8L	GH13	6Z8L	1	497	4GA	alpha				O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S01_6Z8L	GH13	6Z8L	2	498	0GA	alpha				O2:OH O3:OH O4:OH O5:ring O6:OH
+S02_2FHF	GH13	2FHF	1	1053	4GA	alpha			11.14	O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S02_2FHF	GH13	2FHF	2	1054	4GA	alpha			7.1	O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S02_2FHF	GH13	2FHF	3	1055	4GA	alpha			6.87	O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S02_2FHF	GH13	2FHF	4	1056	0GA	alpha			10.39	O2:OH O3:OH O4:OH O5:ring O6:OH
+S03_6TP1	GH13	6TP1	1	482	4GA	alpha				O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S03_6TP1	GH13	6TP1	2	483	4GA	alpha				O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S03_6TP1	GH13	6TP1	3	484	4GA	alpha				O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S03_6TP1	GH13	6TP1	4	485	0GA	alpha				O2:OH O3:OH O4:OH O5:ring O6:OH
+S04_2GVY	GH13	2GVY	1	477	4GB	beta			11.71	O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S04_2GVY	GH13	2GVY	2	478	0GA	alpha			8.07	O2:OH O3:OH O4:OH O5:ring O6:OH
+S05_1QHO	GH13	1QHO	1	687	4GA	alpha				O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S05_1QHO	GH13	1QHO	2	688	0GA	alpha				O2:OH O3:OH O4:OH O5:ring O6:OH
+S06_7DCG	GH13	7DCG	1	589	4GA	alpha	+1	a47 (catalytic-pair rule on system.gro)	6.58	O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S06_7DCG	GH13	7DCG	2	590	4GA	alpha	-1	a47 (catalytic-pair rule on system.gro)	2.32	O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S06_7DCG	GH13	7DCG	3	591	0GA	alpha	-2	a47 (catalytic-pair rule on system.gro)	7.08	O2:OH O3:OH O4:OH O5:ring O6:OH
+S07_6A0K	GH13	6A0K	1	451	4GA	alpha	-1	33	2.14	O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S07_6A0K	GH13	6A0K	2	452	6GA	alpha	-2	33	6.93	O2:OH O3:OH O4:OH O5:ring O6:glycosidic
+S07_6A0K	GH13	6A0K	3	453	0GA	alpha	-2~O6	33	9.62	O2:OH O3:OH O4:OH O5:ring O6:OH
+S08_1J18	GH14	1J18	1	517	4GA	alpha	+2	33	12.33	O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S08_1J18	GH14	1J18	2	518	4GA	alpha	+1	33	7.92	O2:OH O3:OH O4:OH O5:ring O6:OH
+S08_1J18	GH14	1J18	3	519	4GA	alpha	-1	33	3.46	O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S08_1J18	GH14	1J18	4	520	0GA	alpha	-2	33	6.07	O2:OH O3:OH O4:OH O5:ring O6:OH
+S09_9KYQ	GH57	9KYQ	1	477	4GA	alpha	-1	33	1.46	O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S09_9KYQ	GH57	9KYQ	2	478	4GA	alpha	-2	33	6.14	O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S09_9KYQ	GH57	9KYQ	3	479	0GA	alpha	-3	33	10.55	O2:OH O3:OH O4:OH O5:ring O6:OH
+S10_2Z8G	GH49	2Z8G	1	550	6GB	beta				O1:OH O2:OH O3:OH O4:OH O5:ring O6:glycosidic
+S10_2Z8G	GH49	2Z8G	2	551	4GA	alpha				O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S10_2Z8G	GH49	2Z8G	3	552	0GA	alpha				O2:OH O3:OH O4:OH O5:ring O6:OH
+S11_5T7N	AA13	5T7N	1	234	4GA	alpha				O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S11_5T7N	AA13	5T7N	2	235	4GA	alpha				O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S11_5T7N	AA13	5T7N	3	236	6GA	alpha				O2:OH O3:OH O4:OH O5:ring O6:glycosidic
+S11_5T7N	AA13	5T7N	4	237	0GA	alpha				O2:OH O3:OH O4:OH O5:ring O6:OH
+S12_1L5W	GT35	1L5W	1	797	4GA	alpha				O1:OH O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S12_1L5W	GT35	1L5W	2	798	4GA	alpha				O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S12_1L5W	GT35	1L5W	3	799	4GA	alpha				O2:OH O3:OH O4:glycosidic O5:ring O6:OH
+S12_1L5W	GT35	1L5W	4	800	0GA	alpha				O2:OH O3:OH O4:OH O5:ring O6:OH

@@ -33,6 +33,14 @@ B.~R. Miller, T.~D. McGee, J.~M. Swails, N.~Homeyer, H.~Gohlke, A.~E. Roitberg,
 \newblock \href {https://doi.org/10.1021/ct300418h}
   {\path{doi:10.1021/ct300418h}}.
 
+\bibitem{vanderBurgt2000b}
+Y.~E.~M. van~der Burgt, J.~Bergsma, I.~P. Bleeker, P.~J. H.~C. Mijland, J.~P.
+  Kamerling, J.~F.~G. Vliegenthart, Substituent distribution in highly branched
+  dextrins from methylated starches, Carbohydrate Research 327~(4) (2000)
+  423--429.
+\newblock \href {https://doi.org/10.1016/S0008-6215(00)00062-8}
+  {\path{doi:10.1016/S0008-6215(00)00062-8}}.
+
 \bibitem{Janecek2007}
 {\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, A remote but significant
   sequence homology between glycoside hydrolase clan {GH-H} and family {GH31},
@@ -355,5 +363,20 @@ M.~Ogawa, T.~Nishio, W.~Hakamata, Y.~Matsuishi, S.~Hoshino, A.~Kondo,
   $\alpha$-glucosidase, Journal of Applied Glycoscience 51~(1) (2004) 9--14.
 \newblock \href {https://doi.org/10.5458/jag.51.9}
   {\path{doi:10.5458/jag.51.9}}.
+
+\bibitem{MacGregor2001}
+E.~A. MacGregor, {\v S}.~Jane{\v c}ek, B.~Svensson, Relationship of sequence
+  and structure to specificity in the $\alpha$-amylase family of enzymes,
+  Biochimica et Biophysica Acta, Protein Structure and Molecular Enzymology
+  1546~(1) (2001) 1--20.
+\newblock \href {https://doi.org/10.1016/S0167-4838(00)00302-2}
+  {\path{doi:10.1016/S0167-4838(00)00302-2}}.
+
+\bibitem{Janecek2014}
+{\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, $\alpha$-amylase: an enzyme
+  specificity found in various families of glycoside hydrolases, Cellular and
+  Molecular Life Sciences 71~(7) (2013) 1149--1170.
+\newblock \href {https://doi.org/10.1007/s00018-013-1388-z}
+  {\path{doi:10.1007/s00018-013-1388-z}}.
 
 \end{thebibliography}

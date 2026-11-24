@@ -1,0 +1,21 @@
+source leaprc.protein.ff14SB
+source leaprc.GLYCAM_06j-1
+source leaprc.water.tip3p
+source leaprc.gaff2
+loadamberparams ~/enz_md/build/P/resultados/calc/08_md/params_gt35/frcmod.frag_gaff2
+loadamberparams ~/enz_md/build/P/resultados/calc/08_md/params_gt35/frcmod.hp4
+loadamberparams ~/enz_md/build/P/resultados/calc/08_md/params_gt35/frcmod.llp_boundary
+loadoff ~/enz_md/build/P/resultados/calc/08_md/params_gt35/gt35.lib
+m = loadpdb complex_in.pdb
+bond m.797.O4 m.798.C1
+bond m.798.O4 m.799.C1
+bond m.799.O4 m.800.C1
+bond m.801.O1 m.797.C1
+check m
+solvateOct m TIP3PBOX 10.0
+addIonsRand m Na+ 0 5.0
+addIonsRand m Na+ 56 Cl- 56 5.0
+charge m
+saveamberparm m system.prmtop system.inpcrd
+savepdb m system.pdb
+quit

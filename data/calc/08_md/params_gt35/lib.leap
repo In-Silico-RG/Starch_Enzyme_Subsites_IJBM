@@ -1,0 +1,18 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+loadamberparams frcmod.frag_gaff2
+loadamberparams frcmod.hp4
+LLP = loadmol2 LLP.mol2
+set LLP head LLP.1.N
+set LLP tail LLP.1.C
+set LLP.1 connect0 LLP.1.N
+set LLP.1 connect1 LLP.1.C
+set LLP.1 restype protein
+set LLP.1 name "LLP"
+HP4 = loadmol2 HP4.mol2
+saveoff LLP gt35.lib
+saveoff HP4 gt35.lib
+loadamberparams frcmod.llp_boundary
+m = loadpdb ALA_LLP_ALA.pdb
+saveamberparm m tri.prmtop tri.inpcrd
+quit

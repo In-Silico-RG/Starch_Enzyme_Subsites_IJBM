@@ -1,0 +1,13 @@
+system	family	pdb	glucan	pocket_atoms	frames	t_first_ns	t_last_ns	catalytic_pair_found
+S01_6Z8L	GH13	6Z8L	maltose GLC2-a(1-4)-GLC1, RSCC >= 0.906	591	231	0.0	23.0	False
+S02_2FHF	GH13	2FHF	maltotetraose, RSCC >= 0.834	1354	307	0.0	30.6	True
+S03_6TP1	GH13	6TP1	maltotetraose, RSCC >= 0.831	1285	233	0.0	23.2	False
+S04_2GVY	GH13	2GVY	maltose GLC2-a(1-4)-BGC1, RSCC >= 0.884	1040	229	0.0	22.8	True
+S05_1QHO	GH13	1QHO	maltose, RSCC >= 0.945	590	188	0.0	18.7	False
+S06_7DCG	GH13	7DCG	maltotriose, RSCC >= 0.948	1413	219	0.0	21.8	True
+S07_6A0K	GH13	6A0K	trisaccharide with one a(1-4) and one a(1-6) linkage, RSCC >= 0.868	1311	230	0.0	22.9	True
+S08_1J18	GH14	1J18	maltotetraose, RSCC >= 0.835	1898	236	0.0	23.5	True
+S09_9KYQ	GH57	9KYQ	maltotriose, RSCC >= 0.961	1677	220	0.0	21.9	True
+S10_2Z8G	GH49	2Z8G	isopanose GLC3-a(1-4)-GLC2-a(1-6)-BGC1, RSCC >= 0.866	1268	219	0.0	21.8	False
+S11_5T7N	AA13	5T7N	branched tetrasaccharide (two a(1-4), one a(1-6)), RSCC >= 0.822	916	254	0.0	25.3	False
+S12_1L5W	GT35	1L5W	maltotetraose, RSCC >= 0.952	1788	213	0.0	21.2	False

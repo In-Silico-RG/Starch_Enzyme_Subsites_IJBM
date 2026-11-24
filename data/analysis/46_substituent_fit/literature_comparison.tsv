@@ -1,0 +1,37 @@
+family	subsite	label	substituent	literature	verdict	fit_cat	frac_cl	agree	fit_cat_hb	agree_hb
+GH13	-1	O3	phosphate	not productive (PPA, B. subtilis, A. oryzae; Takeda 1983/1986/1987)	N	N	0.0	yes	N	yes
+GH13	-1	O6*	phosphate	not productive (PPA, B. subtilis, A. oryzae; Takeda 1983/1986/1987)	N	N	0.0	yes	N	yes
+GH13	-1	O2	hydroxyethyl	not tolerated at -1 (PPA; Yoshida 1984 II; position mixed O2/O3/O6)	N	s	0.0	partial	s	partial
+GH13	-1	O3	hydroxyethyl	not tolerated at -1 (PPA; Yoshida 1984 II; position mixed)	N	s	0.0	partial	s	partial
+GH13	-1	O6*	hydroxyethyl	not tolerated at -1 (PPA; Yoshida 1984 II; position mixed)	N	s	0.276	partial	s	partial
+GH13	+1	O6*	phosphate	tolerated (PPA, A. oryzae); not productive (B. subtilis)	M	F	0.529	partial	F	partial
+GH13	+1	O3	phosphate	not productive (PPA, B. subtilis, A. oryzae)	N	N	0.0	yes	N	yes
+GH13	-2	O3	phosphate	tolerated (PPA, B. subtilis); not productive (A. oryzae)	M	s	0.091	partial	s	partial
+GH13	-2	O6*	phosphate	tolerated (B. subtilis); not productive (PPA, A. oryzae)	M	s	0.091	partial	s	partial
+GH13	+2	O6*	phosphate	tolerated (B. subtilis)	T	F	0.667	yes	F	yes
+GH13	+2	O3	phosphate	tolerated (A. oryzae); not productive (PPA, B. subtilis)	M	N	0.0	partial	s	partial
+GH13	-3	O6*	phosphate	tolerated (PPA, A. oryzae)	T	F	0.529	yes	F	yes
+GH13	-3	O3	phosphate	tolerated (A. oryzae; liquefying amylase, Kamasaka 1997)	T	s	0.471	partial	F	yes
+GH13	+3	O3	phosphate	tolerated (PPA, B. subtilis)	T	s	0.2	partial	s	partial
+GH13	+1	O2	methyl	terminal residues of B. subtilis limit dextrins >90 % unsubstituted (van der Burgt 2000b; position mixed)	N	s	0.353	partial	s	partial
+GH13	+1	O3	methyl	idem (position mixed)	N	s	0.059	partial	s	partial
+GH13	+1	O6*	methyl	idem (position mixed)	N	F	1.0	no	F	no
+GH14	-1	O6*	phosphate	not productive (sweet-potato beta-amylase; Takeda 1987)	N	N	0.0	yes	N	yes
+GH14	-2	O6*	phosphate	not productive (sweet-potato beta-amylase; Takeda 1987)	N	N	0.0	yes	N	yes
+GH14	+1	O6*	phosphate	tolerated (sweet-potato beta-amylase; Takeda 1987)	T	N	0.0	no	N	no
+GH14	+1	O3	phosphate	not productive (Takeda 1987)	N	N	0.0	yes	N	yes
+GH14	-1	O3	phosphate	not productive (Takeda 1987)	N	s	0.0	partial	s	partial
+GH14	-2	O3	phosphate	not productive (Takeda 1987)	N	N	0.0	yes	N	yes
+GH14	-2	O2	methyl	not tolerated at -2/-1 (B. cereus beta-amylase; van der Burgt 2000b; position mixed)	N	s	0.0	partial	s	partial
+GH14	-1	O2	methyl	idem (position mixed)	N	F	1.0	no	F	no
+GH14	+1	O2	methyl	not tolerated at +1 (van der Burgt 2000b; position mixed)	N	N	0.0	yes	N	yes
+GH15	-1	O6*	phosphate	not productive (A. niger GA; Abe 1982, Takeda 1983/1987)	N	N	0.0	yes	N	yes
+GH15	-1	O3	phosphate	not productive (A. niger GA)	N	N	0.0	yes	N	yes
+GH15	+1	O6*	phosphate	tolerated (A. niger GA; Takeda 1983/1987; Kamasaka 1997)	T	N	0.0	no	N	no
+GH15	+1	O3	phosphate	not productive (A. niger GA)	N	N	0.0	yes	N	yes
+GH15	+2	O3	phosphate	tolerated (implied: one Glc left on non-reducing side)	T	F	0.5	yes	F	yes
+GH15	-1	O2	methyl	O-methyl blocks (Lemieux 1996, methyl isomaltoside)	N	N	0.0	yes	N	yes
+GH15	-1	O3	methyl	O-methyl blocks (Lemieux 1996)	N	s	0.0	partial	s	partial
+GH15	-1	O6*	methyl	O-methyl blocks (Lemieux 1996)	N	F	1.0	no	F	no
+GH15	+1	O2	methyl	O-methyl tolerated, kinetics unaffected (Lemieux 1996; isomaltoside +1)	T	F	1.0	yes	F	yes
+GH15	+1	O3	methyl	O-methyl costs 1.9 kcal/mol (~25-fold kcat/KM) (Lemieux 1996)	P	N	0.0	partial	N	partial

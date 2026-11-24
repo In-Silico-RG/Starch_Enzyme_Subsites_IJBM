@@ -1,8 +1,8 @@
 Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a structural basis for processing functionalised starch
 
 Highlights
-- Census of 637 PDB entries of 14 starch-active families maps sugar contacts by subsite
-- 11 of 13 side-chain hydrogen-bonders at subsites -1/+1 are fixed in every lineage
-- Aromatic residues keep an aromatic ring; aliphatic residues change between lineages
-- Residues of every kind at the outer subsites vary between lineages
-- Hydrogen-bonding positions exceed aliphatic ones in conservation by 0.33 (p = 0.003)
+- Subsite × oxygen map of glucose contacts in GH13, GH31, GH14, GH15 (114 PDB entries)
+- 11 of 14 side-chain hydrogen-bonders at subsites -1/+1 are fixed in every group
+- O2, O3, O6 at -1 and O3 at +1 lie next to invariant residues; O6 is mostly free
+- Map matches 12 of 14 testable literature cells, more than trivial or permuted maps
+- Hypothesis: substitution at O6 obstructs hydrolysis less than at O2 or O3

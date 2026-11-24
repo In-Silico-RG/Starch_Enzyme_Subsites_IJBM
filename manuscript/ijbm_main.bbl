@@ -68,6 +68,13 @@ J.~C.~K. Quirke, D.~Crich, Glycoside hydrolases restrict the side chain
 \newblock \href {https://doi.org/10.1021/jacs.0c05592}
   {\path{doi:10.1021/jacs.0c05592}}.
 
+\bibitem{Hudson2015}
+K.~L. Hudson, G.~J. Bartlett, R.~C. Diehl, J.~Agirre, T.~Gallagher, L.~L.
+  Kiessling, D.~N. Woolfson, Carbohydrate--aromatic interactions in proteins,
+  Journal of the American Chemical Society 137 (2015) 15152--15160.
+\newblock \href {https://doi.org/10.1021/jacs.5b08424}
+  {\path{doi:10.1021/jacs.5b08424}}.
+
 \bibitem{Wojdyr2022}
 M.~Wojdyr, {GEMMI: A library for structural biology}, Journal of Open Source
   Software 7~(73) (2022) 4200.
@@ -184,14 +191,6 @@ P.~I. Hansen, M.~Spraul, P.~Dvortsak, F.~H. Larsen, A.~Blennow, M.~S. Motawia,
 \newblock \href {https://doi.org/10.1002/bip.21111}
   {\path{doi:10.1002/bip.21111}}.
 
-\bibitem{Nilsson2014}
-M.~I. Nilsson, M.~A. Kroos, A.~J. Reuser, E.~Hatcher, M.~Akhtar, E.~McCready,
-  M.~A. Tarnopolsky, Novel {GAA} sequence variant c.1211 {A}>{G} reduces enzyme
-  activity but not protein expression in infantile and adult onset {Pompe}
-  disease, Gene 537~(1) (2014) 41--45.
-\newblock \href {https://doi.org/10.1016/j.gene.2013.12.033}
-  {\path{doi:10.1016/j.gene.2013.12.033}}.
-
 \bibitem{Sogaard1993}
 M.~S{\o}gaard, A.~Kadziola, R.~Haser, B.~Svensson, Site-directed mutagenesis of
   histidine 93, aspartic acid 180, glutamic acid 205, histidine 290, and
@@ -200,20 +199,6 @@ M.~S{\o}gaard, A.~Kadziola, R.~Haser, B.~Svensson, Site-directed mutagenesis of
   (1993) 22480--22484.
 \newblock \href {https://doi.org/10.1016/S0021-9258(18)41554-2}
   {\path{doi:10.1016/S0021-9258(18)41554-2}}.
-
-\bibitem{Bock1988}
-K.~Bock, H.~Pedersen, The substrate specificity of the enzyme amyloglucosidase
-  ({AMG}). {Part II}. 6-{Substituted} maltose derivatives, Acta Chemica
-  Scandinavica B 42 (1988) 75--85.
-\newblock \href {https://doi.org/10.3891/acta.chem.scand.42b-0075}
-  {\path{doi:10.3891/acta.chem.scand.42b-0075}}.
-
-\bibitem{Omichi1988}
-K.~Omichi, T.~Ikenaka, Differential assays of human pancreatic and salivary
-  $\alpha$-amylases with fluorogenic maltooligosaccharides as substrates,
-  Journal of the Japanese Society of Starch Science 35~(2) (1988) 165--171.
-\newblock \href {https://doi.org/10.5458/jag1972.35.165}
-  {\path{doi:10.5458/jag1972.35.165}}.
 
 \bibitem{Huang2007}
 J.~Huang, H.~A. Schols, R.~Klaver, Z.~Jin, A.~G.~J. Voragen, Acetyl

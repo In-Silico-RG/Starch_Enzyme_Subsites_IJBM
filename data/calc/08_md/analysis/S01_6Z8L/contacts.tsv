@@ -1,0 +1,7 @@
+glucan_residue	protein_residue	deposited_min_distance_A	persistence_le_4.0A	mean_min_distance_A
+D:GLC1	A:TYR276	2.98	0.990	3.29
+D:GLC2	A:GLU272	2.67	1.000	2.61
+D:GLC2	A:TYR276	3.53	0.980	3.35
+D:GLC2	A:ASN279	2.96	0.297	5.18
+D:GLC2	A:GLY283	3.52	0.822	3.57
+D:GLC2	A:TRP284	3.71	1.000	3.41

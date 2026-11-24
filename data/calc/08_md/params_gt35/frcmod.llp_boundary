@@ -1,0 +1,24 @@
+boundary terms ff14SB/GAFF2 for LLP (GAFF2 analogues)
+MASS
+
+BOND
+C8-c3  228.89   1.5354                2021    33079   0.0044
+
+ANGLE
+C8-C8-c3   59.87      112.63                2021    18859   0.9756
+C8-c3-h1   43.28      109.59                2021    25341   0.7450
+C8-c3-nu   65.71      110.53                2021      563   0.8190
+c3-C8-HC   43.27      109.68                2021    85691   0.6431
+
+DIHE
+C8-C8-c3-h1   9    1.400         0.000           3.000
+C8-C8-c3-nu   1    0.670         0.000           1.000      p13-2021
+C8-c3-nu-c2   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+C8-c3-nu-hn   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+HC-C8-c3-h1   9    1.400         0.000           3.000
+nu-c3-C8-HC   9    1.400         0.000           3.000
+
+IMPROPER
+
+NONBON
+

@@ -1,0 +1,9 @@
+map	cells	agree
+published	21	19.000
+trivial (-1/+1 blocked), 21 cells	21	17.000
+trivial (-1/+1 blocked), 25 cells	25	19.000
+permuted within family, mean fraction	19.409	0.585
+permuted, P(fraction >= observed)		0.001
+INV cells observed fraction	14	0.857
+INV cells permuted mean fraction		0.626
+INV cells permuted P(>= observed)		0.048

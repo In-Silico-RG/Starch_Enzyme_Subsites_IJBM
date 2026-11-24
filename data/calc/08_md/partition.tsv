@@ -1,0 +1,13 @@
+system	account	node	threads	total_atoms	solute_atoms	estimated_xtc_GB
+S01_6Z8L	<cluster-account>	amd_exadell	22	56533	7708	0.3
+S02_2FHF	<cluster-account>	gpu_felix	24	144128	15903	0.62
+S03_6TP1	<cluster-account>	amd_smexa	23	64325	7653	0.3
+S04_2GVY	<cluster-account>	amd_exadell	24	61434	7215	0.28
+S05_1QHO	<cluster-account>	amd_smexa	21	59381	10432	0.41
+S06_7DCG	<cluster-account>	amd_exadell	30	77541	9475	0.37
+S07_6A0K	<cluster-account>	amd_exadell	27	69369	6845	0.27
+S08_1J18	<cluster-account>	amd_smexa	25	69745	8194	0.32
+S09_9KYQ	<cluster-account>	amd_smexa	17	47731	8092	0.32
+S10_2Z8G	<cluster-account>	amd_exadell	23	60438	8310	0.32
+S11_5T7N	<cluster-account>	amd_smexa	10	28215	3510	0.14
+S12_1L5W	<cluster-account>	amd_smexa	28	76639	12840	0.5

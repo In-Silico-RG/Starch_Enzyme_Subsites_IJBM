@@ -1,0 +1,8 @@
+term	OpenMM_prmtop_kJmol	GROMACS_top_kJmol	difference
+bonds	1046.16	1046.16	-0.00
+angles	4455.47	4455.47	+0.00
+dihedrals	26021.95	26021.87	-0.08
+1-4 Coulomb	98854.58	98854.60	+0.02
+1-4 LJ	10481.45	10481.50	+0.05
+total	-641585.90	-641594.00	-8.10
+# GROMACS terms: {'Bond': 1046.16, 'Angle': 4455.47, 'Proper Dih.': 25992.4, 'Per. Imp. Dih.': 29.4725, 'LJ-14': 10481.5, 'Coulomb-14': 98854.6, 'LJ (SR)': 74449.3, 'Disper. corr.': -3897.53, 'Coulomb (SR)': -908713.0, 'Coul. recip.': 55707.3, 'Potential': -641594.0}

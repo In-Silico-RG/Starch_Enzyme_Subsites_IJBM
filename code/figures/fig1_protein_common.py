@@ -30,16 +30,28 @@ SUP = P / 'data/calc/03_frames/superposition.tsv'
 sys.path.insert(0, str(P / 'code/analysis'))
 from a33_subsites import ring_units  # noqa: E402
 
-# subsites -3..+3: Okabe-Ito colours, glycon side cool, aglycon side warm (yellow left out: too pale on white)
+# Style of the approved Figure 2 (code/figures/fig2_v3_common.py / fig2_v3_struct.py): sugar gold with the
+# subsite numbers written on the rings, catalytic residues magenta, faint grey cartoon, grey surface,
+# Liberation Sans, ChimeraX soft lighting + black silhouettes on white.
 SUBSITES = ['-3', '-2', '-1', '+1', '+2', '+3']
-SUB_COL = {'-3': '#56B4E9', '-2': '#0072B2', '-1': '#009E73', '+1': '#E69F00', '+2': '#D55E00', '+3': '#CC79A7'}
-OUTSIDE_C = '#9A9A9A'          # sugar units outside -3..+3 (not in the analysis)
-O_COL = '#D62020'
-N_COL = '#2B3BD6'
-CAT_C = '#303030'              # carbon of catalytic residues
-# domain colours: muted, kept apart from the subsite colours
-DOM_COL = {'A': '#AFC3DA', 'B': '#E3CFA6', 'C': '#B5D6AE', 'N': '#D9B8CF', 'C2': '#CFCFCF'}
-SURF_C = '#E6E6E6'
+SUGAR_C = '#F4B942'            # fig2_v3 SUGAR_C
+SUGAR_EDGE = '#B87800'         # fig2_v3 darker orange text colour, used for point edges / ring outlines
+CTX_C = '#C8C8C8'              # sugar units outside -3..+3 (fig2_v3 CTX_C)
+OUTSIDE_C = CTX_C
+O_COL = '#E03C31'              # fig2_v3 O_COL
+N_COL = '#2E6DB4'              # fig2_v3 N_COL
+CAT_C = '#B0308F'              # fig2_v3 CAT_USED (catalytic carbons)
+CARTOON = '#DCDCDC'            # fig2_v3 CARTOON
+SURF_C = '#D5D9DE'             # fig2_v3 thumbnail surface
+# domains: the grey of the cartoon / surface with a faint tint, so the domains can be told apart
+DOM_COL = {'A': '#D5D9DE', 'B': '#E6DCC8', 'C': '#D3E0CF', 'N': '#E3D3DE', 'C2': '#E4E4E4'}
+FONT = 'Liberation Sans'
+FONT_FILE = '/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf'
+FS = 7.0          # base (fig2_v3)
+FS_RES = 7.5      # residue labels (fig2_v3 FS_RES)
+FS_SUB = 8.0      # subsite numbers, bold (fig2_v3 FS_SUB)
+FS_LET = 9.0      # panel letters, bold
+FS_TITLE = 7.5    # panel titles
 
 
 def sub_label(s):

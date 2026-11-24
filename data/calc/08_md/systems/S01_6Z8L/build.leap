@@ -1,0 +1,19 @@
+source leaprc.protein.ff14SB
+source leaprc.GLYCAM_06j-1
+source leaprc.water.tip3p
+m = loadpdb complex_in.pdb
+bond m.28.SG m.86.SG
+bond m.70.SG m.115.SG
+bond m.141.SG m.160.SG
+bond m.378.SG m.384.SG
+bond m.450.SG m.462.SG
+bond m.497.O4 m.498.C1
+bond m.499.O1 m.497.C1
+check m
+solvateOct m TIP3PBOX 10.0
+addIonsRand m Cl- 0 5.0
+addIonsRand m Na+ 43 Cl- 43 5.0
+charge m
+saveamberparm m system.prmtop system.inpcrd
+savepdb m system.pdb
+quit

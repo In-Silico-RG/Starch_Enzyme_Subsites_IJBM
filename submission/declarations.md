@@ -1,11 +1,12 @@
 # Declarations: Fixed and variable sugar contacts at the subsites of starch-degrading enzymes
 
-Manuscript for the *International Journal of Biological Macromolecules*. Authors: Nedis I. Acevedo-Viloria (a), Yurimar
-Ruiz-Rocha (b, c) and Aldo F. Combariza (d, c; corresponding author).
-a Programa de Doctorado en Ingeniería, Universidad del Magdalena, Santa Marta, Colombia; e Departamento de Ingeniería Agroindustrial, Facultad de Ingenierías, Universidad de Sucre, Sincelejo, Colombia. ORCID N. I. Acevedo-Viloria: https://orcid.org/0009-0000-3289-027X.
-b Departamento de Física, Facultad de Educación y Ciencias, Universidad de Sucre, Carrera 28 No. 5-267, Sincelejo, Sucre, Colombia.
-c Doctorado en Ciencias Físicas, Sistema Universitario Estatal del Caribe (SUE Caribe), Colombia.
-d Grupo de Investigación *in silico*, Departamento de Biología y Química, Facultad de Educación y Ciencias, Universidad de Sucre, Carrera 28 No. 5-267,
+Manuscript for the *International Journal of Biological Macromolecules*. Authors: Nedis I. Acevedo-Viloria (a, b), Yurimar
+Ruiz-Rocha (c, d) and Aldo F. Combariza (e, d; corresponding author).
+a Programa de Doctorado en Ingeniería, Universidad del Magdalena, Santa Marta, Colombia.
+b Departamento de Ingeniería Agroindustrial, Facultad de Ingenierías, Universidad de Sucre, Sincelejo, Colombia. ORCID N. I. Acevedo-Viloria: https://orcid.org/0009-0000-3289-027X.
+c Departamento de Física, Facultad de Educación y Ciencias, Universidad de Sucre, Carrera 28 No. 5-267, Sincelejo, Sucre, Colombia.
+d Doctorado en Ciencias Físicas, Sistema Universitario Estatal del Caribe (SUE Caribe), Colombia.
+e Grupo de Investigación *in silico*, Departamento de Biología y Química, Facultad de Educación y Ciencias, Universidad de Sucre, Carrera 28 No. 5-267,
 Sincelejo, Sucre, Colombia.
 Corresponding author: Aldo F. Combariza, aldo.combariza@unisucre.edu.co.
 
@@ -17,15 +18,16 @@ Corresponding author: Aldo F. Combariza, aldo.combariza@unisucre.edu.co.
   Visualization (lead), Resources, Supervision, Project administration, Funding acquisition, Writing – Original Draft,
   Writing – Review & Editing.
 
-(Copied from the JPCB paper; the author can adjust.)
-
 ## Declaration of competing interest
-The authors declare no competing financial interest.
+The authors declare that they have no known competing financial interests or personal relationships that could have
+appeared to influence the work reported in this paper.
 
-## Declaration of generative AI and AI-assisted technologies in the writing process
-During the preparation of this work the authors used Claude (Anthropic) for code generation, literature synthesis,
-drafting assistance and editorial revision. After using this tool, the authors reviewed, verified and edited the
-content as needed and take full responsibility for the content of the published article.
+## Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
+During the preparation of this work the authors used Claude (Anthropic) to generate the analysis code, to search and
+summarise literature, and to draft and revise text. The authors checked the code and its outputs against the
+deposited structures and result tables, checked every literature result used in the comparison against the original
+source as labelled in Table S6 (full text or abstract), and reviewed and edited the text. The authors take full
+responsibility for the content of the published article.
 
 ## Funding
 [PENDIENTE: funding sources, or a statement that the work received no specific grant]

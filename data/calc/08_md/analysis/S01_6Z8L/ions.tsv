@@ -1,0 +1,10 @@
+ion	ligand_atom	deposited_distance_A	persistence_le_3.0A	mean_distance_A
+G:CA906	A:ASN100.OD1	2.39	1.000	2.50
+G:CA906	A:ARG158.O	2.36	1.000	2.46
+G:CA906	A:ASP167.OD1	2.49	1.000	2.43
+G:CA906	A:ASP167.OD2	2.47	1.000	2.42
+G:CA906	A:HIS201.O	2.41	1.000	2.52
+
+# ion	deposited_protein_glucan_O_N_within_3A	mean_coordination_protein_glucan_O_N_le_3A	mean_displacement_A	max_displacement_A
+# G:CA906	5	5.00	0.59	1.04
+# H:CL907	0	0.01	0.92	1.74

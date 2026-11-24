@@ -1,0 +1,11 @@
+substituent	smiles	conformers	mmff_converged	n_heavy_substituent	C_O_X_angle_last	O_X_bond_last
+methyl	CCOC	9	9	1	113.3	1.421
+hydroxyethyl	CCOCCO	86	86	3	114.0	1.434
+hydroxypropyl	CCOC[C@H](O)C	91	91	4	113.3	1.426
+hydroxypropyl	CCOC[C@@H](O)C	92	92	4	113.5	1.434
+acetyl	CCOC(C)=O	16	16	3	115.7	1.361
+carboxymethyl	CCOCC(=O)[O-]	67	67	4	113.0	1.444
+phosphate	CCOP(=O)([O-])[O-]	76	76	4	115.0	1.643
+succinyl	CCOC(=O)CCC(=O)[O-]	315	315	7	115.9	1.364
+octenylsuccinyl	CCOC(=O)C[C@H](C(=O)[O-])C/C=C/CCCCC	400	400	15	115.2	1.362
+octenylsuccinyl	CCOC(=O)C[C@@H](C(=O)[O-])C/C=C/CCCCC	400	400	15	115.5	1.36

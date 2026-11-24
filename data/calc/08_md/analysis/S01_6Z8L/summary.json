@@ -1,0 +1,33 @@
+{
+ "system": "S01_6Z8L",
+ "trajectory": "resultados/calc/08_md/systems/S01_6Z8L/test_run/test.xtc",
+ "frames": 101,
+ "time_ns": [
+  0.0,
+  1.0
+ ],
+ "ligand_rmsd_A": {
+  "mean": 2.1,
+  "median": 2.24,
+  "last10pct": 2.38,
+  "max": 2.84
+ },
+ "protein_CA_rmsd_A_mean": 0.81,
+ "deposited_contacts": 6,
+ "contacts_persistence_ge_0p5": 5,
+ "linkages": [
+  {
+   "linkage": "D:GLC2-a(1-4)-D:GLC1",
+   "phi_deposited": 90.8,
+   "psi_deposited": 73.7,
+   "deposited_conformation": "anti-psi",
+   "phi_mean": 86.1,
+   "psi_mean": 64.3,
+   "phi_sd": 9.1,
+   "psi_sd": 13.9,
+   "fraction_anti_psi": 1.0,
+   "first_change_of_state_ns": "",
+   "omega_mean": ""
+  }
+ ]
+}
