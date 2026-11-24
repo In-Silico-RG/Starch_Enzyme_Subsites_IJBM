@@ -1,7 +1,7 @@
 %% ijbm_SI.tex -- Supplementary material (Appendix A) for ijbm_main.tex,
 %% International Journal of Biological Macromolecules format. Text copied unchanged from manuscript_short/grip_finding_SI.tex.
 \documentclass[preprint,12pt]{elsarticle}
-\usepackage{amsmath,amssymb,booktabs,graphicx}
+\usepackage{amsmath,amssymb,booktabs,graphicx,longtable}
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{figures/}}
 \renewcommand{\thesection}{S\arabic{section}}
@@ -13,17 +13,37 @@
 \begin{frontmatter}
 \title{Supplementary material for: Fixed and variable sugar contacts at the subsites of
 starch-degrading enzymes: a structural basis for processing functionalised starch}
-\author[a,b]{Aldo F. Combariza}
+\author[a]{Nedis Acevedo}
+\author[b,c]{Yurimar Ruiz-Rocha}
+\author[d,c]{Aldo F. Combariza\corref{cor1}}
 \ead{aldo.combariza@unisucre.edu.co}
-\affiliation[a]{organization={Grupo de Investigaci\'{o}n {\itshape in silico},
+\cortext[cor1]{Corresponding author.}
+\affiliation[a]{organization={[PENDIENTE: affiliation of N. Acevedo]}}
+\affiliation[b]{organization={Departamento de F\'{\i}sica, Universidad de Sucre},
+  addressline={Carrera 28 No.\ 5-267},
+  city={Sincelejo},
+  state={Sucre},
+  country={Colombia}}
+\affiliation[c]{organization={Doctorado en Ciencias F\'{\i}sicas, Sistema Universitario Estatal del Caribe (SUE Caribe)},
+  country={Colombia}}
+\affiliation[d]{organization={Grupo de Investigaci\'{o}n {\itshape in silico},
   Departamento de Biolog\'{\i}a y Qu\'{\i}mica, Universidad de Sucre},
   addressline={Carrera 28 No.\ 5-267},
   city={Sincelejo},
   state={Sucre},
   country={Colombia}}
-\affiliation[b]{organization={Doctorado en Ciencias F\'{\i}sicas, Sistema Universitario Estatal del Caribe (SUE Caribe)},
-  country={Colombia}}
 \end{frontmatter}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figS1_protein_surfaces.pdf}
+\caption{The structures of Figure~1 of the main text with opaque molecular surfaces. (a) Maltohexaose over
+subsites $-3$ to $+3$ with the scissile bond, and the substituents of functionalised starch. (b) GH13
+maltotetraose-forming amylase (PDB 6JQB): the cleft is a groove that holds the chain; domains tinted
+(B, approximate boundaries). (d) GH31 $\alpha$-glucosidase (PDB 3WEO): subsite $-1$ sits in a pocket. (c, e)
+Ring centroids of the sugar units at subsites $-3$ to $+3$ in the family frames, as in Figure~1c,d.}
+\label{fig:s1}
+\end{figure}
 
 
 \section{Ring distortion at subsite $-1$}
@@ -158,7 +178,7 @@ H $>$ Ar $>$ Al would follow from the charges for almost any cationic ligand in 
 The calculation therefore does not test the contact-type rule.
 
 \begin{table}[h]
-\centering\small
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
 \caption{MM/GBSA of four GAA inhibitor complexes (kcal\,mol$^{-1}$): total
 $\Delta G_\mathrm{bind}$ (eq~\ref{eq:gbsa}), the inhibitor and protein halves of the
 per-residue decomposition, and the sum over the nine GH31 positions of Table~1 of each kind of
@@ -179,6 +199,243 @@ PDB & Inhibitor & pChEMBL & $\Delta G_\mathrm{bind}$ & Inhibitor & Protein & H &
 \end{tabular}
 \end{table}
 
+
+\section{Steric fit of substituents, cell by cell}
+Table~\ref{tab:fitcells} gives, for every family $\times$ subsite $\times$ oxygen cell of the map, the
+category and the fraction of 50\% sequence groups in which each substituent fits (method in Section~2.5 of
+the main text; 3.0~\AA{} flat cut; all glucose-like units). Table~4 of the main text summarises these
+categories by state. The fit categories are F, fits in at least half of the groups; s, fits in at least
+one unit but in fewer than half of the groups; N, fits in no unit. Results at 2.8 and 3.2~\AA, with the
+polar-aware rule, for glucose units only, per entry and per unit are in
+\texttt{resultados/analysis/46\_substituent\_fit/} (\texttt{cell\_fit\_summary.tsv}, \texttt{site\_results.tsv},
+\texttt{REPORT.md}).
+
+{\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{longtable}{llllrrllllllll}
+\caption{Fit category and fraction of 50\% sequence groups in which the substituent fits, per cell
+(3.0~\AA{} flat cut, all glucose-like units). State: the cell state of the map (main text,
+Section~2.4); O6, deposited O6; O6$^\ast$, deposited O6 or any of the gg, gt, tg rotamers (for O6$^\ast$
+the state shown is that of the deposited O6; --, no O6 deposited). Groups and units: numbers of 50\%
+sequence groups and of units in the cell. Me, methyl; HE, 2-hydroxyethyl; HP, 2-hydroxypropyl; Ac,
+acetyl; CM, carboxymethyl; P, phosphate; Suc, succinyl; OSA, octenylsuccinyl. Source:
+\texttt{46\_substituent\_fit/cell\_fit\_summary.tsv}.}\label{tab:fitcells}\\
+\toprule
+Fam. & Sub. & O & State & Groups & Units & Me & HE & HP & Ac & CM & P & Suc & OSA\\
+\midrule
+\endfirsthead
+\toprule
+Fam. & Sub. & O & State & Groups & Units & Me & HE & HP & Ac & CM & P & Suc & OSA\\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+GH13 & $-$3 & O2 & EXP & 17 & 43 & F\,0.82 & F\,0.77 & F\,0.77 & F\,0.71 & F\,0.71 & s\,0.29 & F\,0.65 & F\,0.65\\
+GH13 & $-$3 & O3 & EXP & 17 & 43 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.82 & F\,0.82 & s\,0.47 & F\,0.88 & F\,0.88\\
+GH13 & $-$3 & O6 & EXP & 10 & 24 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.60 & F\,0.90 & F\,0.80\\
+GH13 & $-$3 & O6$^\ast$ & EXP & 17 & 43 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.53 & F\,0.82 & F\,0.82\\
+GH13 & $-$2 & O2 & VAR & 22 & 63 & s\,0.36 & s\,0.27 & s\,0.04 & s\,0.04 & s\,0.09 & N\,0.00 & s\,0.00 & s\,0.00\\
+GH13 & $-$2 & O3 & VAR & 22 & 63 & F\,0.73 & F\,0.64 & F\,0.50 & s\,0.46 & s\,0.41 & s\,0.09 & s\,0.27 & s\,0.27\\
+GH13 & $-$2 & O6 & VAR & 21 & 61 & F\,0.67 & s\,0.38 & s\,0.29 & s\,0.14 & s\,0.29 & s\,0.00 & s\,0.14 & s\,0.14\\
+GH13 & $-$2 & O6$^\ast$ & VAR & 22 & 63 & F\,0.86 & F\,0.64 & F\,0.59 & s\,0.41 & F\,0.59 & s\,0.09 & s\,0.41 & s\,0.36\\
+GH13 & $-$1 & O2 & INV & 29 & 82 & s\,0.03 & s\,0.00 & s\,0.00 & N\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $-$1 & O3 & INV & 29 & 82 & s\,0.00 & s\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $-$1 & O6 & INV & 29 & 82 & s\,0.03 & s\,0.03 & s\,0.03 & s\,0.03 & s\,0.03 & N\,0.00 & s\,0.03 & N\,0.00\\
+GH13 & $-$1 & O6$^\ast$ & INV & 29 & 82 & s\,0.48 & s\,0.28 & s\,0.17 & s\,0.07 & s\,0.14 & N\,0.00 & s\,0.03 & N\,0.00\\
+GH13 & $+$1 & O2 & VAR & 17 & 50 & s\,0.35 & s\,0.06 & N\,0.00 & s\,0.06 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $+$1 & O3 & INV & 17 & 50 & s\,0.06 & s\,0.06 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $+$1 & O6 & BUR & 3 & 3 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33\\
+GH13 & $+$1 & O6$^\ast$ & BUR & 17 & 50 & F\,1.00 & F\,0.88 & F\,0.71 & F\,0.77 & F\,0.71 & F\,0.53 & F\,0.59 & F\,0.53\\
+GH13 & $+$2 & O2 & VAR & 15 & 47 & F\,0.80 & F\,0.60 & F\,0.60 & F\,0.53 & s\,0.47 & s\,0.20 & F\,0.53 & s\,0.47\\
+GH13 & $+$2 & O3 & VAR & 15 & 47 & s\,0.47 & s\,0.40 & s\,0.27 & s\,0.13 & s\,0.20 & N\,0.00 & s\,0.07 & s\,0.07\\
+GH13 & $+$2 & O6 & EXP & 15 & 47 & F\,0.93 & F\,0.87 & F\,0.87 & F\,0.80 & F\,0.87 & F\,0.60 & F\,0.80 & F\,0.73\\
+GH13 & $+$2 & O6$^\ast$ & EXP & 15 & 47 & F\,1.00 & F\,0.93 & F\,0.93 & F\,0.93 & F\,0.93 & F\,0.67 & F\,0.93 & F\,0.87\\
+GH13 & $+$3 & O2 & MC & 10 & 14 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.40 & F\,0.50 & s\,0.40\\
+GH13 & $+$3 & O3 & MC & 10 & 14 & F\,1.00 & F\,0.90 & F\,0.80 & F\,0.60 & F\,0.50 & s\,0.20 & s\,0.40 & s\,0.40\\
+GH13 & $+$3 & O6 & EXP & 10 & 14 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.70 & F\,0.80 & F\,0.50 & F\,0.70 & F\,0.70\\
+GH13 & $+$3 & O6$^\ast$ & EXP & 10 & 14 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.80 & F\,0.80 & F\,0.60 & F\,0.80 & F\,0.80\\
+\addlinespace
+GH31 & $-$1 & O2 & INV & 6 & 32 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $-$1 & O3 & INV & 6 & 32 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $-$1 & O6 & INV & 6 & 32 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $-$1 & O6$^\ast$ & INV & 6 & 32 & F\,0.67 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $+$1 & O2 & INV & 5 & 16 & F\,0.60 & F\,0.60 & s\,0.40 & s\,0.40 & F\,0.60 & N\,0.00 & s\,0.20 & N\,0.00\\
+GH31 & $+$1 & O3 & INV & 5 & 16 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $+$1 & O6$^\ast$ & -- & 5 & 16 & F\,1.00 & F\,0.60 & F\,0.60 & s\,0.20 & s\,0.20 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $+$2 & O2 & EXP & 5 & 16 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.60 & F\,0.80 & F\,0.60 & F\,0.60 & s\,0.40\\
+GH31 & $+$2 & O3 & EXP & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & F\,0.80 & F\,0.80 & s\,0.00 & s\,0.40 & s\,0.40\\
+GH31 & $+$2 & O6 & EXP & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & s\,0.40 & F\,0.80 & s\,0.20 & s\,0.40 & s\,0.20\\
+GH31 & $+$2 & O6$^\ast$ & EXP & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & s\,0.40 & F\,0.80 & s\,0.20 & s\,0.40 & s\,0.20\\
+GH31 & $+$3 & O2 & EXP & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.60 & F\,1.00 & F\,1.00\\
+GH31 & $+$3 & O3 & EXP & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,1.00 & F\,1.00\\
+GH31 & $+$3 & O6 & BUR & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & s\,0.20 & F\,0.80 & s\,0.20 & s\,0.20 & s\,0.20\\
+GH31 & $+$3 & O6$^\ast$ & BUR & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,1.00 & s\,0.20 & F\,0.60 & F\,0.60\\
+\addlinespace
+GH14 & $-$2 & O2 & VAR & 2 & 18 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00\\
+GH14 & $-$2 & O3 & INV & 2 & 18 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$2 & O6 & INV & 2 & 18 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$2 & O6$^\ast$ & INV & 2 & 18 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$1 & O2 & MC & 2 & 19 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,0.50 & F\,0.50 & F\,0.50 & s\,0.00\\
+GH14 & $-$1 & O3 & MC & 2 & 18 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00\\
+GH14 & $-$1 & O6 & INV & 2 & 19 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$1 & O6$^\ast$ & INV & 2 & 19 & s\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O2 & MC & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O3 & INV & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O6 & INV & 2 & 3 & F\,0.50 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O6$^\ast$ & INV & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O2 & INV & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O3 & INV & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O6 & BUR & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O6$^\ast$ & BUR & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & F\,0.50 & F\,0.50 & N\,0.00 & F\,0.50 & F\,0.50\\
+\addlinespace
+GH15 & $-$1 & O2 & INV & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $-$1 & O3 & INV & 2 & 5 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $-$1 & O6 & INV & 2 & 5 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $-$1 & O6$^\ast$ & INV & 2 & 5 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$1 & O2 & INV & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & N\,0.00 & F\,1.00 & F\,1.00\\
+GH15 & $+$1 & O3 & INV & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$1 & O6$^\ast$ & -- & 2 & 5 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$2 & O2 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
+GH15 & $+$2 & O3 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
+GH15 & $+$2 & O6 & MC & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$2 & O6$^\ast$ & MC & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$3 & O2 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00\\
+GH15 & $+$3 & O3 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
+GH15 & $+$3 & O6 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.00 & F\,0.50 & F\,0.50\\
+GH15 & $+$3 & O6$^\ast$ & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.00 & F\,0.50 & F\,0.50\\
+\end{longtable}}
+
+\section{Molecular dynamics systems}
+Table~\ref{tab:mdsys} lists the twelve enzyme--glucan complexes simulated (method in Section~2.6 of the
+main text). The selection required a glucose-only glucan of 2--7 units with every unit at
+RSCC $\ge0.80$, an X-ray entry at $\le2.2$~\AA, no mutation, no cyclic glucan and no covalent bond to
+another molecule; 83 glucans of 42 entries passed, in AA13, GH13, GH14, GH49, GH57 and GT35. No wild-type
+glucose-only complex passed in GH15, GH31 or the other families. One complex was taken per family, and
+in GH13 one per enzyme type. Only the four complexes marked $^\ast$ have the glucan at the catalytic
+subsites and enter the comparison with the crystal map (main text, Section~3.3).
+
+\begin{table}[h]
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{The twelve simulated complexes. ns: length of trajectory analysed, read (every 100~ps) at the time of
+the analysis, out of 100~ns. Sources: \texttt{resultados/calc/08\_md/selection/selection.tsv},
+\texttt{resultados/analysis/47\_md\_hydroxyl/systems.tsv}.}
+\label{tab:mdsys}
+\begin{tabular}{lllp{4.3cm}rp{3.0cm}r}
+\toprule
+System & PDB & Family & Enzyme & Res. (\AA) & Glucan & ns\\
+\midrule
+S01 & 6Z8L & GH13 & human pancreatic $\alpha$-amylase & 1.40 & maltose (surface site) & 23.0\\
+S02 & 2FHF & GH13 & \emph{Klebsiella pneumoniae} pullulanase & 1.65 & maltotetraose & 30.6\\
+S03 & 6TP1 & GH13 & \emph{Bacillus licheniformis} $\alpha$-amylase & 1.94 & maltotetraose & 23.2\\
+S04 & 2GVY & GH13 & \emph{Aspergillus niger} neutral $\alpha$-amylase & 1.80 & maltose & 22.8\\
+S05 & 1QHO & GH13 & \emph{Geobacillus stearothermophilus} maltogenic $\alpha$-amylase & 1.70 & maltose & 18.7\\
+S06$^\ast$ & 7DCG & GH13 & \emph{Weissella cibaria} $\alpha$-glucosidase & 1.53 & maltotriose & 21.8\\
+S07$^\ast$ & 6A0K & GH13 & \emph{Arthrobacter globiformis} cyclic maltosyl-maltose hydrolase & 1.94 & trisaccharide, one $\alpha(1\!\to\!4)$ and one $\alpha(1\!\to\!6)$ linkage & 22.9\\
+S08$^\ast$ & 1J18 & GH14 & \emph{Bacillus cereus} $\beta$-amylase & 2.00 & maltotetraose & 23.5\\
+S09$^\ast$ & 9KYQ & GH57 & \emph{Aquifex aeolicus} amylopullulanase & 1.60 & maltotriose & 21.9\\
+S10 & 2Z8G & GH49 & \emph{Aspergillus brasiliensis} isopullulanase & 1.70 & isopanose & 21.8\\
+S11 & 5T7N & AA13 & \emph{Aspergillus oryzae} lytic polysaccharide monooxygenase & 1.60 & branched tetrasaccharide & 25.3\\
+S12 & 1L5W & GT35 & \emph{Escherichia coli} maltodextrin phosphorylase & 1.80 & maltotetraose & 21.2\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\section{The rule is not carried by inhibitors or by repeated proteins}
+This section and the next two use an earlier, stricter selection than the main text: the positions
+contacted in at least 80\% of the entries with a unit at a given subsite, with residues counted per entry
+(not per sequence group).
+Many units at
+$-1$ belong to acarbose-type inhibitors, which mimic the transition state rather than the
+substrate. In GH13, the 24 entries whose labelled units are glucose only contact the six
+positions contacted at $-1$ in at least 80\% of the entries (Asp179, Asp289, His288, Arg177,
+His92, Tyr51) in 22--24 of 24, and the 50 inhibitor entries in 47--50 of 50; in GH31 the
+glucose-only entries (5, from two proteins) contact all nine such positions (Asp327, His600,
+Asp443, Asp542, Trp441, Trp539, Phe575, Ile328, Ile364) in 5 of 5. Nor is the count
+made by a few proteins deposited many times: the 42 GH13 proteins fall into 29 groups at
+50\% sequence identity and 5 at 30\%, across bacteria, archaea, fungi, plants and animals,
+and each of the six $-1$ positions is contacted in at least 28 of the 29 groups and in all
+5; the six GH31 proteins form 4 groups at 30\%, and the nine positions survive one vote per
+group, Phe575 exactly at the 0.80 threshold.
+
+\section{The rule is specific to the catalytic subsite}
+Sugars also bind GH13 proteins
+away from the catalytic cleft: 296 density-supported units lie more than 12~\AA{} from the
+catalytic carboxylates and touch no position contacted at the subsites. These sites are mostly
+particular to one protein; only 32 reference positions are contacted in at least four entries
+from at least two proteins. Of the 15 whose side chains hydrogen-bond the sugar, all proteins
+carry the same residue type at 7 (one vote per protein, 2--5 proteins per position). The
+hydrogen-bonding positions of the GH13 catalytic subsite, sampled down to the same numbers of
+proteins, carry a single residue type in 94\% of draws. A side chain that hydrogen-bonds a
+sugar is fixed when it does so at the catalytic subsite, and only about half the time when it
+does so elsewhere on the same proteins (aromatic positions away from the cleft: 1 of 7 fixed;
+aliphatic: 3 of 7). Invariance is therefore not a property of binding a sugar as such; the
+contrast is what a role in the transition state would produce.
+
+\section{Families of other folds}
+GH13 and GH31 belong to different CAZy clans, GH-H and
+GH-D, because their catalytic machinery differs, but a remote common ancestry of their
+$(\beta/\alpha)_8$ barrels has been proposed~\citep{Janecek2007,Rigden2002}; they cannot show
+whether the rule arose more than once. GH14 ($\beta$-amylase, an inverting enzyme in no
+clan) and GH15 (glucoamylase, an inverting $(\alpha/\alpha)_6$ fold) can, within the limits
+of their data. Counted per entry (80\% selection), in GH14 the side-chain hydrogen-bonders at $-1$ and $-2$ (Asp53, His93,
+Arg420, the base Glu380, Lys295, the acid Glu186) and the aromatic Trp55 are invariant over
+the 14--16 entries that contact them (Glu186 is contacted in 14 and hydrogen-bonds the sugar
+in 10); the contacts at $-2$, the second ring of the two-glucose product, are made by
+hydrogen-bonding residues. In GH15 the
+hydrogen-bonders (Asp55, Arg54, the acid Glu179, Glu180, Arg305) and six aromatic residues
+(Tyr48, Trp52, Trp317, Trp417, Trp120, Tyr311) are invariant over four entries. The
+catalytic subsite of an unrelated fold is thus built from the same three kinds of residue.
+The aliphatic residues of both families (GH14 Leu419, Leu20, Met17, Ala184; GH15 Leu177,
+Leu415, Ala39) are also invariant, but each family has only two independent lineages
+(GH14: barley and soybean, 66\% identical, and \emph{Bacillus cereus}, about 30\% to both;
+GH15: three proteins, two fungal glucoamylases 34\% identical and a third whose UniProt
+accession, Q12537, could not be resolved), too few for variation to show; neither the variability
+of their aliphatic residues nor that of their outer-subsite ($-2$) hydrogen-bonders can be
+tested there.
+
+\section{The three kinds of contact differ in measured energy}
+Kinetics with
+deoxygenated substrates measure how much each sugar hydroxyl contributes to stabilising
+the transition state, from $k_\mathrm{cat}/K_\mathrm{M}$ of the parent and the deoxy
+analogue. For three GH13 yeast $\alpha$-glucosidases acting on methyl
+$\alpha$-isomaltoside, each hydroxyl of the ring at $-1$ contributes 16.1--24.0~kJ\,mol$^{-1}$
+and those of the ring at $+1$ at most 5.8~kJ\,mol$^{-1}$~\citep{Frandsen2002}; for a barley
+GH31 $\alpha$-glucosidase, the $-1$ hydroxyls contribute 9.3--18.9~kJ\,mol$^{-1}$ and the
+$+1$ 3-OH 7.0~kJ\,mol$^{-1}$~\citep{Frandsen2000}. Removing the residues that hydrogen-bond
+these hydroxyls removes that energy and the activity with it: the barley $\alpha$-amylase~1
+histidines His93 and His290 (His92 and His288 of the GH13 reference) lose 99\% of $k_\mathrm{cat}/K_\mathrm{M}$~\citep{Sogaard1993}, and the two
+mutants of glucoamylase Arg54 -- an invariant hydrogen-bonder in our GH15 count -- lose
+16--21~kJ\,mol$^{-1}$ of transition-state stabilisation, almost all of it in $k_\mathrm{cat}$,
+with $K_\mathrm{M}$ between 25\% and 300\% of wild type~\citep{Frandsen1995}. Aromatic
+contacts behave differently: replacing glucoamylase Trp120 by Phe lowers $k_\mathrm{cat}$
+50-fold but leaves the hydroxyl energy profile of subsite $-1$ unchanged~\citep{Sierks2000},
+and a sugar--aromatic contact is worth about 6~kJ\,mol$^{-1}$ in water, with many ring
+orientations nearly equivalent~\citep{Asensio2013}. Across carbohydrate-binding proteins in
+general, aliphatic residues are disfavoured in sugar pockets and aromatic ones
+enriched~\citep{Hudson2015}. Read together with Table~1 of the main text, the
+residues fixed in every lineage, the side-chain hydrogen-bonders of the rings at subsites
+$-1$ and $+1$, are those whose contacts carry the large, measured transition-state energy;
+aromatic contacts, smaller and permissive in orientation, keep an aromatic ring more often
+than their identity; aliphatic contacts, with no specific role, change, as do contacts of
+every kind at the outer subsites. The
+kinetic data for the $\alpha$-enzymes come from $k_\mathrm{cat}/K_\mathrm{M}$ only and do
+not separate transition-state from ground-state binding, as was done for a
+$\beta$-glucosidase~\citep{Namchuk1995}; the GH13 hydroxyl values are for
+$\alpha$-glucosidases on an $\alpha(1\!\to\!6)$ substrate, not for $\alpha$-amylases.
+
+\section{A test the rule sets}
+One of the non-catalytic GH31 positions of
+Table~1 of the main text has a measured substitution: Asp327 of the reference is Asp404 of
+human lysosomal $\alpha$-glucosidase, and the Pompe-disease variant Asp404Gly keeps the
+protein level but leaves 3.6--6.6\% of normal activity in patient muscle~\citep{Nilsson2014}.
+For His600, Trp441, Trp539, Phe575, Ile328 and Ile364 (their equivalents across GH31 proteins
+fixed by structural alignment~\citep{Tan2010}) and for the aromatic Tyr51 of GH13 we found no mutant with
+kinetic data (literature search, November 2026). The rule makes predictions for them:
+replacing His600, which hydrogen-bonds the subsite $-1$ sugar, should cost transition-state
+energy of the size measured for Asp404Gly and for the GH13 histidines; replacing Trp441 or Trp539 by Phe, or Tyr51 by Phe, should leave the hydroxyl
+energy profile of subsite $-1$ largely unchanged, as for glucoamylase Trp120; and Ile328 or
+Ile364 should accept Leu, Val or Met with little effect. These are the experiments that
+would confirm the rule or break it.
 
 \bibliographystyle{elsarticle-num}
 \bibliography{ijbm}
