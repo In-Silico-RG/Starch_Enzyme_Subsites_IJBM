@@ -171,11 +171,30 @@ T.~Tagami, K.~Yamashita, M.~Okuyama, H.~Mori, M.~Yao, A.~Kimura, Structural
 \newblock \href {https://doi.org/10.1074/jbc.M114.606939}
   {\path{doi:10.1074/jbc.M114.606939}}.
 
+\bibitem{Berman2000}
+H.~M. Berman, J.~Westbrook, Z.~Feng, G.~Gilliland, T.~N. Bhat, H.~Weissig,
+  I.~N. Shindyalov, P.~E. Bourne, {The Protein Data Bank}, Nucleic Acids
+  Research 28~(1) (2000) 235--242.
+\newblock \href {https://doi.org/10.1093/nar/28.1.235}
+  {\path{doi:10.1093/nar/28.1.235}}.
+
 \bibitem{Wojdyr2022}
 M.~Wojdyr, {GEMMI: A library for structural biology}, Journal of Open Source
   Software 7~(73) (2022) 4200.
 \newblock \href {https://doi.org/10.21105/joss.04200}
   {\path{doi:10.21105/joss.04200}}.
+
+\bibitem{Gore2017}
+S.~Gore, E.~Sanz~García, P.~M. Hendrickx, A.~Gutmanas, J.~D. Westbrook,
+  H.~Yang, Z.~Feng, K.~Baskaran, J.~M. Berrisford, B.~P. Hudson, Y.~Ikegawa,
+  N.~Kobayashi, C.~L. Lawson, S.~Mading, L.~Mak, A.~Mukhopadhyay, T.~J.
+  Oldfield, A.~Patwardhan, E.~Peisach, G.~Sahni, M.~R. Sekharan, S.~Sen,
+  C.~Shao, O.~S. Smart, E.~L. Ulrich, R.~Yamashita, M.~Quesada, J.~Y. Young,
+  H.~Nakamura, J.~L. Markley, H.~M. Berman, S.~K. Burley, S.~Velankar, G.~J.
+  Kleywegt, {Validation of Structures in the Protein Data Bank}, Structure
+  25~(12) (2017) 1916--1927.
+\newblock \href {https://doi.org/10.1016/j.str.2017.10.009}
+  {\path{doi:10.1016/j.str.2017.10.009}}.
 
 \bibitem{Velankar2013}
 S.~Velankar, J.~M. Dana, J.~Jacobsen, G.~van Ginkel, P.~J. Gane, J.~Luo, T.~J.
@@ -221,6 +240,13 @@ M.~Qian, R.~Haser, G.~Buisson, E.~Du{\'e}e, F.~Payan, The active center of a
 \newblock \href {https://doi.org/10.1021/bi00186a031}
   {\path{doi:10.1021/bi00186a031}}.
 
+\bibitem{Seabold2010}
+S.~Seabold, J.~Perktold, Statsmodels: Econometric and statistical modeling with
+  {P}ython, in: Proceedings of the 9th Python in Science Conference, 2010, pp.
+  92--96.
+\newblock \href {https://doi.org/10.25080/Majora-92bf1922-011}
+  {\path{doi:10.25080/Majora-92bf1922-011}}.
+
 \bibitem{Aghajari2002}
 N.~Aghajari, M.~Roth, R.~Haser, Crystallographic evidence of a
   transglycosylation reaction: ternary complexes of a psychrophilic
@@ -243,6 +269,12 @@ A.~E. Aleshin, L.~M. Firsov, R.~B. Honzatko, Refined structure for the complex
   15631--15639.
 \newblock \href {https://doi.org/10.1016/S0021-9258(17)40728-9}
   {\path{doi:10.1016/S0021-9258(17)40728-9}}.
+
+\bibitem{Shrake1973}
+A.~Shrake, J.~A. Rupley, Environment and exposure to solvent of protein atoms.
+  {Lysozyme} and insulin, Journal of Molecular Biology 79~(2) (1973) 351--371.
+\newblock \href {https://doi.org/10.1016/0022-2836(73)90011-9}
+  {\path{doi:10.1016/0022-2836(73)90011-9}}.
 
 \bibitem{Dauter1999}
 Z.~Dauter, M.~Dauter, A.~M. Brzozowski, S.~Christensen, T.~V. Borchert,
