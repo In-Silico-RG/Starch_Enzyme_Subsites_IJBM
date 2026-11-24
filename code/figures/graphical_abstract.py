@@ -11,9 +11,9 @@ Material reused
       analysis 45 (vermillion held by a fixed residue, sky blue held by a variable residue, white free), holding
       residues vermillion (fixed) / sky blue (variable)). Subsite numbers and the scissile bond (-1/+1) placed
       at pixel positions read off that render.
-  Right, the rule, from the Conclusions of the manuscript: -1/+1 fixed residues, no substituent; -2/+2
-      variable residues, depends on the enzyme; outer subsites and O6 mostly free, substituent fits; O6
-      tolerated better than O2 or O3 (design rule (i)).
+  Right, the hypotheses, from the Conclusions of the manuscript (round-2 wording, AFC 2026-11-24): -1/+1 fixed,
+      predicted not tolerated; -2/+2 variable, enzyme-dependent; outer subsites and O6 free, predicted tolerated;
+      O6 predicted least obstructive (hypothesis (i)). No tick/cross marks (layout C): these are predictions.
 Output: 13.3 x 5.32 cm (5:2), 600 dpi (3142 x 1257 px, above the Elsevier minimum 1328 x 531 px); fonts >= 8 pt.
   candidates -> figures/candidates/graphical_abstract/ga_{A,B,C}.{png,pdf}
   --pick X   -> manuscript_ijbm/submission/graphical_abstract.{png,pdf,tiff}
@@ -136,9 +136,9 @@ def ball(ax, x, y, col, ms=10):
 
 
 def rule_rows(ax, y0, dy, fs=8, with_marks=True):
-    rows = [(FIXED, '−1 / +1: fixed', 'substituent blocked', '✗', '#C0392B'),
-            (VAR, '−2 / +2: variable', 'enzyme-dependent', '?', TXT_VAR),
-            (FREE, 'outer sites, O6: free', 'substituent fits', '✓', '#1E8449')]
+    rows = [(FIXED, '−1/+1: fixed', 'predicted not tolerated', '✗', '#C0392B'),
+            (VAR, '−2/+2: variable', 'enzyme-dependent', '?', TXT_VAR),
+            (FREE, 'outer subsites, O6: free', 'predicted tolerated', '✓', '#1E8449')]
     for k, (col, l1, l2, mk, mc) in enumerate(rows):
         y = y0 - k * dy
         ball(ax, 0.07, y, col)
@@ -185,7 +185,7 @@ def layout_B():
     rule_rows(axr, 0.86, 0.29, with_marks=True)
     axr.add_patch(FancyBboxPatch((0.0, 0.0), 0.98, 0.14, boxstyle='round,pad=0.0,rounding_size=0.04',
                                  fc='#F2F2F2', ec='none', transform=axr.transAxes))
-    axr.text(0.49, 0.07, 'Best site: O6 > O2, O3', fontsize=8, weight='bold', ha='center', va='center',
+    axr.text(0.49, 0.07, 'O6 tolerated best', fontsize=8, weight='bold', ha='center', va='center',
              transform=axr.transAxes)
     return fig
 
@@ -200,17 +200,18 @@ def layout_C():
     fig.text(0.155, 0.91, 'Functionalised starch', fontsize=8.5, weight='bold', ha='center', va='center')
     axc = fig.add_axes((0.015, 0.10, 0.28, 0.74))
     draw_chain(axc)
-    fig.text(0.49, 0.91, '637 PDB structures', fontsize=8.5, weight='bold', ha='center',
+    fig.text(0.49, 0.91, 'GH13 α-amylase (1QHO)', fontsize=8.5, weight='bold', ha='center',
              va='center')
     axm = fig.add_axes((0.32, 0.03, 0.34, 0.82))
     draw_cleft(axm, fs_sub=8.5)
     for x in (0.297, 0.667):
         arrow(fig, x, x + 0.03, 0.5)
     axr = fig.add_axes((0.695, 0.05, 0.29, 0.90)); axr.axis('off')
-    axr.text(0.5, 0.955, 'Design rule', fontsize=8.5, weight='bold', ha='center', va='center',
+    axr.text(0.5, 0.955, 'Hypotheses', fontsize=8.5, weight='bold', ha='center', va='center',
              transform=axr.transAxes)
-    rule_rows(axr, 0.76, 0.25)
-    axr.text(0.5, 0.06, 'Best site: O6 > O2, O3', fontsize=8.5, weight='bold', ha='center', va='center',
+    rule_rows(axr, 0.79, 0.23, with_marks=False)
+    axr.text(0.5, 0.075, 'O6 predicted\nleast obstructive', fontsize=8, weight='bold', ha='center', va='center',
+             linespacing=1.0,
              transform=axr.transAxes)
     return fig
 

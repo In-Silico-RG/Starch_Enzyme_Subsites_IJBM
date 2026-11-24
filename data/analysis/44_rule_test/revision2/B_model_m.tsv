@@ -1,0 +1,10 @@
+model	term	coef	se	ci_lo	ci_hi	odds_ratio	p	n	events
+logistic, m = 1	const	0.7660	0.6764	-0.5597	2.0917	2.1511	0.2574	35	15
+logistic, m = 1	outer	-2.0506	1.2295	-4.4603	0.3591	0.1287	0.0953	35	15
+logistic, m = 1	GH31	0.5913	0.8705	-1.1149	2.2975	1.8064	0.4970	35	15
+logistic, m = 1	Ar	-1.7096	0.9513	-3.5741	0.1549	0.1809	0.0723	35	15
+logistic, m = 1	Al	-2.5198	1.3055	-5.0787	0.0390	0.0805	0.0536	35	15
+ordinal logit, 3 levels	outer	-1.8985	0.9132	-3.6884	-0.1086	0.1498	0.0376	35	
+ordinal logit, 3 levels	GH31	1.0790	0.8214	-0.5309	2.6890	2.9418	0.1890	35	
+ordinal logit, 3 levels	Ar	-2.0746	0.9093	-3.8567	-0.2925	0.1256	0.0225	35	
+ordinal logit, 3 levels	Al	-2.2189	1.0341	-4.2456	-0.1922	0.1087	0.0319	35	

@@ -1,0 +1,77 @@
+== A. Permutation tests, seed 20261124, 100000 permutations
+  All positions                                 H-Al: 17/8 diff +0.333 p2 0.0048 fam 0.0033 loc 0.0138
+  All positions                                 H-Ar: 17/10 diff +0.184 p2 0.1032 fam 0.1087 loc 0.0663
+  Without catalytic                             H-Al: 12/8 diff +0.279 p2 0.0288 fam 0.0269 loc 0.0362
+  Positions with >=5 groups                     H-Al: 16/6 diff +0.454 p2 0.0005 fam 0.0001 loc 0.0006
+  At -1/+1 only                                 H-Al: 14/4 diff +0.375 p2 0.0056 fam 0.0010 loc nan
+  30% identity groups                           H-Al: 18/7 diff +0.380 p2 0.0009 fam 0.0006 loc 0.0017
+  Contact criterion 50%                         H-Al: 17/6 diff +0.308 p2 0.0080 fam 0.0046 loc 0.0048
+  Contact criterion 80%                         H-Al: 13/4 diff +0.341 p2 0.0031 fam 0.0008 loc 0.0005
+  Class from reference, 20%                     H-Al: 17/10 diff +0.280 p2 0.0152 fam 0.0160 loc 0.0200
+  Class from reference, 50%                     H-Al: 17/6 diff +0.164 p2 0.1801 fam 0.1850 loc 0.1809
+  Class from reference, 80%                     H-Al: 12/4 diff +0.177 p2 0.1183 fam 0.0427 loc 0.0830
+  Class from reference, 50%, without catalytic  H-Al: 13/5 diff +0.180 p2 0.1935 fam 0.1978 loc 0.2177
+  Class from reference, 80%, without catalytic  H-Al: 8/3 diff +0.230 p2 0.1113 fam 0.0495 loc 0.0913
+  Held-out proteins                             H-Al: 17/8 diff +0.310 p2 0.0112 fam 0.0095 loc 0.0295
+  Held-out, without catalytic                   H-Al: 12/8 diff +0.233 p2 0.0812 fam 0.0876 loc 0.0849
+  Held-out, 30% identity groups                 H-Al: 18/7 diff +0.173 p2 0.1400 fam 0.1384 loc 0.1363
+  Outer subsites (outer contacts)               H-Al: 4/6 diff -0.087 p2 0.6634 fam 0.6696 loc nan
+  H-bond 3.2 A                                  H-Al: 16/9 diff +0.273 p2 0.0179 fam 0.0137 loc 0.0323
+  H-bond 4.0 A                                  H-Al: 18/8 diff +0.295 p2 0.0148 fam 0.0142 loc 0.0316
+  H-bond 3.5 A + angle                          H-Al: 15/9 diff +0.264 p2 0.0250 fam 0.0200 loc 0.0378
+  H at -1/+1 vs outer-only: 14/3 means 0.936 0.570 diff +0.366 p2 0.0085 fam 0.0121
+  H at -1/+1 vs outer-only, without catalytic: 9/3 means 0.900 0.570 diff +0.330 p2 0.0268 fam 0.0384
+
+== B. Model of m on location, family and contact class (35 positions with a class)
+  logistic (m = 1), n = 35, events 15; deviance 35.87
+    const  coef +0.77 se 0.68 OR 2.15 [0.57, 8.10] p 0.257
+    outer  coef -2.05 se 1.23 OR 0.13 [0.01, 1.43] p 0.095
+    GH31   coef +0.59 se 0.87 OR 1.81 [0.33, 9.95] p 0.497
+    Ar     coef -1.71 se 0.95 OR 0.18 [0.03, 1.17] p 0.072
+    Al     coef -2.52 se 1.31 OR 0.08 [0.01, 1.04] p 0.054
+  ordinal (m < 0.6 / 0.6-1 / 1; counts [12, 8, 15])
+    outer  coef -1.90 se 0.91 OR 0.15 p 0.038
+    GH31   coef +1.08 se 0.82 OR 2.94 p 0.189
+    Ar     coef -2.07 se 0.91 OR 0.13 p 0.023
+    Al     coef -2.22 se 1.03 OR 0.11 p 0.032
+  cross-tab (inner, class): out Al: 1/4 m=1, mean 0.52; out Ar: 0/2 m=1, mean 0.43; out H: 0/3 m=1, mean 0.57; in Al: 0/4 m=1, mean 0.56; in Ar: 3/8 m=1, mean 0.75; in H: 11/14 m=1, mean 0.94
+
+== C. Map against experiment
+  21 cells: published 19/21, trivial 17/21; discordant: published right/trivial wrong 2, reverse 0; exact McNemar (binomial) two-sided p = 0.500
+  INV cells 12/14; trivial "blocked" cells 10/12
+  INV GH13: 4/4
+  INV GH14: 4/5
+  INV GH15: 4/5
+  without abstract-only cells (GH13 +2 O6, GH15 -1 O2, GH15 +1 O2): 17/18; INV 11/12
+  full-text evidence only: 17/18; INV 11/12
+  permuted maps (10000): mean fraction 0.593 (95% 0.400-0.789); P(>= 0.905) = 0.0006; INV mean 0.634 (95% 0.375-0.875); P(>= 0.857) = 0.0564
+
+== D. GH13 map over the endo-alpha-amylase groups
+  alpha-amylase groups: 13; entries 50
+  check: re-aggregated states differing from cell_summary.tsv over all 29 groups: 0
+  -3 O2: all EXP (17) -> alpha-amylase EXP (9 groups, held 0.22)
+  -3 O3: all EXP (17) -> alpha-amylase EXP (9 groups, held 0.22)
+  -3 O6: all EXP (11) -> alpha-amylase EXP (3 groups, held 0.33)
+  -2 O2: all VAR (22) -> alpha-amylase VAR (11 groups, held 1.0)
+  -2 O3: all VAR (22) -> alpha-amylase VAR (11 groups, held 0.73)
+  -2 O6: all VAR (21) -> alpha-amylase VAR (10 groups, held 0.6)
+  -1 O2: all INV (29) -> alpha-amylase INV (13 groups, held 1.0)
+  -1 O3: all INV (29) -> alpha-amylase INV (13 groups, held 1.0)
+  -1 O6: all INV (29) -> alpha-amylase INV (13 groups, held 1.0)
+  +1 O2: all VAR (17) -> alpha-amylase VAR (11 groups, held 0.82)
+  +1 O3: all INV (17) -> alpha-amylase INV (11 groups, held 1.0)
+  +1 O6: all BUR (3) -> alpha-amylase VAR (2 groups, held 0.5)  CHANGES
+  +2 O2: all VAR (15) -> alpha-amylase VAR (10 groups, held 0.9)
+  +2 O3: all VAR (15) -> alpha-amylase VAR (10 groups, held 0.9)
+  +2 O6: all EXP (15) -> alpha-amylase EXP (10 groups, held 0.1)
+  +3 O2: all MC (10) -> alpha-amylase MC (6 groups, held 0.67)
+  +3 O3: all MC (10) -> alpha-amylase MC (6 groups, held 0.5)
+  +3 O6: all EXP (10) -> alpha-amylase EXP (6 groups, held 0.17)
+
+== E. MD, the three systems compared with a crystal map
+  S06_7DCG: 219 frames, 21.8 ns
+  S07_6A0K: 230 frames, 22.9 ns
+  S08_1J18: 236 frames, 23.5 ns
+  GH13 cells at -1 (O1-O6 of the -1 units, 7DCG and 6A0K): 11; same state 11
+  all cells with a crystal state (GH13 and GH14): 48; same state 35; same held/not held 40
+  7DCG +1 O4 (scissile): held in 0.365 of frames (E204[sc] 0.31; D289[sc] 0.08); crystal state INV, held in 1.00 of groups

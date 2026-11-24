@@ -1,4 +1,4 @@
-# A fixed core and a variable rim: hydroxyl contacts of α-amylases and α-glucosidases set the tolerance to starch substituents
+# A fixed core and a variable rim: hydroxyl contacts at the subsites of α-amylases and related starch hydrolases, compared with the hydrolysis of substituted starch
 
 Manuscript, supplementary material, code and data of the article submitted to the *International Journal of
 Biological Macromolecules* (Elsevier). Authors: Nedis I. Acevedo-Viloria (Programa de Doctorado en Ingeniería, Universidad del Magdalena; Departamento de Ingeniería Agroindustrial, Universidad de Sucre), Yurimar Ruiz-Rocha (Departamento de Física, Facultad de Educación y Ciencias, Universidad de Sucre;
@@ -12,22 +12,27 @@ superposed on one reference, every density-supported sugar unit assigned a subsi
 every residue within 4.0 Å named by its position in the family reference frame and classed by kind of contact), the
 paper asks which glucose oxygens each subsite holds.
 
-1. **Residue test (Sect. 3.1, Tables 1–2).** In GH13 (79 entries, 29 groups at ≥ 50 % identity) and GH31 (18 entries,
-   6 groups), 11 of the 14 hydrogen-bonding positions at subsites −1/+1 carry one residue type in every group;
-   aliphatic positions and positions of every kind at the outer subsites vary (H − Al 0.33, two-sided permutation
-   p = 0.004; 0.018 within location). Variants that weaken the result are reported (Table 2, Table S8).
+1. **Residue test (Sect. 3.1, Table 1, Table S1).** In GH13 (79 entries, 29 groups at ≥ 50 % identity) and GH31 (18
+   entries, 6 groups), 11 of the 14 hydrogen-bonding positions at subsites −1/+1 carry one residue type in every group
+   (mean m 0.94 against 0.57 for the 3 outer-only ones, two-sided permutation p = 0.009); aliphatic positions vary
+   (pooled H − Al 0.33, p = 0.005; 100 000 permutations, one seed). Settings that weaken the result and a model of m
+   on location, family and class are reported (Table 1, Tables S6–S7).
 2. **Subsite × oxygen map (Sect. 3.2, Figs 3–4).** Over 114 entries of GH13, GH31, GH14 and GH15, each subsite ×
    oxygen cell gets a contact state (INV fixed, VAR variable, MC main chain, EXP free exposed, BUR free buried).
-3. **Map against experiment (Table 3, Tables S6, S9).** 12 of 14 INV cells agree with published products and kinetics
-   of substituted substrates; VAR and EXP cells are compatible (19 of 21 overall); a trivial map scores 17 of 21 and
-   maps with permuted states 0.59 of their cells; the evidence rests mainly on phosphorylated glucan.
-4. **Free volume (Sect. 3.3, Table 4, Table S4)**, a static steric screen of eight substituents; clean agreement with
+3. **Map against experiment (Table 2, Tables S4, S8).** 12 of 14 INV cells agree with published products and kinetics
+   of substituted substrates (GH13 4/4, GH14 4/5, GH15 4/5); a trivial map that blocks every oxygen at −1/+1 agrees in
+   10 of 12 of its blocked cells and differs from the published map at two GH14 cells only (McNemar p = 0.50); the
+   evidence rests mainly on phosphorylated glucan; 17 of 18 cells agree without the three abstract-only cells.
+4. **Free volume (Sect. 3.3, Table 3, Table S2)**, a static steric screen of eight substituents; clean agreement with
    the literature in 16 of 36 pairs.
 5. **Hypotheses for processing substituted starch (Sect. 3.4).**
 
-The Supplementary material also holds ring distortion, conserved waters, PROPKA, MM/GBSA (S1–S4), the molecular
-dynamics consistency check (S6; unfinished runs), the sequence groups with UniProt/EC/GH13 subfamily (Table S10) and the
-numbering concordance with TAKA-amylase and porcine pancreatic α-amylase (Table S11).
+The Supplementary material also holds the contact positions (Table S1), unfinished molecular dynamics of three
+glucose-only complexes (S3; not used in the main text), the GH13 map over the 13 α-amylase groups (Table S9), the
+sequence groups with UniProt/EC/GH13 subfamily (Table S10) and the numbering concordance with TAKA-amylase and porcine
+pancreatic α-amylase (Table S11). Ring distortion, conserved waters, PROPKA and MM/GBSA, which the article does not
+use, were removed from the Supplementary material in the round-2 revision; their scripts and results remain in `code/`
+and `data/` (steps 12 and 2).
 
 ## Layout
 
@@ -49,7 +54,7 @@ code/   part1_table.py part2_structures.py part2_pdb_details.py ligands_inventor
         download_mmcif.sh                                                       (fetch the deposited mmCIF files)
         calc/      common.py c03_frames.py c01_propka.py c01_collect.py c09_series.py c09_series_summary.py
         analysis/  a33_subsites.py a40_contact_types.py a41_control_noncatalytic.py a42_ring_distortion_subsite.py
-                   a43_mmgbsa_subsite.py a44a_build.py a44b_tests.py a44c_tables.py a44d_revision.py
+                   a43_mmgbsa_subsite.py a44a_build.py a44b_tests.py a44c_tables.py a44d_revision.py a44e_round2.py
                    a45_hydroxyl_map.py a46_substituent_fit.py a47_md_hydroxyl_contacts.py
                    rcsb_q.py rcsb_q2.py   grip_independence_check/step1-5.py
         si/        si_tables_s2_s3.py
@@ -62,8 +67,8 @@ data/   db/enzimas_experimental.sqlite (41 MB, the whole database) + schema.sql 
         census/cif_entries.txt (the 645 mmCIF files read, incl. the 8 entries later removed) , bound_linkages*.tsv
         calc/03_frames  calc/01_propka  calc/09_mmgbsa/series  calc/08_md (MD selection and build inputs)
         analysis/33_subsites 40_contact_types 41_control_noncatalytic 42_ring_distortion 43_mmgbsa_subsite
-                 44_rule_test (+ revision/) 45_hydroxyl_map 46_substituent_fit 47_md_hydroxyl grip_independence_check
-                 + the check and literature reports (*.md; substituted_starch_hydrolysis_literature_v2.md is Table S6)
+                 44_rule_test (+ revision/, revision2/, superseded/) 45_hydroxyl_map 46_substituent_fit 47_md_hydroxyl grip_independence_check
+                 + the check and literature reports (*.md; substituted_starch_hydrolysis_literature_v2.md is Table S4)
         figures/fig2_v2_work fig2_style_work fig2_work (figure intermediates)
         part2_*.tsv part1_*.tsv cazy_*.tsv ligands/ part3/ (inventory inputs of the builders)
 ```
@@ -84,15 +89,16 @@ Run from the repository root with the Python environment of `environment.txt`. E
 | 1 | Database (optional: shipped) | `python code/part1_table.py`, `part2_structures.py`, `part2_pdb_details.py`, `ligands_inventory.py`, `part3_measure.py`, `census_bound_linkages.py`, `build_database.py`, `add_sifts.py`, `add_chembl.py`, in this order | CAZy, RCSB, SIFTS, ChEMBL, M-CSA (network) → `data/db/enzimas_experimental.sqlite` |
 | 2 | Family frames, catalytic residues, conserved waters | `python code/calc/c03_frames.py` | db, mmCIF → `data/calc/03_frames/` |
 | 3 | Subsites and mapped contacts | `python code/analysis/a33_subsites.py` | db, frames → `data/analysis/33_subsites/` |
-| 4 | Kind of contact (Sect. 2.3; GH14/GH15 in Section S9) | `python code/analysis/a40_contact_types.py`; `python code/analysis/a40_contact_types.py GH14 GH15` | → `data/analysis/40_contact_types/` (`all_*` for the second) |
+| 4 | Kind of contact (Sect. 2.3; GH14/GH15 in Section S4) | `python code/analysis/a40_contact_types.py`; `python code/analysis/a40_contact_types.py GH14 GH15` | → `data/analysis/40_contact_types/` (`all_*` for the second) |
 | 5 | Protein identity groups (Sect. 2.2) | `code/analysis/grip_independence_check/step1.py … step5.py <workdir>` | see note 2 → `data/analysis/grip_independence_check/` |
-| 6 | Tables 1 and 2 (residue test) | `python code/analysis/a44a_build.py`; `python code/analysis/a44b_tests.py`; `python code/analysis/a44c_tables.py` | → `data/analysis/44_rule_test/` (`C_identity_T20.tsv`, `D_tests.tsv`, …) |
-| 7 | Revision analyses: inner/outer test, location strata, H−Al variants, m vs m_map, map baselines (Tables 2–3, S7–S9), sequence groups with GH13 subfamily (Table S10), numbering concordance (Table S11) | `python code/analysis/a44d_revision.py` (part D reads UniProt once, cached in `revision/uniprot_ncbi_cache.json`, and the CAZy data file `cazy_data.zip`, not shipped) | → `data/analysis/44_rule_test/revision/` |
-| 8 | Control at non-catalytic sites (Section S8) | `python code/analysis/a41_control_noncatalytic.py` | → `data/analysis/41_control_noncatalytic/` |
+| 6 | Table S1, earlier test runs (residue test) | `python code/analysis/a44a_build.py`; `python code/analysis/a44b_tests.py`; `python code/analysis/a44c_tables.py` | → `data/analysis/44_rule_test/` (`C_identity_T20.tsv`, `D_tests.tsv`, …; the pre-revision `REPORT.md`, `rule_section.tex`, `tab_tests.tex`, `E_inner_vs_outer_H.tsv` are in `superseded/`, see its `NOTE.md`) |
+| 7 | Revision analyses: m vs m_map (Table S5), map baselines (Table 2, Table S8), sequence groups with GH13 subfamily (Table S10), numbering concordance (Table S11) | `python code/analysis/a44d_revision.py` (part D reads UniProt once, cached in `revision/uniprot_ncbi_cache.json`, and the CAZy data file `cazy_data.zip`, not shipped) | → `data/analysis/44_rule_test/revision/` |
+| 7b | Round-2 analyses: every reported permutation test with 100 000 permutations and one seed (Table 1, Table S6), model of m (Table S7), McNemar, per-family and abstract-only scores (Table 2, Section S8), α-amylase-only map (Table S9), MD numbers (Section S3) | `python code/analysis/a44e_round2.py` (runs from the shipped `data/` alone) | → `data/analysis/44_rule_test/revision2/` |
+| 8 | Control at non-catalytic sites (not in the article since round 2) | `python code/analysis/a41_control_noncatalytic.py` | → `data/analysis/41_control_noncatalytic/` |
 | 9 | Subsite × oxygen map (Sect. 3.2, Figs 3–4) | `python code/analysis/a45_hydroxyl_map.py` | → `data/analysis/45_hydroxyl_map/` |
-| 10 | Free volume (Sect. 3.3, Table 4, Table S4) | `python code/analysis/a46_substituent_fit.py` | → `data/analysis/46_substituent_fit/` |
-| 11 | MD consistency check (Section S6, Table S5) | systems built from `data/calc/08_md/systems/*/build.leap` (AmberTools 24, GROMACS 2024.4; protocol in Section S12.3); contacts: `python code/analysis/a47_md_hydroxyl_contacts.py` | pocket trajectories `data/analysis/47_md_hydroxyl/traj/` → `data/analysis/47_md_hydroxyl/` |
-| 12 | SI S1–S4 (ring distortion, waters, PROPKA, MM/GBSA) | `a42_ring_distortion_subsite.py`; `c01_propka.py`, `c01_collect.py`, `si/si_tables_s2_s3.py`; `c09_series.py`, `c09_series_summary.py`, `a43_mmgbsa_subsite.py` | → `data/analysis/42_*`, `data/calc/01_propka/`, `data/calc/09_mmgbsa/`, `data/analysis/43_*` |
+| 10 | Free volume (Sect. 3.3, Table 3, Table S2) | `python code/analysis/a46_substituent_fit.py` | → `data/analysis/46_substituent_fit/` |
+| 11 | MD of three complexes (Section S3, Table S3; not used in the main text) | systems built from `data/calc/08_md/systems/*/build.leap` (AmberTools 24, GROMACS 2024.4; protocol in Section S5.3); contacts: `python code/analysis/a47_md_hydroxyl_contacts.py` | pocket trajectories `data/analysis/47_md_hydroxyl/traj/` → `data/analysis/47_md_hydroxyl/` |
+| 12 | Ring distortion, waters, PROPKA, MM/GBSA (not in the article since round 2) | `a42_ring_distortion_subsite.py`; `c01_propka.py`, `c01_collect.py`, `si/si_tables_s2_s3.py`; `c09_series.py`, `c09_series_summary.py`, `a43_mmgbsa_subsite.py` | → `data/analysis/42_*`, `data/calc/01_propka/`, `data/calc/09_mmgbsa/`, `data/analysis/43_*` |
 | 12b | Figures | `python code/figures/fig1_protein_layouts.py` (Fig. 1, S1); `fig2_v3_figure.py` (Fig. 2); `fig3_map.py` (Fig. 3); `figA_map_on_molecule.py` (Fig. 4); `figB_fixed_variable.py` (Fig. S2); `graphical_abstract.py` (ChimeraX on the PATH; renders cached, `--rerender` to redo) | → `figures/candidates/`, `manuscript/figures/` |
 | 13 | Manuscript | `cd manuscript && pdflatex ijbm_main && bibtex ijbm_main && pdflatex ijbm_main && pdflatex ijbm_main` (same for `ijbm_SI`) | |
 
@@ -109,7 +115,9 @@ Notes.
    from `<workdir>/dl/`, which are not shipped; their result, `ident.json` and `entries_minus1.tsv`, is in
    `data/analysis/grip_independence_check/` and is what `a44a_build.py` reads.
 3. Per-entry PROPKA runs (601 MB), MM/GBSA topologies and coordinates, and the solvated MD topologies, coordinates and
-   full trajectories (about 500 MB) are not shipped; they are regenerated from the shipped inputs.
+   full trajectories (about 500 MB) are not shipped; they are regenerated from the shipped inputs. The MD numbers of
+   Section S3 are read from the shipped pocket trajectories (`data/analysis/47_md_hydroxyl/traj/`) and the shipped
+   per-cell table; the MD is not used in the main text.
 
 ## Data availability (text for the article)
 
@@ -121,4 +129,6 @@ retrieved from the RCSB PDB with `code/download_mmcif.sh`. [PENDIENTE: archived 
 
 ## Licence
 
-[PENDIENTE]
+Code (`code/`, `sync_from_project.sh`) under the MIT License; data, result tables, figures and text (`data/`,
+`figures/`, `manuscript/`, `submission/`) under CC BY 4.0. See `LICENSE`. PDB coordinates and the records of CAZy,
+UniProt, SIFTS and ChEMBL keep their providers' terms.

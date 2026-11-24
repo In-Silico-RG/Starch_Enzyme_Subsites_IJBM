@@ -46,6 +46,29 @@ G.~J. Davies, K.~S. Wilson, B.~Henrissat, Nomenclature for sugar-binding
 \newblock \href {https://doi.org/10.1042/bj3210557}
   {\path{doi:10.1042/bj3210557}}.
 
+\bibitem{Robyt1970}
+J.~F. Robyt, D.~French, The action pattern of porcine pancreatic
+  $\alpha$-amylase in relationship to the substrate binding site of the enzyme,
+  Journal of Biological Chemistry 245~(15) (1970) 3917--3927.
+\newblock \href {https://doi.org/10.1016/S0021-9258(18)62937-0}
+  {\path{doi:10.1016/S0021-9258(18)62937-0}}.
+
+\bibitem{Ajandouz1992}
+E.~H. Ajandouz, J.-i. Abe, B.~Svensson, G.~Marchis-Mouren, Barley
+  malt-$\alpha$-amylase. {Purification}, action pattern, and subsite mapping of
+  isozyme 1 and two members of the isozyme 2 subfamily using
+  \emph{p}-nitrophenylated maltooligosaccharide substrates, Biochimica et
+  Biophysica Acta (BBA) -- Protein Structure and Molecular Enzymology 1159~(2)
+  (1992) 193--202.
+\newblock \href {https://doi.org/10.1016/0167-4838(92)90025-9}
+  {\path{doi:10.1016/0167-4838(92)90025-9}}.
+
+\bibitem{Kandra2003}
+L.~Kandra, $\alpha$-amylases of medical and industrial importance, Journal of
+  Molecular Structure: THEOCHEM 666--667 (2003) 487--498.
+\newblock \href {https://doi.org/10.1016/j.theochem.2003.08.073}
+  {\path{doi:10.1016/j.theochem.2003.08.073}}.
+
 \bibitem{Davies1995}
 G.~Davies, B.~Henrissat, {Structures and mechanisms of glycosyl hydrolases},
   Structure 3~(9) (1995) 853--859.
@@ -75,6 +98,22 @@ K.~L. Hudson, G.~J. Bartlett, R.~C. Diehl, J.~Agirre, T.~Gallagher, L.~L.
 \newblock \href {https://doi.org/10.1021/jacs.5b08424}
   {\path{doi:10.1021/jacs.5b08424}}.
 
+\bibitem{Zhang2020}
+Z.~Zhang, T.~Jin, X.~Xie, X.~Ban, C.~Li, Y.~Hong, L.~Cheng, Z.~Gu, Z.~Li,
+  Structure of maltotetraose-forming amylase from \emph{Pseudomonas
+  saccharophila} {STB07} provides insights into its product specificity,
+  International Journal of Biological Macromolecules 154 (2020) 1303--1313.
+\newblock \href {https://doi.org/10.1016/j.ijbiomac.2019.11.006}
+  {\path{doi:10.1016/j.ijbiomac.2019.11.006}}.
+
+\bibitem{Tagami2015}
+T.~Tagami, K.~Yamashita, M.~Okuyama, H.~Mori, M.~Yao, A.~Kimura, Structural
+  advantage of sugar beet $\alpha$-glucosidase to stabilize the {Michaelis}
+  complex with long-chain substrate, Journal of Biological Chemistry 290~(3)
+  (2015) 1796--1803.
+\newblock \href {https://doi.org/10.1074/jbc.M114.606939}
+  {\path{doi:10.1074/jbc.M114.606939}}.
+
 \bibitem{Wojdyr2022}
 M.~Wojdyr, {GEMMI: A library for structural biology}, Journal of Open Source
   Software 7~(73) (2022) 4200.
@@ -94,6 +133,75 @@ W.~Kabsch, {A solution for the best rotation to relate two sets of vectors},
   Acta Crystallographica Section A 32~(5) (1976) 922--923.
 \newblock \href {https://doi.org/10.1107/s0567739476001873}
   {\path{doi:10.1107/s0567739476001873}}.
+
+\bibitem{Kadziola1994}
+A.~Kadziola, J.-i. Abe, B.~Svensson, R.~Haser, Crystal and molecular structure
+  of barley $\alpha$-amylase, Journal of Molecular Biology 239~(1) (1994)
+  104--121.
+\newblock \href {https://doi.org/10.1006/jmbi.1994.1354}
+  {\path{doi:10.1006/jmbi.1994.1354}}.
+
+\bibitem{Sim2008}
+L.~Sim, R.~Quezada-Calvillo, E.~E. Sterchi, B.~L. Nichols, D.~R. Rose, Human
+  intestinal maltase--glucoamylase: Crystal structure of the n-terminal
+  catalytic subunit and basis of inhibition and substrate specificity, Journal
+  of Molecular Biology 375~(3) (2008) 782--792.
+\newblock \href {https://doi.org/10.1016/j.jmb.2007.10.069}
+  {\path{doi:10.1016/j.jmb.2007.10.069}}.
+
+\bibitem{Brzozowski1997}
+A.~M. Brzozowski, G.~J. Davies, Structure of the \emph{Aspergillus oryzae}
+  $\alpha$-amylase complexed with the inhibitor acarbose at 2.0~{\aa}
+  resolution, Biochemistry 36~(36) (1997) 10837--10845.
+\newblock \href {https://doi.org/10.1021/bi970539i}
+  {\path{doi:10.1021/bi970539i}}.
+
+\bibitem{Qian1994}
+M.~Qian, R.~Haser, G.~Buisson, E.~Du{\'e}e, F.~Payan, The active center of a
+  mammalian $\alpha$-amylase. {Structure} of the complex of a pancreatic
+  $\alpha$-amylase with a carbohydrate inhibitor refined to 2.2-{\aa}
+  resolution, Biochemistry 33~(20) (1994) 6284--6294.
+\newblock \href {https://doi.org/10.1021/bi00186a031}
+  {\path{doi:10.1021/bi00186a031}}.
+
+\bibitem{Aghajari2002}
+N.~Aghajari, M.~Roth, R.~Haser, Crystallographic evidence of a
+  transglycosylation reaction: ternary complexes of a psychrophilic
+  $\alpha$-amylase, Biochemistry 41~(13) (2002) 4273--4280.
+\newblock \href {https://doi.org/10.1021/bi0160516}
+  {\path{doi:10.1021/bi0160516}}.
+
+\bibitem{Mikami1994}
+B.~Mikami, M.~Degano, E.~J. Hehre, J.~C. Sacchettini, Crystal structures of
+  soybean $\beta$-amylase reacted with $\beta$-maltose and maltal: active site
+  components and their apparent roles in catalysis, Biochemistry 33~(25) (1994)
+  7779--7787.
+\newblock \href {https://doi.org/10.1021/bi00191a005}
+  {\path{doi:10.1021/bi00191a005}}.
+
+\bibitem{Aleshin1994}
+A.~E. Aleshin, L.~M. Firsov, R.~B. Honzatko, Refined structure for the complex
+  of acarbose with glucoamylase from \emph{Aspergillus awamori} var. {X100} to
+  2.4-{\aa} resolution, Journal of Biological Chemistry 269~(22) (1994)
+  15631--15639.
+\newblock \href {https://doi.org/10.1016/S0021-9258(17)40728-9}
+  {\path{doi:10.1016/S0021-9258(17)40728-9}}.
+
+\bibitem{Dauter1999}
+Z.~Dauter, M.~Dauter, A.~M. Brzozowski, S.~Christensen, T.~V. Borchert,
+  L.~Beier, K.~S. Wilson, G.~J. Davies, X-ray structure of {Novamyl}, the
+  five-domain ``maltogenic'' $\alpha$-amylase from \emph{Bacillus
+  stearothermophilus}: maltose and acarbose complexes at 1.7~{\aa} resolution,
+  Biochemistry 38~(26) (1999) 8385--8392.
+\newblock \href {https://doi.org/10.1021/bi990256l}
+  {\path{doi:10.1021/bi990256l}}.
+
+\bibitem{Takeda1987}
+Y.~Takeda, Actions of various amylases in the vicinity of phosphate groups of
+  potato starch and location of the phosphate groups in the starch, Journal of
+  the Japanese Society of Starch Science 34~(3) (1987) 225--233.
+\newblock \href {https://doi.org/10.5458/jag1972.34.225}
+  {\path{doi:10.5458/jag1972.34.225}}.
 
 \bibitem{vanderBurgt1998}
 Y.~E.~M. van~der Burgt, J.~Bergsma, I.~P. Bleeker, P.~J. H.~C. Mijland, A.~van
@@ -125,26 +233,12 @@ Y.~Takeda, S.~Hizukuri, Actions of {Aspergillus oryzae} alpha-amylase, potato
 \newblock \href {https://doi.org/10.1016/S0008-6215(00)90271-4}
   {\path{doi:10.1016/S0008-6215(00)90271-4}}.
 
-\bibitem{Takeda1987}
-Y.~Takeda, Actions of various amylases in the vicinity of phosphate groups of
-  potato starch and location of the phosphate groups in the starch, Journal of
-  the Japanese Society of Starch Science 34~(3) (1987) 225--233.
-\newblock \href {https://doi.org/10.5458/jag1972.34.225}
-  {\path{doi:10.5458/jag1972.34.225}}.
-
 \bibitem{Lemieux1996}
 R.~U. Lemieux, U.~Spohr, M.~Bach, D.~R. Cameron, M.~M. Palcic, T.~P. Frandsen,
   B.~B. Stoffer, B.~Svensson, Chemical mapping of the active site of the
   glucoamylase of {Aspergillus niger}, Canadian Journal of Chemistry 74~(3)
   (1996) 319--335.
 \newblock \href {https://doi.org/10.1139/v96-036} {\path{doi:10.1139/v96-036}}.
-
-\bibitem{Bock1987}
-K.~Bock, H.~Pedersen, The substrate specificity of the enzyme amyloglucosidase
-  ({AMG}). {Part I}. {Deoxy} derivatives, Acta Chemica Scandinavica B 41 (1987)
-  617--628.
-\newblock \href {https://doi.org/10.3891/acta.chem.scand.41b-0617}
-  {\path{doi:10.3891/acta.chem.scand.41b-0617}}.
 
 \bibitem{Mischnick2001}
 P.~Mischnick, Specificity of microbial $\alpha$-amylase and amyloglucosidase
@@ -177,11 +271,6 @@ J.~Treib, A.~Haass, G.~Pindur, U.~T. Seyfert, W.~Treib, M.~T. Grauer, F.~Jung,
   Haemostasis 74~(6) (1995) 1452--1456.
 \newblock \href {https://doi.org/10.1055/s-0038-1649964}
   {\path{doi:10.1055/s-0038-1649964}}.
-
-\bibitem{Huang2006}
-J.~Huang, Function--structure relationships of acetylated pea starches, Ph.D.
-  thesis, Wageningen University, Wageningen, The Netherlands (2006).
-\newblock \href {https://doi.org/10.18174/42177} {\path{doi:10.18174/42177}}.
 
 \bibitem{Hansen2009}
 P.~I. Hansen, M.~Spraul, P.~Dvortsak, F.~H. Larsen, A.~Blennow, M.~S. Motawia,

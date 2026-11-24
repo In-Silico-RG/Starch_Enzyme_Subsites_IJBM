@@ -433,7 +433,7 @@ def struct_legend(sf, x, y, ncol=5, fs=7):
          Line2D([], [], color=C.COL['H'], lw=2.2, label='H'),
          Line2D([], [], color=C.COL['Ar'], lw=2.2, label='Ar'),
          Line2D([], [], color=C.CAT_USED, lw=2.2, label='catalytic pair'),
-         Line2D([], [], color=HB_COL, lw=0.75, ls=(0, (2.2, 1.6)), label='H-bond ≤ 3.5 Å')]
+         Line2D([], [], color=HB_COL, lw=0.75, ls=(0, (2.2, 1.6)), label='N/O–O ≤ 3.5 Å')]
     sf.legend(handles=h, loc='center', bbox_to_anchor=(x, y), ncol=ncol, frameon=False, fontsize=fs,
               handlelength=1.8, columnspacing=1.1, handletextpad=0.5)
 

@@ -1,4 +1,4 @@
-# Declarations: A fixed core and a variable rim: hydroxyl contacts of α-amylases and α-glucosidases set the tolerance to starch substituents
+# Declarations: A fixed core and a variable rim: hydroxyl contacts at the subsites of α-amylases and related starch hydrolases, compared with the hydrolysis of substituted starch
 
 Manuscript for the *International Journal of Biological Macromolecules*. Authors: Nedis I. Acevedo-Viloria (a, b), Yurimar
 Ruiz-Rocha (c, d) and Aldo F. Combariza (e, d; corresponding author).
@@ -26,7 +26,7 @@ appeared to influence the work reported in this paper.
 During the preparation of this work the authors used Claude (Anthropic) to generate the analysis code, to search and
 summarise literature, and to draft and revise text. The authors checked the code and its outputs against the
 deposited structures and result tables, checked every literature result used in the comparison against the original
-source as labelled in Table S6 (full text or abstract), and reviewed and edited the text. The authors take full
+source as labelled in Table S4 (full text or abstract), and reviewed and edited the text. The authors take full
 responsibility for the content of the published article.
 
 ## Funding
@@ -35,7 +35,8 @@ responsibility for the content of the published article.
 ## Data availability
 The code and the data needed to reproduce every number, table and figure of the article and its Supplementary
 material are available at https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM (folders `code/` and `data/`;
-the deposited coordinates are obtained from the RCSB PDB with `code/download_mmcif.sh`). [PENDIENTE: archived
+the deposited coordinates are obtained from the RCSB PDB with `code/download_mmcif.sh`; code under the MIT licence,
+data under CC BY 4.0). [PENDIENTE: archived
 release and DOI (e.g. Zenodo)]
 
 ## Acknowledgements (as in the manuscript)
@@ -43,6 +44,6 @@ Computational resources and technical support were provided by the Laboratorio d
 Científico (SC3) of the Universidad Industrial de Santander (UIS), Colombia (https://www.sc3.uis.edu.co), through the
 GUANE high-performance computing cluster. Y.R.R. acknowledges a doctoral scholarship from the Ministerio de Ciencia,
 Tecnología e Innovación (Minciencias), Colombia (Convocatoria 933 of 2023; Resolución 1993 of 12 October 2023).
-[PENDIENTE: funding of N.A., if any] We thank the Instituto de Investigación of the Universidad Nacional de Frontera,
+[PENDIENTE: funding of N.I.A.-V., if any] We thank the Instituto de Investigación of the Universidad Nacional de Frontera,
 Sullana (Piura, Perú), and its director, Wilson Castro, and Marianny Combariza (CEIAM and Grupo de Investigación
 GIFTEX, Universidad Industrial de Santander) for support during the development of this work.

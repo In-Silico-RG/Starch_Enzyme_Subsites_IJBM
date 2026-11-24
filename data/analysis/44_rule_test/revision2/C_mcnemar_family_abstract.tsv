@@ -1,0 +1,20 @@
+item	family	agree	cells
+INV agreement	GH13	4	4
+INV agreement	GH14	4	5
+INV agreement	GH15	4	5
+published vs trivial, 21 cells	all	19	21
+trivial, 21 cells	all	17	21
+discordant published right / trivial wrong	all	2	
+discordant trivial right / published wrong	all	0	
+exact McNemar two-sided p	all	0.5	
+trivial blocked cells not tolerated	all	10	12
+without abstract-only cells	all	17	18
+without abstract-only cells, INV	all	11	12
+full-text evidence only	all	17	18
+full-text evidence only, INV	all	11	12
+permuted maps (10000) mean fraction	all	0.593	
+permuted maps 2.5-97.5 percentile	all	0.400-0.789	
+permuted maps P(fraction >= published)	all	0.0006	
+permuted maps INV mean fraction	all	0.634	
+permuted maps INV 2.5-97.5 percentile	all	0.375-0.875	
+permuted maps P(INV fraction >= published)	all	0.0564	

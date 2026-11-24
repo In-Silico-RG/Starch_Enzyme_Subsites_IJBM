@@ -69,16 +69,16 @@ d = d[d.set == 'all_glucoselike']
 CELL = {(r.family, r.subsite, r.label): r for r in d.itertuples()}
 
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 7.5, 'pdf.fonttype': 42, 'ps.fonttype': 42})
-fig = plt.figure(figsize=(7.4, 5.6))
+fig = plt.figure(figsize=(7.4, 6.6))   # round 2: four equal panels
 # axes: [left, bottom, width, height] in figure fraction
-AX = {"GH13": [0.06, 0.53, 0.42, 0.39], "GH31": [0.555, 0.53, 0.42, 0.39],
-      "GH14": [0.06, 0.20, 0.42, 0.26], "GH15": [0.555, 0.20, 0.42, 0.26]}
+AX = {"GH13": [0.06, 0.585, 0.42, 0.355], "GH31": [0.555, 0.585, 0.42, 0.355],
+      "GH14": [0.06, 0.165, 0.42, 0.355], "GH15": [0.555, 0.165, 0.42, 0.355]}
 TITLE = {'GH13': 'GH13 (29 groups)', 'GH31': 'GH31 (6 groups)',
-         'GH14': 'GH14 (2 groups)', 'GH15': 'GH15 (2 groups)'}
+         'GH14': 'GH14 (2 groups; INV = conserved in both)', 'GH15': 'GH15 (2 groups; INV = conserved in both)'}
 
 for fam, box in AX.items():
     ax = fig.add_axes(box)
-    small = fam in ('GH14', 'GH15')
+    small = False   # round 2: equal panels, equal fonts
     fs_num = 6.5 if small else 7.5
     fs_lit = 6.2 if small else 7.0
     for j, s in enumerate(SUBS):
@@ -132,7 +132,7 @@ handles += [Patch(fc='white', ec=DISAGREE, lw=2.0, label='map and experiment dis
             Patch(fc='white', ec='#BBBBBB', ls=(0, (2, 2)), lw=0.6, label='no density-supported unit or atom')]
 fig.legend(handles=handles, loc='lower left', bbox_to_anchor=(0.04, -0.005), ncol=4, frameon=False, fontsize=6.6,
            handlelength=1.6, columnspacing=1.2)
-fig.text(0.04, 0.068,
+fig.text(0.04, 0.058,
          f'{TICK} tolerated   {CROSS} not tolerated   {MIXED} differs between enzymes   \u2013 no data   \u2702 scissile O4   '
          'd deoxy (OH removed; not counted)\n'
          'P phosphate   HE hydroxyethyl   Me methyl   Hx 6-O-Gal or 3-O-GlcNAc   I\u2026 6-iodo, 6-pyridylamino, 4,6-benzylidene   '

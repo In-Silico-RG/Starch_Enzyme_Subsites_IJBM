@@ -1,0 +1,8 @@
+item	system	value
+frames, ns	S06_7DCG	219, 21.8
+frames, ns	S07_6A0K	230, 22.9
+frames, ns	S08_1J18	236, 23.5
+GH13 cells at -1	7DCG+6A0K	11/11
+cells same state	three	35/48
+cells same held/not held	three	40/48
+7DCG +1 O4 held fraction of frames	S06_7DCG	0.365

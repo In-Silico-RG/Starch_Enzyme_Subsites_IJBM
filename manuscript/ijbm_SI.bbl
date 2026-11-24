@@ -5,34 +5,6 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Cremer1975}
-D.~Cremer, J.~A. Pople, {General definition of ring puckering coordinates},
-  Journal of the American Chemical Society 97~(6) (1975) 1354--1358.
-\newblock \href {https://doi.org/10.1021/ja00839a011}
-  {\path{doi:10.1021/ja00839a011}}.
-
-\bibitem{Davies2012}
-G.~J. Davies, A.~Planas, C.~Rovira, Conformational analyses of the reaction
-  coordinate of glycosidases, Accounts of Chemical Research 45~(2) (2011)
-  308--316.
-\newblock \href {https://doi.org/10.1021/ar2001765}
-  {\path{doi:10.1021/ar2001765}}.
-
-\bibitem{Maier2015}
-J.~A. Maier, C.~Martinez, K.~Kasavajhala, L.~Wickstrom, K.~E. Hauser,
-  C.~Simmerling, ff14sb: Improving the accuracy of protein side chain and
-  backbone parameters from ff99sb, Journal of Chemical Theory and Computation
-  11~(8) (2015) 3696--3713.
-\newblock \href {https://doi.org/10.1021/acs.jctc.5b00255}
-  {\path{doi:10.1021/acs.jctc.5b00255}}.
-
-\bibitem{Miller2012}
-B.~R. Miller, T.~D. McGee, J.~M. Swails, N.~Homeyer, H.~Gohlke, A.~E. Roitberg,
-  Mmpbsa.py: An efficient program for end-state free energy calculations,
-  Journal of Chemical Theory and Computation 8~(9) (2012) 3314--3321.
-\newblock \href {https://doi.org/10.1021/ct300418h}
-  {\path{doi:10.1021/ct300418h}}.
-
 \bibitem{vanderBurgt2000b}
 Y.~E.~M. van~der Burgt, J.~Bergsma, I.~P. Bleeker, P.~J. H.~C. Mijland, J.~P.
   Kamerling, J.~F.~G. Vliegenthart, Substituent distribution in highly branched
@@ -41,95 +13,21 @@ Y.~E.~M. van~der Burgt, J.~Bergsma, I.~P. Bleeker, P.~J. H.~C. Mijland, J.~P.
 \newblock \href {https://doi.org/10.1016/S0008-6215(00)00062-8}
   {\path{doi:10.1016/S0008-6215(00)00062-8}}.
 
-\bibitem{Janecek2007}
-{\v S}.~Jane{\v c}ek, B.~Svensson, E.~A. MacGregor, A remote but significant
-  sequence homology between glycoside hydrolase clan {GH-H} and family {GH31},
-  FEBS Letters 581 (2007) 1261--1268.
-\newblock \href {https://doi.org/10.1016/j.febslet.2007.02.036}
-  {\path{doi:10.1016/j.febslet.2007.02.036}}.
+\bibitem{Mikami1994}
+B.~Mikami, M.~Degano, E.~J. Hehre, J.~C. Sacchettini, Crystal structures of
+  soybean $\beta$-amylase reacted with $\beta$-maltose and maltal: active site
+  components and their apparent roles in catalysis, Biochemistry 33~(25) (1994)
+  7779--7787.
+\newblock \href {https://doi.org/10.1021/bi00191a005}
+  {\path{doi:10.1021/bi00191a005}}.
 
-\bibitem{Rigden2002}
-D.~J. Rigden, Iterative database searches demonstrate that glycoside hydrolase
-  families 27, 31, 36 and 66 share a common evolutionary origin with family 13,
-  FEBS Letters 523 (2002) 17--22.
-\newblock \href {https://doi.org/10.1016/S0014-5793(02)02879-X}
-  {\path{doi:10.1016/S0014-5793(02)02879-X}}.
-
-\bibitem{Frandsen2002}
-T.~P. Frandsen, M.~M. Palcic, B.~Svensson, Substrate recognition by three
-  family 13 yeast alpha-glucosidases, European Journal of Biochemistry 269
-  (2002) 728--734.
-\newblock \href {https://doi.org/10.1046/j.0014-2956.2001.02714.x}
-  {\path{doi:10.1046/j.0014-2956.2001.02714.x}}.
-
-\bibitem{Frandsen2000}
-T.~P. Frandsen, F.~Lok, E.~Mirgorodskaya, P.~Roepstorff, B.~Svensson,
-  Purification, enzymatic characterization, and nucleotide sequence of a
-  high-isoelectric-point alpha-glucosidase from barley malt, Plant Physiology
-  123 (2000) 275--286.
-\newblock \href {https://doi.org/10.1104/pp.123.1.275}
-  {\path{doi:10.1104/pp.123.1.275}}.
-
-\bibitem{Sogaard1993}
-M.~S{\o}gaard, A.~Kadziola, R.~Haser, B.~Svensson, Site-directed mutagenesis of
-  histidine 93, aspartic acid 180, glutamic acid 205, histidine 290, and
-  aspartic acid 291 at the active site and tryptophan 279 at the raw starch
-  binding site in barley alpha-amylase 1, Journal of Biological Chemistry 268
-  (1993) 22480--22484.
-\newblock \href {https://doi.org/10.1016/S0021-9258(18)41554-2}
-  {\path{doi:10.1016/S0021-9258(18)41554-2}}.
-
-\bibitem{Frandsen1995}
-T.~P. Frandsen, T.~Christensen, B.~Stoffer, J.~Lehmbeck, C.~Dupont, R.~B.
-  Honzatko, B.~Svensson, Mutational analysis of the roles in catalysis and
-  substrate recognition of arginines 54 and 305, aspartic acid 309, and
-  tryptophan 317 located at subsites 1 and 2 in glucoamylase from aspergillus
-  niger, Biochemistry 34 (1995) 10162--10169.
-\newblock \href {https://doi.org/10.1021/bi00032a009}
-  {\path{doi:10.1021/bi00032a009}}.
-
-\bibitem{Sierks2000}
-M.~R. Sierks, B.~Svensson, Energetic and mechanistic studies of glucoamylase
-  using molecular recognition of maltose {OH} groups coupled with site-directed
-  mutagenesis, Biochemistry 39 (2000) 8585--8592.
-\newblock \href {https://doi.org/10.1021/bi9925219}
-  {\path{doi:10.1021/bi9925219}}.
-
-\bibitem{Asensio2013}
-J.~L. Asensio, A.~Ard{\'a}, F.~J. Ca{\~n}ada, J.~Jim{\'e}nez-Barbero,
-  Carbohydrate--aromatic interactions, Accounts of Chemical Research 46 (2013)
-  946--954.
-\newblock \href {https://doi.org/10.1021/ar300024d}
-  {\path{doi:10.1021/ar300024d}}.
-
-\bibitem{Hudson2015}
-K.~L. Hudson, G.~J. Bartlett, R.~C. Diehl, J.~Agirre, T.~Gallagher, L.~L.
-  Kiessling, D.~N. Woolfson, Carbohydrate--aromatic interactions in proteins,
-  Journal of the American Chemical Society 137 (2015) 15152--15160.
-\newblock \href {https://doi.org/10.1021/jacs.5b08424}
-  {\path{doi:10.1021/jacs.5b08424}}.
-
-\bibitem{Namchuk1995}
-M.~N. Namchuk, S.~G. Withers, Mechanism of agrobacterium beta-glucosidase:
-  kinetic analysis of the role of noncovalent enzyme/substrate interactions,
-  Biochemistry 34 (1995) 16194--16202.
-\newblock \href {https://doi.org/10.1021/bi00049a035}
-  {\path{doi:10.1021/bi00049a035}}.
-
-\bibitem{Nilsson2014}
-M.~I. Nilsson, M.~A. Kroos, A.~J. Reuser, E.~Hatcher, M.~Akhtar, E.~McCready,
-  M.~A. Tarnopolsky, Novel {GAA} sequence variant c.1211 {A}>{G} reduces enzyme
-  activity but not protein expression in infantile and adult onset {Pompe}
-  disease, Gene 537~(1) (2014) 41--45.
-\newblock \href {https://doi.org/10.1016/j.gene.2013.12.033}
-  {\path{doi:10.1016/j.gene.2013.12.033}}.
-
-\bibitem{Tan2010}
-K.~Tan, C.~Tesar, R.~Wilton, L.~Keigher, G.~Babnigg, A.~Joachimiak, Novel
-  alpha-glucosidase from human gut microbiome: substrate specificities and
-  their switch, The FASEB Journal 24 (2010) 3939--3949.
-\newblock \href {https://doi.org/10.1096/fj.10-156257}
-  {\path{doi:10.1096/fj.10-156257}}.
+\bibitem{Aleshin1994}
+A.~E. Aleshin, L.~M. Firsov, R.~B. Honzatko, Refined structure for the complex
+  of acarbose with glucoamylase from \emph{Aspergillus awamori} var. {X100} to
+  2.4-{\aa} resolution, Journal of Biological Chemistry 269~(22) (1994)
+  15631--15639.
+\newblock \href {https://doi.org/10.1016/S0021-9258(17)40728-9}
+  {\path{doi:10.1016/S0021-9258(17)40728-9}}.
 
 \bibitem{Shrake1973}
 A.~Shrake, J.~A. Rupley, Environment and exposure to solvent of protein atoms.
@@ -152,6 +50,14 @@ T.~A. Halgren, Merck molecular force field. {I}. {Basis}, form, scope,
 \newblock \href
   {https://doi.org/10.1002/(SICI)1096-987X(199604)17:5/6<490::AID-JCC1>3.0.CO;2-P}
   {\path{doi:10.1002/(SICI)1096-987X(199604)17:5/6<490::AID-JCC1>3.0.CO;2-P}}.
+
+\bibitem{Maier2015}
+J.~A. Maier, C.~Martinez, K.~Kasavajhala, L.~Wickstrom, K.~E. Hauser,
+  C.~Simmerling, ff14sb: Improving the accuracy of protein side chain and
+  backbone parameters from ff99sb, Journal of Chemical Theory and Computation
+  11~(8) (2015) 3696--3713.
+\newblock \href {https://doi.org/10.1021/acs.jctc.5b00255}
+  {\path{doi:10.1021/acs.jctc.5b00255}}.
 
 \bibitem{kirschner2008}
 K.~N. Kirschner, A.~B. Yongye, S.~M. Tschampel, J.~Gonz{\'a}lez-Outeiri{\~n}o,
@@ -233,6 +139,13 @@ N.~Michaud-Agrawal, E.~J. Denning, T.~B. Woolf, O.~Beckstein, Mdanalysis: A
 \newblock \href {https://doi.org/10.1002/jcc.21787}
   {\path{doi:10.1002/jcc.21787}}.
 
+\bibitem{Bock1987}
+K.~Bock, H.~Pedersen, The substrate specificity of the enzyme amyloglucosidase
+  ({AMG}). {Part I}. {Deoxy} derivatives, Acta Chemica Scandinavica B 41 (1987)
+  617--628.
+\newblock \href {https://doi.org/10.3891/acta.chem.scand.41b-0617}
+  {\path{doi:10.3891/acta.chem.scand.41b-0617}}.
+
 \bibitem{Omichi1988}
 K.~Omichi, T.~Ikenaka, Differential assays of human pancreatic and salivary
   $\alpha$-amylases with fluorogenic maltooligosaccharides as substrates,
@@ -260,13 +173,6 @@ T.~Nishio, Effect of sugar hydroxyl groups on activities and specificities of
   (2002) 45--55.
 \newblock \href {https://doi.org/10.5458/jag.49.45}
   {\path{doi:10.5458/jag.49.45}}.
-
-\bibitem{Bock1987}
-K.~Bock, H.~Pedersen, The substrate specificity of the enzyme amyloglucosidase
-  ({AMG}). {Part I}. {Deoxy} derivatives, Acta Chemica Scandinavica B 41 (1987)
-  617--628.
-\newblock \href {https://doi.org/10.3891/acta.chem.scand.41b-0617}
-  {\path{doi:10.3891/acta.chem.scand.41b-0617}}.
 
 \bibitem{Okada2000}
 M.~Okada, K.~Ogawa, T.~Usui, Substrate specificity of human and bovine
@@ -364,6 +270,35 @@ M.~Ogawa, T.~Nishio, W.~Hakamata, Y.~Matsuishi, S.~Hoshino, A.~Kondo,
 \newblock \href {https://doi.org/10.5458/jag.51.9}
   {\path{doi:10.5458/jag.51.9}}.
 
+\bibitem{Kadziola1994}
+A.~Kadziola, J.-i. Abe, B.~Svensson, R.~Haser, Crystal and molecular structure
+  of barley $\alpha$-amylase, Journal of Molecular Biology 239~(1) (1994)
+  104--121.
+\newblock \href {https://doi.org/10.1006/jmbi.1994.1354}
+  {\path{doi:10.1006/jmbi.1994.1354}}.
+
+\bibitem{Brzozowski1997}
+A.~M. Brzozowski, G.~J. Davies, Structure of the \emph{Aspergillus oryzae}
+  $\alpha$-amylase complexed with the inhibitor acarbose at 2.0~{\aa}
+  resolution, Biochemistry 36~(36) (1997) 10837--10845.
+\newblock \href {https://doi.org/10.1021/bi970539i}
+  {\path{doi:10.1021/bi970539i}}.
+
+\bibitem{Matsuura1984}
+Y.~Matsuura, M.~Kusunoki, W.~Harada, M.~Kakudo, Structure and possible
+  catalytic residues of {Taka}-amylase {A}, The Journal of Biochemistry 95~(3)
+  (1984) 697--702.
+\newblock \href {https://doi.org/10.1093/oxfordjournals.jbchem.a134659}
+  {\path{doi:10.1093/oxfordjournals.jbchem.a134659}}.
+
+\bibitem{Qian1994}
+M.~Qian, R.~Haser, G.~Buisson, E.~Du{\'e}e, F.~Payan, The active center of a
+  mammalian $\alpha$-amylase. {Structure} of the complex of a pancreatic
+  $\alpha$-amylase with a carbohydrate inhibitor refined to 2.2-{\aa}
+  resolution, Biochemistry 33~(20) (1994) 6284--6294.
+\newblock \href {https://doi.org/10.1021/bi00186a031}
+  {\path{doi:10.1021/bi00186a031}}.
+
 \bibitem{MacGregor2001}
 E.~A. MacGregor, {\v S}.~Jane{\v c}ek, B.~Svensson, Relationship of sequence
   and structure to specificity in the $\alpha$-amylase family of enzymes,
@@ -378,5 +313,22 @@ E.~A. MacGregor, {\v S}.~Jane{\v c}ek, B.~Svensson, Relationship of sequence
   Molecular Life Sciences 71~(7) (2013) 1149--1170.
 \newblock \href {https://doi.org/10.1007/s00018-013-1388-z}
   {\path{doi:10.1007/s00018-013-1388-z}}.
+
+\bibitem{Sogaard1993}
+M.~S{\o}gaard, A.~Kadziola, R.~Haser, B.~Svensson, Site-directed mutagenesis of
+  histidine 93, aspartic acid 180, glutamic acid 205, histidine 290, and
+  aspartic acid 291 at the active site and tryptophan 279 at the raw starch
+  binding site in barley alpha-amylase 1, Journal of Biological Chemistry 268
+  (1993) 22480--22484.
+\newblock \href {https://doi.org/10.1016/S0021-9258(18)41554-2}
+  {\path{doi:10.1016/S0021-9258(18)41554-2}}.
+
+\bibitem{Nilsson2014}
+M.~I. Nilsson, M.~A. Kroos, A.~J. Reuser, E.~Hatcher, M.~Akhtar, E.~McCready,
+  M.~A. Tarnopolsky, Novel {GAA} sequence variant c.1211 {A}>{G} reduces enzyme
+  activity but not protein expression in infantile and adult onset {Pompe}
+  disease, Gene 537~(1) (2014) 41--45.
+\newblock \href {https://doi.org/10.1016/j.gene.2013.12.033}
+  {\path{doi:10.1016/j.gene.2013.12.033}}.
 
 \end{thebibliography}

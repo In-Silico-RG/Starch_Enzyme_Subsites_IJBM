@@ -122,7 +122,7 @@ def draw(fig):
     # legend
     from matplotlib.lines import Line2D
     h = [Line2D([], [], marker='o', ls='', color=C.COL['H'], ms=4.5, label='H (hydrogen bond)'),
-         Line2D([], [], marker='o', ls='', color=C.COL['Ar'], ms=4.5, label='Ar (aromatic stacking)'),
+         Line2D([], [], marker='o', ls='', color=C.COL['Ar'], ms=4.5, label='Ar (aromatic residue)'),
          Line2D([], [], marker='o', ls='', color=C.COL['Al'], ms=4.5, label='Al (aliphatic)'),
          Line2D([], [], marker='o', ls='', color='0.55', ms=4.5, label='tie'),
          Line2D([], [], marker='o', ls='', mfc='white', mec='0.4', ms=4.5, mew=1.0, label='< 5 sequence groups'),

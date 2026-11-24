@@ -3,7 +3,9 @@
 %% the reference cut of 2026-11-24 (method details, the map-vs-experiment table and the deoxy block moved to the SI),
 %% the consistency edits listed in ../manuscript_carbpol/JOURNAL_RULES.md, and the editorial revision of 2026-11-24
 %% (docs/reviews/2026-11-24_ijbm_editorial_adjudication.md, items 1-15; new numbers from scripts/analysis/a44d_revision.py,
-%% resultados/analysis/44_rule_test/revision/). Build: pdflatex, bibtex, pdflatex x2.
+%% resultados/analysis/44_rule_test/revision/), and the round-2 revision of 2026-11-24
+%% (docs/reviews/2026-11-24_ijbm_editorial_round2.md; new numbers from scripts/analysis/a44e_round2.py,
+%% resultados/analysis/44_rule_test/revision2/). Build: pdflatex, bibtex, pdflatex x2.
 \documentclass[preprint,12pt]{elsarticle}
 
 \usepackage{amsmath,amssymb}
@@ -29,7 +31,7 @@
 
 \begin{frontmatter}
 
-\title{A fixed core and a variable rim: hydroxyl contacts of $\alpha$-amylases and $\alpha$-glucosidases set the tolerance to starch substituents}
+\title{A fixed core and a variable rim: hydroxyl contacts at the subsites of $\alpha$-amylases and related starch hydrolases, compared with the hydrolysis of substituted starch}
 
 \author[a,b]{Nedis I. Acevedo-Viloria}
 \author[c,d]{Yurimar Ruiz-Rocha}
@@ -64,14 +66,17 @@ enzymes, but which glucose oxygens each enzyme subsite holds is not known in gen
 families, we analysed the sugar units at subsites $-3$ to $+3$ of GH13 $\alpha$-amylase-family
 enzymes (79 entries, 29 groups of $\ge$50\% sequence identity) and GH31 $\alpha$-glucosidases (18 entries, 6 groups),
 and classified contacting residues by kind of contact. Of the 14 positions whose side chains
-hydrogen-bond a ring at subsite $-1$ or $+1$, 11 carry one residue type in every group; aliphatic positions, and
-positions of every kind at the outer subsites, vary (hydrogen-bonding minus aliphatic mean modal fraction 0.33, two-sided permutation $p = 0.004$; $p = 0.018$ within
-subsite location). Read oxygen by oxygen over 114 entries of GH13, GH31, GH14 ($\beta$-amylase) and GH15 (glucoamylase), O2,
-O3 and O6 at $-1$ and O3 at $+1$ lie within hydrogen-bonding distance of invariant residues, the GH13 oxygens at
-$-2$ and $+2$ next to variable residues, and O6 and the outer subsites are mostly free. Against published hydrolysis
-data for substituted substrates, 12 of 14 cells predicted not to accept a substituent agree, and all 7 other
-predicted cells are compatible (19 of 21; a trivial map scores 17 of 21, maps with permuted states 0.59 of their
-predicted cells); 18 of the 21 cells rest partly on phosphorylated glucan. The map sets testable hypotheses for processing substituted starch.
+hydrogen-bond a ring at subsite $-1$ or $+1$, 11 carry one residue type in every group (mean modal fraction 0.94,
+against 0.57 for the three hydrogen-bonding positions of the outer subsites; two-sided permutation $p = 0.009$); at
+$-1$/$+1$, aliphatic positions vary (difference 0.38, $p = 0.006$). Read oxygen by oxygen over 114 entries of GH13,
+GH31, GH14 ($\beta$-amylase) and GH15 (glucoamylase), O2, O3 and O6 at $-1$ lie within hydrogen-bonding distance of
+residues conserved in every sequence group in GH13, GH31 and GH15 (in GH14, O6 only), and O3 at $+1$ in all four
+families; the GH13 oxygens at $-2$ and $+2$ lie next to variable residues, and O6 and the outer subsites are mostly
+free. Against published hydrolysis data for substituted substrates, 12 of 14 cells predicted not to accept a
+substituent agree (GH13 4 of 4, GH14 and GH15 4 of 5 each); a trivial map that blocks every oxygen at $-1$ and $+1$
+agrees in 10 of 12 such cells, so the oxygen-resolved map adds two cells, both in GH14, to a subsite-only rule; 18 of
+the 21 scored cells rest partly on phosphorylated glucan. The map sets testable hypotheses for processing substituted
+starch.
 \end{abstract}
 
 %% Graphical abstract: Elsevier specification 1328 x 531 px minimum (5:2, w x h), 300 dpi,
@@ -112,7 +117,10 @@ $\alpha(1\!\to\!4)$ bond in the middle of the chain, is carried out by families 
 different folds and catalytic machinery (GH13; GH57 and GH119, which form one clan;
 GH126)~\citep{Janecek2014}. Within a family, two catalytic carboxylic acids do the
 chemistry, and the residues around this pair define subsites, numbered from the bond that is cut: negative towards
-the non-reducing end of the chain, positive towards the reducing end~\citep{Davies1997}.
+the non-reducing end of the chain, positive towards the reducing end~\citep{Davies1997}. For $\alpha$-amylases, the
+number of subsites and their affinities have long been mapped from the bond-cleavage patterns of
+maltooligosaccharides~\citep{Robyt1970,Ajandouz1992,Kandra2003}; these maps give the energy of each subsite for
+glucose, not which hydroxyl of the unit each residue holds.
 
 What distinguishes one enzyme from another of the same family is usually described as the set of residues at the
 subsites other than the catalytic one~\citep{Davies1995}. In GH13, sequence comparison of hundreds of members has
@@ -132,8 +140,9 @@ GH13 and 18 GH31 entries, and the oxygen map 114 entries of the four families. T
 the catalytic subsite are conserved is known from sequences; here it is measured per contact, as the first step
 towards the map. The states are contact states of deposited structures. Whether a held oxygen cannot carry a
 substituent is a hypothesis, which is then tested against published hydrolysis products of substituted substrates.
-Figure~\ref{fig:overview} shows two of the enzymes, the positions of the sugar units of all their family members at
-the subsites, and the substituents in question; the same structures with opaque surfaces are in Figure~S1.
+Figure~\ref{fig:overview} shows two of the enzymes, a GH13 maltotetraose-forming amylase~\citep{Zhang2020} and sugar
+beet $\alpha$-glucosidase~\citep{Tagami2015}, the positions of the sugar units of all their family members at the
+subsites, and the substituents in question; the same structures with opaque surfaces are in Figure~S1.
 
 \begin{figure}[!htbp]
 \centering
@@ -166,17 +175,19 @@ For the families whose frame carries an identified catalytic pair (GH13, GH14, G
 unit was assigned a subsite: the unit nearest the midpoint of the two catalytic carboxylates,
 within 4.5~\AA, is subsite $-1$; the rest follow the deposited glycosidic bonds outward.
 Every protein residue within 4.0~\AA{} of a unit was named by its position in the
-family's reference frame (GH13, barley $\alpha$-amylase 1AMY; GH31, 2QMJ) rather than by its author number, so
-that the same position can be compared across proteins. A position is named by the residue of the reference
-structure, which need not be the residue of other proteins; Table~S11 gives the equivalent residues of
-TAKA-amylase and porcine pancreatic $\alpha$-amylase and the conserved sequence regions. For GH13 and GH31 the
+family's reference frame (GH13, barley $\alpha$-amylase 1AMY~\citep{Kadziola1994}; GH31, human
+maltase-glucoamylase 2QMJ~\citep{Sim2008}) rather than by its author number, so that the same position can be
+compared across proteins. A position is named by the residue of the reference structure, which need not be the
+residue of other proteins; Table~S11 gives the equivalent residues of TAKA-amylase (7TAA~\citep{Brzozowski1997}) and
+porcine pancreatic $\alpha$-amylase (1PPI~\citep{Qian1994}) and the conserved sequence regions. For GH13 and GH31 the
 positions analysed are all reference positions contacted (4.0~\AA) in at least 20\% of the entries with a sugar unit
 at any subsite from $-3$ to $+3$, taken before their residues were examined; the subsites listed for a position are
 those at which it meets this criterion, and a position is said to be at $-1$/$+1$ when they include $-1$ or $+1$,
 outer-only otherwise. Residue identity at each position is read for every chain from the superposition (C$\alpha$
 within 2.0~\AA{} of the reference C$\alpha$), whether or not that residue touches the sugar, and counted once per
 group of proteins sharing at least 50\% sequence identity (29 groups in GH13, 6 in GH31; Table~S10 lists them with
-their UniProt accessions, EC numbers and GH13 subfamilies). Engineered mutants, identified from the
+their UniProt accessions, EC numbers and GH13 subfamilies; seven proteins without a UniProt accession are grouped by
+their chain sequence like the others and listed by PDB code). Engineered mutants, identified from the
 \texttt{\_struct\_ref\_seq\_dif} records of each entry (15 entries), are removed at the mutated position. Conservation of a position is the modal fraction
 \begin{equation}
 m = \frac{\max_a n_a}{\sum_a n_a},
@@ -195,12 +206,15 @@ not tested. The class of a position is the kind of contact it makes in most sequ
 bond; Ar, aromatic; Al, aliphatic). Distance stands for a hydrogen bond: no angle is tested in the main count and no
 hydrogens are placed; cut-offs of 3.2 and 4.0~\AA, and 3.5~\AA{} with both heavy-atom angles at least 90$^\circ$,
 were run as sensitivity tests. Differences in mean $m$ between classes were tested by permuting the class labels
-over positions (10\,000 permutations), over all positions, within family, and within location ($-1$/$+1$ against
-outer-only); $p$ values are two-sided. Class was also assigned from the reference structure alone, on a random half
-of the groups with $m$ measured on the other half (1\,000 splits), and conservation measured on 98 entries of 37
-groups never seen with a bound sugar. Figure~\ref{fig:active} shows two entries drawn with the same criterion:
-1G94 (GH13, \emph{Pseudoalteromonas haloplanktis} $\alpha$-amylase, 1.74~\AA; RSCC 0.95--0.97 at $-1$, $+1$ and
-$+2$) and 3WEO (GH31, sugar beet $\alpha$-glucosidase, 1.45~\AA; RSCC 0.99).
+(H, Ar, Al) over all positions with a class (100\,000 permutations, one fixed seed), freely, within family, and
+within location ($-1$/$+1$ against outer-only); $p$ values are two-sided. Hydrogen-bonding positions at $-1$/$+1$ were
+compared with outer-only ones by permuting the location label over the hydrogen-bonding positions. Location, family
+and class were also entered together in a logistic regression of $m = 1$ and in a proportional-odds model of $m$ in
+three levels ($m = 1$; $0.6 \le m < 1$; $m < 0.6$; statsmodels 0.14). Class was also assigned from the reference
+structure alone, on a random half of the groups with $m$ measured on the other half (1\,000 splits), and conservation
+measured on 98 entries of 37 groups never seen with a bound sugar. Figure~\ref{fig:active} shows two entries drawn with the same criterion:
+1G94~\citep{Aghajari2002} (GH13, \emph{Pseudoalteromonas haloplanktis} $\alpha$-amylase, 1.74~\AA; RSCC 0.95--0.97
+at $-1$, $+1$ and $+2$) and 3WEO~\citep{Tagami2015} (GH31, sugar beet $\alpha$-glucosidase, 1.45~\AA; RSCC 0.99).
 
 \subsection{Glucose oxygens and their protein partners}\label{sec:methods_map}
 The units are those of Section~\ref{sec:position} (RSCC $\ge0.80$, subsites $-3$ to $+3$) in GH13,
@@ -211,12 +225,15 @@ exocyclic carbon on C5, and O2, O3, O4 and O6 are the exocyclic heteroatoms (O, 
 a C1 heteroatom bonded to another ring is counted as O4 of the next unit. Epimers at C2--C4, rings named as other
 sugars and rings without an unambiguous O5 were excluded (15 units). An oxygen is \emph{held} when a protein N or O
 of the deposited asymmetric unit lies within 3.5~\AA{} of it, that is, within hydrogen-bonding distance (waters are
-not partners). The partner is \emph{invariant} when it is a side chain at a reference position whose modal fraction
-is 1 over at least three sequence groups in GH13 and GH31, or over both groups in GH14 and GH15. This modal fraction,
+not partners). Positions of GH14 and GH15 are named in the numbering of soybean $\beta$-amylase
+(1BYA~\citep{Mikami1994}) and \emph{Aspergillus awamori} glucoamylase (1AGM~\citep{Aleshin1994}). The partner is
+\emph{invariant} when it is a side chain at a reference position whose modal fraction is 1 over at least three
+sequence groups in GH13 and GH31, or over both groups in GH14 and GH15; in GH14 and GH15 ``invariant'' therefore
+means conserved in the two groups available, a weaker statement than in GH13 (up to 29 groups). This modal fraction,
 $\mmap$, is counted as in eq~\ref{eq:modal} but over the groups of all ligand-bound entries of the family, not only
-those with a unit at $-3$ to $+3$, so it can differ from $m$ of Table~\ref{tab:rule} where groups lack a unit at
-these subsites (both values in Table~S7). The open surface of each oxygen was computed as its solvent-accessible
-surface (probe 1.4~\AA) in the complex and in the ligand alone (Section~S12.1). The properties were aggregated from
+those with a unit at $-3$ to $+3$, so it can differ from $m$ of Table~S1 where groups lack a unit at these subsites
+(both values in Table~S5). The open surface of each oxygen was computed as its solvent-accessible surface (probe
+1.4~\AA) in the complex and in the ligand alone (Section~S5.1). The properties were aggregated from
 atom to entry (an entry has the property when at least half of its units at that subsite do), from entry to 50\%
 sequence group (at least half of its entries), and from group to cell (subsite $\times$ oxygen). A cell is held when
 at least half of the groups hold the oxygen; it is then INV (fixed) when at least half of the groups hold it by an
@@ -225,7 +242,7 @@ atoms hold it. A cell that is not held is EXP (free, exposed) when the median op
 at least 25\% of the surface of the same atom in the ligand alone, and BUR (free, buried) otherwise. These are
 contact states of the deposited structures, not measured tolerances.
 
-For the comparison with experiment (Table~S6), published limit products and kinetics of substituted substrates were
+For the comparison with experiment (Table~S4), published limit products and kinetics of substituted substrates were
 read onto subsites with the standard rule for products~\citep{Davies1997}: when an endo-acting enzyme cuts, the new
 reducing-end residue sat at $-1$ and the new non-reducing-end residue at $+1$, so a substituted residue at position
 $k$ from the reducing end of a limit product of length $n$ was tolerated at subsite $-k$ (and at $+(n-k+1)$ when that
@@ -234,10 +251,12 @@ Each cell then carries a prediction: INV, substituent not tolerated; EXP, tolera
 enzyme. Only INV can fail on a single negative result; an EXP or VAR cell agrees when at least one enzyme tolerates
 the substituent, so these are scored as compatible, not as confirmed. MC and BUR cells make no prediction. As
 baselines, the same literature cells were scored for a trivial map (every oxygen at $-1$ and $+1$ not tolerated,
-every other oxygen tolerated) and for 1\,000 maps with the states permuted among the cells of each family. Deoxy
+every other oxygen tolerated), compared with the published map by an exact McNemar (binomial) test on the cells where
+the two differ, and for 10\,000 maps with the states permuted among the cells of each family (fixed seed). Deoxy
 substrates test whether the hydrogen bond of an oxygen is needed, not whether a group fits, and are not counted.
-Every literature result is labelled by what was read, full text (FT) or abstract (ABS); the reading of products onto
-subsites is ours unless the authors state it.
+Every literature result is labelled by what was read, full text (FT) or abstract (ABS), and the score is also given
+without the cells that rest on abstracts only; the reading of products onto subsites is ours unless the authors state
+it, made by one reader without a blind second coding.
 
 \subsection{Free volume around the oxygens}\label{sec:methods_fit}
 Eight substituents (methyl, 2-hydroxyethyl, 2-hydroxypropyl, acetyl, carboxymethyl, phosphate monoester,
@@ -250,14 +269,14 @@ Section~\ref{sec:methods_map}, a cell is F when the substituent fits in at least
 it fits in at least one unit but in fewer than half of the groups, and N when it fits in no unit. This is a screen of
 free volume in static deposited coordinates: it counts neither energies, nor protein motion, nor the hydrogen bond
 lost when a hydroxyl is substituted. Conformers, poses and sensitivity tests (2.8 and 3.2~\AA{} cut-offs, a
-polar-aware rule) are in Section~S12.2.
+polar-aware rule) are in Section~S5.2.
 
 \section{Results and discussion}
 
-\subsection{Hydrogen-bonding positions at subsites $-1$ and $+1$ keep their residue across sequence groups}\label{sec:rule}
+\subsection{Polar side chains at subsites $-1$ and $+1$ keep their residue across sequence groups}\label{sec:rule}
 
 Seventeen positions in GH13 and 19 in GH31, the five catalytic residues among them, meet the 20\% contact criterion
-(Table~\ref{tab:rule}); 35 have a majority class (17 H, 10 Ar, 8 Al) and one, GH31 Thr544, has none. Fourteen
+(Table~S1); 35 have a majority class (17 H, 10 Ar, 8 Al) and one, GH31 Thr544, has none. Fourteen
 hydrogen-bonding positions contact a ring at $-1$ or $+1$, and 11 of them carry one residue type in every group ($m
 = 1$): in GH13 the catalytic Asp179, Glu204 and Asp289 (TAKA-amylase Asp206, Glu230, Asp297) and the non-catalytic
 Arg177 and His92; in GH31 the catalytic Asp443 and Asp542 and the non-catalytic Asp327, His600, Asp203 and Arg526.
@@ -271,26 +290,33 @@ Thr, Leu, Phe, Tyr, Met, $m = 0.24$; GH31 Ile328, $m = 0.50$; Fig.~S2), except G
 contact only the outer subsites vary: GH13 Met52 ($m = 0.41$) and Gln294 (0.80), GH31 Asn207 (0.50). Three positions
 (GH13 Thr207, GH31 Asn207 and Thr205) rest on fewer than five groups.
 
-Table~\ref{tab:tests} gives the tests. Hydrogen-bonding positions are more conserved than aliphatic ones by 0.33 in
-mean $m$ ($p = 0.004$; $p = 0.004$ within family; $p = 0.018$ within location), and by 0.28 without the catalytic
-residues ($p = 0.030$). The difference holds on positions seen in at least five groups (0.45, $p = 0.001$), on split
-halves (positive in all 1\,000 splits; median 0.30), on held-out proteins (0.31, $p = 0.012$), with 30\% identity
-groups, at the 50\% and 80\% contact criteria, and for every hydrogen-bond definition ($p = 0.015$--0.025). It
-weakens or fails in four variants: with the class taken from the reference structure at the 50\% and 80\% criteria
-($p = 0.18$ and 0.12; 0.043 within family at 80\%), on held-out proteins without the catalytic residues (0.23, $p =
-0.076$) and on held-out proteins grouped at 30\% identity (0.17, $p = 0.14$). Hydrogen-bonding and aromatic positions
-do not differ ($p = 0.10$). Location carries much of the effect: hydrogen-bonding positions at $-1$/$+1$ are more
-conserved than those that contact only the outer subsites (0.94 against 0.57, 14 and 3 positions, $p = 0.009$;
-within family 0.013), and at the outer subsites hydrogen-bonding and aliphatic positions do not differ ($-0.09$, $p
-= 0.67$).
+Table~\ref{tab:tests} gives the tests (100\,000 permutations, one seed). The comparison the data support most
+directly is by location. Hydrogen-bonding positions at $-1$/$+1$ are more conserved than those that contact only the
+outer subsites (mean $m$ 0.94 against 0.57, 14 and 3 positions, $p = 0.009$; within family 0.012), and at $-1$/$+1$
+they are more conserved than the aliphatic positions there (difference 0.38, 14 and 4 positions, $p = 0.006$); at the
+outer subsites hydrogen-bonding and aliphatic positions do not differ ($-0.09$, $p = 0.66$). Pooled over both
+locations, hydrogen-bonding positions exceed aliphatic ones by 0.33 in mean $m$ ($p = 0.005$; within family 0.003;
+within location 0.014), and by 0.28 without the catalytic residues ($p = 0.029$); because 14 of the 17
+hydrogen-bonding positions sit at $-1$/$+1$, this pooled difference is in part the location effect. It holds on
+positions seen in at least five groups (0.45, $p < 0.001$), on split halves (positive in all 1\,000 splits; median
+0.30), on held-out proteins (0.31, $p = 0.011$), with 30\% identity groups, at the 50\% and 80\% contact criteria, and
+for every hydrogen-bond definition ($p = 0.015$--0.025). It weakens or fails in five settings: with the class taken
+from the reference structure at the 50\% and 80\% criteria ($p = 0.18$ and 0.12; 0.043 within family at 80\%), on
+held-out proteins without the catalytic residues (0.23, $p = 0.081$), on held-out proteins grouped at 30\% identity
+(0.17, $p = 0.14$), and at the outer subsites. Hydrogen-bonding and aromatic positions do not differ ($p = 0.10$).
+Entered together in a logistic model of $m = 1$ (35 positions with a class, 15 with $m = 1$), outer location (odds
+ratio 0.13, $p = 0.095$), aromatic class (0.18, $p = 0.072$) and aliphatic class (0.08, $p = 0.054$) each lower the
+odds of a fully conserved position and family does not (GH31 against GH13, 1.8, $p = 0.50$); in the three-level
+ordinal model the same three terms have $p = 0.02$--0.04 (Table~S7). Each term is estimated on few positions: the
+three outer-only hydrogen-bonding positions and four aliphatic positions at $-1$/$+1$ carry the contrast.
 
 The finding is therefore that the side chains hydrogen-bonding the two rings on either side of the cut are the same
 in every sequence group of GH13 and GH31 (with the two GH13 exceptions at $+1$); aromatic residues at these subsites
 are kept as rings, less strictly as the same residue; aliphatic residues at these subsites, and residues of every
 kind at the outer subsites, change. For GH13 this confirms, contact by contact, the conserved sequence
 regions~\citep{MacGregor2001,Janecek2014}. Because the class is read from the same structures whose residues are then
-counted, and because 14 of the 17 hydrogen-bonding positions sit at $-1$/$+1$, kind of contact and location cannot be
-fully separated with 36 positions. GH31 rests on six groups (Table~S10): three in subfamily GH31\_1 (sugar beet
+counted, and because location and class are entangled, kind of contact and location cannot be fully separated with
+36 positions. GH31 rests on six groups (Table~S10): three in subfamily GH31\_1 (sugar beet
 $\alpha$-glucosidase, human maltase-glucoamylase and lysosomal $\alpha$-glucosidase), within which only Ile328,
 Tyr299 and five outer positions vary, and the \emph{Lactococcus} GH31\_15 enzyme, the \emph{Blautia}
 $\alpha$-glucosidase and the GH31\_11 $\alpha$-1,4-glucan lyase, which carry the Trp539$\to$Phe, Phe575$\to$His,
@@ -309,91 +335,37 @@ group) by class.}
 \end{figure}
 
 
-\begin{table}[p]
-\centering\renewcommand{\baselinestretch}{1}\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Every reference position contacted in at least 20\% of the entries with a sugar unit at subsites $-3$ to
-$+3$ (GH13 reference 1AMY, GH31 reference 2QMJ; positions named by the reference residue). Subsites: those at which
-the position meets the 20\% criterion; a position is at $-1$/$+1$ when they include $-1$ or $+1$. Class: contact kind
-made in most sequence groups (H, side-chain hydrogen bond; Ar, aromatic apolar; Al, aliphatic apolar). Groups:
-proteins sharing $\ge$50\% sequence identity that have a residue at the position; residues: votes per group (a mixed
-group splits its vote); $m$: modal fraction (eq~\ref{eq:modal}); Arom.: aromatic fraction. $^\ast$catalytic residue;
-$^\dagger$fewer than five groups. Engineered mutants removed.}
-\label{tab:rule}
-\begin{tabular}{lllrp{4.6cm}rr}
-\toprule
-Class & Family & Position (subsites) & Groups & Residues (group votes) & $m$ & Arom.\\
-\midrule
-H & GH13 & Asp179$^\ast$ ($-$1) & 29 & Asp 29 & 1.00 & 0.00\\
-H & GH13 & Asp289$^\ast$ ($+$1,$-$1,$-$2) & 28 & Asp 28 & 1.00 & 0.00\\
-H & GH13 & Glu204$^\ast$ ($+$1,$-$1) & 29 & Glu 29 & 1.00 & 0.00\\
-H & GH13 & His92 ($-$1) & 29 & His 29 & 1.00 & 1.00\\
-H & GH13 & Arg177 ($-$1) & 29 & Arg 29 & 1.00 & 0.00\\
-H & GH13 & His288 ($-$1) & 29 & His 28, Gln 1 & 0.97 & 0.97\\
-H & GH13 & Lys182 ($+$1,$+$2) & 15 & Lys 9.5, Arg 2.5, His 2, Gln 1 & 0.63 & 0.13\\
-H & GH13 & Gly183 ($+$1) & 16 & His 8, Gly 5, Tyr 1, Glu 1, Met 1 & 0.50 & 0.56\\
-H & GH13 & Gln294 ($-$2) & 15 & Asp 12, Asn 2, Gln 1 & 0.80 & 0.00\\
-H & GH13 & Met52 ($-$2,$-$3) & 22 & Asp 9, Trp 5, Asn 3, Gln 2, Gly 2, Phe 1 & 0.41 & 0.27\\
-H & GH31 & Asp203 ($+$1) & 5 & Asp 5 & 1.00 & 0.00\\
-H & GH31 & Asp327 ($-$1) & 6 & Asp 6 & 1.00 & 0.00\\
-H & GH31 & Asp443$^\ast$ ($-$1) & 6 & Asp 6 & 1.00 & 0.00\\
-H & GH31 & Asp542$^\ast$ ($+$1,$+$2,$-$1) & 6 & Asp 6 & 1.00 & 0.00\\
-H & GH31 & His600 ($-$1) & 6 & His 6 & 1.00 & 1.00\\
-H & GH31 & Arg526 ($+$1,$-$1) & 5 & Arg 5 & 1.00 & 0.00\\
-H & GH31 & Asn207$^\dagger$ ($+$3) & 2 & His 1, Asn 1 & 0.50 & 0.50\\
-\midrule
-Ar & GH13 & Tyr51 ($-$1,$-$2) & 29 & Tyr 29 & 1.00 & 1.00\\
-Ar & GH13 & Gln49 ($-$2) & 20 & His 11, Trp 6, Val 2, Glu 1 & 0.55 & 0.85\\
-Ar & GH13 & Trp206 ($+$1,$+$2,$+$3) & 13 & Trp 7, Phe 3, Ile 1, Tyr 1, Leu 1 & 0.54 & 0.85\\
-Ar & GH13 & Phe143 ($-$1) & 21 & Leu 8.5, Phe 7, His 1, Asn 1, Cys 1, Val 1, Ser 1, Tyr 0.5 & 0.41 & 0.41\\
-Ar & GH13 & Gly250 ($+$3) & 8 & Tyr 2.5, Phe 2, Thr 1.5, Ser 1, Glu 1 & 0.31 & 0.56\\
-Ar & GH31 & Trp406 ($+$1,$-$1) & 5 & Trp 5 & 1.00 & 1.00\\
-Ar & GH31 & Trp441 ($-$1) & 6 & Trp 6 & 1.00 & 1.00\\
-Ar & GH31 & Phe575 ($+$1,$+$2,$-$1) & 6 & Phe 5, His 1 & 0.83 & 1.00\\
-Ar & GH31 & Trp539 ($-$1) & 6 & Trp 5, Phe 1 & 0.83 & 1.00\\
-Ar & GH31 & Tyr299 ($+$1,$-$1) & 5 & Tyr 2, Trp 2, Phe 1 & 0.40 & 1.00\\
-\midrule
-Al & GH13 & Thr207$^\dagger$ ($+$3) & 2 & Lys 2 & 1.00 & 0.00\\
-Al & GH13 & Phe180 ($+$1,$-$1) & 29 & Ala 7, Val 7, Thr 6, Leu 4, Phe 3, Tyr 1, Met 1 & 0.24 & 0.14\\
-Al & GH31 & Met444 ($+$1,$-$1) & 6 & Met 5, Trp 1 & 0.83 & 0.17\\
-Al & GH31 & Ile364 ($-$1) & 6 & Ile 4, Asn 2 & 0.67 & 0.00\\
-Al & GH31 & Thr205$^\dagger$ ($+$2,$+$3) & 3 & Ala 2, Pro 1 & 0.67 & 0.00\\
-Al & GH31 & Ile328 ($-$1) & 6 & Ile 3, Val 1, Leu 1, Met 1 & 0.50 & 0.00\\
-Al & GH31 & Ala576 ($+$2,$+$3) & 5 & Thr 1, Gly 1, Phe 1, Ala 1, Leu 1 & 0.20 & 0.20\\
-Al & GH31 & Thr204 ($+$3) & 5 & Asn 1, Asp 1, Gln 1, Ile 1, Leu 1 & 0.20 & 0.00\\
-\midrule
-none & GH31 & Thr544 ($+$3) & 5 & Ser 1, Lys 1, Thr 1, Ala 1, Trp 1 & 0.20 & 0.20\\
-\bottomrule
-\end{tabular}
-\end{table}
-
 \begin{table}[htbp]
-\centering\renewcommand{\baselinestretch}{1}\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Difference in mean modal fraction $m$ between classes. Two-sided $p$ from 10\,000 permutations of the class
-labels over positions, within family, and within location ($-1$/$+1$ against outer-only); --, not computed. Positions
-contacted in $\ge$20\% of entries and one vote per 50\% sequence group unless stated. Variants with two-sided $p >
-0.05$ are kept in the table. More settings in Table~S8.}
+\centering\renewcommand{\baselinestretch}{1}\scriptsize\setlength{\tabcolsep}{2pt}
+\caption{Difference in mean modal fraction $m$ between classes (positions and their $m$ in Table~S1). Two-sided $p$
+from 100\,000 permutations (one fixed seed) of the class labels over all positions with a class, freely, within
+family, and within location ($-1$/$+1$ against outer-only); H$-$H row: location label permuted over the H positions;
+--, not computed or not applicable. Positions contacted in $\ge$20\% of entries and one vote per 50\% sequence group
+unless stated. Settings with two-sided $p > 0.05$ are kept in the table. More settings in Table~S6. Source:
+\texttt{44\_rule\_test/revision2/A\_tests\_100k.tsv}.}
 \label{tab:tests}
-\begin{tabular}{p{4.3cm}lrrrrr}
+\begin{tabular}{p{3.5cm}lrrrrr}
 \toprule
 Set & Statistic & $n$ & Difference & $p$ & $p$ family & $p$ location\\
 \midrule
-All positions & H$-$Al & 17/8 & +0.33 & 0.004 & 0.004 & 0.018\\
-All positions & H$-$Ar & 17/10 & +0.18 & 0.100 & 0.110 & --\\
-Without catalytic & H$-$Al & 12/8 & +0.28 & 0.030 & 0.026 & 0.043\\
-Positions with $\ge$5 groups & H$-$Al & 16/6 & +0.45 & 0.001 & $<$0.001 & 0.002\\
-At $-1$/$+1$ only & H$-$Al & 14/4 & +0.38 & 0.007 & -- & --\\
-Outer subsites (outer contacts) & H$-$Al & 4/6 & $-$0.09 & 0.67 & 0.67 & --\\
-H at $-1$/$+1$ vs outer-only & H$-$H & 14/3 & +0.37 & 0.009 & 0.013 & --\\
+H at $-1$/$+1$ vs outer-only & H$-$H & 14/3 & +0.37 & 0.009 & 0.012 & --\\
+At $-1$/$+1$ only & H$-$Al & 14/4 & +0.38 & 0.006 & 0.001 & --\\
+Outer subsites (outer contacts) & H$-$Al & 4/6 & $-$0.09 & 0.66 & 0.67 & --\\
+All positions & H$-$Al & 17/8 & +0.33 & 0.005 & 0.003 & 0.014\\
+All positions & H$-$Ar & 17/10 & +0.18 & 0.10 & 0.11 & 0.066\\
+Without catalytic & H$-$Al & 12/8 & +0.28 & 0.029 & 0.027 & 0.036\\
+Positions with $\ge$5 groups & H$-$Al & 16/6 & +0.45 & $<$0.001 & $<$0.001 & $<$0.001\\
 \addlinespace
-30\% identity groups & H$-$Al & 18/7 & +0.38 & 0.001 & 0.002 & --\\
-Contact criterion 50\% / 80\% & H$-$Al & 17/6, 13/4 & +0.31, +0.34 & 0.009, 0.003 & 0.006, 0.001 & --\\
-Class from reference, 20\% & H$-$Al & 17/10 & +0.28 & 0.013 & 0.017 & --\\
-Class from reference, 50\% & H$-$Al & 17/6 & +0.16 & 0.18 & 0.18 & --\\
-Class from reference, 80\% & H$-$Al & 12/4 & +0.18 & 0.12 & 0.043 & --\\
-Held-out proteins & H$-$Al & 17/8 & +0.31 & 0.012 & 0.010 & --\\
-Held-out, without catalytic & H$-$Al & 12/8 & +0.23 & 0.076 & 0.081 & --\\
-Held-out, 30\% identity groups & H$-$Al & 18/7 & +0.17 & 0.14 & 0.14 & --\\
-H-bond 3.2 / 4.0~\AA{} / 3.5~\AA{} + angle & H$-$Al & -- & +0.26--0.30 & 0.015--0.025 & 0.011--0.021 & --\\
+30\% identity groups & H$-$Al & 18/7 & +0.38 & 0.001 & $<$0.001 & 0.002\\
+Contact criterion 50\% & H$-$Al & 17/6 & +0.31 & 0.008 & 0.005 & 0.005\\
+Contact criterion 80\% & H$-$Al & 13/4 & +0.34 & 0.003 & $<$0.001 & $<$0.001\\
+Class from reference, 20\% & H$-$Al & 17/10 & +0.28 & 0.015 & 0.016 & 0.020\\
+Class from reference, 50\% & H$-$Al & 17/6 & +0.16 & 0.18 & 0.19 & 0.18\\
+Class from reference, 80\% & H$-$Al & 12/4 & +0.18 & 0.12 & 0.043 & 0.083\\
+Held-out proteins & H$-$Al & 17/8 & +0.31 & 0.011 & 0.010 & 0.030\\
+Held-out, without catalytic & H$-$Al & 12/8 & +0.23 & 0.081 & 0.088 & 0.085\\
+Held-out, 30\% identity groups & H$-$Al & 18/7 & +0.17 & 0.14 & 0.14 & 0.14\\
+H-bond 3.2 / 4.0~\AA{} / 3.5~\AA{} + angle & H$-$Al & 15--18/8--9 & +0.26--0.30 & 0.015--0.025 & 0.014--0.020 & 0.032--0.038\\
 Split halves (1\,000) & H$-$Al & -- & +0.30 (median) & \multicolumn{3}{l}{$>$0 in 100\% of splits}\\
 \bottomrule
 \end{tabular}
@@ -411,8 +383,8 @@ become 299 and 77 after the exclusions of Section~\ref{sec:methods_map}.)
 Figure~\ref{fig:map} gives the state of every cell and the fraction of sequence groups in which the oxygen is held.
 At subsite $-1$, O2, O3 and O6 are held by invariant side chains with a median open surface of 0~\AA$^2$ in GH13 (O2
 by Asp289 and Arg177, O3 by Asp289 and His288, O6 by Asp179 and His92, in 28--29 of 29 groups), GH31 (Asp542 and
-Arg526; His600; Asp327) and GH15 (Arg305; Arg54; Asp55). In GH14, O6 at $-1$ is held by the invariant Glu380 and
-Lys295, but O2 and O3 only by main-chain atoms (MC). At $+1$, O3 is held by an invariant residue in all four families
+Arg526; His600; Asp327) and GH15 (Arg305; Arg54; Asp55; conserved in its two groups). In GH14, O6 at $-1$ is held by
+Glu380 and Lys295, conserved in its two groups, but O2 and O3 only by main-chain atoms (MC). At $+1$, O3 is held by an invariant residue in all four families
 (GH13 Glu204; GH31 Asp203 and Arg526; GH14 Thr342; GH15 Glu180 and Arg305), and the scissile oxygen, O4 of the $+1$
 unit, by catalytic residues in all four (GH13 Asp289 and Glu204, GH31 Asp542, GH14 Glu186, GH15 Glu179). O2 at $+1$
 differs between families: held by variable residues in GH13 (the Gly183 position, His in 11 of 28 groups, $\mmap =
@@ -421,32 +393,41 @@ O2 and O3 at $-2$ and at $+2$ are held only by variable residues (at $-2$, the G
 residues with no structural equivalent in the reference; at $+2$, the Lys182 position, $\mmap = 0.50$), and O6 at
 $-2$ by the variable Met52 position ($\mmap = 0.52$), while O6 at $+2$ is free and exposed (median 27~\AA$^2$). The
 outer subsites are mostly free and exposed (GH13 $-3$ and O6 at $+3$; GH31 and GH15 $+2$ and $+3$; median open surface
-12--42~\AA$^2$), except O2 and O3 at GH13 $+3$, held by main chain. Figure~\ref{fig:mapmol} draws these family states on one
-structure of each family, 1QHO (GH13, \emph{Geobacillus stearothermophilus} maltogenic amylase, 1.70~\AA) and 3WEO.
+12--42~\AA$^2$), except O2 and O3 at GH13 $+3$, held by main chain. Figure~\ref{fig:mapmol} draws these family states
+on one structure of each family, 1QHO~\citep{Dauter1999} (GH13, \emph{Geobacillus stearothermophilus} maltogenic
+amylase, 1.70~\AA) and 3WEO.
 
 In the entries whose units are glucose only, GH13 keeps the same states at $-1$ (O2, O3, O6 fixed; 24 entries, 16
 groups), $-2$ (O2, O3, O6 variable; 24 entries, 11 groups) and $+1$ (O3 and O4 fixed; 3 entries), and GH31 at $-1$
 (5 entries of 2 groups). Every residue that makes a cell fixed in GH13 and GH31 is a position with $m = 1$ in
-Table~\ref{tab:rule}. Molecular dynamics of three wild-type complexes with glucose-only glucans at the catalytic
-subsites (two GH13, one GH14; 19--31~ns of one run each) kept the crystal state in all ten GH13 cells at $-1$ and in
-35 of 48 GH13 and GH14 cells; these unfinished runs are a consistency check only (Section~S6). Units at $-1$ and $+1$ are
+Table~S1. Over the 13 GH13 groups that contain an endo-$\alpha$-amylase alone (one of them, the animal and
+\emph{P.~haloplanktis} $\alpha$-amylases, holds 27 of the 79 entries), every GH13 oxygen cell keeps its state except O6
+at $+1$, which changes from buried (three units) to variable (two groups; Table~S9). Units at $-1$ and $+1$ are
 mostly inhibitors (GH13: 49 of 82 units at $-1$ are cyclitol or iminosugar rings and 47 of 50 at $+1$ the
-4-amino-4,6-dideoxyglucose of acarbose-type inhibitors; GH31: 24 of 32 and 16 of 16; GH15: all); because that $+1$
+4-amino-4,6-dideoxyglucose of acarbose-type inhibitors; GH31: 21 of 32, with 3 fluorinated glucose rings, and 16 of
+16; GH15: all); because that $+1$
 ring lacks O6, only three GH13 units carry O6 at $+1$, and none in GH31 and GH15. No glucose unit bearing a hydroxypropyl, acetyl,
 octenyl-succinyl or carboxymethyl group, nor any 2-O- or 3-O-substituted glucose, is bound in these families in the
 PDB; the 18 substituted rings of the census carry their substituent on O1 or O4.
 
 Every cell for which a positional result with a substituted substrate was found is set against the prediction of
-its state in Table~S6, cell by cell with its references (Section~S13); the lower marks of Figure~\ref{fig:map} show
+its state in Table~S4, cell by cell with its references (Section~S6); the lower marks of Figure~\ref{fig:map} show
 these cells. Of the 21 cells with a prediction, 19 agree and 2 disagree (Table~\ref{tab:agree}). The falsifiable part
-is the INV cells: 12 of 14 agree. All 3 VAR and all 4 EXP cells are compatible, which their scoring rule makes easy.
-The baselines put these numbers in proportion: the trivial map (oxygens at $-1$/$+1$ not tolerated, all others
-tolerated) scores 17 of 21, failing at the two INV cells of GH14 $-2$ and at the same two disagreements; maps with
-the states permuted within family agree in 0.59 of their predicted cells on average (95\% range 0.38--0.79; the
-published map, 0.90, is reached by 1 in 1\,000), and their INV cells in 0.63 (published 0.86; reached by 48 in
-1\,000). The evidence is uneven: 18 of the 21 cells include products of one substrate, phosphorylated potato glucan,
-and 8 rest on it alone; without the phosphate data, 13 cells keep a result, of which 10 of 11 informative ones agree
-(two VAR cells have data from one sequence group only). The key non-phosphate sources are these. At GH13 $-1$, methyl starch
+is the INV cells: 12 of 14 agree, 4 of 4 in GH13, 4 of 5 in GH14 and 4 of 5 in GH15, so that 10 of the 14 rest on
+families with two sequence groups; no GH31 cell has a substituted-substrate result. All 3 VAR and all 4 EXP cells are
+compatible, which their scoring rule makes easy. The baselines put these numbers in proportion. A trivial map that
+blocks every oxygen at $-1$/$+1$ and tolerates every other oxygen scores 17 of 21, and its blocked cells agree in 10
+of 12. It differs from the published map at two cells only, the INV cells O3 and O6 at GH14 $-2$, both from one study
+of one enzyme with phosphate~\citep{Takeda1987}, and fails at the same two disagreements; on the two discordant cells
+the exact McNemar test gives $p = 0.50$. In GH13 the two maps score the same on all 10 cells. The oxygen-resolved
+map therefore adds two cells to a subsite-only rule; its value for substituted starch lies in the variable and free
+cells it names, which the trivial map does not distinguish. Maps with the states permuted within family (10\,000)
+agree in 0.59 of their predicted cells on average (95\% range 0.40--0.79; the published 0.90 is reached or exceeded
+with $P = 0.0006$), and their INV cells in 0.63 (published 0.86; $P = 0.056$). The evidence is uneven: 18 of the 21
+cells include products of one substrate, phosphorylated potato glucan, and 8 rest on it alone; without the phosphate
+data, 13 cells keep a result, of which 10 of 11 informative ones agree (two VAR cells have data from one sequence
+group only). Three cells rest on abstracts only (GH13 $+2$ O6, GH15 $-1$ O2 and $+1$ O2); without them 17 of 18 cells
+agree, and 11 of 12 INV cells (Section~S8, Table~S8). The key non-phosphate sources are these. At GH13 $-1$, methyl starch
 digested by a \emph{Bacillus} liquefying $\alpha$-amylase leaves no 2-O- or 3-O-methylglucose (19.4\% and 6.2\% of
 all residues at MS 0.30) at the new reducing ends and 6-O-methylglucose only as a trace~\citep{vanderBurgt1998}. At GH13 $-3$ and $-4$, porcine and human pancreatic $\alpha$-amylases accept a glucose
 carrying a 6-O-galactosyl or 3-O-$N$-acetylglucosaminyl group, but at $-2$ in at most 3\% of cuts~\citep{Okada2000}.
@@ -455,25 +436,25 @@ The three variable GH13 cells with data ($-2$ O3, $-2$ O6, $+2$ O3) are those wh
 differ~\citep{Takeda1983,TakedaHizukuri1986,Takeda1987}.
 
 The two disagreements are both at a fixed cell of subsite $+1$. In GH15, O2 at $+1$ is held by Glu180 in both
-groups (median 9~\AA$^2$ open), yet the O-methyl and deoxy analogues at OH-2 of the reducing unit are hydrolysed with
-kinetics virtually unchanged~\citep{Lemieux1996,Bock1987} (abstract and full text), and 2-O-methylglucose is found at
-the non-reducing ends of methyl amylose digested by a \emph{Bacillus} $\alpha$-amylase and glucoamylase, that is, at
-$+1$ (abstract; the two enzymes are not separated)~\citep{Mischnick2001}. In GH14, O6 at $+1$ is held by the
+groups (median 9~\AA$^2$ open), yet the 2-O-methyl analogue at the reducing unit is hydrolysed with kinetics
+virtually unchanged (abstract)~\citep{Lemieux1996}, and 2-O-methylglucose is found at the non-reducing ends of methyl
+amylose digested by a \emph{Bacillus} $\alpha$-amylase and glucoamylase, that is, at $+1$ (abstract; the two enzymes
+are not separated)~\citep{Mischnick2001}. This disagreement rests on abstracts only. In GH14, O6 at $+1$ is held by the
 catalytic Glu186 and by Arg188 in both groups (three entries, soybean and \emph{Bacillus cereus}), yet sweet-potato
 $\beta$-amylase cleaves with a 6-phosphorylated residue at $+1$~\citep{Takeda1987}. A hydrogen bond present in the
 crystal therefore does not by itself make an oxygen indispensable. The deoxy substrates point the same way: at
 subsite $-1$ the hydrogen bonds of O6 (and of O3 in GH31) are needed for turnover, those of O2, made by fixed
-residues in GH31 and GH15, are not (Section~S13).
+residues in GH31 and GH15, are not (Section~S6).
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig3_map.pdf}
 \caption{The subsite $\times$ oxygen map of GH13, GH31, GH14 and GH15 (number of 50\% sequence groups in brackets).
 Cell colour, contact state of the oxygen (Section~\ref{sec:methods_map}): orange, held by an invariant side chain
-(INV, fixed); blue, held by variable side chains (VAR); sand, held by main chain only (MC); hatched, free and exposed
+(INV, fixed; in GH14 and GH15, conserved in their two groups); blue, held by variable side chains (VAR); sand, held by main chain only (MC); hatched, free and exposed
 (EXP); grey, free and buried (BUR); dashed outline, no density-supported unit or atom. Upper number, fraction of
 groups in which a protein N/O lies within 3.5~\AA{} of the oxygen. Lower mark, published result for a substrate
-substituted at that oxygen and subsite (Table~S6): $\checkmark$ tolerated, $\times$ not tolerated, $\pm$ differs between enzymes of
+substituted at that oxygen and subsite (Table~S4): $\checkmark$ tolerated, $\times$ not tolerated, $\pm$ differs between enzymes of
 the family, -- no data; substituents P phosphate, HE hydroxyethyl, Me methyl, Hx 6-O-galactosyl or
 3-O-$N$-acetylglucosaminyl, I\ldots{} 6-iodo-, 6-pyridylamino- or 4,6-benzylidene, NH$_2$ 6-amino, C6 C6 replaced;
 d, deoxy substrate (hydroxyl removed; italic, not counted). Magenta frame, map and experiment disagree. Scissors, the
@@ -483,12 +464,14 @@ scissile O4 of the $+1$ unit; bold vertical line, the scissile bond.}
 
 \begin{table}[htbp]
 \centering\renewcommand{\baselinestretch}{1}\footnotesize\setlength{\tabcolsep}{4pt}
-\caption{The map against published products and kinetics of substituted substrates (cells of Table~S6). INV
-predicts not tolerated and can fail on one negative result; VAR and EXP are compatible when at least one enzyme
-tolerates. Baselines scored on the same cells: trivial map, every oxygen at $-1$/$+1$ not tolerated and every other
-tolerated; permuted maps, states shuffled within family (1\,000 maps; mean and 95\% range of the fraction agreeing
-among their predicted cells). Informative: cells with an enzyme contrast where VAR is predicted. Source:
-\texttt{44\_rule\_test/revision/C\_*.tsv}.}
+\caption{The map against published products and kinetics of substituted substrates (cells of Table~S4). Cells are
+subsite $\times$ oxygen cells; a cell can carry several substituents, so the substituent rows overlap. INV predicts
+not tolerated and can fail on one negative result; VAR and EXP are compatible when at least one enzyme tolerates.
+Baselines scored on the same cells: trivial map, every oxygen at $-1$/$+1$ not tolerated and every other tolerated
+(exact McNemar test on the cells where it differs from the published map); permuted maps, states shuffled within
+family (10\,000 maps; mean and 95\% range of the fraction agreeing among their predicted cells). Informative: cells
+with an enzyme contrast where VAR is predicted. Sources: \texttt{44\_rule\_test/revision/C\_*.tsv},
+\texttt{44\_rule\_test/revision2/C\_mcnemar\_family\_abstract.tsv}.}
 \label{tab:agree}
 \begin{tabular}{lrr}
 \toprule
@@ -496,9 +479,13 @@ Map or subset & Cells & Agree\\
 \midrule
 Published map, all cells with a prediction & 21 & 19\\
 \quad INV (falsifiable) & 14 & 12\\
+\quad\quad GH13 / GH14 / GH15 (GH31: no cell) & 4 / 5 / 5 & 4 / 4 / 4\\
 \quad VAR, EXP (compatible) & 3, 4 & 3, 4\\
+\quad without the 3 abstract-only cells (INV) & 18 (12) & 17 (11)\\
 Trivial map ($-1$/$+1$ blocked) & 21 & 17\\
-Permuted maps, fraction agreeing & -- & 0.59 (0.38--0.79)\\
+\quad its blocked cells & 12 & 10\\
+\quad cells where it differs from the published map & 2 & 0 (published 2; $p = 0.50$)\\
+Permuted maps, fraction agreeing & -- & 0.59 (0.40--0.79)\\
 \quad their INV cells & -- & 0.63 (0.38--0.88)\\
 \addlinespace
 By substituent: phosphate & 18 & 17\\
@@ -531,13 +518,14 @@ of cells in which each substituent fits in at least half of the sequence groups 
 phosphate (67\%); at cells held by fixed residues, in 0--38\% (phosphate 0\%, octenylsuccinyl 5\%, methyl 38\%). The
 three buried cells (BUR) fit every substituent except phosphate: no open surface in the crystal does not mean no room
 behind the oxygen. Per unit, methyl fits at 94\% of the free oxygens (344) and at 29\% of the held ones (883); the
-hydroxyl hydrogen itself fits at all 1\,227 sites (per-cell results in Table~S4). Against the 36
+hydroxyl hydrogen itself fits at all 1\,227 sites (per-cell results in Table~S2). Against the 36
 cell--substituent pairs with a literature result, free volume agrees cleanly in 16 (44\%; tolerated with F, not
-tolerated with N), partially in 15 (s, or a mixed verdict in the literature) and disagrees in 5 (Section~S5): twice
+tolerated with N), partially in 15 (s, or a mixed verdict in the literature) and disagrees in 5 (Section~S2): twice
 phosphate on O6 at $+1$ (GH14, GH15) is tolerated but fits in no pose, twice methyl at a hydrogen-bonded oxygen at
 $-1$ (GH14, GH15) fits but is not tolerated, the screen not counting the lost hydrogen bond, and once methyl on O6 at
 $+1$ of GH13 fits against a product result that does not resolve the position of the group~\citep{vanderBurgt2000b}.
-With 2.8 or 3.2~\AA{} cut-offs, or the polar-aware rule, 0--13 of the 70 cells per substituent change category. The screen
+With 2.8 or 3.2~\AA{} cut-offs, or the polar-aware rule, 0--13 of the 70 cells per substituent (O2, O3, deposited O6
+and O6$^\ast$; Table~S2) change category. The screen
 separates free from held cells but does not predict tolerance of a given substituent by itself.
 
 \begin{table}[htbp]
@@ -546,7 +534,7 @@ separates free from held cells but does not predict tolerance of a given substit
 in which a substituent fits in at least half of the 50\% sequence groups (category F; 3.0~\AA{} flat
 cut), by state of the cell; the counts are share $\times$ cells (e.g.\ INV methyl 8 of 21). Me, methyl; HE,
 2-hydroxyethyl; HP, 2-hydroxypropyl; Ac, acetyl; CM, carboxymethyl; P, phosphate; Suc, succinyl; OSA,
-octenylsuccinyl. Two O6$^\ast$ cells without a state (no O6 deposited) are not shown.}
+octenylsuccinyl. 52 cells with a state; two O6$^\ast$ cells without a state (no O6 deposited) are not shown.}
 \label{tab:fit}
 \begin{tabular}{lrrrrrrrrr}
 \toprule
@@ -572,9 +560,7 @@ subsites than the 6-phosphate~\citep{Takeda1983,Takeda1987}; 2-O-hydroxyethyl st
 $\alpha$-amylase more than 6-O-hydroxyethyl starch~\citep{Yoshida1973}; 6-O-methylglucose is the only methylated
 residue found, as a trace, at new reducing ends~\citep{vanderBurgt1998}; and hydroxyethyl starches with a higher
 C2/C6 ratio are eliminated more slowly from patients' serum~\citep{Treib1995}, an \emph{in vivo} measure of more
-than hydrolysis. O2 and O3 were compared directly only for methyl, with 3-O $>$ 2-O
-$>$ 6-O for a \emph{Bacillus licheniformis} $\alpha$-amylase and glucoamylase (from the full text~\citep{Mischnick2001}
-as reported by Huang~\citep{Huang2006}). A 3-phosphate also restricts the conformation of the adjacent glycosidic
+than hydrolysis. A 3-phosphate also restricts the conformation of the adjacent glycosidic
 linkage~\citep{Hansen2009}, so part of the O3 effect may not come from contact with the enzyme.
 
 \emph{(ii) The products of a substituted starch are set by the residues at subsites $-2$ and $+2$ of the enzyme
@@ -607,27 +593,32 @@ of the substituent being determined~\citep{Huang2007,Huijbrechts2008}.
 \subsection{Limitations}
 The states are properties of the deposited structures, mostly with inhibitor rings at $-1$ and $+1$, not binding
 affinities or measured tolerances; hydrogen bonds are judged from heavy atoms and aromatic contacts by residue type.
-The residue test rests on 36 positions in GH13 and GH31; GH14 and GH15, with two groups each, cannot show variability
-(Section~S9), and the other families of the database were not used. The validation rests on 21 literature cells,
-most of them on one substrate, read onto subsites by us, partly from abstracts (Table~S6); no GH31 cell has a
-substituted-substrate result. The claims are restricted to the four families analysed.
+Unfinished molecular dynamics of three glucose-only complexes are reported in Section~S3 and are not used here. The
+residue test rests on 36 positions in GH13 and GH31; GH14 and GH15, with two groups each, cannot show variability
+(Section~S4), so ``invariant'' there means conserved in two groups, and the other families of the database were not
+used. The validation rests on 21 literature cells, most of them on one substrate, read onto subsites by one reader
+without a blind second coding, three of them from abstracts only (Table~S4); a trivial subsite-only map does nearly as
+well on these cells, and no GH31 cell has a substituted-substrate result. The claims are restricted to the four
+families analysed.
 
 \section{Conclusions}
 
 In GH13 and GH31, the side chains that hydrogen-bond the rings at subsites $-1$ and $+1$ are the same in every
 sequence group, with two exceptions at $+1$ of GH13, while aliphatic residues and residues of every kind at the outer
-subsites change. Read oxygen by oxygen in GH13, GH31, GH14 and GH15, O2, O3 and O6 at $-1$ and O3 and the scissile O4
-at $+1$ are held by fixed residues; in GH13 the oxygens at $-2$ and $+2$ are held by residues that vary between
-groups; O6 and the outer subsites are mostly free. Tested against published products of substituted substrates,
-mainly phosphorylated glucan, the cells predicted not to accept a substituent agree in 12 of 14, above a trivial map
-and permuted maps; the two exceptions, both at $+1$, are hydrogen bonds that the kinetics show to be dispensable. The
-map sets testable hypotheses for processing functionalised starch: substitution at O6 should obstruct hydrolysis
+subsites change; the contrast is clearest by location. Read oxygen by oxygen, O2, O3 and O6 at $-1$ are held by
+residues conserved in every group in GH13, GH31 and GH15 (in GH14, O6 only; in GH14 and GH15 over two groups), and O3
+and the scissile O4 at $+1$ in all four families; in GH13 the oxygens at $-2$ and $+2$ are held by residues that vary
+between groups; O6 and the outer subsites are mostly free. Tested against published products of substituted
+substrates, mainly phosphorylated glucan, the cells predicted not to accept a substituent agree in 12 of 14; a trivial
+map that blocks every oxygen at $-1$/$+1$ agrees in 10 of 12, so the oxygen-resolved map adds two cells, both in GH14,
+to that subsite-only rule. The two exceptions, both at $+1$, are hydrogen bonds that the kinetics show to be
+dispensable. The map sets testable hypotheses for processing functionalised starch: substitution at O6 should obstruct hydrolysis
 least, the choice of enzyme should matter at subsites $-2$ and $+2$, and the variable $-2$/$+2$ positions are the
 candidates for engineering. Product analyses of hydroxypropyl, acetyl, octenyl-succinyl and carboxymethyl starch
 digests resolved by subsite are the experiments that would test them.
 
 \section*{CRediT authorship contribution statement}
-\textbf{N.A.}: \pend{CRediT roles}.
+\textbf{N.I.A.-V.}: \pend{CRediT roles}.
 \textbf{Y.R.R.}: Investigation, Data curation, Formal analysis (supporting), Validation, Visualization
 (supporting), Writing -- Review \& Editing.
 \textbf{A.F.C.}: Conceptualization, Methodology, Software, Formal analysis (lead), Investigation,
@@ -650,9 +641,9 @@ responsibility for the content of the published article.
 
 \section*{Data availability}
 The database, the scripts and the result tables that produce every number, table and figure are
-public at \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM} [PENDIENTE: Zenodo DOI];
-Section S19 of the Supplementary material lists the script and the result table behind each table
-and figure.
+public at \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM} [PENDIENTE: Zenodo DOI]
+(code under the MIT licence, data under CC BY 4.0); Section S13 of the Supplementary material lists the script and
+the result table behind each table and figure.
 
 \section*{Acknowledgements}
 Computational resources and technical support were provided by the Laboratorio de
@@ -660,13 +651,13 @@ Supercomputaci\'on y C\'alculo Cient\'ifico (SC3) of the Universidad Industrial 
 Colombia (\url{https://www.sc3.uis.edu.co}), through the GUANE high-performance computing cluster.
 Y.R.R.\ acknowledges a doctoral scholarship from the Ministerio de Ciencia, Tecnolog\'ia e Innovaci\'on
 (Minciencias), Colombia (Convocatoria 933 of 2023; Resoluci\'on 1993 of 12 October 2023). \pend{funding of
-N.A., if any} We thank the Instituto de Investigaci\'on of the Universidad Nacional de Frontera, Sullana
+N.I.A.-V., if any} We thank the Instituto de Investigaci\'on of the Universidad Nacional de Frontera, Sullana
 (Piura, Per\'u), and its director, Wilson Castro, and Marianny Combariza (CEIAM and Grupo de
 Investigaci\'on GIFTEX, Universidad Industrial de Santander) for support during the development of this
 work.
 
 \section*{Appendix A. Supplementary material}
-Supplementary material (Sections S1--S19, Tables S1--S13, Figures S1--S2) accompanies this article
+Supplementary material (Sections S1--S13, Tables S1--S13, Figures S1--S2) accompanies this article
 (ijbm\_SI.pdf).
 
 \bibliographystyle{elsarticle-num}

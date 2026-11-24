@@ -43,7 +43,7 @@ for f in common.py c03_frames.py c01_propka.py c01_collect.py c09_series.py c09_
 done
 # --- analysis: subsites, contact kinds, control, ring distortion, MM/GBSA per subsite, rule test, hydroxyl map, RCSB queries
 for f in a33_subsites.py a40_contact_types.py a41_control_noncatalytic.py a42_ring_distortion_subsite.py \
-         a43_mmgbsa_subsite.py a44a_build.py a44b_tests.py a44c_tables.py a44d_revision.py a45_hydroxyl_map.py \
+         a43_mmgbsa_subsite.py a44a_build.py a44b_tests.py a44c_tables.py a44d_revision.py a44e_round2.py a45_hydroxyl_map.py \
          a46_substituent_fit.py a47_md_hydroxyl_contacts.py rcsb_q.py rcsb_q2.py; do
   cp1 "$S/analysis/$f" "$C/analysis/$f"
 done
@@ -164,7 +164,7 @@ find "$C" "$D" -type f "${TEXT[@]}" -print0 | xargs -0 sed -i -E \
 [ -n "$ACC" ] && find "$C" "$D" -type f "${TEXT[@]}" -print0 | xargs -0 sed -i -E "s#\b($ACC)\b#<cluster-account>#g"
 # mentions of the earlier submission and its reviews (not part of this record)
 sed -i 's#^Both JACS Au referees said the draft.s claim is circular (2026-11-24 reviews in `docs/reviews/`):#The claim of the earlier draft was open to the objection that it is circular:#' \
-  "$D/analysis/44_rule_test/REPORT.md"
+  "$D/analysis/44_rule_test/superseded/REPORT.md"
 sed -i 's#for the short draft (JACS Au, two-column width 7.0 in)#for the short draft (two-column width 7.0 in)#' "$C/figures/fig2_v2_layouts.py"
 
 echo "== private-pattern check (must list nothing)"

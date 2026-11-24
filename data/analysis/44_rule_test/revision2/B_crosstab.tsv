@@ -1,0 +1,7 @@
+inner	cls	n	m1	mean_m
+False	Al	4	1	0.517
+False	Ar	2	0	0.431
+False	H	3	0	0.570
+True	Al	4	0	0.560
+True	Ar	8	3	0.751
+True	H	14	11	0.936

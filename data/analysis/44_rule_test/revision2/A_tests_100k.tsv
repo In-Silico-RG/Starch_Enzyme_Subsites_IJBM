@@ -1,0 +1,23 @@
+setting	statistic	n_a	n_b	n_positions	diff	p_one_sided	p_two_sided	p_two_sided_family	p_two_sided_location	p_two_sided_family_location
+All positions	H-Al	17	8	35	0.3325	0.0035	0.0048	0.0033	0.0138	0.0127
+All positions	H-Ar	17	10	35	0.1838	0.0535	0.1032	0.1087	0.0663	0.0668
+Without catalytic	H-Al	12	8	30	0.2788	0.0152	0.0288	0.0269	0.0362	0.0294
+Positions with >=5 groups	H-Al	16	6	32	0.4540	0.0005	0.0005	0.0001	0.0006	0.0006
+At -1/+1 only	H-Al	14	4	26	0.3753	0.0056	0.0056	0.0010		
+30% identity groups	H-Al	18	7	33	0.3804	0.0009	0.0009	0.0006	0.0017	0.0035
+Contact criterion 50%	H-Al	17	6	31	0.3079	0.0068	0.0080	0.0046	0.0048	0.0091
+Contact criterion 80%	H-Al	13	4	22	0.3408	0.0031	0.0031	0.0008	0.0005	0.0015
+Class from reference, 20%	H-Al	17	10	36	0.2799	0.0085	0.0152	0.0160	0.0200	0.0031
+Class from reference, 50%	H-Al	17	6	31	0.1640	0.0938	0.1801	0.1850	0.1809	0.1988
+Class from reference, 80%	H-Al	12	4	22	0.1766	0.0797	0.1183	0.0427	0.0830	0.0279
+Class from reference, 50%, without catalytic	H-Al	13	5	26	0.1799	0.0996	0.1935	0.1978	0.2177	0.2681
+Class from reference, 80%, without catalytic	H-Al	8	3	17	0.2302	0.0740	0.1113	0.0495	0.0913	0.0420
+Held-out proteins	H-Al	17	8	35	0.3105	0.0065	0.0112	0.0095	0.0295	0.0048
+Held-out, without catalytic	H-Al	12	8	30	0.2330	0.0409	0.0812	0.0876	0.0849	0.0239
+Held-out, 30% identity groups	H-Al	18	7	33	0.1726	0.0737	0.1400	0.1384	0.1363	0.1240
+Outer subsites (outer contacts)	H-Al	4	6	15	-0.0870	0.6700	0.6634	0.6696		
+H-bond 3.2 A	H-Al	16	9	35	0.2732	0.0103	0.0179	0.0137	0.0323	0.0225
+H-bond 4.0 A	H-Al	18	8	36	0.2953	0.0092	0.0148	0.0142	0.0316	0.0268
+H-bond 3.5 A + angle	H-Al	15	9	35	0.2641	0.0140	0.0250	0.0200	0.0378	0.0317
+H at -1/+1 vs outer-only	H-H	14	3	17	0.3659	0.0085	0.0085	0.0121		
+H at -1/+1 vs outer-only, without catalytic	H-H	9	3	12	0.3302	0.0268	0.0268	0.0384		
