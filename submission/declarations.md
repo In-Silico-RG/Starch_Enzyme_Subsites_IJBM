@@ -1,16 +1,16 @@
 # Declarations: Fixed and variable sugar contacts at the subsites of starch-degrading enzymes
 
-Manuscript for the *International Journal of Biological Macromolecules*. Authors: Nedis Acevedo (a), Yurimar
+Manuscript for the *International Journal of Biological Macromolecules*. Authors: Nedis I. Acevedo-Viloria (a), Yurimar
 Ruiz-Rocha (b, c) and Aldo F. Combariza (d, c; corresponding author).
-a [PENDIENTE: affiliation of N. Acevedo].
-b Departamento de Física, Universidad de Sucre, Carrera 28 No. 5-267, Sincelejo, Sucre, Colombia.
+a Programa de Doctorado en Ingeniería, Universidad del Magdalena, Santa Marta, Colombia; e Departamento de Ingeniería Agroindustrial, Facultad de Ingenierías, Universidad de Sucre, Sincelejo, Colombia. ORCID N. I. Acevedo-Viloria: https://orcid.org/0009-0000-3289-027X.
+b Departamento de Física, Facultad de Educación y Ciencias, Universidad de Sucre, Carrera 28 No. 5-267, Sincelejo, Sucre, Colombia.
 c Doctorado en Ciencias Físicas, Sistema Universitario Estatal del Caribe (SUE Caribe), Colombia.
-d Grupo de Investigación *in silico*, Departamento de Biología y Química, Universidad de Sucre, Carrera 28 No. 5-267,
+d Grupo de Investigación *in silico*, Departamento de Biología y Química, Facultad de Educación y Ciencias, Universidad de Sucre, Carrera 28 No. 5-267,
 Sincelejo, Sucre, Colombia.
 Corresponding author: Aldo F. Combariza, aldo.combariza@unisucre.edu.co.
 
 ## CRediT authorship contribution statement
-- N.A. (Nedis Acevedo): [PENDIENTE: roles].
+- N.I.A.-V. (Nedis I. Acevedo-Viloria): [PENDIENTE: roles].
 - Y.R.R. (Yurimar Ruiz-Rocha): Investigation, Data curation, Formal analysis (supporting), Validation, Visualization
   (supporting), Writing – Review & Editing.
 - A.F.C. (Aldo F. Combariza): Conceptualization, Methodology, Software, Formal analysis (lead), Investigation,

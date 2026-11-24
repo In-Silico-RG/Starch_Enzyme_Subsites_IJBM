@@ -19,6 +19,10 @@
 
 \journal{International Journal of Biological Macromolecules}
 
+\renewcommand{\floatpagefraction}{0.6}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.07}
+\setcounter{topnumber}{2}
 \begin{document}
 
 \begin{frontmatter}
@@ -26,13 +30,20 @@
 \title{Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a
 structural basis for processing functionalised starch}
 
-\author[a]{Nedis Acevedo}
+\author[a,e]{Nedis I. Acevedo-Viloria}
 \author[b,c]{Yurimar Ruiz-Rocha}
 \author[d,c]{Aldo F. Combariza\corref{cor1}}
 \ead{aldo.combariza@unisucre.edu.co}
 \cortext[cor1]{Corresponding author.}
-\affiliation[a]{organization={[PENDIENTE: affiliation of N. Acevedo]}}
-\affiliation[b]{organization={Departamento de F\'{\i}sica, Universidad de Sucre},
+\affiliation[a]{organization={Programa de Doctorado en Ingenier\'{\i}a, Universidad del Magdalena},
+  city={Santa Marta},
+  country={Colombia}}
+\affiliation[e]{organization={Departamento de Ingenier\'{\i}a Agroindustrial, Facultad de Ingenier\'{\i}as, Universidad de Sucre},
+  addressline={Carrera 28 No.\ 5-267},
+  city={Sincelejo},
+  state={Sucre},
+  country={Colombia}}
+\affiliation[b]{organization={Departamento de F\'{\i}sica, Facultad de Educaci\'{o}n y Ciencias, Universidad de Sucre},
   addressline={Carrera 28 No.\ 5-267},
   city={Sincelejo},
   state={Sucre},
@@ -40,7 +51,7 @@ structural basis for processing functionalised starch}
 \affiliation[c]{organization={Doctorado en Ciencias F\'{\i}sicas, Sistema Universitario Estatal del Caribe (SUE Caribe)},
   country={Colombia}}
 \affiliation[d]{organization={Grupo de Investigaci\'{o}n {\itshape in silico},
-  Departamento de Biolog\'{\i}a y Qu\'{\i}mica, Universidad de Sucre},
+  Departamento de Biolog\'{\i}a y Qu\'{\i}mica, Facultad de Educaci\'{o}n y Ciencias, Universidad de Sucre},
   addressline={Carrera 28 No.\ 5-267},
   city={Sincelejo},
   state={Sucre},
@@ -70,8 +81,7 @@ subsite--oxygen cells.
 %% Graphical abstract: Elsevier specification 1328 x 531 px minimum (5:2, w x h), 300 dpi,
 %% TIFF/EPS/PDF/MS Office; uploaded as a separate file in Editorial Manager.
 \begin{graphicalabstract}
-\fbox{\parbox[c][5.2cm][c]{13cm}{\centering \pend{graphical abstract, to be prepared by the
-author; 1328\,$\times$\,531 px minimum, 300 dpi}}}
+\includegraphics[width=\linewidth]{../submission/graphical_abstract.pdf}
 \end{graphicalabstract}
 
 %% Highlights are in ijbm_highlights.tex (uploaded as a separate Word file).
@@ -133,7 +143,7 @@ every bound sugar unit, its position along the chain, the protein residues withi
 of the enzymes, the positions of the sugar units of all their family members at the subsites, and
 the substituents in question; the same structures with opaque surfaces are shown in Figure~S1.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig1_protein.pdf}
 \caption{(a) GH13 maltotetraose-forming amylase (PDB 6JQB) and (b) GH31 $\alpha$-glucosidase (PDB 3WEO)
@@ -383,9 +393,9 @@ $\alpha$-glucosidases only Ile328, Tyr299 and five outer positions vary. Only fo
 hydrogen-bonding positions lie at the outer subsites. Hydrogen bonds are judged from heavy
 atoms; aromatic stacking from residue type, not from ring geometry.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{fig2_active_site.pdf}
+\includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig2_active_site.pdf}
 \caption{Contacts at the catalytic subsites of (a) GH13 $\alpha$-amylase (PDB 1G94) and (b) GH31
 $\alpha$-glucosidase (PDB 3WEO): sugar gold, subsites numbered; side chains coloured by contact
 (blue H, orange Ar, pink Al; catalytic pair magenta); dashes, H-bonds $\le$3.5~\AA. (c)
@@ -393,9 +403,9 @@ Conservation $m$ of each position (one vote per 50\% sequence group) by class.}
 \label{fig:active}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{fig_fixed_variable.pdf}
+\includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig_fixed_variable.pdf}
 \caption{Fixed and variable positions side by side, superposed from the best-resolved entry of every
 50\% sequence group that has a residue there: (a) GH13 Asp179 and Phe180, (b) GH13 Glu204 and Trp206, (c)
 GH31 Asp327 and Ile328 (reference numbering). Side chains coloured by residue type (blue polar, brown
@@ -572,9 +582,9 @@ of the parent rate~\citep{Nishio2002}; glucoamylase needs O6$'$ at $-1$ and O3 a
 O3$'$ at $-1$, nor O6 at $+1$~\citep{Bock1987}. At subsite $-1$ the hydrogen bonds of O6 (and of O3 in
 GH31) are needed for turnover; those of O2, made by fixed residues in both families, are not.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{fig3_map.pdf}
+\includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig3_map.pdf}
 \caption{The subsite $\times$ oxygen map. Cell colour, state of the oxygen
 (Section~\ref{sec:methods_map}); number, fraction of 50\% sequence groups in which a protein N/O lies
 within 3.5~\AA; lower mark, published result for a substrate substituted at that oxygen and
@@ -583,9 +593,9 @@ subsite (Table~\ref{tab:mapexp}; d, deoxy substrate, not counted). Bold line, th
 \label{fig:map}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{fig_map_on_molecule.pdf}
+\includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig_map_on_molecule.pdf}
 \caption{The map of Fig.~\ref{fig:map} drawn on (a) GH13 maltogenic $\alpha$-amylase (PDB 1QHO) and (b) GH31
 $\alpha$-glucosidase (PDB 3WEO). Spheres on O2, O3 and O6 give the family state of the cell (orange,
 held by a fixed residue; blue, by a variable residue; white, free and exposed); sticks, the residues that

@@ -1,9 +1,9 @@
 # Fixed and variable sugar contacts at the subsites of starch-degrading enzymes: a structural basis for processing functionalised starch
 
 Manuscript, supplementary material, code and data of the article submitted to the *International Journal of
-Biological Macromolecules* (Elsevier). Authors: Nedis Acevedo ([PENDIENTE: affiliation]), Yurimar Ruiz-Rocha (Departamento de Física, Universidad de Sucre;
+Biological Macromolecules* (Elsevier). Authors: Nedis I. Acevedo-Viloria (Programa de Doctorado en Ingeniería, Universidad del Magdalena; Departamento de Ingeniería Agroindustrial, Universidad de Sucre), Yurimar Ruiz-Rocha (Departamento de Física, Facultad de Educación y Ciencias, Universidad de Sucre;
 Doctorado en Ciencias Físicas, SUE Caribe) and Aldo F. Combariza (corresponding; Grupo de Investigación *in silico*,
-Departamento de Biología y Química, Universidad de Sucre, Sincelejo, Colombia; Doctorado en Ciencias Físicas, SUE Caribe).
+Departamento de Biología y Química, Facultad de Educación y Ciencias, Universidad de Sucre, Sincelejo, Colombia; Doctorado en Ciencias Físicas, SUE Caribe).
 
 ## What the paper is
 
