@@ -4,6 +4,9 @@
 %% Round 2 (2026-11-24, docs/reviews/2026-11-24_ijbm_editorial_round2.md): sections not cited by the main text removed
 %% (ring distortion, waters, pKa, MM/GBSA, rule sections); Table 1 of the main text moved here as Table S1; MD reduced to
 %% the three compared systems; new Tables S7 (model), S9 (alpha-amylase-only map); numbers from a44e_round2.py.
+%% Readability revision 2026-11-24 (docs/reviews/2026-11-24_ijbm_readability.md): state codes replaced by words
+%% (fixed, variable, main chain, exposed, buried), "our map" -> "our map", file paths moved from captions to
+%% Table S14, main-text cross-references renumbered (Methods 2.4-2.6; main Tables 5, 7, 8).
 \documentclass[preprint,12pt]{elsarticle}
 \usepackage{amsmath,amssymb,booktabs,graphicx,longtable,rotating,array}
 \usepackage[hidelinks]{hyperref}
@@ -71,7 +74,7 @@ Sugar from 1QHO (a, b) or 3WEO (c).}
 \section{Contact positions of GH13 and GH31 and their conservation}\label{sec:positions}
 Table~\ref{tab:positions} lists every reference position of GH13 and GH31 that meets the 20\% contact criterion of
 Section~2.2 of the main text, with its class, its residues counted once per 50\% sequence group and its modal fraction
-$m$ (eq~1 of the main text). The tests of Table~1 of the main text are computed on these positions.
+$m$ (eq~1 of the main text). The tests of Table~5 of the main text and of Table~\ref{tab:variants} are computed on these positions.
 
 \begin{table}[p]
 \centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.85}\scriptsize\setlength{\tabcolsep}{3pt}
@@ -84,7 +87,7 @@ group splits its vote); $m$: modal fraction (eq~1 of the main text); Arom.: arom
 $^\dagger$fewer than five groups. Engineered mutants removed. Class is read from the groups whose residue contacts the
 sugar, $m$ over every group with a residue at the position (contacting or not); hence GH13 Phe143 and Gly250 are
 classed Ar, from the aromatic residues that make the contact, although Leu (Phe143) or no single residue (Gly250) is
-the most common residue over all groups. Source: \texttt{data/analysis/44\_rule\_test/C\_identity\_T20.tsv}.}
+the most common residue over all groups.}
 \label{tab:positions}
 \begin{tabular}{lllrp{4.6cm}rr}
 \toprule
@@ -135,9 +138,9 @@ none & GH31 & Thr544 ($+$3) & 5 & Ser 1, Lys 1, Thr 1, Ala 1, Trp 1 & 0.20 & 0.2
 
 \section{Steric fit of substituents, cell by cell}
 Table~\ref{tab:fitcells} gives, for every family $\times$ subsite $\times$ oxygen cell of the map, the
-category and the fraction of 50\% sequence groups in which each substituent fits (method in Section~2.5 of
-the main text and Section~\ref{sec:sifit}; 3.0~\AA{} flat cut; all glucose-like units). Table~3 of the main text summarises these
-categories by state; the table has 70 cells per substituent (O2, O3, deposited O6 and O6$^\ast$), of which Table~3
+category and the fraction of 50\% sequence groups in which each substituent fits (method in Section~2.6 of
+the main text and Section~\ref{sec:sifit}; 3.0~\AA{} flat cut; all glucose-like units). Table~8 of the main text summarises these
+categories by state; the table has 70 cells per substituent (O2, O3, deposited O6 and O6$^\ast$), of which Table~8
 uses the 52 O2, O3 and O6$^\ast$ cells with a state. The screen measures free volume in the deposited coordinates only. The fit categories are F, fits in at least half of the groups; s, fits in at least
 one unit but in fewer than half of the groups; N, fits in no unit. Results at 2.8 and 3.2~\AA, with the
 polar-aware rule, for glucose units only, per entry and per unit are in
@@ -149,7 +152,7 @@ not tolerated with N), partially in 15 (s, or a mixed verdict in the literature)
 at $+1$ of GH15 and of GH14 is tolerated by the enzymes but fits in no pose (glucoamylase Trp52; best
 $\beta$-amylase clearance 2.1--2.5~\AA; the GH15 O6 is modelled, and the GH14 structures are soybean and
 \emph{Bacillus cereus}, not sweet-potato, $\beta$-amylase). Methyl on O6 at $-1$ of GH15 and on O2 at $-1$ of GH14 is
-not tolerated yet fits, at oxygens that are hydrogen-bonded (INV and MC); the screen does not count the hydrogen bond
+not tolerated yet fits, at oxygens that are hydrogen-bonded (fixed and main chain); the screen does not count the hydrogen bond
 lost when the hydroxyl hydrogen is replaced. Methyl on O6 at $+1$ of GH13 fits in 17 of 17 groups while the terminal
 residues of \emph{B.~subtilis} limit dextrins are $>$90\% unsubstituted~\citep{vanderBurgt2000b}, a result that does
 not resolve the position of the methyl group. The limits: protein and chain are static, the conformers carry no
@@ -160,11 +163,11 @@ GH14 and GH15 rest on two groups each, and symmetry mates were not generated.
 \begin{longtable}{llllrrllllllll}
 \caption{Fit category and fraction of 50\% sequence groups in which the substituent fits, per cell
 (3.0~\AA{} flat cut, all glucose-like units). State: the cell state of the map (main text,
-Section~2.4); O6, deposited O6; O6$^\ast$, deposited O6 or any of the gg, gt, tg rotamers (for O6$^\ast$
+Section~2.4 and Table~2); O6, deposited O6; O6$^\ast$, deposited O6 or any of the gg, gt, tg rotamers (for O6$^\ast$
 the state shown is that of the deposited O6; --, no O6 deposited). Groups and units: numbers of 50\%
 sequence groups and of units in the cell. Me, methyl; HE, 2-hydroxyethyl; HP, 2-hydroxypropyl; Ac,
-acetyl; CM, carboxymethyl; P, phosphate; Suc, succinyl; OSA, octenylsuccinyl. Source:
-\texttt{data/analysis/46\_substituent\_fit/cell\_fit\_summary.tsv}.}\label{tab:fitcells}\\
+acetyl; CM, carboxymethyl; P, phosphate; Suc, succinyl; OSA, octenylsuccinyl. Exposed and buried are the two free
+states.}\label{tab:fitcells}\\
 \toprule
 Fam. & Sub. & O & State & Groups & Units & Me & HE & HP & Ac & CM & P & Suc & OSA\\
 \midrule
@@ -175,79 +178,79 @@ Fam. & Sub. & O & State & Groups & Units & Me & HE & HP & Ac & CM & P & Suc & OS
 \endhead
 \bottomrule
 \endfoot
-GH13 & $-$3 & O2 & EXP & 17 & 43 & F\,0.82 & F\,0.77 & F\,0.77 & F\,0.71 & F\,0.71 & s\,0.29 & F\,0.65 & F\,0.65\\
-GH13 & $-$3 & O3 & EXP & 17 & 43 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.82 & F\,0.82 & s\,0.47 & F\,0.88 & F\,0.88\\
-GH13 & $-$3 & O6 & EXP & 10 & 24 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.60 & F\,0.90 & F\,0.80\\
-GH13 & $-$3 & O6$^\ast$ & EXP & 17 & 43 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.53 & F\,0.82 & F\,0.82\\
-GH13 & $-$2 & O2 & VAR & 22 & 63 & s\,0.36 & s\,0.27 & s\,0.04 & s\,0.04 & s\,0.09 & N\,0.00 & s\,0.00 & s\,0.00\\
-GH13 & $-$2 & O3 & VAR & 22 & 63 & F\,0.73 & F\,0.64 & F\,0.50 & s\,0.46 & s\,0.41 & s\,0.09 & s\,0.27 & s\,0.27\\
-GH13 & $-$2 & O6 & VAR & 21 & 61 & F\,0.67 & s\,0.38 & s\,0.29 & s\,0.14 & s\,0.29 & s\,0.00 & s\,0.14 & s\,0.14\\
-GH13 & $-$2 & O6$^\ast$ & VAR & 22 & 63 & F\,0.86 & F\,0.64 & F\,0.59 & s\,0.41 & F\,0.59 & s\,0.09 & s\,0.41 & s\,0.36\\
-GH13 & $-$1 & O2 & INV & 29 & 82 & s\,0.03 & s\,0.00 & s\,0.00 & N\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH13 & $-$1 & O3 & INV & 29 & 82 & s\,0.00 & s\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH13 & $-$1 & O6 & INV & 29 & 82 & s\,0.03 & s\,0.03 & s\,0.03 & s\,0.03 & s\,0.03 & N\,0.00 & s\,0.03 & N\,0.00\\
-GH13 & $-$1 & O6$^\ast$ & INV & 29 & 82 & s\,0.48 & s\,0.28 & s\,0.17 & s\,0.07 & s\,0.14 & N\,0.00 & s\,0.03 & N\,0.00\\
-GH13 & $+$1 & O2 & VAR & 17 & 50 & s\,0.35 & s\,0.06 & N\,0.00 & s\,0.06 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH13 & $+$1 & O3 & INV & 17 & 50 & s\,0.06 & s\,0.06 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH13 & $+$1 & O6 & BUR & 3 & 3 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33\\
-GH13 & $+$1 & O6$^\ast$ & BUR & 17 & 50 & F\,1.00 & F\,0.88 & F\,0.71 & F\,0.77 & F\,0.71 & F\,0.53 & F\,0.59 & F\,0.53\\
-GH13 & $+$2 & O2 & VAR & 15 & 47 & F\,0.80 & F\,0.60 & F\,0.60 & F\,0.53 & s\,0.47 & s\,0.20 & F\,0.53 & s\,0.47\\
-GH13 & $+$2 & O3 & VAR & 15 & 47 & s\,0.47 & s\,0.40 & s\,0.27 & s\,0.13 & s\,0.20 & N\,0.00 & s\,0.07 & s\,0.07\\
-GH13 & $+$2 & O6 & EXP & 15 & 47 & F\,0.93 & F\,0.87 & F\,0.87 & F\,0.80 & F\,0.87 & F\,0.60 & F\,0.80 & F\,0.73\\
-GH13 & $+$2 & O6$^\ast$ & EXP & 15 & 47 & F\,1.00 & F\,0.93 & F\,0.93 & F\,0.93 & F\,0.93 & F\,0.67 & F\,0.93 & F\,0.87\\
-GH13 & $+$3 & O2 & MC & 10 & 14 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.40 & F\,0.50 & s\,0.40\\
-GH13 & $+$3 & O3 & MC & 10 & 14 & F\,1.00 & F\,0.90 & F\,0.80 & F\,0.60 & F\,0.50 & s\,0.20 & s\,0.40 & s\,0.40\\
-GH13 & $+$3 & O6 & EXP & 10 & 14 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.70 & F\,0.80 & F\,0.50 & F\,0.70 & F\,0.70\\
-GH13 & $+$3 & O6$^\ast$ & EXP & 10 & 14 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.80 & F\,0.80 & F\,0.60 & F\,0.80 & F\,0.80\\
+GH13 & $-$3 & O2 & exposed & 17 & 43 & F\,0.82 & F\,0.77 & F\,0.77 & F\,0.71 & F\,0.71 & s\,0.29 & F\,0.65 & F\,0.65\\
+GH13 & $-$3 & O3 & exposed & 17 & 43 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.82 & F\,0.82 & s\,0.47 & F\,0.88 & F\,0.88\\
+GH13 & $-$3 & O6 & exposed & 10 & 24 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.60 & F\,0.90 & F\,0.80\\
+GH13 & $-$3 & O6$^\ast$ & exposed & 17 & 43 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.88 & F\,0.53 & F\,0.82 & F\,0.82\\
+GH13 & $-$2 & O2 & variable & 22 & 63 & s\,0.36 & s\,0.27 & s\,0.04 & s\,0.04 & s\,0.09 & N\,0.00 & s\,0.00 & s\,0.00\\
+GH13 & $-$2 & O3 & variable & 22 & 63 & F\,0.73 & F\,0.64 & F\,0.50 & s\,0.46 & s\,0.41 & s\,0.09 & s\,0.27 & s\,0.27\\
+GH13 & $-$2 & O6 & variable & 21 & 61 & F\,0.67 & s\,0.38 & s\,0.29 & s\,0.14 & s\,0.29 & s\,0.00 & s\,0.14 & s\,0.14\\
+GH13 & $-$2 & O6$^\ast$ & variable & 22 & 63 & F\,0.86 & F\,0.64 & F\,0.59 & s\,0.41 & F\,0.59 & s\,0.09 & s\,0.41 & s\,0.36\\
+GH13 & $-$1 & O2 & fixed & 29 & 82 & s\,0.03 & s\,0.00 & s\,0.00 & N\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $-$1 & O3 & fixed & 29 & 82 & s\,0.00 & s\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $-$1 & O6 & fixed & 29 & 82 & s\,0.03 & s\,0.03 & s\,0.03 & s\,0.03 & s\,0.03 & N\,0.00 & s\,0.03 & N\,0.00\\
+GH13 & $-$1 & O6$^\ast$ & fixed & 29 & 82 & s\,0.48 & s\,0.28 & s\,0.17 & s\,0.07 & s\,0.14 & N\,0.00 & s\,0.03 & N\,0.00\\
+GH13 & $+$1 & O2 & variable & 17 & 50 & s\,0.35 & s\,0.06 & N\,0.00 & s\,0.06 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $+$1 & O3 & fixed & 17 & 50 & s\,0.06 & s\,0.06 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH13 & $+$1 & O6 & buried & 3 & 3 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33 & s\,0.33\\
+GH13 & $+$1 & O6$^\ast$ & buried & 17 & 50 & F\,1.00 & F\,0.88 & F\,0.71 & F\,0.77 & F\,0.71 & F\,0.53 & F\,0.59 & F\,0.53\\
+GH13 & $+$2 & O2 & variable & 15 & 47 & F\,0.80 & F\,0.60 & F\,0.60 & F\,0.53 & s\,0.47 & s\,0.20 & F\,0.53 & s\,0.47\\
+GH13 & $+$2 & O3 & variable & 15 & 47 & s\,0.47 & s\,0.40 & s\,0.27 & s\,0.13 & s\,0.20 & N\,0.00 & s\,0.07 & s\,0.07\\
+GH13 & $+$2 & O6 & exposed & 15 & 47 & F\,0.93 & F\,0.87 & F\,0.87 & F\,0.80 & F\,0.87 & F\,0.60 & F\,0.80 & F\,0.73\\
+GH13 & $+$2 & O6$^\ast$ & exposed & 15 & 47 & F\,1.00 & F\,0.93 & F\,0.93 & F\,0.93 & F\,0.93 & F\,0.67 & F\,0.93 & F\,0.87\\
+GH13 & $+$3 & O2 & main chain & 10 & 14 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.40 & F\,0.50 & s\,0.40\\
+GH13 & $+$3 & O3 & main chain & 10 & 14 & F\,1.00 & F\,0.90 & F\,0.80 & F\,0.60 & F\,0.50 & s\,0.20 & s\,0.40 & s\,0.40\\
+GH13 & $+$3 & O6 & exposed & 10 & 14 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.70 & F\,0.80 & F\,0.50 & F\,0.70 & F\,0.70\\
+GH13 & $+$3 & O6$^\ast$ & exposed & 10 & 14 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.80 & F\,0.80 & F\,0.60 & F\,0.80 & F\,0.80\\
 \addlinespace
-GH31 & $-$1 & O2 & INV & 6 & 32 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH31 & $-$1 & O3 & INV & 6 & 32 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH31 & $-$1 & O6 & INV & 6 & 32 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH31 & $-$1 & O6$^\ast$ & INV & 6 & 32 & F\,0.67 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH31 & $+$1 & O2 & INV & 5 & 16 & F\,0.60 & F\,0.60 & s\,0.40 & s\,0.40 & F\,0.60 & N\,0.00 & s\,0.20 & N\,0.00\\
-GH31 & $+$1 & O3 & INV & 5 & 16 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $-$1 & O2 & fixed & 6 & 32 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $-$1 & O3 & fixed & 6 & 32 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $-$1 & O6 & fixed & 6 & 32 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $-$1 & O6$^\ast$ & fixed & 6 & 32 & F\,0.67 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH31 & $+$1 & O2 & fixed & 5 & 16 & F\,0.60 & F\,0.60 & s\,0.40 & s\,0.40 & F\,0.60 & N\,0.00 & s\,0.20 & N\,0.00\\
+GH31 & $+$1 & O3 & fixed & 5 & 16 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
 GH31 & $+$1 & O6$^\ast$ & -- & 5 & 16 & F\,1.00 & F\,0.60 & F\,0.60 & s\,0.20 & s\,0.20 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH31 & $+$2 & O2 & EXP & 5 & 16 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.60 & F\,0.80 & F\,0.60 & F\,0.60 & s\,0.40\\
-GH31 & $+$2 & O3 & EXP & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & F\,0.80 & F\,0.80 & s\,0.00 & s\,0.40 & s\,0.40\\
-GH31 & $+$2 & O6 & EXP & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & s\,0.40 & F\,0.80 & s\,0.20 & s\,0.40 & s\,0.20\\
-GH31 & $+$2 & O6$^\ast$ & EXP & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & s\,0.40 & F\,0.80 & s\,0.20 & s\,0.40 & s\,0.20\\
-GH31 & $+$3 & O2 & EXP & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.60 & F\,1.00 & F\,1.00\\
-GH31 & $+$3 & O3 & EXP & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,1.00 & F\,1.00\\
-GH31 & $+$3 & O6 & BUR & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & s\,0.20 & F\,0.80 & s\,0.20 & s\,0.20 & s\,0.20\\
-GH31 & $+$3 & O6$^\ast$ & BUR & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,1.00 & s\,0.20 & F\,0.60 & F\,0.60\\
+GH31 & $+$2 & O2 & exposed & 5 & 16 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.60 & F\,0.80 & F\,0.60 & F\,0.60 & s\,0.40\\
+GH31 & $+$2 & O3 & exposed & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & F\,0.80 & F\,0.80 & s\,0.00 & s\,0.40 & s\,0.40\\
+GH31 & $+$2 & O6 & exposed & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & s\,0.40 & F\,0.80 & s\,0.20 & s\,0.40 & s\,0.20\\
+GH31 & $+$2 & O6$^\ast$ & exposed & 5 & 16 & F\,1.00 & F\,0.80 & F\,0.80 & s\,0.40 & F\,0.80 & s\,0.20 & s\,0.40 & s\,0.20\\
+GH31 & $+$3 & O2 & exposed & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,0.60 & F\,1.00 & F\,1.00\\
+GH31 & $+$3 & O3 & exposed & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,1.00 & F\,1.00\\
+GH31 & $+$3 & O6 & buried & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & s\,0.20 & F\,0.80 & s\,0.20 & s\,0.20 & s\,0.20\\
+GH31 & $+$3 & O6$^\ast$ & buried & 5 & 13 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.80 & F\,1.00 & s\,0.20 & F\,0.60 & F\,0.60\\
 \addlinespace
-GH14 & $-$2 & O2 & VAR & 2 & 18 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00\\
-GH14 & $-$2 & O3 & INV & 2 & 18 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $-$2 & O6 & INV & 2 & 18 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $-$2 & O6$^\ast$ & INV & 2 & 18 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $-$1 & O2 & MC & 2 & 19 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,0.50 & F\,0.50 & F\,0.50 & s\,0.00\\
-GH14 & $-$1 & O3 & MC & 2 & 18 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00\\
-GH14 & $-$1 & O6 & INV & 2 & 19 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $-$1 & O6$^\ast$ & INV & 2 & 19 & s\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$1 & O2 & MC & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$1 & O3 & INV & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$1 & O6 & INV & 2 & 3 & F\,0.50 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$1 & O6$^\ast$ & INV & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$2 & O2 & INV & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$2 & O3 & INV & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$2 & O6 & BUR & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH14 & $+$2 & O6$^\ast$ & BUR & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & F\,0.50 & F\,0.50 & N\,0.00 & F\,0.50 & F\,0.50\\
+GH14 & $-$2 & O2 & variable & 2 & 18 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00\\
+GH14 & $-$2 & O3 & fixed & 2 & 18 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$2 & O6 & fixed & 2 & 18 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$2 & O6$^\ast$ & fixed & 2 & 18 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$1 & O2 & main chain & 2 & 19 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,0.50 & F\,0.50 & F\,0.50 & s\,0.00\\
+GH14 & $-$1 & O3 & main chain & 2 & 18 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00 & s\,0.00\\
+GH14 & $-$1 & O6 & fixed & 2 & 19 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $-$1 & O6$^\ast$ & fixed & 2 & 19 & s\,0.00 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O2 & main chain & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O3 & fixed & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O6 & fixed & 2 & 3 & F\,0.50 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$1 & O6$^\ast$ & fixed & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O2 & fixed & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O3 & fixed & 2 & 3 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O6 & buried & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH14 & $+$2 & O6$^\ast$ & buried & 2 & 3 & F\,1.00 & F\,1.00 & F\,0.50 & F\,0.50 & F\,0.50 & N\,0.00 & F\,0.50 & F\,0.50\\
 \addlinespace
-GH15 & $-$1 & O2 & INV & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH15 & $-$1 & O3 & INV & 2 & 5 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH15 & $-$1 & O6 & INV & 2 & 5 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH15 & $-$1 & O6$^\ast$ & INV & 2 & 5 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH15 & $+$1 & O2 & INV & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & N\,0.00 & F\,1.00 & F\,1.00\\
-GH15 & $+$1 & O3 & INV & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $-$1 & O2 & fixed & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $-$1 & O3 & fixed & 2 & 5 & s\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $-$1 & O6 & fixed & 2 & 5 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $-$1 & O6$^\ast$ & fixed & 2 & 5 & F\,1.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$1 & O2 & fixed & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & N\,0.00 & F\,1.00 & F\,1.00\\
+GH15 & $+$1 & O3 & fixed & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
 GH15 & $+$1 & O6$^\ast$ & -- & 2 & 5 & F\,1.00 & F\,1.00 & F\,0.50 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH15 & $+$2 & O2 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
-GH15 & $+$2 & O3 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
-GH15 & $+$2 & O6 & MC & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH15 & $+$2 & O6$^\ast$ & MC & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
-GH15 & $+$3 & O2 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00\\
-GH15 & $+$3 & O3 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
-GH15 & $+$3 & O6 & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.00 & F\,0.50 & F\,0.50\\
-GH15 & $+$3 & O6$^\ast$ & EXP & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.00 & F\,0.50 & F\,0.50\\
+GH15 & $+$2 & O2 & exposed & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
+GH15 & $+$2 & O3 & exposed & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
+GH15 & $+$2 & O6 & main chain & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$2 & O6$^\ast$ & main chain & 2 & 5 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00 & N\,0.00\\
+GH15 & $+$3 & O2 & exposed & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00 & F\,1.00\\
+GH15 & $+$3 & O3 & exposed & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & F\,0.50 & F\,1.00 & F\,1.00\\
+GH15 & $+$3 & O6 & exposed & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.00 & F\,0.50 & F\,0.50\\
+GH15 & $+$3 & O6$^\ast$ & exposed & 2 & 5 & F\,1.00 & F\,1.00 & F\,1.00 & F\,0.50 & F\,1.00 & s\,0.00 & F\,0.50 & F\,0.50\\
 \end{longtable}}
 
 \section{Molecular dynamics of three glucose-only complexes}\label{sec:md}
@@ -263,7 +266,7 @@ In GH13 at $-1$, the 11 cells of the two $-1$ units (O1--O6 of 6A0K, O2--O6 of 7
 state: O2 and O3 are held by fixed residues in 100\% of frames and O6 in 91\% (7DCG) and 94\% (6A0K). At $+1$
 (7DCG only), O3 is held by Glu204 in 99.5\% of frames, as in the map, whereas O6, which the crystal map has as buried
 from three units, is free and exposed (held in 3\% of frames, median 15.4~\AA$^2$ open). The scissile O4 of the $+1$
-unit, held by catalytic residues in every crystal group (INV), is held in 37\% of the 7DCG frames (Glu204 31\%, Asp289
+unit, held by catalytic residues in every crystal group (fixed), is held in 37\% of the 7DCG frames (Glu204 31\%, Asp289
 8\%; 48\% in the first half of the run and 26\% in the second) and in 11\% of the 1J18 frames (Glu186): the
 simulations do not reproduce that cell. In GH14 (1J18), O6 at $+1$ is held in 82\% of frames by Glu186, Arg188 and
 Tyr192, as in the crystal map, so the disagreement of that cell with the sweet-potato $\beta$-amylase result
@@ -275,8 +278,7 @@ state and 40 keep the distinction between held and not held. Sources:
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
 \caption{The three simulated complexes compared with the crystal map. ns, frames: length of trajectory analysed, read
-every 100~ps, out of 100~ns. Sources: \texttt{data/calc/08\_md/selection/selection.tsv},
-\texttt{data/analysis/47\_md\_hydroxyl/systems.tsv}.}
+every 100~ps, out of 100~ns.}
 \label{tab:mdsys}
 \begin{tabular}{llp{4.2cm}rp{3.4cm}rr}
 \toprule
@@ -300,13 +302,13 @@ contacts them (Glu186 is contacted in 14 entries and hydrogen-bonds the sugar in
 side chains (Asp55, Arg54, the acid Glu179, Glu180, Arg305) and six aromatic residues (Tyr48, Trp52, Trp317, Trp417,
 Trp120, Tyr311) are the same over four entries. The aliphatic residues of both families (GH14 Leu419, Leu20, Met17,
 Ala184; GH15 Leu177, Leu415, Ala39) are also the same. With two groups no residue can be shown to vary, so the
-comparison between kinds of contact made for GH13 and GH31 cannot be made in these families, and an ``invariant''
-partner in their map (Section~2.4 of the main text) is one conserved in both groups. Positions are named in the
+comparison between kinds of contact made for GH13 and GH31 cannot be made in these families, and a ``fixed''
+partner in their map (Section~2.4 of the main text) is one with the same residue in both groups. Positions are named in the
 numbering of soybean $\beta$-amylase (1BYA~\citep{Mikami1994}) and \emph{Aspergillus awamori} glucoamylase
 (1AGM~\citep{Aleshin1994}).
 
 \section{Supplementary methods}\label{sec:simethods}
-The settings of the open-surface and free-volume calculations (main text, Sections 2.4 and 2.5) and of the
+The settings of the open-surface and free-volume calculations (main text, Sections 2.4 and 2.6) and of the
 molecular dynamics of Section~\ref{sec:md} are given here in full.
 
 \subsection{Open surface of the glucose oxygens}\label{sec:sisasa}
@@ -354,15 +356,16 @@ cut-offs. One 100~ns run per system was started; the part written when the analy
 and 23.5~ns for the three systems of Table~\ref{tab:mdsys}) was read every 100~ps with MDAnalysis~\citep{MichaudAgrawal2011}. In each frame the
 pocket C$\alpha$ atoms were superposed on the start structure and each glucan oxygen received the state of
 Section~2.4 of the main text, with frames in place of sequence groups: held when a protein N/O lies within
-3.5~\AA{} in at least half of the frames, INV when an invariant side chain holds it in at least half of
-the frames, otherwise VAR or MC; free oxygens EXP or BUR by their median open surface. Subsites are those
+3.5~\AA{} in at least half of the frames, fixed when a fixed side chain holds it in at least half of
+the frames, otherwise variable or main chain; free oxygens exposed or buried by their median open surface. Subsites are those
 of the deposited units.
 
 \section{The map against experiment, cell by cell}\label{sec:simapexp}
 Table~\ref{tab:mapexp} sets every cell of the subsite $\times$ oxygen map (main text, Section~3.2 and
 Figure~3) for which a positional result with a substituted substrate was found against the prediction of
 its state; published limit products and kinetics were read onto subsites with the rule given in
-Section~2.4 of the main text. Of the 21 cells with a prediction (INV, VAR or EXP), 19 agree and 2 disagree;
+Section~2.5 and Table~3 of the main text. Of the 21 cells with a prediction (fixed, variable or exposed), 19 agree and
+2 disagree;
 the main text discusses the key sources and the two disagreements. The GH15 $+1$ O2 disagreement rests on two
 abstracts (methyl); the deoxy result for the same oxygen~\citep{Bock1987} is listed with the deoxy substrates and is
 not counted. Beyond those, human pancreatic and
@@ -386,8 +389,8 @@ not.
 \centering\renewcommand{\baselinestretch}{1}\renewcommand{\arraystretch}{0.92}\scriptsize\setlength{\tabcolsep}{2pt}
 \caption{The map against experiment, cell by cell. State and holding residues (reference
 numbering: GH13 1AMY, GH31 2QMJ, GH14 1BYA, GH15 1AGM);
-open surface in \AA$^2$ for EXP cells. Prediction: INV, not tolerated; EXP, tolerated; VAR,
-depends on the enzyme. P, phosphate; HE, hydroxyethyl; Me, methyl; Gal, $\beta$-galactosyl; GlcNAc,
+open surface in \AA$^2$ for exposed cells. Prediction: fixed, not tolerated; exposed (free), tolerated;
+variable, depends on the enzyme; main chain and buried, none. P, phosphate; HE, hydroxyethyl; Me, methyl; Gal, $\beta$-galactosyl; GlcNAc,
 $\beta$-$N$-acetylglucosaminyl; PA, 6-deoxy-6-(2-pyridylamino). Ev.: FT, full text read;
 ABS, abstract. Agreement: 19 of 21
 cells with a prediction. Deoxy rows (OH removed) test whether the hydroxyl is needed and are not counted.}
@@ -396,44 +399,44 @@ cells with a prediction. Deoxy rows (OH removed) test whether the hydroxyl is ne
 \toprule
 Fam. & Sub. & O & Map state (holding residues) & Experiment (substituent, enzyme, result) & Agree & Reference (Ev.)\\
 \midrule
-GH13 & $-3$ & O3 & EXP (26) & 3-P tolerated: \emph{A.~oryzae} and a bacterial liquefying $\alpha$-amylase; 3-O-GlcNAc at $-3$/$-4$: porcine and human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{TakedaHizukuri1986,Kamasaka1997} (ABS)\\
-GH13 & $-3$ & O6 & EXP (22) & 6-P tolerated: porcine pancreatic, \emph{A.~oryzae}; 6-O-Gal at $-3$/$-4$: porcine, human pancreatic; 6-PA and 6-iodo-6-deoxy: human salivary and pancreatic; 4,6-O-benzylidene favourable: porcine, human salivary & yes & \citep{Takeda1987,Okada2000,Omichi1988} (FT), \citep{Takeda1983,Omichi1992,Kandra1997,Kandra2000} (ABS)\\
-GH13 & $-2$ & O3 & VAR (Gln294 pos., Arg) & 3-P tolerated by \emph{B.~subtilis} and porcine; not by \emph{A.~oryzae}; 3-O-GlcNAc only in a very slow reaction: porcine, human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
-GH13 & $-2$ & O6 & VAR (Met52 pos.) & 6-P tolerated by \emph{B.~subtilis}; not by porcine, \emph{A.~oryzae}; 6-O-Gal in $\le$3\% of cuts: porcine, human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
-GH13 & $-1$ & O2 & INV (Asp289, Arg177, His288) & 2-O-HE not tolerated: porcine pancreatic; 2-O-Me absent from reducing ends: \emph{Bacillus} liquefying $\alpha$-amylase & yes & \citep{vanderBurgt1998} (FT), \citep{Yoshida1984} (ABS)\\
-GH13 & $-1$ & O3 & INV (Asp289, His288) & 3-O-HE, 3-P not tolerated: porcine, \emph{B.~subtilis}, \emph{A.~oryzae}; 3-O-Me absent from reducing ends: \emph{Bacillus} liquefying & yes & \citep{Takeda1987,vanderBurgt1998} (FT), \citep{Yoshida1984,Takeda1983} (ABS)\\
-GH13 & $-1$ & O6 & INV (Asp179, His92) & 6-O-HE, 6-P not tolerated: porcine, \emph{B.~subtilis}, \emph{A.~oryzae}; 6-O-Me only as a trace at reducing ends: \emph{Bacillus} liquefying & yes & \citep{Takeda1987,vanderBurgt1998} (FT), \citep{Yoshida1984,Takeda1983} (ABS)\\
-GH13 & $+1$ & O3 & INV (Glu204) & 3-P not tolerated: all three $\alpha$-amylases & yes & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
-GH13 & $+2$ & O3 & VAR (Lys182 pos.) & 3-P not tolerated by \emph{B.~subtilis}, porcine; tolerated by \emph{A.~oryzae} & yes & \citep{Takeda1987} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
-GH13 & $+2$ & O6 & EXP (27) & 6-P tolerated: \emph{B.~subtilis}; 6-amino-6-deoxy: human salivary and pancreatic & yes & \citep{Takeda1983,Omichi1992} (ABS)\\
+GH13 & $-3$ & O3 & exposed (26) & 3-P tolerated: \emph{A.~oryzae} and a bacterial liquefying $\alpha$-amylase; 3-O-GlcNAc at $-3$/$-4$: porcine and human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{TakedaHizukuri1986,Kamasaka1997} (ABS)\\
+GH13 & $-3$ & O6 & exposed (22) & 6-P tolerated: porcine pancreatic, \emph{A.~oryzae}; 6-O-Gal at $-3$/$-4$: porcine, human pancreatic; 6-PA and 6-iodo-6-deoxy: human salivary and pancreatic; 4,6-O-benzylidene favourable: porcine, human salivary & yes & \citep{Takeda1987,Okada2000,Omichi1988} (FT), \citep{Takeda1983,Omichi1992,Kandra1997,Kandra2000} (ABS)\\
+GH13 & $-2$ & O3 & variable (Gln294 pos., Arg) & 3-P tolerated by \emph{B.~subtilis} and porcine; not by \emph{A.~oryzae}; 3-O-GlcNAc only in a very slow reaction: porcine, human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
+GH13 & $-2$ & O6 & variable (Met52 pos.) & 6-P tolerated by \emph{B.~subtilis}; not by porcine, \emph{A.~oryzae}; 6-O-Gal in $\le$3\% of cuts: porcine, human pancreatic & yes & \citep{Takeda1987,Okada2000} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
+GH13 & $-1$ & O2 & fixed (Asp289, Arg177, His288) & 2-O-HE not tolerated: porcine pancreatic; 2-O-Me absent from reducing ends: \emph{Bacillus} liquefying $\alpha$-amylase & yes & \citep{vanderBurgt1998} (FT), \citep{Yoshida1984} (ABS)\\
+GH13 & $-1$ & O3 & fixed (Asp289, His288) & 3-O-HE, 3-P not tolerated: porcine, \emph{B.~subtilis}, \emph{A.~oryzae}; 3-O-Me absent from reducing ends: \emph{Bacillus} liquefying & yes & \citep{Takeda1987,vanderBurgt1998} (FT), \citep{Yoshida1984,Takeda1983} (ABS)\\
+GH13 & $-1$ & O6 & fixed (Asp179, His92) & 6-O-HE, 6-P not tolerated: porcine, \emph{B.~subtilis}, \emph{A.~oryzae}; 6-O-Me only as a trace at reducing ends: \emph{Bacillus} liquefying & yes & \citep{Takeda1987,vanderBurgt1998} (FT), \citep{Yoshida1984,Takeda1983} (ABS)\\
+GH13 & $+1$ & O3 & fixed (Glu204) & 3-P not tolerated: all three $\alpha$-amylases & yes & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
+GH13 & $+2$ & O3 & variable (Lys182 pos.) & 3-P not tolerated by \emph{B.~subtilis}, porcine; tolerated by \emph{A.~oryzae} & yes & \citep{Takeda1987} (FT), \citep{Takeda1983,TakedaHizukuri1986} (ABS)\\
+GH13 & $+2$ & O6 & exposed (27) & 6-P tolerated: \emph{B.~subtilis}; 6-amino-6-deoxy: human salivary and pancreatic & yes & \citep{Takeda1983,Omichi1992} (ABS)\\
 \addlinespace
-GH14 & $-2$ & O3 & INV (His93) & 3-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $-2$ & O6 & INV (Asp53, Arg420) & 6-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $-1$ & O6 & INV (Glu380, Lys295) & 6-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $+1$ & O3 & INV (Thr342) & 3-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
-GH14 & $+1$ & O6 & INV (Glu186, Arg188) & 6-P tolerated: sweet-potato $\beta$-amylase & \textbf{no} & \citep{Takeda1987} (FT)\\
+GH14 & $-2$ & O3 & fixed (His93) & 3-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
+GH14 & $-2$ & O6 & fixed (Asp53, Arg420) & 6-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
+GH14 & $-1$ & O6 & fixed (Glu380, Lys295) & 6-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
+GH14 & $+1$ & O3 & fixed (Thr342) & 3-P not tolerated: sweet-potato $\beta$-amylase & yes & \citep{Takeda1987} (FT)\\
+GH14 & $+1$ & O6 & fixed (Glu186, Arg188) & 6-P tolerated: sweet-potato $\beta$-amylase & \textbf{no} & \citep{Takeda1987} (FT)\\
 \addlinespace
-GH15 & $-1$ & O2 & INV (Arg305) & 2-O-Me not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Lemieux1996} (ABS)\\
-GH15 & $-1$ & O3 & INV (Arg54) & 3-O-Me, 3-P not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Lemieux1996,Takeda1983} (ABS)\\
-GH15 & $-1$ & O6 & INV (Asp55) & 6-O-Me, 6-P, 6$'$-F, 6$'$-Br not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987,Bock1988} (FT), \citep{Lemieux1996,Abe1982} (ABS)\\
-GH15 & $+1$ & O2 & INV (Glu180) & 2-O-Me tolerated, kinetics virtually unaffected: \emph{A.~niger} glucoamylase; 2-O-Me at product non-reducing ends ($\alpha$-amylase + glucoamylase) & \textbf{no} & \citep{Lemieux1996,Mischnick2001} (ABS)\\
-GH15 & $+1$ & O3 & INV (Glu180, Arg305) & 3-P not tolerated; 3-O-Me costs 1.9~kcal\,mol$^{-1}$ (25-fold in $k_\mathrm{cat}/K_\mathrm{M}$): \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Takeda1983,Kamasaka1997,Lemieux1996} (ABS)\\
-GH15 & $+2$ & O3 & EXP (30) & 3-P tolerated (one glucose left on the non-reducing side of the 3-P residue): \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
+GH15 & $-1$ & O2 & fixed (Arg305) & 2-O-Me not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Lemieux1996} (ABS)\\
+GH15 & $-1$ & O3 & fixed (Arg54) & 3-O-Me, 3-P not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Lemieux1996,Takeda1983} (ABS)\\
+GH15 & $-1$ & O6 & fixed (Asp55) & 6-O-Me, 6-P, 6$'$-F, 6$'$-Br not tolerated: \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987,Bock1988} (FT), \citep{Lemieux1996,Abe1982} (ABS)\\
+GH15 & $+1$ & O2 & fixed (Glu180) & 2-O-Me tolerated, kinetics virtually unaffected: \emph{A.~niger} glucoamylase; 2-O-Me at product non-reducing ends ($\alpha$-amylase + glucoamylase) & \textbf{no} & \citep{Lemieux1996,Mischnick2001} (ABS)\\
+GH15 & $+1$ & O3 & fixed (Glu180, Arg305) & 3-P not tolerated; 3-O-Me costs 1.9~kcal\,mol$^{-1}$ (25-fold in $k_\mathrm{cat}/K_\mathrm{M}$): \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Takeda1983,Kamasaka1997,Lemieux1996} (ABS)\\
+GH15 & $+2$ & O3 & exposed (30) & 3-P tolerated (one glucose left on the non-reducing side of the 3-P residue): \emph{A.~niger} glucoamylase & yes & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
 \midrule
 \multicolumn{7}{l}{Cells without a prediction}\\
-GH13 & $+1$ & O6 & BUR (3 units) & 6-P tolerated by porcine, \emph{A.~oryzae}; not by \emph{B.~subtilis} & -- & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
-GH13 & $+3$ & O3 & MC & 3-P tolerated: \emph{B.~subtilis}, porcine & -- & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
-GH14 & $-1$ & O3 & MC & 3-P not tolerated: sweet-potato $\beta$-amylase & -- & \citep{Takeda1987} (FT)\\
+GH13 & $+1$ & O6 & buried (3 units) & 6-P tolerated by porcine, \emph{A.~oryzae}; not by \emph{B.~subtilis} & -- & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
+GH13 & $+3$ & O3 & main chain & 3-P tolerated: \emph{B.~subtilis}, porcine & -- & \citep{Takeda1987} (FT), \citep{Takeda1983} (ABS)\\
+GH14 & $-1$ & O3 & main chain & 3-P not tolerated: sweet-potato $\beta$-amylase & -- & \citep{Takeda1987} (FT)\\
 GH15 & $+1$ & O6 & no O6 in the map & 6-P tolerated (polymer); neutral C6 groups tolerated, 6-NH$_2$, 6-COOH not (methyl $\beta$-maltoside): \emph{A.~niger} glucoamylase & -- & \citep{Takeda1987,Bock1988} (FT), \citep{Takeda1983,Abe1982} (ABS)\\
 \midrule
 \multicolumn{7}{l}{Deoxy substrates (hydroxyl removed; not counted). Agree column: whether the OH is needed}\\
-GH31 & $-1$ & O2 & INV (Asp542, Arg526) & 2-deoxy hydrolysed at 175--259\% of the parent rate: rice, sugar beet, flint corn, \emph{A.~niger} $\alpha$-glucosidases & dispensable & \citep{Nishio2002,Ogawa2004} (FT)\\
-GH31 & $-1$ & O3 & INV (His600) & 3-deoxy not hydrolysed (rice, sugar beet) or at 3.7 and 11.9\% (flint corn, \emph{A.~niger}) & needed & \citep{Nishio2002} (FT)\\
-GH31 & $-1$ & O6 & INV (Asp327) & 6-deoxy not hydrolysed: all four & needed & \citep{Nishio2002,Ogawa2004} (FT)\\
-GH15 & $-1$ & O2 & INV (Arg305) & 2$'$-deoxy hydrolysed ($k_\mathrm{cat}/K_\mathrm{M}$ 26\% of parent): \emph{A.~niger} glucoamylase & dispensable & \citep{Bock1987} (FT)\\
-GH15 & $-1$ & O3 & INV (Arg54) & 3$'$-deoxy hydrolysed faster than the parent & dispensable & \citep{Bock1987,Bock1988} (FT)\\
-GH15 & $-1$ & O6 & INV (Asp55) & 6$'$-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
-GH15 & $+1$ & O3 & INV (Glu180, Arg305) & 3-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
+GH31 & $-1$ & O2 & fixed (Asp542, Arg526) & 2-deoxy hydrolysed at 175--259\% of the parent rate: rice, sugar beet, flint corn, \emph{A.~niger} $\alpha$-glucosidases & dispensable & \citep{Nishio2002,Ogawa2004} (FT)\\
+GH31 & $-1$ & O3 & fixed (His600) & 3-deoxy not hydrolysed (rice, sugar beet) or at 3.7 and 11.9\% (flint corn, \emph{A.~niger}) & needed & \citep{Nishio2002} (FT)\\
+GH31 & $-1$ & O6 & fixed (Asp327) & 6-deoxy not hydrolysed: all four & needed & \citep{Nishio2002,Ogawa2004} (FT)\\
+GH15 & $-1$ & O2 & fixed (Arg305) & 2$'$-deoxy hydrolysed ($k_\mathrm{cat}/K_\mathrm{M}$ 26\% of parent): \emph{A.~niger} glucoamylase & dispensable & \citep{Bock1987} (FT)\\
+GH15 & $-1$ & O3 & fixed (Arg54) & 3$'$-deoxy hydrolysed faster than the parent & dispensable & \citep{Bock1987,Bock1988} (FT)\\
+GH15 & $-1$ & O6 & fixed (Asp55) & 6$'$-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
+GH15 & $+1$ & O3 & fixed (Glu180, Arg305) & 3-deoxy not hydrolysed & needed & \citep{Bock1987} (FT)\\
 \bottomrule
 \end{tabular}
 \end{sidewaystable}
@@ -445,16 +448,15 @@ GH13 Asp289; 7WJC and 7WJF at GH31 Asp542; and 3PHA, 3BLP, 3DHP, 3OLD, 3OLE, 3OL
 positions they alter (\texttt{\_struct\_ref\_seq\_dif} records).
 
 Two modal fractions appear in the main text. $m$ (Table~\ref{tab:positions}, eq~1 of the main text) counts one vote per 50\% sequence group over the
-groups of the entries with a sugar unit at subsites $-3$ to $+3$. $m_\mathrm{map}$ (Sections~2.4 and 3.2) counts one
-vote per group over all ligand-bound entries of the family, because the invariance criterion of the map applies to
+groups of the entries with a sugar unit at subsites $-3$ to $+3$. $m_\mathrm{map}$ (Section~2.4) counts one
+vote per group over all ligand-bound entries of the family, because the criterion for a fixed partner applies to
 any subsite. The two differ only where groups lack a unit at $-3$ to $+3$ (Table~\ref{tab:twom}); every position with
 $m = 1$ also has $m_\mathrm{map} = 1$.
 
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
 \caption{The two modal fractions of the GH13 and GH31 positions of Table~\ref{tab:positions} that both counts cover. Groups: 50\%
-sequence groups with a residue at the position. $^\ast$, the two values differ. Source:
-\texttt{data/analysis/44\_rule\_test/revision/B\_m\_vs\_m\_map.tsv}.}
+sequence groups with a residue at the position. $^\ast$, the two values differ.}
 \label{tab:twom}
 \begin{tabular}{llrrrrp{5.1cm}}
 \toprule
@@ -517,9 +519,8 @@ H, 0 of 2 Ar and 1 of 4 Al (GH13 Thr207, two groups). With 35 positions the esti
 \caption{Differences in mean $m$ by setting, all permutation tests rerun with 100\,000 permutations and one fixed seed
 (20261124). $n$: positions in the two classes compared (H$-$H: H positions at $-1$/$+1$ and outer-only). Interval:
 2.5th--97.5th percentiles of the H$-$Al difference over 2\,000 bootstrap resamples of sequence groups with positions
-fixed (\texttt{D\_tests.tsv}); not a confidence interval (see text); --, not computed. $p_1$, one-sided; $p_2$,
-two-sided; fam., labels permuted within family; loc., within location. Source:
-\texttt{data/analysis/44\_rule\_test/revision2/A\_tests\_100k.tsv}.}
+fixed; not a confidence interval (see text); --, not computed. $p_1$, one-sided; $p_2$,
+two-sided; fam., labels permuted within family; loc., within location.}
 \label{tab:variants}
 \begin{tabular}{p{3.5cm}lrrrlllll}
 \toprule
@@ -556,8 +557,7 @@ H at $-1$/$+1$ vs outer-only, without catalytic & H$-$H & 9 & 3 & +0.33 & -- & 0
 \caption{Models of the modal fraction $m$ on location, family and contact class (35 GH13 and GH31 positions with a
 class; Table~\ref{tab:positions}). Logistic: GLM binomial of $m = 1$ (15 positions). Ordinal: proportional-odds logit
 of $m$ in three levels ($m < 0.6$, 12 positions; $0.6 \le m < 1$, 8; $m = 1$, 15). statsmodels 0.14. OR, odds ratio
-with 95\% Wald interval. Source: \texttt{data/analysis/44\_rule\_test/revision2/B\_model\_m.tsv},
-\texttt{B\_crosstab.tsv}.}
+with 95\% Wald interval.}
 \label{tab:model}
 \begin{tabular}{llrrrlr}
 \toprule
@@ -580,57 +580,57 @@ Ordinal, 3 levels & Al (vs H) & -2.22 & 1.03 & 0.11 & [0.01, 0.83] & 0.032\\
 Table~\ref{tab:cells} gives, for each literature cell, the outcome coded from Table~\ref{tab:mapexp} (T, tolerated
 by every enzyme tested; N, by none; M, by some but not all), the evidence per substituent (P phosphate, Me methyl, HE
 hydroxyethyl, glyc.\ glycosyl, other: 6-amino, 6-iodo, 6-pyridylamino, 4,6-benzylidene or 6$'$-halo; n, low-level
-acceptance by one sequence group only) with what was read (FT, full text; ABS, abstract only), the published state,
-the state of the trivial map (oxygens at $-1$ and $+1$ not tolerated, all others tolerated) and the scoring of both.
-On the 21 cells where the published map predicts, it agrees in 19 and the trivial map in 17; on all 25 cells, the
-trivial map agrees in 19. The two maps differ in their verdict at two cells only, GH14 $-2$ O3 and O6, where the
-published map is right and the trivial map wrong; no cell goes the other way, so the exact McNemar (binomial) test on
-the discordant cells gives two-sided $p = 0.50$. The trivial map's blocked cells agree in 10 of 12. INV agreement per
+acceptance by one sequence group only) with what was read (FT, full text; ABS, abstract only), the state in our map,
+the state of the subsite-only rule (oxygens at $-1$ and $+1$ not tolerated, all others tolerated) and the scoring of both.
+On the 21 cells where our map predicts, it agrees in 19 and the subsite-only rule in 17; on all 25 cells, the
+subsite-only rule agrees in 19. The two maps differ in their verdict at two cells only, GH14 $-2$ O3 and O6, where the
+our map is right and the subsite-only rule wrong; no cell goes the other way, so the exact McNemar (binomial) test on
+the discordant cells gives two-sided $p = 0.50$. The subsite-only rule's blocked cells agree in 10 of 12. Agreement of fixed cells per
 family: GH13 4 of 4, GH14 4 of 5, GH15 4 of 5. Three cells rest on abstracts only (GH13 $+2$ O6, GH15 $-1$ O2, GH15
-$+1$ O2); without them the published map agrees in 17 of 18 cells and 11 of 12 INV cells. Scored on full-text evidence
+$+1$ O2); without them our map agrees in 17 of 18 cells and 11 of 12 fixed cells. Scored on full-text evidence
 only (each substituent result kept only when a full text gives it), the same three cells drop out and the score is
-again 17 of 18 (INV 11 of 12). The 10\,000 maps with states permuted among the cells of each family (one fixed seed)
-agree in 0.59 of their predicted cells on average (95\% range 0.40--0.79), and the published 0.90 is reached or
-exceeded with $P = 0.0006$; their INV cells agree in 0.63 (0.38--0.88), and the published 0.86 with $P = 0.056$. Of
+again 17 of 18 (fixed 11 of 12). The 10\,000 maps with states permuted among the cells of each family (one fixed seed)
+agree in 0.59 of their predicted cells on average (95\% range 0.40--0.79), and our 0.90 is reached or exceeded by 5
+of them ($P = 0.0006$); their fixed cells agree in 0.63 (0.38--0.88), and our 0.86 is reached by 5.6\% of them
+($P = 0.056$). Of
 the 25 literature cells, 13 are not tolerated. Scripts: \texttt{code/analysis/a44d\_revision.py}, part C, and
 \texttt{a44e\_round2.py}, part C.
 
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{2pt}
-\caption{Literature cells scored for the published map and the trivial map. Ev.: what was read for each substituent
+\caption{Literature cells scored for our map and the subsite-only rule. Ev.: what was read for each substituent
 result, in the order of the evidence column (FT, full text; ABS, abstract only). The last four rows are the cells
-without a prediction in the published map. Sources: \texttt{data/analysis/44\_rule\_test/revision/C\_cells.tsv},
-\texttt{revision2/C\_cells\_ev.tsv}.}
+without a prediction in our map.}
 \label{tab:cells}
 \begin{tabular}{lllllp{2.9cm}p{1.2cm}lll}
 \toprule
-Fam. & Sub. & O & Publ. & Triv. & Evidence & Ev. & Outc. & Agr.\ publ. & Agr.\ triv.\\
+Fam. & Sub. & O & Ours & Triv. & Evidence & Ev. & Outc. & Agr.\ ours & Agr.\ triv.\\
 \midrule
-GH13 & $-$3 & O3 & EXP & EXP & P:T glyc.:T & FT FT & T & yes & yes\\
-GH13 & $-$3 & O6 & EXP & EXP & P:T glyc.:T other:T & FT FT FT & T & yes & yes\\
-GH13 & $-$2 & O3 & VAR & EXP & P:M glyc.:n & FT FT & M & yes & yes\\
-GH13 & $-$2 & O6 & VAR & EXP & P:M glyc.:n & FT FT & M & yes & yes\\
-GH13 & $-$1 & O2 & INV & INV & HE:N Me:N & ABS FT & N & yes & yes\\
-GH13 & $-$1 & O3 & INV & INV & HE:N P:N Me:N & ABS FT FT & N & yes & yes\\
-GH13 & $-$1 & O6 & INV & INV & HE:N P:N Me:N & ABS FT FT & N & yes & yes\\
-GH13 & $+$1 & O3 & INV & INV & P:N & FT & N & yes & yes\\
-GH13 & $+$2 & O3 & VAR & EXP & P:M & FT & M & yes & yes\\
-GH13 & $+$2 & O6 & EXP & EXP & P:T other:T & ABS ABS & T & yes & yes\\
-GH14 & $-$2 & O3 & INV & EXP & P:N & FT & N & yes & \textbf{no}\\
-GH14 & $-$2 & O6 & INV & EXP & P:N & FT & N & yes & \textbf{no}\\
-GH14 & $-$1 & O6 & INV & INV & P:N & FT & N & yes & yes\\
-GH14 & $+$1 & O3 & INV & INV & P:N & FT & N & yes & yes\\
-GH14 & $+$1 & O6 & INV & INV & P:T & FT & T & \textbf{no} & \textbf{no}\\
-GH15 & $-$1 & O2 & INV & INV & Me:N & ABS & N & yes & yes\\
-GH15 & $-$1 & O3 & INV & INV & Me:N P:N & ABS FT & N & yes & yes\\
-GH15 & $-$1 & O6 & INV & INV & Me:N P:N other:N & ABS FT FT & N & yes & yes\\
-GH15 & $+$1 & O2 & INV & INV & Me:T & ABS & T & \textbf{no} & \textbf{no}\\
-GH15 & $+$1 & O3 & INV & INV & P:N Me:N & FT ABS & N & yes & yes\\
-GH15 & $+$2 & O3 & EXP & EXP & P:T & FT & T & yes & yes\\
-GH13 & $+$1 & O6 & BUR & INV & P:M & FT & M & -- & \textbf{no}\\
-GH13 & $+$3 & O3 & MC & EXP & P:T & FT & T & -- & yes\\
-GH14 & $-$1 & O3 & MC & INV & P:N & FT & N & -- & yes\\
-GH15 & $+$1 & O6 & none & INV & P:T other:M & FT FT & M & -- & \textbf{no}\\
+GH13 & $-$3 & O3 & exposed & exposed & P:T glyc.:T & FT FT & T & yes & yes\\
+GH13 & $-$3 & O6 & exposed & exposed & P:T glyc.:T other:T & FT FT FT & T & yes & yes\\
+GH13 & $-$2 & O3 & variable & exposed & P:M glyc.:n & FT FT & M & yes & yes\\
+GH13 & $-$2 & O6 & variable & exposed & P:M glyc.:n & FT FT & M & yes & yes\\
+GH13 & $-$1 & O2 & fixed & fixed & HE:N Me:N & ABS FT & N & yes & yes\\
+GH13 & $-$1 & O3 & fixed & fixed & HE:N P:N Me:N & ABS FT FT & N & yes & yes\\
+GH13 & $-$1 & O6 & fixed & fixed & HE:N P:N Me:N & ABS FT FT & N & yes & yes\\
+GH13 & $+$1 & O3 & fixed & fixed & P:N & FT & N & yes & yes\\
+GH13 & $+$2 & O3 & variable & exposed & P:M & FT & M & yes & yes\\
+GH13 & $+$2 & O6 & exposed & exposed & P:T other:T & ABS ABS & T & yes & yes\\
+GH14 & $-$2 & O3 & fixed & exposed & P:N & FT & N & yes & \textbf{no}\\
+GH14 & $-$2 & O6 & fixed & exposed & P:N & FT & N & yes & \textbf{no}\\
+GH14 & $-$1 & O6 & fixed & fixed & P:N & FT & N & yes & yes\\
+GH14 & $+$1 & O3 & fixed & fixed & P:N & FT & N & yes & yes\\
+GH14 & $+$1 & O6 & fixed & fixed & P:T & FT & T & \textbf{no} & \textbf{no}\\
+GH15 & $-$1 & O2 & fixed & fixed & Me:N & ABS & N & yes & yes\\
+GH15 & $-$1 & O3 & fixed & fixed & Me:N P:N & ABS FT & N & yes & yes\\
+GH15 & $-$1 & O6 & fixed & fixed & Me:N P:N other:N & ABS FT FT & N & yes & yes\\
+GH15 & $+$1 & O2 & fixed & fixed & Me:T & ABS & T & \textbf{no} & \textbf{no}\\
+GH15 & $+$1 & O3 & fixed & fixed & P:N Me:N & FT ABS & N & yes & yes\\
+GH15 & $+$2 & O3 & exposed & exposed & P:T & FT & T & yes & yes\\
+GH13 & $+$1 & O6 & buried & fixed & P:M & FT & M & -- & \textbf{no}\\
+GH13 & $+$3 & O3 & main chain & exposed & P:T & FT & T & -- & yes\\
+GH14 & $-$1 & O3 & main chain & fixed & P:N & FT & N & -- & yes\\
+GH15 & $+$1 & O6 & none & fixed & P:T other:M & FT FT & M & -- & \textbf{no}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -640,16 +640,16 @@ Thirteen of the 29 GH13 sequence groups contain an endo-$\alpha$-amylase (EC 3.2
 entries; Table~\ref{tab:groups}): groups 3, 4, 5, 7, 8, 9, 13, 16, 17, 24, 26, 27 and 28, with 50 of the 79 entries;
 group 7 (animal $\alpha$-amylases and the \emph{Pseudoalteromonas haloplanktis} enzyme) holds 27 entries. To see whether
 the other specificities shape the GH13 map, the cell states were re-aggregated from the atom table of the map with the
-rules of Section~2.4 of the main text, over these 13 groups only; the invariance of a partner is still judged over all
-groups of the family. The same code over all 29 groups reproduces every state of the published map. Every O2, O3 and
-O6 cell keeps its state except O6 at $+1$ (Table~\ref{tab:alpha}), which the published map has as buried from three
+rules of Section~2.4 of the main text, over these 13 groups only; whether a partner is fixed is still judged over all
+groups of the family. The same code over all 29 groups reproduces every state of our map. Every O2, O3 and
+O6 cell keeps its state except O6 at $+1$ (Table~\ref{tab:alpha}), which our map has as buried from three
 units of three groups and which is variable over the two $\alpha$-amylase groups with an O6 there (held by a variable
 residue in one of them); the literature result at that cell (6-phosphate tolerated by two of three
-$\alpha$-amylases) is compatible with VAR. Source: \texttt{data/analysis/44\_rule\_test/}\allowbreak\texttt{revision2/D\_alpha\_amylase\_map.tsv}.
+$\alpha$-amylases) is compatible with variable. Source: \texttt{data/analysis/44\_rule\_test/}\allowbreak\texttt{revision2/D\_alpha\_amylase\_map.tsv}.
 
 \begin{table}[h]
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{GH13 cell states over all 29 sequence groups (published map) and over the 13 groups that contain an
+\caption{GH13 cell states over all 29 sequence groups (our map) and over the 13 groups that contain an
 endo-$\alpha$-amylase. Groups, entries: numbers with a unit at the cell; held: fraction of the $\alpha$-amylase
 groups in which a protein N/O lies within 3.5~\AA{} of the oxygen; open: median open surface (\AA$^2$) of the oxygen
 over the $\alpha$-amylase entries.}
@@ -658,24 +658,24 @@ over the $\alpha$-amylase entries.}
 \toprule
 Sub. & O & All groups & Groups & $\alpha$-Amylase groups & Groups & Entries & Held & Open\\
 \midrule
-$-$3 & O2 & EXP & 17 & EXP & 9 & 25 & 0.22 & 13.8\\
-$-$3 & O3 & EXP & 17 & EXP & 9 & 25 & 0.22 & 27.0\\
-$-$3 & O6 & EXP & 11 & EXP & 3 & 11 & 0.33 & 20.3\\
-$-$2 & O2 & VAR & 22 & VAR & 11 & 33 & 1.00 & 0.0\\
-$-$2 & O3 & VAR & 22 & VAR & 11 & 33 & 0.73 & 10.0\\
-$-$2 & O6 & VAR & 21 & VAR & 10 & 32 & 0.60 & 0.0\\
-$-$1 & O2 & INV & 29 & INV & 13 & 44 & 1.00 & 0.0\\
-$-$1 & O3 & INV & 29 & INV & 13 & 44 & 1.00 & 0.0\\
-$-$1 & O6 & INV & 29 & INV & 13 & 44 & 1.00 & 0.0\\
-$+$1 & O2 & VAR & 17 & VAR & 11 & 37 & 0.82 & 0.9\\
-$+$1 & O3 & INV & 17 & INV & 11 & 37 & 1.00 & 0.6\\
-$+$1 & O6 & BUR & 3 & VAR \textbf{(changes)} & 2 & 2 & 0.50 & 1.0\\
-$+$2 & O2 & VAR & 15 & VAR & 10 & 36 & 0.90 & 3.0\\
-$+$2 & O3 & VAR & 15 & VAR & 10 & 36 & 0.90 & 0.0\\
-$+$2 & O6 & EXP & 15 & EXP & 10 & 36 & 0.10 & 27.7\\
-$+$3 & O2 & MC & 10 & MC & 6 & 9 & 0.67 & 13.1\\
-$+$3 & O3 & MC & 10 & MC & 6 & 9 & 0.50 & 8.0\\
-$+$3 & O6 & EXP & 10 & EXP & 6 & 9 & 0.17 & 35.3\\
+$-$3 & O2 & exposed & 17 & exposed & 9 & 25 & 0.22 & 13.8\\
+$-$3 & O3 & exposed & 17 & exposed & 9 & 25 & 0.22 & 27.0\\
+$-$3 & O6 & exposed & 11 & exposed & 3 & 11 & 0.33 & 20.3\\
+$-$2 & O2 & variable & 22 & variable & 11 & 33 & 1.00 & 0.0\\
+$-$2 & O3 & variable & 22 & variable & 11 & 33 & 0.73 & 10.0\\
+$-$2 & O6 & variable & 21 & variable & 10 & 32 & 0.60 & 0.0\\
+$-$1 & O2 & fixed & 29 & fixed & 13 & 44 & 1.00 & 0.0\\
+$-$1 & O3 & fixed & 29 & fixed & 13 & 44 & 1.00 & 0.0\\
+$-$1 & O6 & fixed & 29 & fixed & 13 & 44 & 1.00 & 0.0\\
+$+$1 & O2 & variable & 17 & variable & 11 & 37 & 0.82 & 0.9\\
+$+$1 & O3 & fixed & 17 & fixed & 11 & 37 & 1.00 & 0.6\\
+$+$1 & O6 & buried & 3 & variable \textbf{(changes)} & 2 & 2 & 0.50 & 1.0\\
+$+$2 & O2 & variable & 15 & variable & 10 & 36 & 0.90 & 3.0\\
+$+$2 & O3 & variable & 15 & variable & 10 & 36 & 0.90 & 0.0\\
+$+$2 & O6 & exposed & 15 & exposed & 10 & 36 & 0.10 & 27.7\\
+$+$3 & O2 & main chain & 10 & main chain & 6 & 9 & 0.67 & 13.1\\
+$+$3 & O3 & main chain & 10 & main chain & 6 & 9 & 0.50 & 8.0\\
+$+$3 & O6 & exposed & 10 & exposed & 6 & 9 & 0.17 & 35.3\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -690,12 +690,14 @@ subfamily could not be looked up through UniProt, so a group with only such prot
 subfamily found). Thirteen GH13 groups (50 of 79 entries) contain an endo-$\alpha$-amylase (EC 3.2.1.1); the GH13
 groups span 20 subfamilies. The largest group (number 7: animal $\alpha$-amylases and the
 \emph{Pseudoalteromonas haloplanktis} enzyme) holds 27 entries. Positions seen in fewer than five groups are marked
-in Table~\ref{tab:positions}.
+in Table~\ref{tab:positions}. GH31 rests on six groups: three in subfamily GH31\_1 (sugar beet $\alpha$-glucosidase,
+human maltase-glucoamylase and lysosomal $\alpha$-glucosidase), within which only Ile328, Tyr299 and five outer
+positions vary, and the \emph{Lactococcus} GH31\_15 enzyme, the \emph{Blautia} $\alpha$-glucosidase and the GH31\_11
+$\alpha$-1,4-glucan lyase, which carry the Trp539$\to$Phe, Phe575$\to$His, Met444$\to$Trp and Ile364$\to$Asn changes.
 
 {\scriptsize\setlength{\tabcolsep}{2pt}
 \begin{longtable}{ll>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{2.0cm}r}
-\caption{The 50\% sequence groups. Group, family and number of the 50\% group (GH13\_b50\_$n$); 30\%, number of its 30\% group. Source:
-\texttt{data/analysis/44\_rule\_test/revision/D\_clusters.tsv}, which also lists the PDB codes of each group.}\label{tab:groups}\\
+\caption{The 50\% sequence groups. Group, family and number of the 50\% group (GH13\_b50\_$n$); 30\%, number of its 30\% group. The PDB codes of each group are in the data repository (Table~S14).}\label{tab:groups}\\
 \toprule
 Group & 30\% & Subfamily & EC & Protein & Organism & UniProt & Entries\\
 \midrule
@@ -748,7 +750,7 @@ The GH13 positions are named in the numbering of the reference, barley $\alpha$-
 gives the residue at each position in TAKA-amylase A of \emph{Aspergillus oryzae} (7TAA~\citep{Brzozowski1997}, chain
 A; 6TAA or 2TAA~\citep{Matsuura1984} where 7TAA has none) and in porcine pancreatic $\alpha$-amylase
 (1PPI~\citep{Qian1994}, chain A), read from the structural position map of
-the census (C$\alpha$ within 2.0~\AA{} of the reference C$\alpha$ after superposition), and the conserved sequence
+the database (C$\alpha$ within 2.0~\AA{} of the reference C$\alpha$ after superposition), and the conserved sequence
 region (CSR) of the TAKA residue. CSR I--IV are taken as TAKA-amylase 117--122, 202--210, 230--233 and
 292--297~\citep{MacGregor2001,Janecek2014}; the 7TAA sequence read from the database at these ranges is DVVANH,
 GLRIDTVKH, EVLD and FVENHD, the motifs of the four regions. The catalytic residues come out as TAKA Asp206, Glu230 and
@@ -756,8 +758,7 @@ Asp297 and porcine Asp197, Glu233 and Asp300. Regions V--VII were not assigned. 
 
 \begin{table}[h]
 \centering\scriptsize
-\caption{Numbering concordance of the GH13 positions of Table~\ref{tab:positions}. Source:
-\texttt{data/analysis/44\_rule\_test/revision/E\_numbering\_concordance.tsv}.}
+\caption{Numbering concordance of the GH13 positions of Table~\ref{tab:positions}.}
 \label{tab:concord}
 \begin{tabular}{lllllll}
 \toprule
@@ -801,33 +802,33 @@ Purpose & Enzyme (family, type) & Map and free volume & Literature\\
 \midrule
 Locate substituents along the chain (enzymatic fingerprinting) &
 GH13 endo-$\alpha$-amylase (bacterial, e.g.\ \emph{Bacillus}; fungal TAKA; porcine pancreatic) &
-$-1$ O2, O3, O6 INV in 28--29 of 29 groups; fit s or N for every sub., N for P and OSA; $+1$ O3 INV, fit N
+$-1$ O2, O3, O6 fixed in 28--29 of 29 groups; fit s or N for every sub., N for P and OSA; $+1$ O3 fixed, fit N
 except Me and HE (s) &
 No 2-O- or 3-O-Me at reducing ends, 6-O-Me a trace~\citep{vanderBurgt1998}; no P at $-1$ by three
 enzymes~\citep{Takeda1983,Takeda1987} \\
 \addlinespace
  & GH15 glucoamylase (\emph{A.~niger}), exo &
-$-1$ O2, O3, O6 INV; fit N except Me (O6$^\ast$ F, O3 s); $+1$ O3 INV, fit N for all; $+1$ O2 INV but fit F
+$-1$ O2, O3, O6 fixed; fit N except Me (O6$^\ast$ F, O3 s); $+1$ O3 fixed, fit N for all; $+1$ O2 fixed but fit F
 except P; $+1$ O6$^\ast$ F for Me, HE, HP &
 6-P tolerated at $+1$, not at $-1$; 3-P not at $+1$, one Glc left beyond it~\citep{Takeda1983,Takeda1987};
 2-O-Me tolerated at $+1$~\citep{Lemieux1996,Mischnick2001}; neutral C6 groups tolerated at $+1$, none at
 $-1$~\citep{Bock1988}; a 6-pyridylamino non-reducing end not attacked~\citep{Omichi1988} \\
 \addlinespace
  & GH14 $\beta$-amylase, exo (maltose units) &
-$-2$ O3 and O6, $-1$ O6, $+1$ O3 INV; fit N for all except Me at $-2$ O3 (F) and Me, HE at $-1$ O6 (s) &
+$-2$ O3 and O6, $-1$ O6, $+1$ O3 fixed; fit N for all except Me at $-2$ O3 (F) and Me, HE at $-1$ O6 (s) &
 3-P and 6-P not at $-2$ or $-1$; 3-P not at $+1$; 6-P at $+1$ tolerated~\citep{Takeda1987} \\
 \midrule
 Produce substituted dextrins or oligosaccharides &
 GH13 $\alpha$-amylase chosen by its $-2$/$+2$ residues &
-$-2$, $+2$ O2/O3 and $-2$ O6 VAR (Gln294, Met52, Lys182 positions vary, Table~\ref{tab:positions}); fit F in
-0--43\% of VAR cells (P and OSA 0\%); $-3$, $+2$ O6, $+3$ O6 EXP, fit F in 67--100\% of EXP cells &
+$-2$, $+2$ O2/O3 and $-2$ O6 variable (Gln294, Met52, Lys182 positions vary, Table~\ref{tab:positions}); fit F in
+0--43\% of variable cells (P and OSA 0\%); $-3$, $+2$ O6, $+3$ O6 free and exposed, fit F in 67--100\% of exposed cells &
 6-P at $-2$/$+2$ (\emph{B.~subtilis}) or $-3$/$+1$ (porcine, \emph{A.~oryzae}); 3-P at $-2$/$+3$ or
 $-3$/$+2$~\citep{Takeda1983,TakedaHizukuri1986,Takeda1987}; 6-O-Gal, 3-O-GlcNAc at $-3$/$-4$, $\le$3\% at
 $-2$ (pancreatic)~\citep{Okada2000} \\
 \midrule
 Avoid releasing substituted glucose &
 GH15 glucoamylase; GH31 $\alpha$-glucosidase &
-$-1$ INV for O2, O3, O6 in both families; fit N for every sub.\ except Me (GH31 $-1$ O2 s, O3 and O6 F; GH15
+$-1$ fixed for O2, O3, O6 in both families; fit N for every sub.\ except Me (GH31 $-1$ O2 s, O3 and O6 F; GH15
 $-1$ O3 s, O6$^\ast$ F) &
 GH15: no 6-P or 3-P at $-1$~\citep{Takeda1987}; O-Me at $-1$ blocks~\citep{Lemieux1996}; every C6$'$
 change blocks~\citep{Bock1988}. GH31: 4- and 6-deoxy not hydrolysed (Section~\ref{sec:simapexp}) \\
@@ -868,9 +869,7 @@ CAZy marks them). Nu/base: catalytic nucleophile (retaining) or general base (in
 chain or an $\alpha(1\!\to\!6)$ branch on it, or a generic $\alpha$-glucosidase (EC 3.2.1.20, 3.2.1.10, marked
 $^\dagger$). Entries: PDB entries in the database (637 in all; GT35, starch and maltodextrin phosphorylases only).
 Analysis: R, residue conservation (entries, 50\% sequence groups); M, oxygen map (entries); reference residues in the
-numbering of 1AMY (GH13), 2QMJ (GH31), 1BYA (GH14) and 1AGM (GH15). Sources:
-\texttt{resultados/cazy\_20261111\_families.tsv}, \texttt{cazy\_20261111\_activities.tsv},
-\texttt{part1\_starch\_breaking\_activities.tsv}; entries, \texttt{data/pdb\_entries.tsv}.}
+numbering of 1AMY (GH13), 2QMJ (GH31), 1BYA (GH14) and 1AGM (GH15).}
 \label{tab:cazy}
 \begin{tabular}{l l >{\raggedright\arraybackslash}p{1.4cm} >{\raggedright\arraybackslash}p{1.6cm} >{\raggedright\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}p{1.3cm} >{\raggedright\arraybackslash}p{5.4cm} r >{\raggedright\arraybackslash}p{3.3cm}}
 \toprule
@@ -898,25 +897,68 @@ GH4 & -- & Rossmann fold & other (NAD$^+$) & not applicable & not known & 3.2.1.
 \end{sidewaystable}
 
 \clearpage
+\section{Residues at subsites $-2$ and $+2$ of three $\alpha$-amylases with phosphate data}\label{sec:S_rim}
+\emph{Method.} Three $\alpha$-amylases have published data on the tolerance of the chain end for phosphate groups at
+subsites $-2$ and $+2$ (Takeda 1983; Takeda and Hizukuri 1986; Takeda 1987; Okada 2000): \emph{B.\ subtilis}
+$\alpha$-amylase (PDB 1BAG and 1UA7, both mapped to UniProt P00691 at 99\% identity), porcine pancreatic
+$\alpha$-amylase (PPA, 17 entries) and TAKA-amylase of \emph{A.\ oryzae} (14 entries; the \emph{A.\ niger} enzyme 2GVY
+is kept apart). In every structure of each enzyme, the protein N and O atoms within 3.5~\AA\ of a hydroxyl oxygen are
+taken as its holders (the rule of the hydroxyl map), and for each contrast the holders are compared with what the
+enzyme tolerates. Where a structure has no ligand at a subsite, the median oxygen positions of the other structures are
+transplanted into the 1AMY frame; transplants of an enzyme's own donor structure reproduce the observed holders. The
+tolerance of each enzyme is read from the limit products of the digests, and with three enzymes the comparison is a
+consistency check, not a test.
+
+\begin{table}[h]\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{Phosphate tolerance at subsites $-2$ and $+2$ against the residues that hold the hydroxyl oxygen in question,
+for three $\alpha$-amylases. Tolerance: yes or no for each of \emph{B.\ subtilis} $\alpha$-amylase, PPA and TAKA-amylase
+(? : no data). ``Tracks?'': whether the pattern of tolerance follows the pattern of holders. rel, relative
+solvent accessibility of the oxygen.}
+\label{tab:rim}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{7.4cm}>{\raggedright\arraybackslash}p{1.8cm}}
+\toprule
+Contrast & Tolerance (\emph{B.\ sub} / PPA / TAKA) & Residues & Tracks?\\
+\midrule
+Phosphate on O3 at $-2$ & yes / yes / no & Only TAKA-amylase holds O3 at $-2$ (Asp340, at the position of Gln294, and Arg344; buried, rel 0.00). \emph{B.\ subtilis} Asn273 holds O2, not O3 (O3 rel 0.59); in PPA O3 is not held (rel 0.67) & yes\\
+Phosphate on O3 at $+2$ & no / no / yes & A Lys at the position of Lys182 in all three; TAKA Lys209 NZ lies 1.65~\AA\ from the O3 placed from the mammalian structures (the conformation differs, not the identity); TAKA lacks the acidic second holder & no (identity)\\
+Phosphate on O6 at $-2$ & yes / no / no & \emph{B.\ subtilis} and PPA both have Gln63 (position of Met52), O6 buried in both; TAKA has Trp83 & against\\
+Phosphate on O6 at $+2$ & yes / ? / ? & O6 is open in all enzymes that have a $+2$ ligand & no comparison\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\emph{Finding.} One contrast tracks the holders (O3 at $-2$), one goes against them (O6 at $-2$), one is explained by the
+conformation of a conserved Lys and not by its identity (O3 at $+2$), and one has no data (O6 at $+2$). In TAKA-amylase,
+Trp83 at the position of Met52 shifts the whole $-2$ site by 3.5--4~\AA, so ``the same position'' in the sequence is not the
+same physical place. At $n=3$ the check neither supports nor refutes the hypothesis that the rim of the site varies
+between enzymes.
+
+\emph{Limits.} There are one or a few structures per enzyme. No PPA or TAKA structure has a ligand at $+2$. Takeda's
+``\emph{B.\ subtilis} $\alpha$-amylase'' may have been the liquefying enzyme (now \emph{B.\ amyloliquefaciens}) and not
+AmyE. Tolerance is read from limit products, not measured at the subsite, no structure contains a phosphate group, and the
+transplant of missing ligands is a model.
+
+\clearpage
 \section{Code and data}\label{sec:codedata}
 Everything below is in the public repository\\ \url{https://github.com/In-Silico-RG/Starch_Enzyme_Subsites_IJBM}
 (folders \texttt{code/} and \texttt{data/}; the README gives the order in which to run them; code under the MIT
 licence, data under CC BY 4.0, see \texttt{LICENSE}).
 
 \begin{table}[h]\centering\scriptsize\setlength{\tabcolsep}{3pt}
-\caption{Script and result folder behind each part of the main text and of this Supplementary material.}
-\begin{tabular}{>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{4.4cm}}
+\caption{Script, result folder and result files behind each part of the main text and of this Supplementary
+material (paths relative to \texttt{code/} and \texttt{data/}).}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}p{5.2cm}}
 \toprule
 Item & Script (\texttt{code/}) & Results (\texttt{data/}) \\
 \midrule
-Database, family frames, subsites & \texttt{build\_database.py}, \texttt{calc/c03\_frames.py}, \texttt{analysis/}\allowbreak\texttt{a33\_subsites.py} & \texttt{db/}, \texttt{calc/03\_frames/}, \texttt{analysis/33\_subsites/} \\
+Database, family frames, subsites; Table~S13 & \texttt{build\_database.py}, \texttt{calc/c03\_frames.py}, \texttt{analysis/}\allowbreak\texttt{a33\_subsites.py} & \texttt{db/}, \texttt{calc/03\_frames/}, \texttt{analysis/33\_subsites/}; \texttt{pdb\_entries.tsv}; CAZy tables \texttt{cazy\_20261111\_families.tsv}, \texttt{cazy\_20261111\_activities.tsv}, \texttt{part1\_starch\_}\allowbreak\texttt{breaking\_activities.tsv} \\
 Kind of contact & \texttt{analysis/a40\_contact\_types.py} & \texttt{analysis/40\_contact\_types/} \\
-Table S1, conservation by class & \texttt{analysis/a44a\_build.py}, \texttt{a44b\_tests.py}, \texttt{a44c\_tables.py} & \texttt{analysis/44\_rule\_test/} \\
-Hydroxyl map, Figs 3--4, Table S4 & \texttt{analysis/a45\_hydroxyl\_map.py} & \texttt{analysis/45\_hydroxyl\_map/} \\
-Free volume (steric fit), Table 3, Sections S2, S5.2 & \texttt{analysis/a46\_substituent\_fit.py} & \texttt{analysis/46\_substituent\_fit/} \\
-Molecular dynamics (not used in the main text), Sections S3, S5.3 & \texttt{analysis/}\allowbreak\texttt{a47\_md\_hydroxyl\_contacts.py} & \texttt{analysis/47\_md\_hydroxyl/} \\
-Revision analyses: Table 2, Tables S5, S10, S11 (baselines, two modal fractions, groups, numbering) & \texttt{analysis/a44d\_revision.py} & \texttt{analysis/44\_rule\_test/revision/} \\
-Round-2 analyses: Table 1, Tables S6--S9 (100\,000-permutation tests, model of $m$, McNemar, per-family and abstract-only scores, $\alpha$-amylase-only map, MD numbers) & \texttt{analysis/a44e\_round2.py} & \texttt{analysis/44\_rule\_test/revision2/} \\
+Table~S1, conservation by class & \texttt{analysis/a44a\_build.py}, \texttt{a44b\_tests.py}, \texttt{a44c\_tables.py} & \texttt{analysis/44\_rule\_test/}; Table~S1 \texttt{C\_identity\_T20.tsv}; bootstrap intervals and earlier runs \texttt{D\_tests.tsv} \\
+Hydroxyl map, Figs 3--4, Tables 4 and 6, Table S4 & \texttt{analysis/a45\_hydroxyl\_map.py} & \texttt{analysis/45\_hydroxyl\_map/} (\texttt{cell\_summary.tsv}) \\
+Free volume (steric fit), Table 8, Sections S2, S5.2 & \texttt{analysis/a46\_substituent\_fit.py} & \texttt{analysis/46\_substituent\_fit/}; Table~S2 \texttt{cell\_fit\_summary.tsv} \\
+Molecular dynamics (not used in the main text), Sections S3, S5.3 & \texttt{analysis/}\allowbreak\texttt{a47\_md\_hydroxyl\_contacts.py} & \texttt{analysis/47\_md\_hydroxyl/}; Table~S3 \texttt{calc/08\_md/selection/}\allowbreak\texttt{selection.tsv}, \texttt{systems.tsv} \\
+Revision analyses: Table 7, Tables S5, S8, S10, S11 (baselines, two modal fractions, groups, numbering) & \texttt{analysis/a44d\_revision.py} & \texttt{analysis/44\_rule\_test/revision/}; Table~S5 \texttt{B\_m\_vs\_m\_map.tsv}; Table~S8 \texttt{C\_cells.tsv}; Table~S10 \texttt{D\_clusters.tsv} (with the PDB codes of each group); Table~S11 \texttt{E\_numbering\_}\allowbreak\texttt{concordance.tsv} \\
+Round-2 analyses: Table 5, Tables S6--S9 (100\,000-permutation tests, model of $m$, McNemar, per-family and abstract-only scores, $\alpha$-amylase-only map, MD numbers) & \texttt{analysis/a44e\_round2.py} & \texttt{analysis/44\_rule\_test/revision2/}; Tables~5 and S6 \texttt{A\_tests\_100k.tsv}; Table~S7 \texttt{B\_model\_m.tsv}, \texttt{B\_crosstab.tsv}; Tables~7 and S8 \texttt{C\_mcnemar\_family\_}\allowbreak\texttt{abstract.tsv}, \texttt{C\_cells\_ev.tsv} \\
 Literature comparison & -- & \texttt{analysis/substituted\_starch\_}\allowbreak\texttt{hydrolysis\_literature\_v2.md} \\
 Figures & \texttt{figures/} & \texttt{figures/} \\
 \bottomrule
